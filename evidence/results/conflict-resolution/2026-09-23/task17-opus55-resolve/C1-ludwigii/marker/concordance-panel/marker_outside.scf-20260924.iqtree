@@ -1,0 +1,170 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Input file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/alignment-panel/alignment.faa
+User tree file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/con-marker_outside.treefile
+Type of analysis: tree reconstruction
+Random seed number: 20260924
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 32 sequences with 39714 amino-acid sites
+Number of constant sites: 35465 (= 89.301% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 35465 (= 89.301% of all sites)
+Number of parsimony informative sites: 1778
+Number of distinct site patterns: 2786
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.INSECT+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0938
+  pi(R) = 0.0660
+  pi(N) = 0.0353
+  pi(D) = 0.0605
+  pi(C) = 0.0078
+  pi(Q) = 0.0400
+  pi(E) = 0.0747
+  pi(G) = 0.0783
+  pi(H) = 0.0210
+  pi(I) = 0.0584
+  pi(L) = 0.0982
+  pi(K) = 0.0554
+  pi(M) = 0.0269
+  pi(F) = 0.0338
+  pi(P) = 0.0392
+  pi(S) = 0.0468
+  pi(T) = 0.0510
+  pi(W) = 0.0081
+  pi(Y) = 0.0247
+  pi(V) = 0.0804
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.4806,0.2055) (0.4461,0.2056) (0.0625,7.0337) (0.0108,34.2333)
+
+ Category  Relative_rate  Proportion
+  1         0.2055         0.4806
+  2         0.2056         0.4461
+  3         7.0337         0.0625
+  4         34.2333        0.0108
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -165042.9426 (s.e. 876.8565)
+Unconstrained log-likelihood (without tree): -156485.8083
+Number of free parameters (#branches + #model parameters): 86
+Akaike information criterion (AIC) score: 330257.8853
+Corrected Akaike information criterion (AICc) score: 330258.2629
+Bayesian information criterion (BIC) score: 330996.5788
+
+Total tree length (sum of branch lengths): 0.2533
+Sum of internal branch lengths: 0.0834 (32.9121% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCA_000025565.1' is drawn at root
+
++--GCA_000025565.1
+|
+|                       +--------------------------------------GCA_000982825.1
+|        +--------------| (85)
+|        |              +-------------------GCA_019048125.1
+|     +--| (35.5)
+|     |  |        +--GCA_001750725.1
+|     |  |     +--| (45.9)
+|     |  |     |  +--GCA_020099215.1
+|     |  |  +--| (40.8)
+|     |  |  |  +--GCA_029718255.1
+|     |  +--| (99.5)
+|     |     +--GCA_020783215.1
+|  +--| (85.8)
+|  |  |                       +--GCA_001039365.2
+|  |  |                    +--| (52.2)
+|  |  |                    |  |  +--GCA_001729805.1
+|  |  |                    |  +--| (42.8)
+|  |  |                    |     |        +--GCA_002939185.1
+|  |  |                    |     |     +--| (41.3)
+|  |  |                    |     |     |  |  +--GCA_009036245.1
+|  |  |                    |     |     |  +--| (36.3)
+|  |  |                    |     |     |     +--GCA_905330125.2
+|  |  |                    |     |  +--| (37.3)
+|  |  |                    |     |  |  +--GCA_025002605.1
+|  |  |                    |     +--| (99.5)
+|  |  |                    |        +--GCA_042434935.1
+|  |  |                 +--| (52.6)
+|  |  |                 |  +--GCA_008364555.1
+|  |  |              +--| (40.5)
+|  |  |              |  |  +--GCA_001984825.2
+|  |  |              |  +--| (78.4)
+|  |  |              |     +--GCA_034008275.1
+|  |  |           +--| (47.2)
+|  |  |           |  +--GCA_026420145.1
+|  |  |        +--| (51.6)
+|  |  |        |  |  +--GCA_001521715.1
+|  |  |        |  +--| (58.1)
+|  |  |        |     +--GCA_008364625.2
+|  |  |     +--| (60.8)
+|  |  |     |  +--GCA_034008295.1
+|  |  |  +--| (41.3)
+|  |  |  |  |  +--GCA_001729765.1
+|  |  |  |  +--| (46.2)
+|  |  |  |     |  +--GCA_003594915.1
+|  |  |  |     +--| (63)
+|  |  |  |        |  +--GCA_019046905.1
+|  |  |  |        +--| (61.9)
+|  |  |  |           +--GCA_026344075.1
+|  |  +--| (52.1)
+|  |     |  +--GCA_004193715.1
+|  |     +--| (86.3)
+|  |        |  +--GCA_023023105.1
+|  |        +--| (82.8)
+|  |           |  +--GCA_036669895.1
+|  |           +--| (100)
+|  |              +--GCA_041937165.1
++--| (95.4)
+|  +--GCA_009660455.1
+|
+|  +--GCA_020882135.1
++--| (38.3)
+   +--GCA_046015545.2
+
+Tree in newick format:
+
+(GCA_000025565.1:0.0007660952,((((GCA_000982825.1:0.0793220542,GCA_019048125.1:0.0414738575)85:0.0306594735,(((GCA_001750725.1:0.0005235003,GCA_020099215.1:0.0003526168)45.9:0.0000494281,GCA_029718255.1:0.0003527673)40.8:0.0000384653,GCA_020783215.1:0.0005827648)99.5:0.0075846968)35.5:0.0020991994,((((((((GCA_001039365.2:0.0019085129,(GCA_001729805.1:0.0023634009,(((GCA_002939185.1:0.0005831025,(GCA_009036245.1:0.0005538277,GCA_905330125.2:0.0006979288)36.3:0.0001614497)41.3:0.0001054354,GCA_025002605.1:0.0010407196)37.3:0.0001297802,GCA_042434935.1:0.0004021391)99.5:0.0070708984)42.8:0.0009770085)52.2:0.0012097275,GCA_008364555.1:0.0028464918)52.6:0.0013593158,(GCA_001984825.2:0.0024510382,GCA_034008275.1:0.0030183622)78.4:0.0022767922)40.5:0.0005713450,GCA_026420145.1:0.0023648035)47.2:0.0010075310,(GCA_001521715.1:0.0024120250,GCA_008364625.2:0.0015934901)58.1:0.0011183274)51.6:0.0013558846,GCA_034008295.1:0.0054436814)60.8:0.0024498198,(GCA_001729765.1:0.0059367671,(GCA_003594915.1:0.0034226217,(GCA_019046905.1:0.0020695045,GCA_026344075.1:0.0014745907)61.9:0.0015762593)63:0.0018441664)46.2:0.0011931624)41.3:0.0015210439,(GCA_004193715.1:0.0019297258,(GCA_023023105.1:0.0008354116,(GCA_036669895.1:0.0000744256,GCA_041937165.1:0.0000490675)100:0.0007951046)82.8:0.0009354450)86.3:0.0044238573)52.1:0.0025415249)85.8:0.0065241690,GCA_009660455.1:0.0019165600)95.4:0.0016796681,(GCA_020882135.1:0.0005367054,GCA_046015545.2:0.0006233296)38.3:0.0001014852);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/concordance-panel/marker_outside.scf-20260924.treefile -m "Q.INSECT+F+R4{0.480612,0.205478,0.44611,0.205577,0.0624646,7.03372,0.0108134,34.2333}" --length 39714
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/alignment-panel/alignment.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/alignment-panel/alignment.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep 23 15:24:47 2026
+Total CPU time used: 336.494 seconds (0h:5m:36s)
+Total wall-clock time used: 48.5526 seconds (0h:0m:48s)
+

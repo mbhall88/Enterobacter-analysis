@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+# Ordered successful commands for this bounded review, run from repository root.
+# Diagnostic retries are documented below and retained in logs. Do not execute
+# against this finished run: copy scripts to a fresh run directory first.
+set -euo pipefail
+R=results/ani-cases/2026-09-29/task12-astra-hormaechei-reassembly-review
+D=data/reads/hormaechei-type-SAMN16357575
+export PATH=${USER_HOME}/sw/miniforge3/envs/autocycler/bin:$PATH
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
+
+# Start snapshot and allocation inspection were saved to inputs/issue2-start.json
+# and logs/allocation.txt. Existing job28595370, bun153,8CPUs/62.5GiB.
+gh issue view 2 --repo mbhall88/Enterobacter --json number,title,body,comments > "$R/inputs/issue2-prepublication.json"
+python "$R/scripts/prepare.py" > "$R/logs/prepare-v2.stdout" 2> "$R/logs/prepare-v2.stderr"
+/usr/bin/time -v bash "$R/scripts/map_checks.sh" > "$R/logs/map-checks.stdout" 2> "$R/logs/map-checks.stderr"
+/usr/bin/time -v python "$R/scripts/bam_inventory.py" > "$R/logs/bam-inventory-v2.stdout" 2> "$R/logs/bam-inventory-v2.stderr"
+/usr/bin/time -v python "$R/scripts/read_audit.py" > "$R/logs/read-audit-v2.stdout" 2> "$R/logs/read-audit-v2.stderr"
+
+# These are the executed successful components of control_checks.sh. The first
+# slow read-audit processes were terminated; caching sequence decoding fixed
+# performance without changing the counting rule. Mapping outputs were reused.
+python "$R/scripts/fixtures.py"
+minimap2 -t 2 -cx map-pb -P --cs=long "$R/work/junction-models.fa" "$R/work/span-controls.fa" > "$R/work/span-controls.paf" 2> "$R/logs/span-controls.log"
+for a in final collapsed; do
+ minimap2 -t 2 -ax map-hifi --secondary=no "$R/work/$a.fa" "$R/work/repeat-power.fq" 2> "$R/logs/$a-sim-map.log" | samtools sort -@ 0 -m 1G -o "$R/work/$a-sim.bam"
+ samtools index "$R/work/$a-sim.bam"
+done
+/usr/bin/time -v python "$R/scripts/read_audit.py" --sim > "$R/logs/power-audit-v2.stdout" 2> "$R/logs/power-audit-v2.stderr"
+for a in GCA_001875655.1 GCA_000213995.1; do
+ minimap2 -t 2 -cx asm5 -P --cs=long "$R/work/junction-models.fa" "$R/type-census/raw/${a}_genomic.fna.gz" > "$R/work/$a-models.paf" 2> "$R/logs/$a-models.log"
+done
+python "$R/scripts/span_summary.py" > "$R/logs/span-summary-v2.stdout" 2> "$R/logs/span-summary-v2.stderr"
+
+python - <<'PY'
+import pysam,json
+from pathlib import Path
+r=Path('results/ani-cases/2026-09-29/task12-astra-hormaechei-reassembly-review')
+b=pysam.AlignmentFile(str(r/'work/collapsed.bam'));names={a.query_name for a in b.fetch('R_once',32145,32146)}
+with pysam.FastxFile('data/reads/hormaechei-type-SAMN16357575/ccs/SRR15075454.hifi_reads.fastq') as src,(r/'work/repeat-end-reads.fq').open('w') as out:
+ for x in src:
+  if x.name in names:out.write(f'@{x.name}\n{x.sequence}\n+\n{x.quality}\n')
+(r/'outputs/repeat-end-readnames.json').write_text(json.dumps(sorted(names))+'\n')
+PY
+minimap2 -t 2 -cx map-hifi -P --cs=long "$R/work/junction-models.fa" "$R/work/repeat-end-reads.fq" > "$R/work/repeat-end-models.paf" 2> "$R/logs/repeat-end-models.log"
+python "$R/scripts/followup_checks.py" > "$R/logs/followup-checks.stdout" 2> "$R/logs/followup-checks.stderr"
+/usr/bin/time -v python "$R/scripts/final_checks.py" > "$R/logs/final-checks.stdout" 2> "$R/logs/final-checks.stderr"
+sha256sum "$D/ccs/SRR15075454.hifi_reads.fastq" "$D/SRR15075454.fastq.gz" "$D/ccs/PFDA1_20200923_S64018_PL100159581_1_C01_bc1020_bc1020.bam" > "$R/inputs/reads-sha256.txt"
+python "$R/scripts/validate.py" > "$R/logs/validation.stdout" 2> "$R/logs/validation.stderr"
+
+# Research provenance has its own exact commands, snapshots and hashes:
+# type-census/commands.sh, fetch.py,requests.jsonl,sha256sums.txt
+# code-audit/fetch-record.json,check_graph.py,input-hashes.txt (if present).
+# Initial failures retained: prepare strict orientation equality (replaced by
+# exact circular orientation/rotation comparison); BAM names compared before
+# SRA comment normalization; slow uncached pileup processes terminated with143.
+# All restarted checks completed successfully. Original files were never edited.

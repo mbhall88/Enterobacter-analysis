@@ -1,0 +1,161 @@
+taxid	name	name_class
+550	Aerobacter cloacae	synonym
+550	Bacillus cloacae	synonym
+550	Bacterium cloacae	synonym
+550	Cloaca cloacae	synonym
+550	Enterobacter cloacae	scientific name
+61645	CDC Enteric Group 17	synonym
+61645	Enterobacter asburiae	scientific name
+61645	Enterobacter muelleri	synonym
+69218	CDC Enteric Group 19	synonym
+69218	Enterobacter cancerogenus	scientific name
+69218	Enterobacter taylorae	synonym
+69218	Erwinia cancerogena	synonym
+69219	Aerobacter dissolvens	synonym
+69219	Aplanobacter dissolvens	synonym
+69219	Bacterium dissolvens	synonym
+69219	Enterobacter cloacae subsp. dissolvens	scientific name
+69219	Enterobacter dissolvens	synonym
+69219	Erwinia dissolvens	synonym
+69219	Phytomonas dissolvens	synonym
+69219	Pseudomonas dissolvens	synonym
+158836	Enterobacter hormaechei O'Hara et al. 1990	synonym
+158836	Enterobacter hormaechei	scientific name
+208224	Enterobacter kobei	scientific name
+208224	NIH group 21	synonym
+299766	Enterobacter hormaechei subsp. steigerwaltii	scientific name
+299767	Enterobacter ludwigii Hoffmann et al. 2005	synonym
+299767	Enterobacter ludwigii	scientific name
+301102	Enterobacter hormaechei subsp. oharae	scientific name
+301105	Enterobacter hormaechei subsp. hormaechei	scientific name
+336306	Enterobacter cloacae subsp. cloacae	scientific name
+354276	Enterobacter cloacae complex	scientific name
+399742	Enterobacter sp. 638	scientific name
+539813	Enterobacter mori	scientific name
+539813	Enterobacter tabaci	synonym
+648691	Enterobacter sp. YSU	scientific name
+716541	Enterobacter cloacae subsp. cloacae ATCC 13047	scientific name
+716541	Enterobacter cloacae subsp. cloacae strain ATCC 13047	equivalent name
+716541	Enterobacter cloacae subsp. cloacae str. ATCC 13047	equivalent name
+881260	Enterobacter bugandensis	scientific name
+885040	Enterobacter soli	scientific name
+1104326	Enterobacter cloacae subsp. dissolvens SDM	scientific name
+1104326	Enterobacter cloacae subsp. dissolvens strain SDM	equivalent name
+1104326	Enterobacter cloacae subsp. dissolvens str. SDM	equivalent name
+1166130	Enterobacter sp. R4-368	scientific name
+1296536	Enterobacter hormaechei subsp. xiangfangensis	scientific name
+1296536	Enterobacter xiangfangensis	synonym
+1329812	Enterobacter sp. MGH 3	scientific name
+1329816	Enterobacter sp. MGH 7	scientific name
+1329823	Enterobacter sp. MGH 14	scientific name
+1329836	Enterobacter sp. BWH 37	scientific name
+1329841	Enterobacter sp. BIDMC 29	scientific name
+1333849	Enterobacter cloacae ECR091	synonym
+1333849	Enterobacter hormaechei subsp. hoffmannii ECR091	scientific name
+1333851	Enterobacter cloacae ECNIH3	synonym
+1333851	Enterobacter hormaechei subsp. hoffmannii ECNIH3	scientific name
+1334630	Enterobacter cloacae EC_38VIM1	synonym
+1334630	Enterobacter roggenkampii EC_38VIM1	scientific name
+1421338	Enterobacter asburiae L1	scientific name
+1560339	Enterobacter sp. E20	scientific name
+1812934	Enterobacter cloacae complex 'Hoffmann cluster III'	synonym
+1812934	Enterobacter cloacae genomosp. III	equivalent name
+1812934	Enterobacter cloacae 'Hoffmann cluster III'	equivalent name
+1812934	Enterobacter cloacae Hoffmann cluster III	equivalent name
+1812934	"""Enterobacter hoffmannii"" (Sutton et al. 2018) Sedlacek et al. 2025"	synonym
+1812934	Enterobacter hoffmannii	synonym
+1812934	Enterobacter hormaechei subsp. hoffmannii	scientific name
+1812935	Enterobacter cf. cloacae SF-2015e	equivalent name
+1812935	Enterobacter cloacae complex 'Hoffmann cluster IV'	synonym
+1812935	Enterobacter cloacae genomosp. IV	equivalent name
+1812935	Enterobacter cloacae 'Hoffmann cluster IV'	equivalent name
+1812935	Enterobacter cloacae Hoffmann cluster IV	equivalent name
+1812935	Enterobacter roggenkampii	scientific name
+1827481	Enterobacter sp. ODB01	scientific name
+1848517	Enterobacter sp. LU1	scientific name
+1864623	Enterobacter phage Tyrion	scientific name
+1868135	Enterobacter sp. HK169	scientific name
+1914861	Enterobacter sp. SA187	scientific name
+1915310	Enterobacter cloacae complex sp. ECNIH7	scientific name
+1977566	Enterobacter sp. Crenshaw	scientific name
+2027919	Enterobacter cloacae complex bacterium	synonym
+2027919	Enterobacter cloacae complex sp.	scientific name
+2051905	Enterobacter sp. CRENT-193	scientific name
+2071710	Enterobacter genomosp. N	synonym
+2071710	Enterobacter sichuanensis	scientific name
+2077136	Enterobacter cloacae complex sp. FDA-CDC-AR_0164	scientific name
+2077137	Enterobacter cloacae complex sp. FDA-CDC-AR_0132	scientific name
+2478464	Enterobacter oligotrophica	synonym
+2478464	Enterobacter oligotrophicus corrig.	synonym
+2478464	Enterobacter oligotrophicus	scientific name
+2494701	Enterobacter chengduensis	scientific name
+2494702	Enterobacter huaxiensis	scientific name
+2497436	Enterobacter quasiroggenkampii	scientific name
+2497875	Enterobacter chuandaensis	scientific name
+2500132	Enterobacter sp. N18-03635	scientific name
+2529381	Enterobacter wuhouensis	scientific name
+2565914	Enterobacter sp. 18A13	scientific name
+2601729	Enterobacter sp. SM3	scientific name
+2705458	Enterobacter sp. SES19	scientific name
+2707174	Enterobacter sp. T2	scientific name
+2720029	Enterobacter sp. DNB-S2	scientific name
+2724468	Enterobacter sp. JUb54	scientific name
+2742639	Enterobacter sp. RHBSTW-00175	scientific name
+2742643	Enterobacter sp. RHBSTW-00318	scientific name
+2742646	Enterobacter sp. RHBSTW-00422	scientific name
+2742656	Enterobacter sp. RHBSTW-00593	scientific name
+2742673	Enterobacter sp. RHBSTW-00975	scientific name
+2742676	Enterobacter sp. RHBSTW-00994	scientific name
+2747372	Enterobacter sp. DSM 30060	scientific name
+2769348	Enterobacter sp. E12	scientific name
+2797505	Enterobacter vonholyi	scientific name
+2797506	Enterobacter dykesii	scientific name
+2798729	Enterobacter cloacae complex sp. AR_0002	scientific name
+2831890	Enterobacter sp. JBIWA003	scientific name
+2831891	Enterobacter sp. JBIWA005	scientific name
+2831892	Enterobacter sp. JBIWA008	scientific name
+2836161	Enterobacter sp. SGAir0187	scientific name
+2850078	Enterobacter cloacae complex sp. ECL72	scientific name
+2850493	Enterobacter cloacae complex sp. ECL112	scientific name
+2866201	Enterobacter sp. Colony194	scientific name
+2870346	Enterobacter sp. C2	scientific name
+2876028	Enterobacter cloacae complex sp. ECL352	scientific name
+2894203	Enterobacter sp. AN-K1	scientific name
+2894794	Enterobacter phage vB_EclM_CobraSix	equivalent name
+2894794	Enterobacter phage vB_EclS_CobraSix	scientific name
+2912628	Enterobacter cloacae complex sp. ECL414	scientific name
+2912629	Enterobacter cloacae complex sp. ECL411	scientific name
+2912630	Enterobacter cloacae complex sp. ECL405	scientific name
+2912631	Enterobacter cloacae complex sp. ECL404	scientific name
+2923088	Enterobacter sp. JH25	scientific name
+2937860	Enterobacter sp. SA197	scientific name
+2969431	Enterobacter cloacae complex sp. R_G8	scientific name
+2976431	Enterobacter sp. CP102	scientific name
+2980499	Enterobacter sp. 155105	scientific name
+2996112	Enterobacter pseudoroggenkampii	scientific name
+3024862	Enterobacter sp. FUJ80071	scientific name
+3026145	Enterobacter sp. S-33	scientific name
+3029761	Enterobacter pasteurii	scientific name
+3073865	Enterobacter cloacae complex sp. EB5	scientific name
+3077940	Enterobacter sp. DTU_2021_1002640_1_SI_PRY_ASU_LCPMC_013	scientific name
+3080020	Enterobacter sp. JJBC	scientific name
+3102784	Enterobacter sp. D2	scientific name
+3102785	Enterobacter sp. A103	scientific name
+3104013	Enterobacter sp. PGRG2	scientific name
+3116478	Enterobacter sp. ECC-019	scientific name
+3116479	Enterobacter sp. ECC-175	scientific name
+3116480	Enterobacter sp. ECC-219	scientific name
+3116481	Enterobacter sp. ECC-249	scientific name
+3133180	Enterobacter intestinihominis	scientific name
+3142537	Enterobacter adelaidei	scientific name
+3151599	Enterobacter sp. HNDS-6	scientific name
+3152302	Enterobacter cloacae complex sp. Mu1197	scientific name
+3308999	Enterobacter sp. fkY84-4	scientific name
+3309000	Enterobacter sp. fkY84-1	scientific name
+3376151	Enterobacter sp. BNK-14	scientific name
+3376155	Enterobacter sp. BNK-18	scientific name
+3404057	Enterobacter sp. R-25	scientific name
+3411633	Enterobacter sp. JS8-1	scientific name
+3461408	Enterobacter hoffmannii subsp. nototheniae	scientific name
+3475615	Enterobacter sp. IBGEEm25P6	scientific name
+3568881	Enterobacter sp. HNGD-822	scientific name

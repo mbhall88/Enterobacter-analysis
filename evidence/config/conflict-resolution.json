@@ -1,0 +1,1052 @@
+{
+  "_comment": "Task 17 (SET-22): focused subsets for the three named type-anchor conflicts. Read by scripts/build_conflict_subsets.py. Every genome that enters a subset gets a reason; competing clades are derived from the trees, not listed by hand.",
+  "trees": {
+    "bac120_fasttree": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/bac120_fasttree.both_set12_outgroups.rooted.nwk",
+    "verticall_fastme": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/verticall_fastme.both_set12_outgroups.rooted.nwk",
+    "mashtree_consensus": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/mashtree_consensus.both_set12_outgroups.rooted.nwk"
+  },
+  "tree_scope_note": "Task 11's 1,076-tip rooting scope plus the two SET-12 outgroups, rooted on both, pruned (not re-inferred) from the N = 1,089 trees. The 13 declared out-of-genus tips are absent by construction.",
+  "manifest": "manifests/full.tsv",
+  "ids": "manifests/full.ids.txt",
+  "extra_genomes": {
+    "GCA_025002605.1": {
+      "formal_names": "Enterobacter sichuanensis",
+      "label": "E. sichuanensis WCHECL1597, second public assembly (not the anchor)",
+      "derivative_fasta_path": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/shared/extra-genome/repaired/GCA_025002605.1.fna",
+      "source_fasta_path": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/shared/extra-genome/type-sequences/chromosome/GCA_025002605.1_chromosome_scope.fna",
+      "reason": "Second public assembly carrying the E. sichuanensis type-strain label WCHECL1597; Task 02 measured 98.18% ANI (aligned fractions 87.55%/85.99%) to the anchor GCA_002939185.1, so both cannot be the same culture. Not in the cohort. Placed next to the anchor in every line of evidence (Task 17 brief). Chromosome scope built with scripts/build_type_reference_sets.py, then scripts/repair_pilot_inputs.py, as Tasks 04 and 06 did."
+    }
+  },
+  "thinning": {
+    "seed": 20260923,
+    "max_per_unit": 4,
+    "rule": "Lineage units are the maximal clades recovered with identical membership by all three rooted trees inside the subset's ingroup. A unit keeps its type anchors and is topped up to max_per_unit by a seeded random draw from its other members; units at or below max_per_unit keep everyone. Genomes no shared clade contains are kept individually. Neighbours, outgroups and extra genomes are always kept. Seeded random rather than distance-chosen, so no method's distances pick the panel."
+  },
+  "conflicts": {
+    "C1": {
+      "directory": "C1-ludwigii",
+      "title": "E. ludwigii against the E. cloacae / subsp. dissolvens pair",
+      "focal_sets": [
+        {
+          "label": "cloacae_pair",
+          "tips": [
+            "GCA_000025565.1",
+            "GCA_009660455.1"
+          ],
+          "why": "The conflict is which named lineage is the cloacae pair's closest: E. ludwigii (both distance methods, a 104-tip clade) or E. sichuanensis (the marker tree, a 52-tip clade at SH-like 1.000)."
+        }
+      ],
+      "neighbours": [
+        {
+          "tips": [
+            "GCA_004193715.1",
+            "GCA_023023105.1",
+            "GCA_036669895.1",
+            "GCA_041937165.1"
+          ],
+          "why": "The provisional E. adelaidei lineage (GTDB s__Enterobacter adelaidei x3, s__Enterobacter sp050587425 x1). The marker tree puts these four inside its 56-tip clade immediately enclosing cloacae + sichuanensis (SH-like 0.935); Verticall/FastME puts them with the kobei group and Mashtree with the sichuanensis/chinensis group. A third lineage whose placement moves with sichuanensis."
+        },
+        {
+          "tips": [
+            "GCA_034008295.1",
+            "GCA_001521715.1",
+            "GCA_008364625.2",
+            "GCA_026420145.1",
+            "GCA_008364555.1",
+            "GCA_001729805.1",
+            "GCA_001039365.2",
+            "GCA_001984825.2",
+            "GCA_034008275.1",
+            "GCA_001729765.1",
+            "GCA_003594915.1",
+            "GCA_026344075.1",
+            "GCA_019046905.1"
+          ],
+          "why": "The type anchors of every named type in the marker tree's 288-tip clade that separates E. ludwigii from the cloacae pair (SH-like 1.000 on the 344-tip split): chinensis, asburiae, dykesii, pseudoroggenkampii, vonholyi, roggenkampii, quasiroggenkampii, chengduensis, rongchengensis, kobei, chuandaensis, nematophilus, bugandensis. Type anchors, not arbitrary genomes, so each neighbour is a named lineage."
+        },
+        {
+          "tips": [
+            "GCA_025002605.1"
+          ],
+          "why": "The second E. sichuanensis assembly. The marker tree's competitor for the cloacae pair is sichuanensis, so the placement of both sichuanensis assemblies bears on C1 as well as C2."
+        }
+      ],
+      "outgroups": [
+        {
+          "tips": [
+            "GCA_019048125.1",
+            "GCA_000982825.1"
+          ],
+          "why": "The SET-12 outgroups (K. aerogenes, C. sakazakii). They are the only lineages outside the MRCA of this subset's ingroup in all three rooted trees: in the Mashtree consensus the ludwigii + cloacae clade is sister to the rest of the genus except E. soli, so no in-genus lineage lies outside the conflict in every method."
+        }
+      ],
+      "hypotheses": {
+        "distance": {
+          "clade_of_cores": [
+            [
+              "GCA_001750725.1"
+            ],
+            [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ]
+          ],
+          "source": "Verticall/FastME and Mashtree: ludwigii lineage + cloacae pair lineage form a clade (104 tips)."
+        },
+        "marker_sister": {
+          "clade_of_cores": [
+            [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ],
+            [
+              "GCA_002939185.1"
+            ]
+          ],
+          "source": "BAC120/FastTree: cloacae pair lineage + sichuanensis lineage form a clade (52 tips, SH-like 1.000)."
+        },
+        "marker_outside": {
+          "clade_of_everything_except_cores": [
+            [
+              "GCA_001750725.1"
+            ]
+          ],
+          "source": "BAC120/FastTree: every ingroup lineage except ludwigii forms a clade (the 344-tip split, SH-like 1.000), so ludwigii is outside cloacae + sichuanensis + the 288-tip group."
+        }
+      },
+      "free_in_constraints": [
+        "GCA_025002605.1"
+      ],
+      "positional_reference": "GCA_000025565.1",
+      "line1": {
+        "lineages": {
+          "lud": {
+            "core_of": [
+              "GCA_001750725.1"
+            ]
+          },
+          "clo": {
+            "core_of": [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ]
+          },
+          "sich": {
+            "core_of": [
+              "GCA_002939185.1"
+            ]
+          },
+          "adel": {
+            "tips": [
+              "GCA_004193715.1",
+              "GCA_023023105.1",
+              "GCA_036669895.1",
+              "GCA_041937165.1"
+            ]
+          },
+          "sich_alt": {
+            "tips": [
+              "GCA_025002605.1"
+            ]
+          },
+          "outgroups": {
+            "tips": [
+              "GCA_019048125.1",
+              "GCA_000982825.1"
+            ]
+          }
+        },
+        "each_tip_as_lineage": [
+          "GCA_034008295.1",
+          "GCA_001521715.1",
+          "GCA_008364625.2",
+          "GCA_026420145.1",
+          "GCA_008364555.1",
+          "GCA_001729805.1",
+          "GCA_001039365.2",
+          "GCA_001984825.2",
+          "GCA_034008275.1",
+          "GCA_001729765.1",
+          "GCA_003594915.1",
+          "GCA_026344075.1",
+          "GCA_019046905.1"
+        ],
+        "quartets": [
+          {
+            "label": "lud-clo-sich-X",
+            "lineages": [
+              "lud",
+              "clo",
+              "sich",
+              "X"
+            ],
+            "topologies": {
+              "distance": "lud,clo|sich,X",
+              "marker_sister": "clo,sich|lud,X",
+              "third": "lud,sich|clo,X"
+            },
+            "fourth": [
+              "GCA_034008295.1",
+              "GCA_001521715.1",
+              "GCA_008364625.2",
+              "GCA_026420145.1",
+              "GCA_008364555.1",
+              "GCA_001729805.1",
+              "GCA_001039365.2",
+              "GCA_001984825.2",
+              "GCA_034008275.1",
+              "GCA_001729765.1",
+              "GCA_003594915.1",
+              "GCA_026344075.1",
+              "GCA_019046905.1",
+              "adel"
+            ]
+          },
+          {
+            "label": "lud-clo-X-outgroup",
+            "lineages": [
+              "lud",
+              "clo",
+              "X",
+              "outgroups"
+            ],
+            "topologies": {
+              "distance": "lud,clo|X,outgroups",
+              "marker_outside": "clo,X|lud,outgroups",
+              "third": "lud,X|clo,outgroups"
+            },
+            "fourth": [
+              "sich",
+              "adel",
+              "GCA_034008295.1",
+              "GCA_001521715.1",
+              "GCA_001729765.1",
+              "GCA_001729805.1"
+            ],
+            "note": "Separates 'ludwigii is cloacae's sister' from 'ludwigii is outside cloacae + X', which the lud-clo-sich-X quartet cannot: with X inside the 288-tip group both give lud,clo|sich,X."
+          }
+        ],
+        "positional_references": [
+          "GCA_000025565.1",
+          "GCA_001750725.1"
+        ],
+        "positional_lineages": [
+          "lud",
+          "clo",
+          "sich",
+          "adel",
+          "GCA_034008295.1",
+          "GCA_001521715.1",
+          "GCA_008364625.2",
+          "GCA_026420145.1",
+          "GCA_008364555.1",
+          "GCA_001729805.1",
+          "GCA_001039365.2",
+          "GCA_001984825.2",
+          "GCA_034008275.1",
+          "GCA_001729765.1",
+          "GCA_003594915.1",
+          "GCA_026344075.1",
+          "GCA_019046905.1"
+        ]
+      }
+    },
+    "C2": {
+      "directory": "C2-sichuanensis",
+      "title": "E. sichuanensis / E. chinensis, with both E. sichuanensis assemblies placed",
+      "focal_sets": [
+        {
+          "label": "sichuanensis",
+          "tips": [
+            "GCA_002939185.1"
+          ],
+          "why": "Both distance methods make sichuanensis and chinensis each other's nearest named type (a 7-tip clade); the marker tree puts sichuanensis with the cloacae pair (52 tips, SH-like 1.000)."
+        },
+        {
+          "label": "chinensis",
+          "tips": [
+            "GCA_034008295.1"
+          ],
+          "why": "Where chinensis goes on each side: with sichuanensis (distance methods) or with asburiae + dykesii (the marker tree's 91-tip clade, SH-like 0.889)."
+        }
+      ],
+      "neighbours": [
+        {
+          "tips": [
+            "GCA_025002605.1"
+          ],
+          "why": "The second E. sichuanensis assembly (see extra_genomes). Placed next to the anchor in every line of evidence; it is left free in every constraint so the data place it."
+        },
+        {
+          "tips": [
+            "GCA_004193715.1",
+            "GCA_023023105.1",
+            "GCA_036669895.1",
+            "GCA_041937165.1"
+          ],
+          "why": "The provisional E. adelaidei lineage: in the marker tree's 56-tip clade with cloacae + sichuanensis, elsewhere in both distance trees. Its placement moves with sichuanensis."
+        },
+        {
+          "tips": [
+            "GCA_001750725.1"
+          ],
+          "why": "The E. ludwigii type: the other lineage in the linked rearrangement (the distance methods put ludwigii where the marker tree puts sichuanensis)."
+        },
+        {
+          "tips": [
+            "GCA_026420145.1",
+            "GCA_008364555.1",
+            "GCA_001729805.1",
+            "GCA_001039365.2",
+            "GCA_001984825.2",
+            "GCA_034008275.1",
+            "GCA_001729765.1",
+            "GCA_003594915.1",
+            "GCA_026344075.1",
+            "GCA_019046905.1"
+          ],
+          "why": "The type anchors of the other named types in the 204/288-tip group into which both distance methods place the sichuanensis + chinensis clade: pseudoroggenkampii, vonholyi, roggenkampii, quasiroggenkampii, chengduensis, rongchengensis, kobei, chuandaensis, nematophilus, bugandensis. asburiae and dykesii enter through the chinensis competing clade."
+        }
+      ],
+      "outgroups": [
+        {
+          "tips": [
+            "GCA_019048125.1",
+            "GCA_000982825.1"
+          ],
+          "why": "The SET-12 outgroups; the only lineages outside the MRCA of this subset's ingroup in all three rooted trees (in the Mashtree consensus the MRCA of sichuanensis and the cloacae pair is almost the whole genus)."
+        }
+      ],
+      "hypotheses": {
+        "distance": {
+          "clade_of_cores": [
+            [
+              "GCA_002939185.1"
+            ],
+            [
+              "GCA_034008295.1"
+            ]
+          ],
+          "source": "Verticall/FastME and Mashtree: sichuanensis lineage + chinensis form a clade (7 tips)."
+        },
+        "marker_sister": {
+          "clade_of_cores": [
+            [
+              "GCA_002939185.1"
+            ],
+            [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ]
+          ],
+          "source": "BAC120/FastTree: sichuanensis lineage + cloacae pair lineage form a clade (52 tips, SH-like 1.000)."
+        },
+        "marker_chinensis": {
+          "clade_of_cores": [
+            [
+              "GCA_034008295.1"
+            ],
+            [
+              "GCA_001521715.1",
+              "GCA_008364625.2"
+            ]
+          ],
+          "source": "BAC120/FastTree: chinensis + the asburiae/dykesii lineage form a clade (91 tips, SH-like 0.889)."
+        }
+      },
+      "free_in_constraints": [
+        "GCA_025002605.1"
+      ],
+      "positional_reference": "GCA_000025565.1",
+      "line1": {
+        "lineages": {
+          "sich": {
+            "core_of": [
+              "GCA_002939185.1"
+            ]
+          },
+          "chin": {
+            "core_of": [
+              "GCA_034008295.1"
+            ]
+          },
+          "clo": {
+            "core_of": [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ]
+          },
+          "asbdyk": {
+            "core_of": [
+              "GCA_001521715.1",
+              "GCA_008364625.2"
+            ]
+          },
+          "adel": {
+            "tips": [
+              "GCA_004193715.1",
+              "GCA_023023105.1",
+              "GCA_036669895.1",
+              "GCA_041937165.1"
+            ]
+          },
+          "sich_alt": {
+            "tips": [
+              "GCA_025002605.1"
+            ]
+          },
+          "lud": {
+            "tips": [
+              "GCA_001750725.1"
+            ]
+          }
+        },
+        "each_tip_as_lineage": [
+          "GCA_026420145.1",
+          "GCA_008364555.1",
+          "GCA_001729805.1",
+          "GCA_001039365.2",
+          "GCA_001984825.2",
+          "GCA_034008275.1",
+          "GCA_001729765.1",
+          "GCA_003594915.1",
+          "GCA_026344075.1",
+          "GCA_019046905.1"
+        ],
+        "quartets": [
+          {
+            "label": "sich-chin-clo-X",
+            "lineages": [
+              "sich",
+              "chin",
+              "clo",
+              "X"
+            ],
+            "topologies": {
+              "distance": "sich,chin|clo,X",
+              "marker_sister": "sich,clo|chin,X",
+              "third": "sich,X|chin,clo"
+            },
+            "fourth": [
+              "asbdyk",
+              "adel",
+              "lud",
+              "GCA_026420145.1",
+              "GCA_008364555.1",
+              "GCA_001729805.1",
+              "GCA_001039365.2",
+              "GCA_001984825.2",
+              "GCA_034008275.1",
+              "GCA_001729765.1",
+              "GCA_003594915.1",
+              "GCA_026344075.1",
+              "GCA_019046905.1"
+            ]
+          },
+          {
+            "label": "sich-chin-asbdyk-X",
+            "lineages": [
+              "sich",
+              "chin",
+              "asbdyk",
+              "X"
+            ],
+            "topologies": {
+              "distance": "sich,chin|asbdyk,X",
+              "marker_chinensis": "chin,asbdyk|sich,X",
+              "third": "sich,asbdyk|chin,X"
+            },
+            "fourth": [
+              "clo",
+              "adel",
+              "lud",
+              "GCA_026420145.1",
+              "GCA_008364555.1",
+              "GCA_001729805.1",
+              "GCA_001039365.2",
+              "GCA_001984825.2",
+              "GCA_034008275.1",
+              "GCA_001729765.1",
+              "GCA_003594915.1",
+              "GCA_026344075.1",
+              "GCA_019046905.1"
+            ]
+          },
+          {
+            "label": "sich_alt-in-place-of-sich",
+            "lineages": [
+              "sich_alt",
+              "chin",
+              "clo",
+              "X"
+            ],
+            "topologies": {
+              "distance": "sich_alt,chin|clo,X",
+              "marker_sister": "sich_alt,clo|chin,X",
+              "third": "sich_alt,X|chin,clo"
+            },
+            "fourth": [
+              "asbdyk",
+              "adel",
+              "lud"
+            ]
+          }
+        ],
+        "positional_references": [
+          "GCA_042434935.1",
+          "GCA_000025565.1"
+        ],
+        "positional_lineages": [
+          "sich",
+          "chin",
+          "clo",
+          "asbdyk",
+          "adel",
+          "lud",
+          "sich_alt"
+        ]
+      }
+    },
+    "C3": {
+      "directory": "C3-trio",
+      "title": "Internal resolution of the hoffmannii / intestinihominis / nototheniae trio",
+      "focal_sets": [
+        {
+          "label": "hoffmannii",
+          "tips": [
+            "GCA_001729745.1"
+          ],
+          "why": "Trio type: E. hormaechei subsp. hoffmannii."
+        },
+        {
+          "label": "intestinihominis",
+          "tips": [
+            "GCA_040096145.1"
+          ],
+          "why": "Trio type: E. intestinihominis."
+        },
+        {
+          "label": "nototheniae",
+          "tips": [
+            "GCA_052922205.1"
+          ],
+          "why": "Trio type: E. hoffmannii subsp. nototheniae."
+        }
+      ],
+      "neighbours": [
+        {
+          "tips": [
+            "GCA_001729705.1",
+            "GCA_001729725.1",
+            "GCA_001729785.1"
+          ],
+          "why": "The type anchors of E. hormaechei subsp. oharae, steigerwaltii and xiangfangensis: the named types in the sister of the trio clade inside the 611-tip clade all three methods recover."
+        }
+      ],
+      "outgroups": [
+        {
+          "tips": [
+            "GCA_019048245.1",
+            "GCA_004331385.1"
+          ],
+          "why": "The E. hormaechei (subsp. hormaechei) and E. quasihormaechei type anchors. All three rooted trees (rooted on the SET-12 outgroups) put both outside the 611-tip clade holding the trio and its neighbours; both are complete or near-complete type genomes far closer than the SET-12 outgroups, so the core-gene set is not cut down by a genus-level outgroup the question does not need. This roots the subset consistently with SET-12; it does not re-root the cohort tree."
+        }
+      ],
+      "hypotheses": {
+        "verticall": {
+          "quartet_of_types": [
+            [
+              "GCA_001729745.1",
+              "GCA_040096145.1"
+            ],
+            [
+              "GCA_052922205.1"
+            ]
+          ],
+          "source": "Verticall/FastME: hoffmannii + intestinihominis closer, nototheniae outside."
+        },
+        "marker": {
+          "quartet_of_types": [
+            [
+              "GCA_040096145.1",
+              "GCA_052922205.1"
+            ],
+            [
+              "GCA_001729745.1"
+            ]
+          ],
+          "source": "BAC120/FastTree: intestinihominis + nototheniae closer, hoffmannii outside (SH-like 0.961 on the 167-tip split)."
+        },
+        "third": {
+          "quartet_of_types": [
+            [
+              "GCA_001729745.1",
+              "GCA_052922205.1"
+            ],
+            [
+              "GCA_040096145.1"
+            ]
+          ],
+          "source": "The remaining resolution: hoffmannii + nototheniae closer. Mashtree's pilot seed-42 choice (0 of 20 seeds); the 1,000-replicate consensus leaves the trio a polytomy at the type level."
+        }
+      },
+      "free_in_constraints": [],
+      "positional_reference": "GCA_001729745.1",
+      "line1": {
+        "lineages": {
+          "hof": {
+            "tips": [
+              "GCA_001729745.1"
+            ]
+          },
+          "int": {
+            "core_of_shared_unit": "GCA_040096145.1"
+          },
+          "not": {
+            "core_of_shared_unit": "GCA_052922205.1"
+          },
+          "out": {
+            "tips": [
+              "GCA_019048245.1",
+              "GCA_004331385.1"
+            ]
+          }
+        },
+        "each_tip_as_lineage": [
+          "GCA_001729705.1",
+          "GCA_001729725.1",
+          "GCA_001729785.1"
+        ],
+        "quartets": [
+          {
+            "label": "hof-int-not-X",
+            "lineages": [
+              "hof",
+              "int",
+              "not",
+              "X"
+            ],
+            "topologies": {
+              "verticall": "hof,int|not,X",
+              "marker": "int,not|hof,X",
+              "third": "hof,not|int,X"
+            },
+            "fourth": [
+              "out",
+              "GCA_001729705.1",
+              "GCA_001729725.1",
+              "GCA_001729785.1"
+            ]
+          }
+        ],
+        "positional_references": [
+          "GCA_001729745.1",
+          "GCA_052922205.1"
+        ],
+        "positional_lineages": [
+          "hof",
+          "int",
+          "not",
+          "out",
+          "GCA_001729705.1",
+          "GCA_001729725.1",
+          "GCA_001729785.1"
+        ]
+      }
+    },
+    "C12x": {
+      "directory": "C12x-extended-sampling",
+      "title": "Sensitivity shared by C1 and C2: the C1 and C2 subsets together, with every in-genus lineage outside the 402-tip clade represented by its type anchor",
+      "why": "Added 23 September during Task 17 after a measured result, not before: FastME on Task 11's own Verticall matrix places ludwigii outside the rest when the 402-tip clade (marker/Verticall MRCA of ludwigii, cloacae and chinensis) is analysed with only the two SET-12 outgroups, and joins ludwigii to cloacae as soon as either the hormaechei complex or the 44 other in-genus genomes are added; the 13 out-of-genus genomes do not have that effect. So the placement of the two longest branches at the base of that clade depends on whether the branch to the outgroups is broken, and every line of evidence has to be run with it broken as well as without.",
+      "focal_sets": [
+        {
+          "label": "cloacae_pair",
+          "tips": [
+            "GCA_000025565.1",
+            "GCA_009660455.1"
+          ],
+          "why": "The conflict is which named lineage is the cloacae pair's closest: E. ludwigii (both distance methods, a 104-tip clade) or E. sichuanensis (the marker tree, a 52-tip clade at SH-like 1.000)."
+        },
+        {
+          "label": "sichuanensis",
+          "tips": [
+            "GCA_002939185.1"
+          ],
+          "why": "Both distance methods make sichuanensis and chinensis each other's nearest named type (a 7-tip clade); the marker tree puts sichuanensis with the cloacae pair (52 tips, SH-like 1.000)."
+        },
+        {
+          "label": "chinensis",
+          "tips": [
+            "GCA_034008295.1"
+          ],
+          "why": "Where chinensis goes on each side: with sichuanensis (distance methods) or with asburiae + dykesii (the marker tree's 91-tip clade, SH-like 0.889)."
+        }
+      ],
+      "neighbours": [
+        {
+          "tips": [
+            "GCA_004193715.1",
+            "GCA_023023105.1",
+            "GCA_036669895.1",
+            "GCA_041937165.1"
+          ],
+          "why": "The provisional E. adelaidei lineage (GTDB s__Enterobacter adelaidei x3, s__Enterobacter sp050587425 x1). The marker tree puts these four inside its 56-tip clade immediately enclosing cloacae + sichuanensis (SH-like 0.935); Verticall/FastME puts them with the kobei group and Mashtree with the sichuanensis/chinensis group. A third lineage whose placement moves with sichuanensis."
+        },
+        {
+          "tips": [
+            "GCA_034008295.1",
+            "GCA_001521715.1",
+            "GCA_008364625.2",
+            "GCA_026420145.1",
+            "GCA_008364555.1",
+            "GCA_001729805.1",
+            "GCA_001039365.2",
+            "GCA_001984825.2",
+            "GCA_034008275.1",
+            "GCA_001729765.1",
+            "GCA_003594915.1",
+            "GCA_026344075.1",
+            "GCA_019046905.1"
+          ],
+          "why": "The type anchors of every named type in the marker tree's 288-tip clade that separates E. ludwigii from the cloacae pair (SH-like 1.000 on the 344-tip split): chinensis, asburiae, dykesii, pseudoroggenkampii, vonholyi, roggenkampii, quasiroggenkampii, chengduensis, rongchengensis, kobei, chuandaensis, nematophilus, bugandensis. Type anchors, not arbitrary genomes, so each neighbour is a named lineage."
+        },
+        {
+          "tips": [
+            "GCA_025002605.1"
+          ],
+          "why": "The second E. sichuanensis assembly. The marker tree's competitor for the cloacae pair is sichuanensis, so the placement of both sichuanensis assemblies bears on C1 as well as C2."
+        },
+        {
+          "tips": [
+            "GCA_025002605.1"
+          ],
+          "why": "The second E. sichuanensis assembly (see extra_genomes). Placed next to the anchor in every line of evidence; it is left free in every constraint so the data place it."
+        },
+        {
+          "tips": [
+            "GCA_004193715.1",
+            "GCA_023023105.1",
+            "GCA_036669895.1",
+            "GCA_041937165.1"
+          ],
+          "why": "The provisional E. adelaidei lineage: in the marker tree's 56-tip clade with cloacae + sichuanensis, elsewhere in both distance trees. Its placement moves with sichuanensis."
+        },
+        {
+          "tips": [
+            "GCA_001750725.1"
+          ],
+          "why": "The E. ludwigii type: the other lineage in the linked rearrangement (the distance methods put ludwigii where the marker tree puts sichuanensis)."
+        },
+        {
+          "tips": [
+            "GCA_026420145.1",
+            "GCA_008364555.1",
+            "GCA_001729805.1",
+            "GCA_001039365.2",
+            "GCA_001984825.2",
+            "GCA_034008275.1",
+            "GCA_001729765.1",
+            "GCA_003594915.1",
+            "GCA_026344075.1",
+            "GCA_019046905.1"
+          ],
+          "why": "The type anchors of the other named types in the 204/288-tip group into which both distance methods place the sichuanensis + chinensis clade: pseudoroggenkampii, vonholyi, roggenkampii, quasiroggenkampii, chengduensis, rongchengensis, kobei, chuandaensis, nematophilus, bugandensis. asburiae and dykesii enter through the chinensis competing clade."
+        },
+        {
+          "tips": [
+            "GCA_000211415.1",
+            "GCA_001654845.1",
+            "GCA_001729705.1",
+            "GCA_001729725.1",
+            "GCA_001729745.1",
+            "GCA_001729785.1",
+            "GCA_003594935.2",
+            "GCA_003964905.1",
+            "GCA_004331265.1",
+            "GCA_004331385.1",
+            "GCA_009176645.1",
+            "GCA_019047785.1",
+            "GCA_019048245.1",
+            "GCA_028890245.1",
+            "GCA_040096145.1",
+            "GCA_052922205.1"
+          ],
+          "why": "The type anchors of all 16 named in-genus lineages outside the 402-tip clade: mori, soli, the five hormaechei subspecies, huaxiensis, quasimori, wuhouensis, quasihormaechei, oligotrophicus, cancerogenus, pasteurii, intestinihominis, nototheniae. One genome per named lineage breaks the branch between the SET-12 outgroups and the conflict clade without adding the 624-genome hormaechei complex."
+        }
+      ],
+      "outgroups": [
+        {
+          "tips": [
+            "GCA_019048125.1",
+            "GCA_000982825.1"
+          ],
+          "why": "The SET-12 outgroups (K. aerogenes, C. sakazakii). They are the only lineages outside the MRCA of this subset's ingroup in all three rooted trees: in the Mashtree consensus the ludwigii + cloacae clade is sister to the rest of the genus except E. soli, so no in-genus lineage lies outside the conflict in every method."
+        }
+      ],
+      "hypotheses": {
+        "C1_distance": {
+          "clade_of_cores": [
+            [
+              "GCA_001750725.1"
+            ],
+            [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ]
+          ],
+          "source": "Verticall/FastME and Mashtree: ludwigii lineage + cloacae pair lineage form a clade (104 tips)."
+        },
+        "C1_marker_sister": {
+          "clade_of_cores": [
+            [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ],
+            [
+              "GCA_002939185.1"
+            ]
+          ],
+          "source": "BAC120/FastTree: cloacae pair lineage + sichuanensis lineage form a clade (52 tips, SH-like 1.000)."
+        },
+        "C1_marker_outside": {
+          "clade_of_everything_except_cores": [
+            [
+              "GCA_001750725.1"
+            ]
+          ],
+          "source": "BAC120/FastTree: every ingroup lineage except ludwigii forms a clade (the 344-tip split, SH-like 1.000), so ludwigii is outside cloacae + sichuanensis + the 288-tip group."
+        },
+        "C2_distance": {
+          "clade_of_cores": [
+            [
+              "GCA_002939185.1"
+            ],
+            [
+              "GCA_034008295.1"
+            ]
+          ],
+          "source": "Verticall/FastME and Mashtree: sichuanensis lineage + chinensis form a clade (7 tips)."
+        },
+        "C2_marker_sister": {
+          "clade_of_cores": [
+            [
+              "GCA_002939185.1"
+            ],
+            [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ]
+          ],
+          "source": "BAC120/FastTree: sichuanensis lineage + cloacae pair lineage form a clade (52 tips, SH-like 1.000)."
+        },
+        "C2_marker_chinensis": {
+          "clade_of_cores": [
+            [
+              "GCA_034008295.1"
+            ],
+            [
+              "GCA_001521715.1",
+              "GCA_008364625.2"
+            ]
+          ],
+          "source": "BAC120/FastTree: chinensis + the asburiae/dykesii lineage form a clade (91 tips, SH-like 0.889)."
+        }
+      },
+      "free_in_constraints": [
+        "GCA_025002605.1"
+      ],
+      "positional_reference": "GCA_000025565.1",
+      "line1": {
+        "lineages": {
+          "lud": {
+            "core_of": [
+              "GCA_001750725.1"
+            ]
+          },
+          "clo": {
+            "core_of": [
+              "GCA_000025565.1",
+              "GCA_009660455.1"
+            ]
+          },
+          "sich": {
+            "core_of": [
+              "GCA_002939185.1"
+            ]
+          },
+          "adel": {
+            "tips": [
+              "GCA_004193715.1",
+              "GCA_023023105.1",
+              "GCA_036669895.1",
+              "GCA_041937165.1"
+            ]
+          },
+          "sich_alt": {
+            "tips": [
+              "GCA_025002605.1"
+            ]
+          },
+          "outgroups": {
+            "tips": [
+              "GCA_019048125.1",
+              "GCA_000982825.1"
+            ]
+          },
+          "chin": {
+            "core_of": [
+              "GCA_034008295.1"
+            ]
+          },
+          "asbdyk": {
+            "core_of": [
+              "GCA_001521715.1",
+              "GCA_008364625.2"
+            ]
+          }
+        },
+        "each_tip_as_lineage": [
+          "GCA_000211415.1",
+          "GCA_001654845.1",
+          "GCA_003594935.2",
+          "GCA_003964905.1",
+          "GCA_004331265.1",
+          "GCA_009176645.1",
+          "GCA_019047785.1",
+          "GCA_019048245.1",
+          "GCA_028890245.1",
+          "GCA_004331385.1",
+          "GCA_001729705.1",
+          "GCA_052922205.1",
+          "GCA_001729765.1",
+          "GCA_001729805.1"
+        ],
+        "quartets": [
+          {
+            "label": "lud-clo-X-ingenusY",
+            "lineages": [
+              "lud",
+              "clo",
+              "sich",
+              "X"
+            ],
+            "topologies": {
+              "distance": "lud,clo|sich,X",
+              "marker_outside": "clo,sich|lud,X",
+              "third": "lud,sich|clo,X"
+            },
+            "fourth": [
+              "GCA_000211415.1",
+              "GCA_001654845.1",
+              "GCA_003594935.2",
+              "GCA_003964905.1",
+              "GCA_004331265.1",
+              "GCA_009176645.1",
+              "GCA_019047785.1",
+              "GCA_019048245.1",
+              "GCA_028890245.1",
+              "GCA_004331385.1",
+              "GCA_001729705.1",
+              "GCA_052922205.1"
+            ],
+            "note": "X is an in-genus lineage outside the 402-tip clade, so it plays the outgroup: 'distance' = ludwigii is cloacae's sister; 'marker_outside' = ludwigii is outside cloacae + sichuanensis."
+          },
+          {
+            "label": "lud-clo-asbdyk-ingenusY",
+            "lineages": [
+              "lud",
+              "clo",
+              "asbdyk",
+              "X"
+            ],
+            "topologies": {
+              "distance": "lud,clo|asbdyk,X",
+              "marker_outside": "clo,asbdyk|lud,X",
+              "third": "lud,asbdyk|clo,X"
+            },
+            "fourth": [
+              "GCA_000211415.1",
+              "GCA_001654845.1",
+              "GCA_003594935.2",
+              "GCA_003964905.1",
+              "GCA_004331265.1",
+              "GCA_009176645.1",
+              "GCA_019047785.1",
+              "GCA_019048245.1",
+              "GCA_028890245.1",
+              "GCA_004331385.1",
+              "GCA_001729705.1",
+              "GCA_052922205.1"
+            ]
+          },
+          {
+            "label": "sich-chin-clo-ingenusY",
+            "lineages": [
+              "sich",
+              "chin",
+              "clo",
+              "X"
+            ],
+            "topologies": {
+              "distance": "sich,chin|clo,X",
+              "marker_sister": "sich,clo|chin,X",
+              "third": "sich,X|chin,clo"
+            },
+            "fourth": [
+              "GCA_000211415.1",
+              "GCA_001654845.1",
+              "GCA_003594935.2",
+              "GCA_003964905.1",
+              "GCA_004331265.1",
+              "GCA_009176645.1",
+              "GCA_019047785.1",
+              "GCA_019048245.1",
+              "GCA_028890245.1",
+              "GCA_004331385.1",
+              "GCA_001729705.1",
+              "GCA_052922205.1"
+            ]
+          },
+          {
+            "label": "sich-clo-asbdyk-ingenusY",
+            "lineages": [
+              "sich",
+              "clo",
+              "asbdyk",
+              "X"
+            ],
+            "topologies": {
+              "marker_sister": "sich,clo|asbdyk,X",
+              "distance_side": "sich,asbdyk|clo,X",
+              "third": "sich,X|clo,asbdyk"
+            },
+            "fourth": [
+              "GCA_000211415.1",
+              "GCA_001654845.1",
+              "GCA_003594935.2",
+              "GCA_003964905.1",
+              "GCA_004331265.1",
+              "GCA_009176645.1",
+              "GCA_019047785.1",
+              "GCA_019048245.1",
+              "GCA_028890245.1",
+              "GCA_004331385.1",
+              "GCA_001729705.1",
+              "GCA_052922205.1"
+            ]
+          }
+        ],
+        "positional_references": [
+          "GCA_000025565.1"
+        ],
+        "positional_lineages": [
+          "lud",
+          "clo",
+          "sich"
+        ]
+      }
+    }
+  },
+  "hypothesis_rule": "A hypothesis names lineages by their type anchors. A lineage's core is the set of genomes every one of the three rooted trees places in it, where a method's lineage is the largest clade holding those types and no other type anchor. Genomes one method places in the lineage and another does not are disputed and left free in every constraint, as are free_in_constraints tips, so a constraint encodes the focal relationship and not incidental membership choices. A quartet hypothesis constrains only the three named types against the outgroups; every other genome is free.",
+  "quartet_rule": "Line 1 four-point tests on Verticall distances. For each quartet of lineages, every combination of one genome per lineage is scored: the pairing with the smallest sum of the two within-pair distances is the one the distances support (the four-point condition, which is what neighbour joining and minimum evolution act on locally). Scored twice: on median_vertical_window_distance, the column Task 11's FastME matrix used, and on mean_distance, which includes horizontal windows. Directed values are averaged over both directions. A lineage is either the core of named types (lineage-cores.json) or an explicit tip list."
+}

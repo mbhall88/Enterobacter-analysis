@@ -1,0 +1,163 @@
+[
+  {
+    "table": "S01",
+    "description": "Assembly accessions, original and revised names, inclusion and quality flags",
+    "file": "TableS01.tsv",
+    "original_source_table": "S01-accessions.tsv",
+    "sha256": "cbdcb39940c5b97786d414b878a9b735a2246cdd6ddd2ea7aac7b115b3fbab94"
+  },
+  {
+    "table": "S02",
+    "description": "Dataset selection, exclusions and overlaps",
+    "file": "TableS02.tsv",
+    "original_source_table": "S01-dataset-flow.tsv",
+    "sha256": "b716e49ae3efb64e082fa36b9a3bc7201cafecf2055ad5d616bb26139cb8ce0e"
+  },
+  {
+    "table": "S03",
+    "description": "Type-strain figure identifiers, historical names and proposed classifications",
+    "file": "TableS03.tsv",
+    "original_source_table": "S02-type-display-map.tsv",
+    "sha256": "93cf76e4de8b06afb1fbf5f8a08c0586b63c2ca7cda8970bf07ef244a20987d5"
+  },
+  {
+    "table": "S04",
+    "description": "Three-method tree comparisons and branch filters",
+    "file": "TableS04.tsv",
+    "original_source_table": "S03-tree-comparisons.tsv",
+    "sha256": "70c97e83208401456bc3359c87e185d446af00ca3db2cb9512bf11b4ab2bda64"
+  },
+  {
+    "table": "S05",
+    "description": "Tested AU hypotheses, results and interpretation limits",
+    "file": "TableS05.tsv",
+    "original_source_table": "S04-AU-hypotheses.tsv",
+    "sha256": "15f6a371a16863086ea380260af9fcc99685b20c3de736bad1fa1fda65ac8818"
+  },
+  {
+    "table": "S06",
+    "description": "Excluded assembly records and chromosome/plasmid similarity categories",
+    "file": "TableS06.tsv",
+    "original_source_table": "S05-excluded-records.tsv",
+    "sha256": "ec254d1ee9999b28ccf71ba6a3eb9e98e23f5195b0903d429dc0210fb7f651e8"
+  },
+  {
+    "table": "S07",
+    "description": "Draft-type contigs and sequence-selection comparisons",
+    "file": "TableS07.tsv",
+    "original_source_table": "S05-draft-contigs.tsv",
+    "sha256": "8c2e9815316660591023328f7b4e002b2a6ae7751a5ab367a188825d474b025e"
+  },
+  {
+    "table": "S08",
+    "description": "Tree splits in the focused sequence-addition tests",
+    "file": "TableS08.tsv",
+    "original_source_table": "S05-focused-tree-splits.tsv",
+    "sha256": "83091ac2f685189464eeec8150724d157531d58566dd389a879e8a68b841591c"
+  },
+  {
+    "table": "S09",
+    "description": "Genomovar membership and definition genomes",
+    "file": "TableS09.tsv",
+    "original_source_table": "S07-genomovar-membership.tsv",
+    "sha256": "b70da1c1dc0b4044025d2b012ed8e201363d1e192e2932675c86d00bc246b9c3"
+  },
+  {
+    "table": "S10",
+    "description": "Pairs linking different genomovars at or above the ANI threshold",
+    "file": "TableS10.tsv",
+    "original_source_table": "S07-threshold-bridges.tsv",
+    "sha256": "8fb658a2c966060182b206a686110a2e30d2e42109fdc570195038002ddf3827"
+  },
+  {
+    "table": "S11",
+    "description": "Primary classifier reference panel",
+    "file": "TableS11.tsv",
+    "original_source_table": "S08-primary-references.tsv",
+    "sha256": "1c13a7f8a4707154929a4ef848921b9ecaff2db7b7ed1fad0356589f3e25af5f"
+  },
+  {
+    "table": "S12",
+    "description": "Alignment-assisted classification observations by dataset and setting",
+    "file": "TableS12.tsv",
+    "original_source_table": "S08-RS1-context-counts.tsv",
+    "sha256": "aa6227664a2f9000f9e81001f201fe541d0f71fb9f3833af71904c41a57597f4"
+  },
+  {
+    "table": "S13",
+    "description": "Competing-reference checks and sequence-scope accounting",
+    "file": "TableS13.tsv",
+    "original_source_table": "S08-RS8-challenge-origin-catalogue.tsv",
+    "sha256": "925b758950984a5812335a0a62ed3c1536afcc1cb7d24b06bdc313d9e2094ac2"
+  },
+  {
+    "table": "S14",
+    "description": "Comparisons that permitted or prevented alignment-assisted assignment",
+    "file": "TableS14.tsv",
+    "original_source_table": "S08-RS9-method-crossing-veto-catalogue.tsv",
+    "sha256": "a934c15c1b8de5502ffc1443c634694648d7f6274a63c683c965592b76d6ff1a"
+  },
+  {
+    "table": "S15",
+    "description": "Twelve matches to neighbouring genomovars after removal of the expected group",
+    "file": "TableS15.tsv",
+    "original_source_table": "S08-twelve-safety-cases.tsv",
+    "sha256": "659de4996df74047c0a96a3294079533fff947fc0688277e4ad77b9d99e19ddf"
+  },
+  {
+    "table": "S16",
+    "description": "Kraken sequence counts, sequence lengths and classification categories",
+    "file": "TableS16.tsv",
+    "original_source_table": "S09-Kraken-metrics.tsv",
+    "sha256": "d190750cc144161e7c4dbfa1008601e6fe626fc1a91c8107e07061d806b77ba0"
+  },
+  {
+    "table": "S17",
+    "description": "Computational measurements for the 5,803 native queries",
+    "file": "TableS17.tsv",
+    "original_source_table": "S10-CO1-native5803.tsv",
+    "sha256": "899f6946019a2f415bd40e873ff036d1a8dc6303a896d123b198ed516d264bb8"
+  },
+  {
+    "table": "S18",
+    "description": "Computational measurements for 11,791 reciprocal alignment pairs",
+    "file": "TableS18.tsv",
+    "original_source_table": "S10-CO2-ANIm11791.tsv",
+    "sha256": "6dce06038432249f28b9cbe12fbc2d4847a02ab72e35000117c37ad334997d42"
+  },
+  {
+    "table": "S19",
+    "description": "Computational measurements for eighteen integrated runs",
+    "file": "TableS19.tsv",
+    "original_source_table": "S10-CO2-integrated18.tsv",
+    "sha256": "945b7ebf9d70d2e239d48336e6aa94854f37e8b6eddff9105987c2ec5fee2665"
+  },
+  {
+    "table": "S20",
+    "description": "Proposed name changes and their nomenclatural status",
+    "file": "TableS20.tsv",
+    "original_source_table": "S11-formal-act-register.tsv",
+    "sha256": "58f9e8e069e552e422905d282e83cda4b427cb1131faa6ad41e0d5db7360ee0d"
+  },
+  {
+    "table": "S21",
+    "description": "Type-strain culture deposits, assemblies and documentation",
+    "file": "TableS21.tsv",
+    "original_source_table": "S11-type-documentation.tsv",
+    "sha256": "156c9bbb55fe80fe5dd58fecef229e5eb02b8a22c6237c7b7082b0c21d917cdb"
+  },
+  {
+    "table": "S22",
+    "description": "Published names and type-genome coverage in the priority check",
+    "file": "TableS22.tsv",
+    "original_source_table": "S11-priority-coverage.tsv",
+    "sha256": "75742a0229e5ff396c358177db7948dbcaf98e7eae4009ea430393775d1f4e36"
+  },
+  {
+    "table": "S23",
+    "description": "Genome sizes and G+C contents of the proposed taxa",
+    "file": "TableS23.tsv",
+    "original_source_table": "S11-circumscription-statistics.tsv",
+    "sha256": "876e9eff5af4422d0ee616ad004f8b8ec5f656790457f7d7c43e864468df8b44"
+  }
+]

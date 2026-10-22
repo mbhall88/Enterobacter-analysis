@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd ${PROJECT_ROOT}
+run=results/ani-cases/2026-10-03/task12-astra-reporting-category-application
+mkdir -p "$run/logs"
+{ date -Iseconds; python --version; csvtk version; git rev-parse HEAD; } > "$run/environment.txt"
+python scripts/apply_reporting_categories.py --help > "$run/logs/cli-help.txt"
+/usr/bin/time -v -o "$run/logs/application.time.txt" python scripts/apply_reporting_categories.py \
+  --assignments results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+  --historical-release-cases results/ani-cases/2026-09-24/task12-astra-taxonomy-reconciliation/tables/accession-grounded-v2/cases.tsv \
+  --output "$run" > "$run/logs/application.stdout.json" 2> "$run/logs/application.stderr.txt"
+python -m unittest discover -s tests -p test_reporting_categories.py -v > "$run/logs/tests.txt" 2>&1
+csvtk freq --tabs --out-tabs --num-cpus 1 --sort-by-key --fields snapshot,eligible,primary_category "$run/study-categories.tsv" > "$run/logs/csvtk-frequency.tsv"
+python "$run/validate.py" > "$run/logs/validation.json"
+python "$run/export-review.py" > "$run/logs/export.txt"

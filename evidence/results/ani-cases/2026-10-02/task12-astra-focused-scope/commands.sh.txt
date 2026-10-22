@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Executed commands, in order; run directory creation and editing are recorded in scripts/claim.
+# Do not execute this ledger wholesale: preparation/submission refuse existing outputs.
+cd ${PROJECT_ROOT}
+python scripts/fetch_github_decisions.py --id DEC-004 --output results/ani-cases/2026-10-02/task12-astra-focused-scope/github-before
+ssubmit --version
+.work/envs/task12-pyani/bin/nucmer --version
+.work/envs/task12-pyani/bin/average_nucleotide_identity.py --help
+python scripts/task12_focused_scope.py prepare
+python -m unittest discover -s tests -p test_task12_focused_scope.py
+python scripts/task12_focused_scope.py submit
+python results/ani-cases/2026-10-02/task12-astra-focused-scope/fetch_annotations.py
+python scripts/task12_focused_scope_markers.py
+${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/iqtree3 --version
+python results/ani-cases/2026-10-02/task12-astra-focused-scope/submit_trees.py
+.work/envs/task12-pyani/bin/python scripts/task12_focused_scope_results.py anim
+.work/envs/task12-pyani/bin/python scripts/task12_focused_scope_results.py annotations
+.work/envs/task12-pyani/bin/python scripts/task12_focused_scope_plot.py
+# ssubmit JSON records contain every exact scheduler argv and nested command.
+# ANIm command.json, marker/logs and run_tree.sh retain scientific commands and resources.
+python scripts/task12_focused_scope_validate.py
+# Six tests after independent raw-delta/interval cases added:
+python -m unittest discover -s tests -p test_task12_focused_scope.py
+
+# Readiness pipeline: scheduler/finish-outputs-current-dependency/{plan,test,submit}.json
+# First dependency test failed before submission because completed job IDs had left the live cache.
+# Public tracking export and progress post:
+python results/ani-cases/2026-10-02/task12-astra-focused-scope/export_progress.py
+gh issue comment 2 --repo mbhall88/Enterobacter --body-file results/ani-cases/2026-10-02/task12-astra-focused-scope/github-comment.md
+python scripts/fetch_github_decisions.py --id DEC-004 --output results/ani-cases/2026-10-02/task12-astra-focused-scope/github-handover

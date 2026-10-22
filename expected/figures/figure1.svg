@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="684pt" viewBox="0 0 540 684" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-16T14:50:54.098426</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 684 
+L 540 684 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.301471 93.9645 
+L 155.580882 93.9645 
+Q 160.610294 93.9645 160.610294 91.8441 
+L 160.610294 46.2555 
+Q 160.610294 44.1351 155.580882 44.1351 
+L 22.301471 44.1351 
+Q 17.272059 44.1351 17.272059 46.2555 
+L 17.272059 91.8441 
+Q 17.272059 93.9645 22.301471 93.9645 
+z
+" clip-path="url(#p029fd4fa6f)" style="fill: #f1f3f5; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 203.360294 93.9645 
+L 336.639706 93.9645 
+Q 341.669118 93.9645 341.669118 91.8441 
+L 341.669118 46.2555 
+Q 341.669118 44.1351 336.639706 44.1351 
+L 203.360294 44.1351 
+Q 198.330882 44.1351 198.330882 46.2555 
+L 198.330882 91.8441 
+Q 198.330882 93.9645 203.360294 93.9645 
+z
+" clip-path="url(#p029fd4fa6f)" style="fill: #dceef7; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 384.419118 93.9645 
+L 517.698529 93.9645 
+Q 522.727941 93.9645 522.727941 91.8441 
+L 522.727941 46.2555 
+Q 522.727941 44.1351 517.698529 44.1351 
+L 384.419118 44.1351 
+Q 379.389706 44.1351 379.389706 46.2555 
+L 379.389706 91.8441 
+Q 379.389706 93.9645 384.419118 93.9645 
+z
+" clip-path="url(#p029fd4fa6f)" style="fill: #dceef7; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 22.301471 227.5497 
+L 517.698529 227.5497 
+Q 522.727941 227.5497 522.727941 225.4293 
+L 522.727941 169.2387 
+Q 522.727941 167.1183 517.698529 167.1183 
+L 22.301471 167.1183 
+Q 17.272059 167.1183 17.272059 169.2387 
+L 17.272059 225.4293 
+Q 17.272059 227.5497 22.301471 227.5497 
+z
+" clip-path="url(#p029fd4fa6f)" style="fill: #f1f3f5; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="18.529412" y="24.698437" transform="rotate(-0 18.529412 24.698437)">(a)  Study collection and phylogenetic datasets</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(42.177426 66.83055)">Initial NCBI collection</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(67.072489 77.303925)">n = 1,079</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(234.78625 65.97805)">Study collection</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(248.131313 77.303925)">n = 1,074</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.4px; font-family: 'DejaVu Sans'" transform="translate(397.411042 66.117675)">Classification comparison</text>
+    <text style="font-size: 8.4px; font-family: 'DejaVu Sans'" transform="translate(430.184167 76.928737)">n = 1,070</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 161.351936 70.11 
+Q 179.468903 70.11 196.57964 70.11 
+" style="fill: none; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 192.97964 68.31 
+L 196.57964 70.11 
+L 192.97964 71.91 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 342.410759 70.11 
+Q 360.527727 70.11 377.638463 70.11 
+" style="fill: none; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 374.038463 68.31 
+L 377.638463 70.11 
+L 374.038463 71.91 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(159.271565 108.365561)">5 removed</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(134.363362 117.367611)">4 duplicate submissions</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(137.270784 126.369662)">1 unsuitable assembly</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(390.289143 108.365561)">4 later sequence-quality</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'" transform="translate(381.337776 117.367611)">exclusions (Supplement S01)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.4px; font-family: 'DejaVu Sans'" transform="translate(104.574469 189.151875)">Phylogenetic inputs: 1,072 study + 16 additional types + 2 outgroups = 1,090</text>
+    <text style="font-size: 8.4px; font-family: 'DejaVu Sans'" transform="translate(107.739562 199.651875)">Two study quality exclusions preceded inference; a third was pruned → 1,089</text>
+    <text style="font-size: 8.4px; font-family: 'DejaVu Sans'" transform="translate(108.834844 210.151875)">Ingroup comparison: 1,076 tips; later quality-exclusion sensitivity: 1,088 tips</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 270 95.437417 
+Q 270 128.420629 270 160.39761 
+" style="fill: none; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 271.8 156.79761 
+L 270 160.39761 
+L 268.2 156.79761 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 17.715441 321.3945 
+L 254.984559 321.3945 
+Q 257.393382 321.3945 257.393382 318.1797 
+L 257.393382 277.9947 
+Q 257.393382 274.7799 254.984559 274.7799 
+L 17.715441 274.7799 
+Q 15.306618 274.7799 15.306618 277.9947 
+L 15.306618 318.1797 
+Q 15.306618 321.3945 17.715441 321.3945 
+z
+" clip-path="url(#p2c6796331a)" style="fill: #dceef7; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 17.715441 404.9793 
+L 127.316912 404.9793 
+Q 129.725735 404.9793 129.725735 401.7645 
+L 129.725735 348.7203 
+Q 129.725735 345.5055 127.316912 345.5055 
+L 17.715441 345.5055 
+Q 15.306618 345.5055 15.306618 348.7203 
+L 15.306618 401.7645 
+Q 15.306618 404.9793 17.715441 404.9793 
+z
+" clip-path="url(#p2c6796331a)" style="fill: #f1f3f5; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 145.383088 404.9793 
+L 254.984559 404.9793 
+Q 257.393382 404.9793 257.393382 401.7645 
+L 257.393382 348.7203 
+Q 257.393382 345.5055 254.984559 345.5055 
+L 145.383088 345.5055 
+Q 142.974265 345.5055 142.974265 348.7203 
+L 142.974265 401.7645 
+Q 142.974265 404.9793 145.383088 404.9793 
+z
+" clip-path="url(#p2c6796331a)" style="fill: #f1f3f5; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 17.715441 485.3493 
+L 254.984559 485.3493 
+Q 257.393382 485.3493 257.393382 482.1345 
+L 257.393382 432.3051 
+Q 257.393382 429.0903 254.984559 429.0903 
+L 17.715441 429.0903 
+Q 15.306618 429.0903 15.306618 432.3051 
+L 15.306618 482.1345 
+Q 15.306618 485.3493 17.715441 485.3493 
+z
+" clip-path="url(#p2c6796331a)" style="fill: #f1f3f5; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 17.715441 565.7193 
+L 254.984559 565.7193 
+Q 257.393382 565.7193 257.393382 562.5045 
+L 257.393382 512.6751 
+Q 257.393382 509.4603 254.984559 509.4603 
+L 17.715441 509.4603 
+Q 15.306618 509.4603 15.306618 512.6751 
+L 15.306618 562.5045 
+Q 15.306618 565.7193 17.715441 565.7193 
+z
+" clip-path="url(#p2c6796331a)" style="fill: #f1f3f5; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="15.908824" y="260.678437" transform="rotate(-0 15.908824 260.678437)">(b)  References and study evaluation</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(67.38275 295.419013)">Classifier source set: n = 1,086</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(61.298375 306.01545)">1,070 study + 16 additional types</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(31.760911 366.865462)">Primary references</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(55.246973 378.372666)">n = 140</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(25.99488 388.365462)">124 study + 16 types</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(170.452683 366.865462)">Study queries</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(182.91462 378.372666)">n = 946</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(151.05498 389.198587)">922 named + 24 other</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 76.129412 322.590632 
+Q 76.129412 333.449578 76.129412 343.302294 
+" style="fill: none; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 77.929412 339.702294 
+L 76.129412 343.302294 
+L 74.329412 339.702294 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 201.388235 322.590632 
+Q 201.388235 333.449578 201.388235 343.302294 
+" style="fill: none; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 203.188235 339.702294 
+L 201.388235 343.302294 
+L 199.588235 339.702294 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(45.231656 448.766941)">Separate genomovar component: n = 173</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(50.909672 459.592863)">172 study genomes + 1 additional type</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(44.232578 470.342863)">Definition members overlap the source set</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(67.325594 529.212863)">Reference-removal experiments</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(49.404672 539.962863)">1,034 development queries × 9 settings</text>
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'" transform="translate(61.735594 550.712863)">Queries are reused across settings</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.4px; font-family: 'DejaVu Sans'; text-anchor: middle" x="136.35" y="420.2496" transform="rotate(-0 136.35 420.2496)">Different reference roles; not added to query totals</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_16">
+    <path d="M 285.015441 314.9649 
+L 522.284559 314.9649 
+Q 524.693382 314.9649 524.693382 311.7501 
+L 524.693382 277.9947 
+Q 524.693382 274.7799 522.284559 274.7799 
+L 285.015441 274.7799 
+Q 282.606618 274.7799 282.606618 277.9947 
+L 282.606618 311.7501 
+Q 282.606618 314.9649 285.015441 314.9649 
+z
+" clip-path="url(#pdeb9186e98)" style="fill: #f1f3f5; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 285.015441 417.8385 
+L 522.284559 417.8385 
+Q 524.693382 417.8385 524.693382 414.6237 
+L 524.693382 380.8683 
+Q 524.693382 377.6535 522.284559 377.6535 
+L 285.015441 377.6535 
+Q 282.606618 377.6535 282.606618 380.8683 
+L 282.606618 414.6237 
+Q 282.606618 417.8385 285.015441 417.8385 
+z
+" clip-path="url(#pdeb9186e98)" style="fill: #dceef7; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 285.015441 520.7121 
+L 522.284559 520.7121 
+Q 524.693382 520.7121 524.693382 517.4973 
+L 524.693382 483.7419 
+Q 524.693382 480.5271 522.284559 480.5271 
+L 285.015441 480.5271 
+Q 282.606618 480.5271 282.606618 483.7419 
+L 282.606618 517.4973 
+Q 282.606618 520.7121 285.015441 520.7121 
+z
+" clip-path="url(#pdeb9186e98)" style="fill: #dceef7; stroke: #444444; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="283.208824" y="260.678437" transform="rotate(-0 283.208824 260.678437)">(c)  Additional public evaluation</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(339.526188 291.80065)">Eligible public metadata pool</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(381.781313 303.126525)">n = 6,424</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'" transform="translate(295.252941 337.28672)">96 used for method confirmation</text>
+    <text style="font-size: 8.2px; font-family: 'DejaVu Sans'" transform="translate(295.252941 347.128962)">1,471 linked assemblies held out</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 509.638235 316.158677 
+Q 509.638235 346.309809 509.638235 375.454709 
+" style="fill: none; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 511.438235 371.854709 
+L 509.638235 375.454709 
+L 507.838235 371.854709 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(340.176563 395.52675)">Public evaluation assemblies</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(381.781313 406.000125)">n = 4,857</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'" transform="translate(295.252941 439.902337)">36 previously exposed during development</text>
+    <text style="font-size: 7.9px; font-family: 'DejaVu Sans'" transform="translate(295.252941 449.384497)">kept separate from source-name comparison</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 509.638235 419.032277 
+Q 509.638235 449.183409 509.638235 478.328309 
+" style="fill: none; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 511.438235 474.728309 
+L 509.638235 478.328309 
+L 507.838235 474.728309 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(347.38225 497.54785)">Source-name comparison</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'" transform="translate(381.781313 508.873725)">n = 4,821</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(299.72125 542.861931)">100 expert-labelled genomes are a subset of 4,857.</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(299.695625 552.464119)">20 outcome-selected reviews are a subset of 4,821.</text>
+   </g>
+  </g>
+  <g id="text_22">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="270" y="603.288" transform="rotate(-0 270 603.288)">Native classifier runs: 946 study + 4,857 public = 5,803 assemblies</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(81.286719 611.636)">Accession catalogue (Table S01): 1,098 records = 1,074 study + 16 types + 2 outgroups</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(173.686367 623.536)">+ 5 initial exclusions + 1 diagnostic addition.</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(165.783359 635.436)">Catalogue rows are not an analysis denominator.</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 8.2px; font-family: 'DejaVu Sans'" transform="translate(72.508125 650.632)">Reference-removal settings, expert subsets and fragmented derivatives overlap these datasets.</text>
+   <text style="font-size: 8.2px; font-family: 'DejaVu Sans'" transform="translate(123.966328 662.112)">Their classification outcomes are not additional independent genomes.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p029fd4fa6f">
+   <rect x="13.5" y="17.1" width="513" height="212.04"/>
+  </clipPath>
+  <clipPath id="p2c6796331a">
+   <rect x="13.5" y="253.08" width="245.7" height="321.48"/>
+  </clipPath>
+  <clipPath id="pdeb9186e98">
+   <rect x="280.8" y="253.08" width="245.7" height="321.48"/>
+  </clipPath>
+ </defs>
+</svg>

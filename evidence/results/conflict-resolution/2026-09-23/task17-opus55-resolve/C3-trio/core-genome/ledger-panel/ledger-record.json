@@ -1,0 +1,21 @@
+{
+ "mode": "core",
+ "ids": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/subset/panel.ids.txt",
+ "taxa": 53,
+ "core_genes_listed": 3808,
+ "genes_in_concatenation": 3768,
+ "loci_included": 3731,
+ "concatenated_columns": 3718819,
+ "positions": {
+  "reference": "GCA_001729745.1",
+  "reference_length": 4546962,
+  "placed": 3790,
+  "genes": 3808
+ },
+ "rule": {
+  "min_informative": 1,
+  "min_taxa_fraction": 0.8
+ },
+ "loci.nex_sha256": "59c83514bb30dc4bc78830f041eb948578340d79dfed87883af0984bc35f93dd",
+ "alignment.fna_sha256": "7ae46fbbd827ff3cac5996aced5cf2b1fd4f762808dcb9e8da4dcc96489b6842"
+}

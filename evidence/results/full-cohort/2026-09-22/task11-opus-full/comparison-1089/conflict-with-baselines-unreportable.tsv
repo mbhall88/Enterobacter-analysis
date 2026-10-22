@@ -1,0 +1,5 @@
+comparison_set	collapsing_rule	tree	against	percent_conflicting	reason_unreportable
+mashtree-comparator-choice-1089	each_method_own_rule	mashtree_seed_stable	mashtree_consensus	0	no within-method baseline for mashtree_seed_stable under collapsing rule 'each_method_own_rule'
+mashtree-comparator-choice-1089	each_method_own_rule	mashtree_seed_stable	mashtree_primary_seed42	0	no within-method baseline for mashtree_seed_stable under collapsing rule 'each_method_own_rule'
+mashtree-comparator-choice-1089	matched_length_only_rule	mashtree_seed_stable	mashtree_consensus	10.7	no within-method baseline for mashtree_seed_stable under collapsing rule 'matched_length_only_rule'
+mashtree-comparator-choice-1089	matched_length_only_rule	mashtree_seed_stable	mashtree_primary_seed42	0	no within-method baseline for mashtree_seed_stable under collapsing rule 'matched_length_only_rule'

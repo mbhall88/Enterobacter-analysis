@@ -1,0 +1,1025 @@
+study_assignment	kraken_name	bases	percent_within_study_group
+Enterobacter adelaidei	Enterobacter adelaidei	14262981	71.55277504536079
+Enterobacter adelaidei	Enterobacter asburiae	0	0.0
+Enterobacter adelaidei	Enterobacter bugandensis	0	0.0
+Enterobacter adelaidei	Enterobacter cancerogenus	0	0.0
+Enterobacter adelaidei	Enterobacter chengduensis	0	0.0
+Enterobacter adelaidei	Enterobacter chuandaensis	0	0.0
+Enterobacter adelaidei	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter adelaidei	Enterobacter cloacae subsp. cloacae	4792737	24.043615595686298
+Enterobacter adelaidei	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter adelaidei	Enterobacter hormaechei	0	0.0
+Enterobacter adelaidei	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter adelaidei	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter adelaidei	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter adelaidei	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter adelaidei	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter adelaidei	Enterobacter huaxiensis	0	0.0
+Enterobacter adelaidei	Enterobacter kobei	245973	1.2339672005615467
+Enterobacter adelaidei	Enterobacter ludwigii	0	0.0
+Enterobacter adelaidei	Enterobacter mori	0	0.0
+Enterobacter adelaidei	Enterobacter oligotrophicus	0	0.0
+Enterobacter adelaidei	Enterobacter pasteurii	0	0.0
+Enterobacter adelaidei	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter adelaidei	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter adelaidei	Enterobacter roggenkampii	0	0.0
+Enterobacter adelaidei	Enterobacter sichuanensis	0	0.0
+Enterobacter adelaidei	Enterobacter soli	0	0.0
+Enterobacter adelaidei	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter adelaidei	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter adelaidei	Enterobacter wuhouensis	0	0.0
+Enterobacter adelaidei	Enterobacter xiangfangensis	0	0.0
+Enterobacter adelaidei	Lelliottia sp. AC1	0	0.0
+Enterobacter adelaidei	All other calls	631821	3.1696421583913557
+Enterobacter asburiae	Enterobacter adelaidei	0	0.0
+Enterobacter asburiae	Enterobacter asburiae	393547951	88.03388801801634
+Enterobacter asburiae	Enterobacter bugandensis	0	0.0
+Enterobacter asburiae	Enterobacter cancerogenus	0	0.0
+Enterobacter asburiae	Enterobacter chengduensis	0	0.0
+Enterobacter asburiae	Enterobacter chuandaensis	0	0.0
+Enterobacter asburiae	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter asburiae	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter asburiae	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter asburiae	Enterobacter hormaechei	493702	0.11043763910301924
+Enterobacter asburiae	Enterobacter hormaechei subsp. hoffmannii	310156	0.06937969948194667
+Enterobacter asburiae	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter asburiae	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter asburiae	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter asburiae	Enterobacter hormaechei subsp. xiangfangensis	325460	0.07280309584013968
+Enterobacter asburiae	Enterobacter huaxiensis	0	0.0
+Enterobacter asburiae	Enterobacter kobei	7143	0.001597838485792779
+Enterobacter asburiae	Enterobacter ludwigii	0	0.0
+Enterobacter asburiae	Enterobacter mori	0	0.0
+Enterobacter asburiae	Enterobacter oligotrophicus	0	0.0
+Enterobacter asburiae	Enterobacter pasteurii	0	0.0
+Enterobacter asburiae	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter asburiae	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter asburiae	Enterobacter roggenkampii	32997	0.007381195088296838
+Enterobacter asburiae	Enterobacter sichuanensis	0	0.0
+Enterobacter asburiae	Enterobacter soli	0	0.0
+Enterobacter asburiae	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter asburiae	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter asburiae	Enterobacter wuhouensis	0	0.0
+Enterobacter asburiae	Enterobacter xiangfangensis	0	0.0
+Enterobacter asburiae	Lelliottia sp. AC1	0	0.0
+Enterobacter asburiae	All other calls	52324020	11.70451251398447
+Enterobacter bugandensis	Enterobacter adelaidei	0	0.0
+Enterobacter bugandensis	Enterobacter asburiae	0	0.0
+Enterobacter bugandensis	Enterobacter bugandensis	120127953	95.15080487285293
+Enterobacter bugandensis	Enterobacter cancerogenus	0	0.0
+Enterobacter bugandensis	Enterobacter chengduensis	0	0.0
+Enterobacter bugandensis	Enterobacter chuandaensis	0	0.0
+Enterobacter bugandensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter bugandensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter bugandensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter bugandensis	Enterobacter hormaechei	0	0.0
+Enterobacter bugandensis	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter bugandensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter bugandensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter bugandensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter bugandensis	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter bugandensis	Enterobacter huaxiensis	0	0.0
+Enterobacter bugandensis	Enterobacter kobei	0	0.0
+Enterobacter bugandensis	Enterobacter ludwigii	0	0.0
+Enterobacter bugandensis	Enterobacter mori	0	0.0
+Enterobacter bugandensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter bugandensis	Enterobacter pasteurii	0	0.0
+Enterobacter bugandensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter bugandensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter bugandensis	Enterobacter roggenkampii	0	0.0
+Enterobacter bugandensis	Enterobacter sichuanensis	0	0.0
+Enterobacter bugandensis	Enterobacter soli	0	0.0
+Enterobacter bugandensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter bugandensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter bugandensis	Enterobacter wuhouensis	0	0.0
+Enterobacter bugandensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter bugandensis	Lelliottia sp. AC1	0	0.0
+Enterobacter bugandensis	All other calls	6122112	4.849195127147063
+Enterobacter cancerogenus	Enterobacter adelaidei	0	0.0
+Enterobacter cancerogenus	Enterobacter asburiae	0	0.0
+Enterobacter cancerogenus	Enterobacter bugandensis	0	0.0
+Enterobacter cancerogenus	Enterobacter cancerogenus	29732899	100.0
+Enterobacter cancerogenus	Enterobacter chengduensis	0	0.0
+Enterobacter cancerogenus	Enterobacter chuandaensis	0	0.0
+Enterobacter cancerogenus	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter cancerogenus	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter cancerogenus	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter cancerogenus	Enterobacter hormaechei	0	0.0
+Enterobacter cancerogenus	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter cancerogenus	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter cancerogenus	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter cancerogenus	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter cancerogenus	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter cancerogenus	Enterobacter huaxiensis	0	0.0
+Enterobacter cancerogenus	Enterobacter kobei	0	0.0
+Enterobacter cancerogenus	Enterobacter ludwigii	0	0.0
+Enterobacter cancerogenus	Enterobacter mori	0	0.0
+Enterobacter cancerogenus	Enterobacter oligotrophicus	0	0.0
+Enterobacter cancerogenus	Enterobacter pasteurii	0	0.0
+Enterobacter cancerogenus	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter cancerogenus	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter cancerogenus	Enterobacter roggenkampii	0	0.0
+Enterobacter cancerogenus	Enterobacter sichuanensis	0	0.0
+Enterobacter cancerogenus	Enterobacter soli	0	0.0
+Enterobacter cancerogenus	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter cancerogenus	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter cancerogenus	Enterobacter wuhouensis	0	0.0
+Enterobacter cancerogenus	Enterobacter xiangfangensis	0	0.0
+Enterobacter cancerogenus	Lelliottia sp. AC1	0	0.0
+Enterobacter cancerogenus	All other calls	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter adelaidei	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter asburiae	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter bugandensis	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter cancerogenus	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter chengduensis	15827341	99.43624688809011
+Enterobacter chengduensis subsp. chengduensis	Enterobacter chuandaensis	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter hormaechei	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter huaxiensis	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter kobei	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter ludwigii	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter mori	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter pasteurii	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter roggenkampii	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter sichuanensis	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter soli	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter wuhouensis	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter chengduensis subsp. chengduensis	Lelliottia sp. AC1	0	0.0
+Enterobacter chengduensis subsp. chengduensis	All other calls	89733	0.56375311190989
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter adelaidei	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter asburiae	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter bugandensis	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter cancerogenus	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter chengduensis	4967054	100.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter chuandaensis	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter hormaechei	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter huaxiensis	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter kobei	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter ludwigii	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter mori	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter pasteurii	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter roggenkampii	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter sichuanensis	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter soli	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter wuhouensis	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	Lelliottia sp. AC1	0	0.0
+Enterobacter chengduensis subsp. rongchengensis	All other calls	0	0.0
+Enterobacter chuandaensis	Enterobacter adelaidei	0	0.0
+Enterobacter chuandaensis	Enterobacter asburiae	0	0.0
+Enterobacter chuandaensis	Enterobacter bugandensis	0	0.0
+Enterobacter chuandaensis	Enterobacter cancerogenus	0	0.0
+Enterobacter chuandaensis	Enterobacter chengduensis	0	0.0
+Enterobacter chuandaensis	Enterobacter chuandaensis	14743817	99.0656908960228
+Enterobacter chuandaensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter chuandaensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter chuandaensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter chuandaensis	Enterobacter hormaechei	0	0.0
+Enterobacter chuandaensis	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter chuandaensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter chuandaensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter chuandaensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter chuandaensis	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter chuandaensis	Enterobacter huaxiensis	0	0.0
+Enterobacter chuandaensis	Enterobacter kobei	2495	0.01676424081942803
+Enterobacter chuandaensis	Enterobacter ludwigii	0	0.0
+Enterobacter chuandaensis	Enterobacter mori	0	0.0
+Enterobacter chuandaensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter chuandaensis	Enterobacter pasteurii	0	0.0
+Enterobacter chuandaensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter chuandaensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter chuandaensis	Enterobacter roggenkampii	0	0.0
+Enterobacter chuandaensis	Enterobacter sichuanensis	0	0.0
+Enterobacter chuandaensis	Enterobacter soli	0	0.0
+Enterobacter chuandaensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter chuandaensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter chuandaensis	Enterobacter wuhouensis	0	0.0
+Enterobacter chuandaensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter chuandaensis	Lelliottia sp. AC1	0	0.0
+Enterobacter chuandaensis	All other calls	136557	0.9175448631577688
+Enterobacter cloacae subsp. cloacae	Enterobacter adelaidei	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter asburiae	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter bugandensis	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter cancerogenus	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter chengduensis	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter chuandaensis	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter cloacae subsp. cloacae	201317956	94.91932819536314
+Enterobacter cloacae subsp. cloacae	Enterobacter cloacae subsp. dissolvens	4854386	2.2887926495785407
+Enterobacter cloacae subsp. cloacae	Enterobacter hormaechei	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter hormaechei subsp. hoffmannii	163703	0.0771842665815936
+Enterobacter cloacae subsp. cloacae	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter huaxiensis	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter kobei	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter ludwigii	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter mori	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter oligotrophicus	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter pasteurii	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter roggenkampii	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter sichuanensis	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter soli	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter wuhouensis	0	0.0
+Enterobacter cloacae subsp. cloacae	Enterobacter xiangfangensis	0	0.0
+Enterobacter cloacae subsp. cloacae	Lelliottia sp. AC1	0	0.0
+Enterobacter cloacae subsp. cloacae	All other calls	5757698	2.714694888476743
+Enterobacter cloacae subsp. dissolvens	Enterobacter adelaidei	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter asburiae	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter bugandensis	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter cancerogenus	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter chengduensis	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter chuandaensis	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter cloacae subsp. dissolvens	15227259	75.45798431450088
+Enterobacter cloacae subsp. dissolvens	Enterobacter hormaechei	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter huaxiensis	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter kobei	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter ludwigii	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter mori	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter oligotrophicus	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter pasteurii	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter roggenkampii	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter sichuanensis	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter soli	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter wuhouensis	0	0.0
+Enterobacter cloacae subsp. dissolvens	Enterobacter xiangfangensis	0	0.0
+Enterobacter cloacae subsp. dissolvens	Lelliottia sp. AC1	0	0.0
+Enterobacter cloacae subsp. dissolvens	All other calls	4952526	24.542015685499127
+Enterobacter hormaechei	Enterobacter adelaidei	0	0.0
+Enterobacter hormaechei	Enterobacter asburiae	0	0.0
+Enterobacter hormaechei	Enterobacter bugandensis	0	0.0
+Enterobacter hormaechei	Enterobacter cancerogenus	0	0.0
+Enterobacter hormaechei	Enterobacter chengduensis	0	0.0
+Enterobacter hormaechei	Enterobacter chuandaensis	0	0.0
+Enterobacter hormaechei	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter hormaechei	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter hormaechei	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter hormaechei	Enterobacter hormaechei	815647	1.2588398850712694
+Enterobacter hormaechei	Enterobacter hormaechei subsp. hoffmannii	1259473	1.943824775387351
+Enterobacter hormaechei	Enterobacter hormaechei subsp. hormaechei	61317438	94.6351014651984
+Enterobacter hormaechei	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter hormaechei	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter hormaechei	Enterobacter hormaechei subsp. xiangfangensis	111400	0.171930704332805
+Enterobacter hormaechei	Enterobacter huaxiensis	0	0.0
+Enterobacter hormaechei	Enterobacter kobei	14970	0.023104152996966703
+Enterobacter hormaechei	Enterobacter ludwigii	0	0.0
+Enterobacter hormaechei	Enterobacter mori	0	0.0
+Enterobacter hormaechei	Enterobacter oligotrophicus	0	0.0
+Enterobacter hormaechei	Enterobacter pasteurii	0	0.0
+Enterobacter hormaechei	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter hormaechei	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter hormaechei	Enterobacter roggenkampii	0	0.0
+Enterobacter hormaechei	Enterobacter sichuanensis	0	0.0
+Enterobacter hormaechei	Enterobacter soli	0	0.0
+Enterobacter hormaechei	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter hormaechei	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter hormaechei	Enterobacter wuhouensis	0	0.0
+Enterobacter hormaechei	Enterobacter xiangfangensis	0	0.0
+Enterobacter hormaechei	Lelliottia sp. AC1	0	0.0
+Enterobacter hormaechei	All other calls	1274618	1.9671990170132068
+Enterobacter huaxiensis	Enterobacter adelaidei	0	0.0
+Enterobacter huaxiensis	Enterobacter asburiae	0	0.0
+Enterobacter huaxiensis	Enterobacter bugandensis	0	0.0
+Enterobacter huaxiensis	Enterobacter cancerogenus	0	0.0
+Enterobacter huaxiensis	Enterobacter chengduensis	0	0.0
+Enterobacter huaxiensis	Enterobacter chuandaensis	0	0.0
+Enterobacter huaxiensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter huaxiensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter huaxiensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter huaxiensis	Enterobacter hormaechei	0	0.0
+Enterobacter huaxiensis	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter huaxiensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter huaxiensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter huaxiensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter huaxiensis	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter huaxiensis	Enterobacter huaxiensis	5037746	100.0
+Enterobacter huaxiensis	Enterobacter kobei	0	0.0
+Enterobacter huaxiensis	Enterobacter ludwigii	0	0.0
+Enterobacter huaxiensis	Enterobacter mori	0	0.0
+Enterobacter huaxiensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter huaxiensis	Enterobacter pasteurii	0	0.0
+Enterobacter huaxiensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter huaxiensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter huaxiensis	Enterobacter roggenkampii	0	0.0
+Enterobacter huaxiensis	Enterobacter sichuanensis	0	0.0
+Enterobacter huaxiensis	Enterobacter soli	0	0.0
+Enterobacter huaxiensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter huaxiensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter huaxiensis	Enterobacter wuhouensis	0	0.0
+Enterobacter huaxiensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter huaxiensis	Lelliottia sp. AC1	0	0.0
+Enterobacter huaxiensis	All other calls	0	0.0
+Enterobacter kobei	Enterobacter adelaidei	0	0.0
+Enterobacter kobei	Enterobacter asburiae	0	0.0
+Enterobacter kobei	Enterobacter bugandensis	0	0.0
+Enterobacter kobei	Enterobacter cancerogenus	0	0.0
+Enterobacter kobei	Enterobacter chengduensis	0	0.0
+Enterobacter kobei	Enterobacter chuandaensis	0	0.0
+Enterobacter kobei	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter kobei	Enterobacter cloacae subsp. cloacae	5194790	1.7775556707175326
+Enterobacter kobei	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter kobei	Enterobacter hormaechei	54700	0.018717271571757284
+Enterobacter kobei	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter kobei	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter kobei	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter kobei	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter kobei	Enterobacter hormaechei subsp. xiangfangensis	1293	0.0004424393444658532
+Enterobacter kobei	Enterobacter huaxiensis	0	0.0
+Enterobacter kobei	Enterobacter kobei	255396063	87.39154423269895
+Enterobacter kobei	Enterobacter ludwigii	10437	0.0035713375392034874
+Enterobacter kobei	Enterobacter mori	0	0.0
+Enterobacter kobei	Enterobacter oligotrophicus	0	0.0
+Enterobacter kobei	Enterobacter pasteurii	0	0.0
+Enterobacter kobei	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter kobei	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter kobei	Enterobacter roggenkampii	55236	0.018900680302332457
+Enterobacter kobei	Enterobacter sichuanensis	0	0.0
+Enterobacter kobei	Enterobacter soli	0	0.0
+Enterobacter kobei	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter kobei	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter kobei	Enterobacter wuhouensis	0	0.0
+Enterobacter kobei	Enterobacter xiangfangensis	0	0.0
+Enterobacter kobei	Lelliottia sp. AC1	0	0.0
+Enterobacter kobei	All other calls	31530930	10.789268367825757
+Enterobacter ludwigii	Enterobacter adelaidei	0	0.0
+Enterobacter ludwigii	Enterobacter asburiae	0	0.0
+Enterobacter ludwigii	Enterobacter bugandensis	0	0.0
+Enterobacter ludwigii	Enterobacter cancerogenus	0	0.0
+Enterobacter ludwigii	Enterobacter chengduensis	0	0.0
+Enterobacter ludwigii	Enterobacter chuandaensis	0	0.0
+Enterobacter ludwigii	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter ludwigii	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter ludwigii	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter ludwigii	Enterobacter hormaechei	0	0.0
+Enterobacter ludwigii	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter ludwigii	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter ludwigii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter ludwigii	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter ludwigii	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter ludwigii	Enterobacter huaxiensis	0	0.0
+Enterobacter ludwigii	Enterobacter kobei	2495	0.000889633532955688
+Enterobacter ludwigii	Enterobacter ludwigii	245367927	87.48999429700335
+Enterobacter ludwigii	Enterobacter mori	0	0.0
+Enterobacter ludwigii	Enterobacter oligotrophicus	0	0.0
+Enterobacter ludwigii	Enterobacter pasteurii	0	0.0
+Enterobacter ludwigii	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter ludwigii	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter ludwigii	Enterobacter roggenkampii	0	0.0
+Enterobacter ludwigii	Enterobacter sichuanensis	0	0.0
+Enterobacter ludwigii	Enterobacter soli	0	0.0
+Enterobacter ludwigii	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter ludwigii	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter ludwigii	Enterobacter wuhouensis	0	0.0
+Enterobacter ludwigii	Enterobacter xiangfangensis	0	0.0
+Enterobacter ludwigii	Lelliottia sp. AC1	0	0.0
+Enterobacter ludwigii	All other calls	35082136	12.5091160694637
+Enterobacter mori	Enterobacter adelaidei	0	0.0
+Enterobacter mori	Enterobacter asburiae	0	0.0
+Enterobacter mori	Enterobacter bugandensis	0	0.0
+Enterobacter mori	Enterobacter cancerogenus	0	0.0
+Enterobacter mori	Enterobacter chengduensis	0	0.0
+Enterobacter mori	Enterobacter chuandaensis	0	0.0
+Enterobacter mori	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter mori	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter mori	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter mori	Enterobacter hormaechei	213376	0.2686069571588671
+Enterobacter mori	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter mori	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter mori	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter mori	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter mori	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter mori	Enterobacter huaxiensis	0	0.0
+Enterobacter mori	Enterobacter kobei	0	0.0
+Enterobacter mori	Enterobacter ludwigii	0	0.0
+Enterobacter mori	Enterobacter mori	73730426	92.81505594765589
+Enterobacter mori	Enterobacter oligotrophicus	0	0.0
+Enterobacter mori	Enterobacter pasteurii	0	0.0
+Enterobacter mori	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter mori	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter mori	Enterobacter roggenkampii	4450	0.005601852876410462
+Enterobacter mori	Enterobacter sichuanensis	0	0.0
+Enterobacter mori	Enterobacter soli	0	0.0
+Enterobacter mori	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter mori	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter mori	Enterobacter wuhouensis	0	0.0
+Enterobacter mori	Enterobacter xiangfangensis	0	0.0
+Enterobacter mori	Lelliottia sp. AC1	0	0.0
+Enterobacter mori	All other calls	5489750	6.910735242308838
+Enterobacter oligotrophicus	Enterobacter adelaidei	0	0.0
+Enterobacter oligotrophicus	Enterobacter asburiae	0	0.0
+Enterobacter oligotrophicus	Enterobacter bugandensis	0	0.0
+Enterobacter oligotrophicus	Enterobacter cancerogenus	0	0.0
+Enterobacter oligotrophicus	Enterobacter chengduensis	0	0.0
+Enterobacter oligotrophicus	Enterobacter chuandaensis	0	0.0
+Enterobacter oligotrophicus	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter oligotrophicus	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter oligotrophicus	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter oligotrophicus	Enterobacter hormaechei	0	0.0
+Enterobacter oligotrophicus	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter oligotrophicus	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter oligotrophicus	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter oligotrophicus	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter oligotrophicus	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter oligotrophicus	Enterobacter huaxiensis	0	0.0
+Enterobacter oligotrophicus	Enterobacter kobei	0	0.0
+Enterobacter oligotrophicus	Enterobacter ludwigii	0	0.0
+Enterobacter oligotrophicus	Enterobacter mori	0	0.0
+Enterobacter oligotrophicus	Enterobacter oligotrophicus	9119057	100.0
+Enterobacter oligotrophicus	Enterobacter pasteurii	0	0.0
+Enterobacter oligotrophicus	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter oligotrophicus	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter oligotrophicus	Enterobacter roggenkampii	0	0.0
+Enterobacter oligotrophicus	Enterobacter sichuanensis	0	0.0
+Enterobacter oligotrophicus	Enterobacter soli	0	0.0
+Enterobacter oligotrophicus	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter oligotrophicus	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter oligotrophicus	Enterobacter wuhouensis	0	0.0
+Enterobacter oligotrophicus	Enterobacter xiangfangensis	0	0.0
+Enterobacter oligotrophicus	Lelliottia sp. AC1	0	0.0
+Enterobacter oligotrophicus	All other calls	0	0.0
+Enterobacter pasteurii	Enterobacter adelaidei	0	0.0
+Enterobacter pasteurii	Enterobacter asburiae	0	0.0
+Enterobacter pasteurii	Enterobacter bugandensis	0	0.0
+Enterobacter pasteurii	Enterobacter cancerogenus	0	0.0
+Enterobacter pasteurii	Enterobacter chengduensis	0	0.0
+Enterobacter pasteurii	Enterobacter chuandaensis	0	0.0
+Enterobacter pasteurii	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter pasteurii	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter pasteurii	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter pasteurii	Enterobacter hormaechei	0	0.0
+Enterobacter pasteurii	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter pasteurii	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter pasteurii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter pasteurii	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter pasteurii	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter pasteurii	Enterobacter huaxiensis	0	0.0
+Enterobacter pasteurii	Enterobacter kobei	0	0.0
+Enterobacter pasteurii	Enterobacter ludwigii	0	0.0
+Enterobacter pasteurii	Enterobacter mori	0	0.0
+Enterobacter pasteurii	Enterobacter oligotrophicus	0	0.0
+Enterobacter pasteurii	Enterobacter pasteurii	5061623	100.0
+Enterobacter pasteurii	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter pasteurii	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter pasteurii	Enterobacter roggenkampii	0	0.0
+Enterobacter pasteurii	Enterobacter sichuanensis	0	0.0
+Enterobacter pasteurii	Enterobacter soli	0	0.0
+Enterobacter pasteurii	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter pasteurii	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter pasteurii	Enterobacter wuhouensis	0	0.0
+Enterobacter pasteurii	Enterobacter xiangfangensis	0	0.0
+Enterobacter pasteurii	Lelliottia sp. AC1	0	0.0
+Enterobacter pasteurii	All other calls	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter adelaidei	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter asburiae	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter bugandensis	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter cancerogenus	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter chengduensis	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter chuandaensis	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter hormaechei	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter huaxiensis	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter kobei	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter ludwigii	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter mori	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter oligotrophicus	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter pasteurii	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter pseudoroggenkampii	19351103	100.0
+Enterobacter pseudoroggenkampii	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter roggenkampii	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter sichuanensis	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter soli	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter wuhouensis	0	0.0
+Enterobacter pseudoroggenkampii	Enterobacter xiangfangensis	0	0.0
+Enterobacter pseudoroggenkampii	Lelliottia sp. AC1	0	0.0
+Enterobacter pseudoroggenkampii	All other calls	0	0.0
+Enterobacter quasihormaechei	Enterobacter adelaidei	0	0.0
+Enterobacter quasihormaechei	Enterobacter asburiae	0	0.0
+Enterobacter quasihormaechei	Enterobacter bugandensis	0	0.0
+Enterobacter quasihormaechei	Enterobacter cancerogenus	0	0.0
+Enterobacter quasihormaechei	Enterobacter chengduensis	0	0.0
+Enterobacter quasihormaechei	Enterobacter chuandaensis	0	0.0
+Enterobacter quasihormaechei	Enterobacter cloacae complex sp.	14004350	97.4652703396598
+Enterobacter quasihormaechei	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter quasihormaechei	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter quasihormaechei	Enterobacter hormaechei	0	0.0
+Enterobacter quasihormaechei	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter quasihormaechei	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter quasihormaechei	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter quasihormaechei	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter quasihormaechei	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter quasihormaechei	Enterobacter huaxiensis	0	0.0
+Enterobacter quasihormaechei	Enterobacter kobei	0	0.0
+Enterobacter quasihormaechei	Enterobacter ludwigii	0	0.0
+Enterobacter quasihormaechei	Enterobacter mori	0	0.0
+Enterobacter quasihormaechei	Enterobacter oligotrophicus	0	0.0
+Enterobacter quasihormaechei	Enterobacter pasteurii	0	0.0
+Enterobacter quasihormaechei	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter quasihormaechei	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter quasihormaechei	Enterobacter roggenkampii	0	0.0
+Enterobacter quasihormaechei	Enterobacter sichuanensis	0	0.0
+Enterobacter quasihormaechei	Enterobacter soli	0	0.0
+Enterobacter quasihormaechei	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter quasihormaechei	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter quasihormaechei	Enterobacter wuhouensis	0	0.0
+Enterobacter quasihormaechei	Enterobacter xiangfangensis	0	0.0
+Enterobacter quasihormaechei	Lelliottia sp. AC1	0	0.0
+Enterobacter quasihormaechei	All other calls	364204	2.5347296603402123
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter adelaidei	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter asburiae	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter bugandensis	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter cancerogenus	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter chengduensis	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter chuandaensis	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter hormaechei	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter huaxiensis	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter kobei	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter ludwigii	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter mori	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter oligotrophicus	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter pasteurii	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter quasiroggenkampii	9439210	38.61917054871592
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter roggenkampii	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter sichuanensis	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter soli	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter wuhouensis	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter xiangfangensis	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	Lelliottia sp. AC1	0	0.0
+Enterobacter roggenkampii subsp. quasiroggenkampii	All other calls	15002563	61.38082945128408
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter adelaidei	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter asburiae	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter bugandensis	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter cancerogenus	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter chengduensis	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter chuandaensis	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei	52363	0.012913908327606896
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei subsp. hoffmannii	119757	0.029534803574837558
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei subsp. xiangfangensis	465882	0.11489711130917167
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter huaxiensis	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter kobei	16977	0.004186914838297696
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter ludwigii	5410	0.0013342292086464356
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter mori	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter oligotrophicus	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter pasteurii	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter roggenkampii	400162400	98.68916123513095
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter sichuanensis	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter soli	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter wuhouensis	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter xiangfangensis	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	Lelliottia sp. AC1	0	0.0
+Enterobacter roggenkampii subsp. roggenkampii	All other calls	4654768	1.1479717976104902
+Enterobacter sichuanensis	Enterobacter adelaidei	0	0.0
+Enterobacter sichuanensis	Enterobacter asburiae	0	0.0
+Enterobacter sichuanensis	Enterobacter bugandensis	0	0.0
+Enterobacter sichuanensis	Enterobacter cancerogenus	0	0.0
+Enterobacter sichuanensis	Enterobacter chengduensis	0	0.0
+Enterobacter sichuanensis	Enterobacter chuandaensis	0	0.0
+Enterobacter sichuanensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter sichuanensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter sichuanensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter sichuanensis	Enterobacter hormaechei	0	0.0
+Enterobacter sichuanensis	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter sichuanensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter sichuanensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter sichuanensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter sichuanensis	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter sichuanensis	Enterobacter huaxiensis	0	0.0
+Enterobacter sichuanensis	Enterobacter kobei	0	0.0
+Enterobacter sichuanensis	Enterobacter ludwigii	0	0.0
+Enterobacter sichuanensis	Enterobacter mori	0	0.0
+Enterobacter sichuanensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter sichuanensis	Enterobacter pasteurii	0	0.0
+Enterobacter sichuanensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter sichuanensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter sichuanensis	Enterobacter roggenkampii	0	0.0
+Enterobacter sichuanensis	Enterobacter sichuanensis	24729544	99.57153654276338
+Enterobacter sichuanensis	Enterobacter soli	0	0.0
+Enterobacter sichuanensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter sichuanensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter sichuanensis	Enterobacter wuhouensis	0	0.0
+Enterobacter sichuanensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter sichuanensis	Lelliottia sp. AC1	0	0.0
+Enterobacter sichuanensis	All other calls	106413	0.42846345723661866
+Enterobacter soli	Enterobacter adelaidei	0	0.0
+Enterobacter soli	Enterobacter asburiae	0	0.0
+Enterobacter soli	Enterobacter bugandensis	0	0.0
+Enterobacter soli	Enterobacter cancerogenus	0	0.0
+Enterobacter soli	Enterobacter chengduensis	0	0.0
+Enterobacter soli	Enterobacter chuandaensis	0	0.0
+Enterobacter soli	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter soli	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter soli	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter soli	Enterobacter hormaechei	0	0.0
+Enterobacter soli	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter soli	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter soli	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter soli	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter soli	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter soli	Enterobacter huaxiensis	0	0.0
+Enterobacter soli	Enterobacter kobei	0	0.0
+Enterobacter soli	Enterobacter ludwigii	0	0.0
+Enterobacter soli	Enterobacter mori	0	0.0
+Enterobacter soli	Enterobacter oligotrophicus	0	0.0
+Enterobacter soli	Enterobacter pasteurii	0	0.0
+Enterobacter soli	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter soli	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter soli	Enterobacter roggenkampii	0	0.0
+Enterobacter soli	Enterobacter sichuanensis	0	0.0
+Enterobacter soli	Enterobacter soli	15458695	75.57278102077234
+Enterobacter soli	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter soli	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter soli	Enterobacter wuhouensis	0	0.0
+Enterobacter soli	Enterobacter xiangfangensis	0	0.0
+Enterobacter soli	Lelliottia sp. AC1	0	0.0
+Enterobacter soli	All other calls	4996679	24.427218979227657
+Enterobacter sp.	Enterobacter adelaidei	0	0.0
+Enterobacter sp.	Enterobacter asburiae	0	0.0
+Enterobacter sp.	Enterobacter bugandensis	0	0.0
+Enterobacter sp.	Enterobacter cancerogenus	0	0.0
+Enterobacter sp.	Enterobacter chengduensis	0	0.0
+Enterobacter sp.	Enterobacter chuandaensis	0	0.0
+Enterobacter sp.	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter sp.	Enterobacter cloacae subsp. cloacae	4866809	14.124589632208185
+Enterobacter sp.	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter sp.	Enterobacter hormaechei	111340	0.3231340719658526
+Enterobacter sp.	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter sp.	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter sp.	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter sp.	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter sp.	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter sp.	Enterobacter huaxiensis	0	0.0
+Enterobacter sp.	Enterobacter kobei	9296	0.02697911202617717
+Enterobacter sp.	Enterobacter ludwigii	0	0.0
+Enterobacter sp.	Enterobacter mori	0	0.0
+Enterobacter sp.	Enterobacter oligotrophicus	0	0.0
+Enterobacter sp.	Enterobacter pasteurii	0	0.0
+Enterobacter sp.	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter sp.	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter sp.	Enterobacter roggenkampii	0	0.0
+Enterobacter sp.	Enterobacter sichuanensis	0	0.0
+Enterobacter sp.	Enterobacter soli	0	0.0
+Enterobacter sp.	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter sp.	Enterobacter sp. JBIWA008	5075449	14.730110494207066
+Enterobacter sp.	Enterobacter wuhouensis	0	0.0
+Enterobacter sp.	Enterobacter xiangfangensis	0	0.0
+Enterobacter sp.	Lelliottia sp. AC1	0	0.0
+Enterobacter sp.	All other calls	24393392	70.79518668959271
+Enterobacter vonholyi	Enterobacter adelaidei	0	0.0
+Enterobacter vonholyi	Enterobacter asburiae	0	0.0
+Enterobacter vonholyi	Enterobacter bugandensis	0	0.0
+Enterobacter vonholyi	Enterobacter cancerogenus	0	0.0
+Enterobacter vonholyi	Enterobacter chengduensis	0	0.0
+Enterobacter vonholyi	Enterobacter chuandaensis	0	0.0
+Enterobacter vonholyi	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter vonholyi	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter vonholyi	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter vonholyi	Enterobacter hormaechei	0	0.0
+Enterobacter vonholyi	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter vonholyi	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter vonholyi	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter vonholyi	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter vonholyi	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter vonholyi	Enterobacter huaxiensis	0	0.0
+Enterobacter vonholyi	Enterobacter kobei	0	0.0
+Enterobacter vonholyi	Enterobacter ludwigii	0	0.0
+Enterobacter vonholyi	Enterobacter mori	0	0.0
+Enterobacter vonholyi	Enterobacter oligotrophicus	0	0.0
+Enterobacter vonholyi	Enterobacter pasteurii	0	0.0
+Enterobacter vonholyi	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter vonholyi	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter vonholyi	Enterobacter roggenkampii	0	0.0
+Enterobacter vonholyi	Enterobacter sichuanensis	0	0.0
+Enterobacter vonholyi	Enterobacter soli	0	0.0
+Enterobacter vonholyi	Enterobacter sp. JBIWA005	5019735	17.807786230576603
+Enterobacter vonholyi	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter vonholyi	Enterobacter wuhouensis	0	0.0
+Enterobacter vonholyi	Enterobacter xiangfangensis	0	0.0
+Enterobacter vonholyi	Lelliottia sp. AC1	0	0.0
+Enterobacter vonholyi	All other calls	23168693	82.19221376942339
+Enterobacter wuhouensis	Enterobacter adelaidei	0	0.0
+Enterobacter wuhouensis	Enterobacter asburiae	0	0.0
+Enterobacter wuhouensis	Enterobacter bugandensis	0	0.0
+Enterobacter wuhouensis	Enterobacter cancerogenus	0	0.0
+Enterobacter wuhouensis	Enterobacter chengduensis	0	0.0
+Enterobacter wuhouensis	Enterobacter chuandaensis	0	0.0
+Enterobacter wuhouensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter wuhouensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter wuhouensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter wuhouensis	Enterobacter hormaechei	0	0.0
+Enterobacter wuhouensis	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Enterobacter wuhouensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter wuhouensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter wuhouensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter wuhouensis	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Enterobacter wuhouensis	Enterobacter huaxiensis	0	0.0
+Enterobacter wuhouensis	Enterobacter kobei	0	0.0
+Enterobacter wuhouensis	Enterobacter ludwigii	0	0.0
+Enterobacter wuhouensis	Enterobacter mori	0	0.0
+Enterobacter wuhouensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter wuhouensis	Enterobacter pasteurii	0	0.0
+Enterobacter wuhouensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter wuhouensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter wuhouensis	Enterobacter roggenkampii	0	0.0
+Enterobacter wuhouensis	Enterobacter sichuanensis	0	0.0
+Enterobacter wuhouensis	Enterobacter soli	0	0.0
+Enterobacter wuhouensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter wuhouensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter wuhouensis	Enterobacter wuhouensis	9753838	100.0
+Enterobacter wuhouensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter wuhouensis	Lelliottia sp. AC1	0	0.0
+Enterobacter wuhouensis	All other calls	0	0.0
+Enterobacter xiangfangensis	Enterobacter adelaidei	0	0.0
+Enterobacter xiangfangensis	Enterobacter asburiae	0	0.0
+Enterobacter xiangfangensis	Enterobacter bugandensis	0	0.0
+Enterobacter xiangfangensis	Enterobacter cancerogenus	0	0.0
+Enterobacter xiangfangensis	Enterobacter chengduensis	0	0.0
+Enterobacter xiangfangensis	Enterobacter chuandaensis	0	0.0
+Enterobacter xiangfangensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter xiangfangensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter xiangfangensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter xiangfangensis	Enterobacter hormaechei	0	0.0
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. hoffmannii	209857	4.273136014768247
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. xiangfangensis	4701220	95.72686398523174
+Enterobacter xiangfangensis	Enterobacter huaxiensis	0	0.0
+Enterobacter xiangfangensis	Enterobacter kobei	0	0.0
+Enterobacter xiangfangensis	Enterobacter ludwigii	0	0.0
+Enterobacter xiangfangensis	Enterobacter mori	0	0.0
+Enterobacter xiangfangensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter xiangfangensis	Enterobacter pasteurii	0	0.0
+Enterobacter xiangfangensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter xiangfangensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter xiangfangensis	Enterobacter roggenkampii	0	0.0
+Enterobacter xiangfangensis	Enterobacter sichuanensis	0	0.0
+Enterobacter xiangfangensis	Enterobacter soli	0	0.0
+Enterobacter xiangfangensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter xiangfangensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter xiangfangensis	Enterobacter wuhouensis	0	0.0
+Enterobacter xiangfangensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis	Lelliottia sp. AC1	0	0.0
+Enterobacter xiangfangensis	All other calls	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter adelaidei	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter asburiae	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter bugandensis	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter cancerogenus	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter chengduensis	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter chuandaensis	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei	12709568	1.455797643434804
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. hoffmannii	97878157	11.211300832911217
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. hormaechei	4772538	0.5466629214779803
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. steigerwaltii	196573	0.022516147689906507
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. xiangfangensis	718799797	82.3338016346437
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter huaxiensis	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter kobei	77342	0.008859018759609658
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter ludwigii	229030	0.026233884131693
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter mori	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter oligotrophicus	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter pasteurii	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter roggenkampii	103280	0.011830046514086597
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter sichuanensis	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter soli	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter wuhouensis	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Lelliottia sp. AC1	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	All other calls	38264940	4.382997870436993
+Enterobacter xiangfangensis subsp. oharae	Enterobacter adelaidei	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter asburiae	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter bugandensis	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter cancerogenus	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter chengduensis	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter chuandaensis	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei	619828	0.7030226772076439
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. hoffmannii	1491029	1.6911581912631182
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. oharae	9451130	10.719681452334322
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. xiangfangensis	75652228	85.80643640700819
+Enterobacter xiangfangensis subsp. oharae	Enterobacter huaxiensis	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter kobei	14978	0.01698838009773048
+Enterobacter xiangfangensis subsp. oharae	Enterobacter ludwigii	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter mori	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter oligotrophicus	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter pasteurii	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter roggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter sichuanensis	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter soli	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter wuhouensis	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Lelliottia sp. AC1	0	0.0
+Enterobacter xiangfangensis subsp. oharae	All other calls	936953	1.0627128920889886
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter adelaidei	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter asburiae	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter bugandensis	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter cancerogenus	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter chengduensis	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter chuandaensis	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter cloacae complex sp.	169923	0.012979653412676767
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei	16042521	1.2254159969255998
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. hoffmannii	24858005	1.8987911549971819
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. steigerwaltii	70004913	5.347360321584424
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. xiangfangensis	1159915138	88.60069843021334
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter huaxiensis	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter kobei	73315	0.00560020297399644
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter ludwigii	5410	0.0004132455580620711
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter mori	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter oligotrophicus	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter pasteurii	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter roggenkampii	304567	0.023264502750885544
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter sichuanensis	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter soli	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter wuhouensis	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Lelliottia sp. AC1	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	All other calls	37775186	2.885476491583833
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter adelaidei	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter asburiae	78374	0.00959662143285877
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter bugandensis	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter cancerogenus	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter chengduensis	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter chuandaensis	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter cloacae complex sp.	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter cloacae subsp. cloacae	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei	3817042	0.46738340606989703
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. hoffmannii	9181313	1.124219576869687
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. steigerwaltii	677604	0.0829702333604363
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. xiangfangensis	760666685	93.14096782775705
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter huaxiensis	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter kobei	90713	0.011107488708486457
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter ludwigii	10822	0.0013251159459310182
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter mori	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter oligotrophicus	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter pasteurii	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter pseudoroggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter quasiroggenkampii	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter roggenkampii	76268	0.00933874911885667
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter sichuanensis	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter soli	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter sp. JBIWA005	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter sp. JBIWA008	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter wuhouensis	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Lelliottia sp. AC1	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	All other calls	42084431	5.153090980736801
+Lelliottia nimipressuralis	Enterobacter adelaidei	0	0.0
+Lelliottia nimipressuralis	Enterobacter asburiae	0	0.0
+Lelliottia nimipressuralis	Enterobacter bugandensis	0	0.0
+Lelliottia nimipressuralis	Enterobacter cancerogenus	0	0.0
+Lelliottia nimipressuralis	Enterobacter chengduensis	0	0.0
+Lelliottia nimipressuralis	Enterobacter chuandaensis	0	0.0
+Lelliottia nimipressuralis	Enterobacter cloacae complex sp.	0	0.0
+Lelliottia nimipressuralis	Enterobacter cloacae subsp. cloacae	0	0.0
+Lelliottia nimipressuralis	Enterobacter cloacae subsp. dissolvens	0	0.0
+Lelliottia nimipressuralis	Enterobacter hormaechei	0	0.0
+Lelliottia nimipressuralis	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Lelliottia nimipressuralis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Lelliottia nimipressuralis	Enterobacter hormaechei subsp. oharae	0	0.0
+Lelliottia nimipressuralis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Lelliottia nimipressuralis	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Lelliottia nimipressuralis	Enterobacter huaxiensis	0	0.0
+Lelliottia nimipressuralis	Enterobacter kobei	0	0.0
+Lelliottia nimipressuralis	Enterobacter ludwigii	154491	3.2981622722053974
+Lelliottia nimipressuralis	Enterobacter mori	0	0.0
+Lelliottia nimipressuralis	Enterobacter oligotrophicus	0	0.0
+Lelliottia nimipressuralis	Enterobacter pasteurii	0	0.0
+Lelliottia nimipressuralis	Enterobacter pseudoroggenkampii	0	0.0
+Lelliottia nimipressuralis	Enterobacter quasiroggenkampii	0	0.0
+Lelliottia nimipressuralis	Enterobacter roggenkampii	0	0.0
+Lelliottia nimipressuralis	Enterobacter sichuanensis	0	0.0
+Lelliottia nimipressuralis	Enterobacter soli	0	0.0
+Lelliottia nimipressuralis	Enterobacter sp. JBIWA005	0	0.0
+Lelliottia nimipressuralis	Enterobacter sp. JBIWA008	0	0.0
+Lelliottia nimipressuralis	Enterobacter wuhouensis	0	0.0
+Lelliottia nimipressuralis	Enterobacter xiangfangensis	0	0.0
+Lelliottia nimipressuralis	Lelliottia sp. AC1	4529663	96.7018377277946
+Lelliottia nimipressuralis	All other calls	0	0.0
+Species unassigned	Enterobacter adelaidei	0	0.0
+Species unassigned	Enterobacter asburiae	0	0.0
+Species unassigned	Enterobacter bugandensis	0	0.0
+Species unassigned	Enterobacter cancerogenus	0	0.0
+Species unassigned	Enterobacter chengduensis	0	0.0
+Species unassigned	Enterobacter chuandaensis	0	0.0
+Species unassigned	Enterobacter cloacae complex sp.	0	0.0
+Species unassigned	Enterobacter cloacae subsp. cloacae	0	0.0
+Species unassigned	Enterobacter cloacae subsp. dissolvens	9330336	11.977726082991998
+Species unassigned	Enterobacter hormaechei	3811	0.004892333363158894
+Species unassigned	Enterobacter hormaechei subsp. hoffmannii	0	0.0
+Species unassigned	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Species unassigned	Enterobacter hormaechei subsp. oharae	0	0.0
+Species unassigned	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Species unassigned	Enterobacter hormaechei subsp. xiangfangensis	0	0.0
+Species unassigned	Enterobacter huaxiensis	0	0.0
+Species unassigned	Enterobacter kobei	9518536	12.219325962012334
+Species unassigned	Enterobacter ludwigii	0	0.0
+Species unassigned	Enterobacter mori	0	0.0
+Species unassigned	Enterobacter oligotrophicus	0	0.0
+Species unassigned	Enterobacter pasteurii	0	0.0
+Species unassigned	Enterobacter pseudoroggenkampii	0	0.0
+Species unassigned	Enterobacter quasiroggenkampii	0	0.0
+Species unassigned	Enterobacter roggenkampii	0	0.0
+Species unassigned	Enterobacter sichuanensis	0	0.0
+Species unassigned	Enterobacter soli	0	0.0
+Species unassigned	Enterobacter sp. JBIWA005	0	0.0
+Species unassigned	Enterobacter sp. JBIWA008	0	0.0
+Species unassigned	Enterobacter wuhouensis	0	0.0
+Species unassigned	Enterobacter xiangfangensis	0	0.0
+Species unassigned	Lelliottia sp. AC1	0	0.0
+Species unassigned	All other calls	59044707	75.79805562163251

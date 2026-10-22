@@ -1,0 +1,34 @@
+[
+  {
+    "mode": "native",
+    "confidence": "0",
+    "assemblies": 1070,
+    "sequences": 3906,
+    "bases": 5382995503,
+    "status": "PASS"
+  },
+  {
+    "mode": "native",
+    "confidence": "0.1",
+    "assemblies": 1070,
+    "sequences": 3906,
+    "bases": 5382995503,
+    "status": "PASS"
+  },
+  {
+    "mode": "fragments150",
+    "confidence": "0",
+    "assemblies": 1070,
+    "sequences": 35888508,
+    "bases": 5382995503,
+    "status": "PASS"
+  },
+  {
+    "mode": "fragments150",
+    "confidence": "0.1",
+    "assemblies": 1070,
+    "sequences": 35888508,
+    "bases": 5382995503,
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,3 @@
+a938a874c9cbc479c655e40438be79cb63c73a7ebbffc126fa50240b823d7b2a  ${USER_HOME}/sw/miniforge3/envs/kraken/bin/kraken2
+c1300aa4d93b5a67b427c66ba73b240376061fd48f3bbc5d2822a5359249a713  ${USER_HOME}/sw/miniforge3/envs/kraken/share/kraken2-2.1.6/libexec/classify
+2a752119a2d7d83ebe115afe4d0d167155da05494b21a3976273eaf0cec3bdfb  ${USER_HOME}/sw/miniforge3/envs/kraken/share/kraken2-2.1.6/libexec/kraken2lib.pm

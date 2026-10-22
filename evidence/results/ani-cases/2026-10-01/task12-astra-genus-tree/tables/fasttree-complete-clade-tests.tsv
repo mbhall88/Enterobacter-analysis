@@ -1,0 +1,13 @@
+tree	test	exact_clade	tip_count	support	descendants
+primary-full80-fasttree.nwk	cloacae_P_pair	True	2	1.0	GCA_014169315.1;GCA_015708675.1
+primary-full80-fasttree.nwk	nimipressuralis_control	True	2	1.0	GCA_013898335.1;GCF_004115925.1
+primary-full80-fasttree.nwk	ECC175_new_neighbour	True	2	1.0	GCA_043968675.1;GCF_041399425.1
+canonical-masked-fasttree.nwk	cloacae_P_pair	True	2		GCA_014169315.1;GCA_015708675.1
+canonical-masked-fasttree.nwk	nimipressuralis_control	True	2	0.929	GCA_013898335.1;GCF_004115925.1
+canonical-masked-fasttree.nwk	ECC175_new_neighbour	True	2	0.947	GCA_043968675.1;GCF_041399425.1
+candidates-masked-fasttree.nwk	cloacae_P_pair	True	2		GCA_014169315.1;GCA_015708675.1
+candidates-masked-fasttree.nwk	nimipressuralis_control	True	2	0.929	GCA_013898335.1;GCF_004115925.1
+candidates-masked-fasttree.nwk	ECC175_new_neighbour	True	2	0.949	GCA_043968675.1;GCF_041399425.1
+primary-full80-no-composition-outlier-fasttree.nwk	cloacae_P_pair	True	2	1.0	GCA_014169315.1;GCA_015708675.1
+primary-full80-no-composition-outlier-fasttree.nwk	nimipressuralis_control	True	2	1.0	GCA_013898335.1;GCF_004115925.1
+primary-full80-no-composition-outlier-fasttree.nwk	ECC175_new_neighbour	True	2	1.0	GCA_043968675.1;GCF_041399425.1

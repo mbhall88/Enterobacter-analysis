@@ -1,0 +1,278 @@
+{
+  "bac120_fasttree": {
+    "tips": [
+      "GCA_001654845.1",
+      "GCA_001984825.2",
+      "GCA_034008275.1",
+      "GCA_026344075.1",
+      "GCA_019046905.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.011664,
+        "confidence": 0.922,
+        "descendants": [
+          "GCA_001654845.1",
+          "GCA_001984825.2",
+          "GCA_019046905.1",
+          "GCA_026344075.1",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": "GCA_001654845.1",
+        "length": 0.020732999999999998,
+        "confidence": null,
+        "descendants": [
+          "GCA_001654845.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.004822,
+        "confidence": 0.986,
+        "descendants": [
+          "GCA_001984825.2",
+          "GCA_019046905.1",
+          "GCA_026344075.1",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.004611,
+        "confidence": 1.0,
+        "descendants": [
+          "GCA_001984825.2",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": "GCA_001984825.2",
+        "length": 0.002615,
+        "confidence": null,
+        "descendants": [
+          "GCA_001984825.2"
+        ]
+      },
+      {
+        "name": "GCA_034008275.1",
+        "length": 0.002782,
+        "confidence": null,
+        "descendants": [
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.0054529999999999995,
+        "confidence": 1.0,
+        "descendants": [
+          "GCA_019046905.1",
+          "GCA_026344075.1"
+        ]
+      },
+      {
+        "name": "GCA_026344075.1",
+        "length": 0.001331,
+        "confidence": null,
+        "descendants": [
+          "GCA_026344075.1"
+        ]
+      },
+      {
+        "name": "GCA_019046905.1",
+        "length": 0.002499,
+        "confidence": null,
+        "descendants": [
+          "GCA_019046905.1"
+        ]
+      }
+    ]
+  },
+  "verticall_fastme": {
+    "tips": [
+      "GCA_001984825.2",
+      "GCA_034008275.1",
+      "GCA_019046905.1",
+      "GCA_026344075.1",
+      "GCA_001654845.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.014526,
+        "confidence": null,
+        "descendants": [
+          "GCA_001654845.1",
+          "GCA_001984825.2",
+          "GCA_019046905.1",
+          "GCA_026344075.1",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.022677,
+        "confidence": null,
+        "descendants": [
+          "GCA_001984825.2",
+          "GCA_019046905.1",
+          "GCA_026344075.1",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.025169999999999998,
+        "confidence": null,
+        "descendants": [
+          "GCA_001984825.2",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": "GCA_001984825.2",
+        "length": 0.020685,
+        "confidence": null,
+        "descendants": [
+          "GCA_001984825.2"
+        ]
+      },
+      {
+        "name": "GCA_034008275.1",
+        "length": 0.020695,
+        "confidence": null,
+        "descendants": [
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.025518,
+        "confidence": null,
+        "descendants": [
+          "GCA_019046905.1",
+          "GCA_026344075.1"
+        ]
+      },
+      {
+        "name": "GCA_019046905.1",
+        "length": 0.02266,
+        "confidence": null,
+        "descendants": [
+          "GCA_019046905.1"
+        ]
+      },
+      {
+        "name": "GCA_026344075.1",
+        "length": 0.017483,
+        "confidence": null,
+        "descendants": [
+          "GCA_026344075.1"
+        ]
+      },
+      {
+        "name": "GCA_001654845.1",
+        "length": 0.069459,
+        "confidence": null,
+        "descendants": [
+          "GCA_001654845.1"
+        ]
+      }
+    ]
+  },
+  "mashtree_consensus": {
+    "tips": [
+      "GCA_001984825.2",
+      "GCA_034008275.1",
+      "GCA_019046905.1",
+      "GCA_026344075.1",
+      "GCA_001654845.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.007325,
+        "confidence": 0.745,
+        "descendants": [
+          "GCA_001654845.1",
+          "GCA_001984825.2",
+          "GCA_019046905.1",
+          "GCA_026344075.1",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.014348999999999999,
+        "confidence": 0.919,
+        "descendants": [
+          "GCA_001984825.2",
+          "GCA_019046905.1",
+          "GCA_026344075.1",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.023147,
+        "confidence": 1,
+        "descendants": [
+          "GCA_001984825.2",
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": "GCA_001984825.2",
+        "length": 0.020322,
+        "confidence": null,
+        "descendants": [
+          "GCA_001984825.2"
+        ]
+      },
+      {
+        "name": "GCA_034008275.1",
+        "length": 0.022028,
+        "confidence": null,
+        "descendants": [
+          "GCA_034008275.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.013184,
+        "confidence": 1,
+        "descendants": [
+          "GCA_019046905.1",
+          "GCA_026344075.1"
+        ]
+      },
+      {
+        "name": "GCA_019046905.1",
+        "length": 0.020129,
+        "confidence": null,
+        "descendants": [
+          "GCA_019046905.1"
+        ]
+      },
+      {
+        "name": "GCA_026344075.1",
+        "length": 0.023735,
+        "confidence": null,
+        "descendants": [
+          "GCA_026344075.1"
+        ]
+      },
+      {
+        "name": "GCA_001654845.1",
+        "length": 0.058632,
+        "confidence": null,
+        "descendants": [
+          "GCA_001654845.1"
+        ]
+      }
+    ]
+  }
+}

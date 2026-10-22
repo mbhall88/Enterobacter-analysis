@@ -1,0 +1,312 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Input file name: results/ani-cases/2026-10-02/task12-astra-focused-scope/trees/canonical-plus.faa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 20261002
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 51 sequences with 5010 amino-acid sites
+Number of constant sites: 4950 (= 98.8024% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4950 (= 98.8024% of all sites)
+Number of parsimony informative sites: 34
+Number of distinct site patterns: 225
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0745
+  pi(R) = 0.0317
+  pi(N) = 0.0352
+  pi(D) = 0.0526
+  pi(C) = 0.0080
+  pi(Q) = 0.0276
+  pi(E) = 0.0610
+  pi(G) = 0.0271
+  pi(H) = 0.0220
+  pi(I) = 0.0827
+  pi(L) = 0.1276
+  pi(K) = 0.0353
+  pi(M) = 0.0308
+  pi(F) = 0.0747
+  pi(P) = 0.0424
+  pi(S) = 0.0630
+  pi(T) = 0.0704
+  pi(W) = 0.0143
+  pi(Y) = 0.0422
+  pi(V) = 0.0767
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.0200
+
+ Category  Relative_rate  Proportion
+  1         0.0000         0.2500
+  2         0.0000         0.2500
+  3         0.0000         0.2500
+  4         4.0000         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -15207.8503 (s.e. 147.1346)
+Unconstrained log-likelihood (without tree): -19589.4990
+Number of free parameters (#branches + #model parameters): 93
+Akaike information criterion (AIC) score: 30601.7007
+Corrected Akaike information criterion (AICc) score: 30605.2572
+Bayesian information criterion (BIC) score: 31207.9854
+
+Total tree length (sum of branch lengths): 0.0241
+Sum of internal branch lengths: 0.0077 (31.9265% of tree length)
+
+WARNING: 12 near-zero internal branches (<0.0002) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCA_000025565.1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**GCA_000025565.1
+|
+|                              +---------------------GCA_000211415.1
+|                        +-----| (87.9/86)
+|                        |     |               +----------------GCA_001654845.1
+|                        |     |       +-------| (37.7/47)
+|                        |     |       |       +------GCA_003594935.2
+|                        |     +-------| (64.1/65)
+|                        |             +------------GCA_004331265.1
+|                     +--| (77.2/58)
+|                     |  |     +----GCA_001521715.1
+|                     |  |  +**| (0/53)
+|                     |  |  |  +--GCA_008364625.2
+|                     |  +--| (77.6/17)
+|                     |     |  +-------GCA_009176645.1
+|                     |     +--| (75.1/37)
+|                     |        +---------------GCA_034008295.1
+|                  +--| (74.7/22)
+|                  |  |       +----------GCA_001984825.2
+|                  |  |  +----| (88.3/93)
+|                  |  |  |    +--GCA_034008275.1
+|                  |  +--| (77.8/60)
+|                  |     +--GCA_008364555.1
+|               +**| (0/6)
+|               |  |                               +**GCA_001729705.1
+|               |  |                            +**| (0/16)
+|               |  |                            |  +**GCA_002954165.1
+|               |  |                         +**| (0/25)
+|               |  |                         |  |        +--GCA_001729725.1
+|               |  |                         |  |     +--| (78.9/86)
+|               |  |                         |  |     |  |  +--GCA_003660125.1
+|               |  |                         |  |     |  +--| (75.3/76)
+|               |  |                         |  |     |     +--GCA_019356035.1
+|               |  |                         |  |  +**| (0/26)
+|               |  |                         |  |  |  +**GCA_031432835.1
+|               |  |                         |  +**| (0/6)
+|               |  |                         |     |        +**GCA_001729745.1
+|               |  |                         |     |     +**| (0/49)
+|               |  |                         |     |     |  +--GCA_040096145.1
+|               |  |                         |     |  +--| (85.9/69)
+|               |  |                         |     |  |  +--GCA_052922205.1
+|               |  |                         |     +**| (0/27)
+|               |  |                         |        +--GCA_013747035.1
+|               |  |                      +**| (76.2/51)
+|               |  |                      |  +**GCA_019048245.1
+|               |  |                   +--| (77.9/79)
+|               |  |                   |  +--GCA_001729785.1
+|               |  |              +----| (81.1/81)
+|               |  |              |    +------GCA_028890245.1
+|               |  |       +------| (79.8/82)
+|               |  |       |      +----GCA_001729765.1
+|               |  |  +----| (84.4/73)
+|               |  |  |    |  +--GCA_003594915.1
+|               |  |  |    +**| (0/41)
+|               |  |  |       |  +-------GCA_003964905.1
+|               |  |  |       +**| (0/14)
+|               |  |  |          |  +--GCA_019046905.1
+|               |  |  |          +--| (79.8/75)
+|               |  |  |             +--GCA_026344075.1
+|               |  +--| (82.5/11)
+|               |     +**GCA_026420145.1
+|            +--| (81.1/36)
+|            |  +**GCA_001039365.2
+|         +**| (0/23)
+|         |  |    +--GCA_002939185.1
+|         |  +----| (88/79)
+|         |       +--------------------------------GCA_019047785.1
+|    +----| (43.8/57)
+|    |    +-------GCA_001729805.1
++----| (90.1/100)
+|    |       +**GCA_001750725.1
+|    +-------| (92.4/100)
+|            +**GCA_019047005.1
+|
++**GCA_009660455.1
+
+Tree in newick format:
+
+(GCA_000025565.1:0.0000010000,((((((((GCA_000211415.1:0.0017106276,((GCA_001654845.1:0.0013253685,GCA_003594935.2:0.0005765556)37.7/47:0.0006185715,GCA_004331265.1:0.0010448897)64.1/65:0.0006680049)87.9/86:0.0004976273,((GCA_001521715.1:0.0004252655,GCA_008364625.2:0.0002125751)0/53:0.0000010000,(GCA_009176645.1:0.0006335595,GCA_034008295.1:0.0012778824)75.1/37:0.0002117902)77.6/17:0.0002104291)77.2/58:0.0002126840,((GCA_001984825.2:0.0008523724,GCA_034008275.1:0.0002114186)88.3/93:0.0004260035,GCA_008364555.1:0.0002125879)77.8/60:0.0002125961)74.7/22:0.0002127930,((((((((GCA_001729705.1:0.0000010000,GCA_002954165.1:0.0000010000)0/16:0.0000010000,(((GCA_001729725.1:0.0002131414,(GCA_003660125.1:0.0002129708,GCA_019356035.1:0.0002130998)75.3/76:0.0002132468)78.9/86:0.0002128726,GCA_031432835.1:0.0000010000)0/26:0.0000010000,(((GCA_001729745.1:0.0000010000,GCA_040096145.1:0.0002123730)0/49:0.0000010000,GCA_052922205.1:0.0002126412)85.9/69:0.0002124318,GCA_013747035.1:0.0002123957)0/27:0.0000010000)0/6:0.0000010000)0/25:0.0000010000,GCA_019048245.1:0.0000010000)76.2/51:0.0001826299,GCA_001729785.1:0.0002597911)77.9/79:0.0002236229,GCA_028890245.1:0.0006107792)81.1/81:0.0004260518,GCA_001729765.1:0.0004533472)79.8/82:0.0006097614,(GCA_003594915.1:0.0002125839,(GCA_003964905.1:0.0006382043,(GCA_019046905.1:0.0002127449,GCA_026344075.1:0.0002128033)79.8/75:0.0002123865)0/14:0.0000010000)0/41:0.0000010000)84.4/73:0.0004243579,GCA_026420145.1:0.0000010000)82.5/11:0.0002120392)0/6:0.0000026458,GCA_001039365.2:0.0000010000)81.1/36:0.0002117445,(GCA_002939185.1:0.0002117697,GCA_019047785.1:0.0025586081)88/79:0.0004255756)0/23:0.0000010000,GCA_001729805.1:0.0006379421)43.8/57:0.0004251850,(GCA_001750725.1:0.0000010000,GCA_019047005.1:0.0000010000)92.4/100:0.0006366435)90.1/100:0.0004254950,GCA_009660455.1:0.0000010000);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -15218.812450
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--GCA_000025565.1
+|
+|                           +---------------------GCA_000211415.1
+|                      +----| (86)
+|                      |    |                 +---------------GCA_001654845.1
+|                      |    |         +-------| (47)
+|                      |    |         |       +--------GCA_003594935.2
+|                      |    +---------| (65)
+|                      |              +-------------GCA_004331265.1
+|                   +--| (28)
+|                   |  |  +-----GCA_009176645.1
+|                   |  +--| (37)
+|                   |     +-----------------GCA_034008295.1
+|                +--| (58)
+|                |  |  +----GCA_001521715.1
+|                |  +--| (53)
+|                |     +--GCA_008364625.2
+|             +--| (22)
+|             |  |         +----------GCA_001984825.2
+|             |  |    +----| (93)
+|             |  |    |    +--GCA_034008275.1
+|             |  +----| (60)
+|             |       +--GCA_008364555.1
+|          +--| (36)
+|          |  |     +--GCA_001039365.2
+|          |  |  +--| (26)
+|          |  |  |  +--GCA_026420145.1
+|          |  +--| (6)
+|          |     |                                                                    +**GCA_001729705.1
+|          |     |                                                                 +**|
+|          |     |                                                                 |  +**GCA_013743755.1
+|          |     |                                                              +**|
+|          |     |                                                              |  +**GCA_004331385.1
+|          |     |                                                           +**|
+|          |     |                                                           |  +**GCA_020097195.1
+|          |     |                                                        +**|
+|          |     |                                                        |  +**GCA_013625575.1
+|          |     |                                                     +**|
+|          |     |                                                     |  +**GCA_020695685.1
+|          |     |                                                  +**|
+|          |     |                                                  |  +**GCA_013731155.1
+|          |     |                                               +**|
+|          |     |                                               |  +**GCA_013743295.1
+|          |     |                                            +**|
+|          |     |                                            |  +**GCA_013744415.1
+|          |     |                                         +**|
+|          |     |                                         |  +**GCA_013726395.1
+|          |     |                                      +**|
+|          |     |                                      |  +**GCA_013743935.1
+|          |     |                                   +**|
+|          |     |                                   |  +**GCA_013747975.1
+|          |     |                                +**|
+|          |     |                                |  +**GCA_013625265.1
+|          |     |                             +--|
+|          |     |                             |  +**GCA_905330335.2
+|          |     |                          +--| (16)
+|          |     |                          |  +--GCA_002954165.1
+|          |     |                       +--| (25)
+|          |     |                       |  |        +--GCA_001729725.1
+|          |     |                       |  |     +--| (86)
+|          |     |                       |  |     |  |  +--GCA_003660125.1
+|          |     |                       |  |     |  +--| (76)
+|          |     |                       |  |     |     +--GCA_019356035.1
+|          |     |                       |  |  +--| (26)
+|          |     |                       |  |  |  +--GCA_031432835.1
+|          |     |                       |  +--| (6)
+|          |     |                       |     |        +--GCA_001729745.1
+|          |     |                       |     |     +--| (49)
+|          |     |                       |     |     |  +--GCA_040096145.1
+|          |     |                       |     |  +--| (69)
+|          |     |                       |     |  |  +--GCA_052922205.1
+|          |     |                       |     +--| (27)
+|          |     |                       |        +--GCA_013747035.1
+|          |     |                    +--| (51)
+|          |     |                    |  +--GCA_019048245.1
+|          |     |                 +--| (79)
+|          |     |                 |  +--GCA_001729785.1
+|          |     |            +----| (81)
+|          |     |            |    +-------GCA_028890245.1
+|          |     |    +-------| (82)
+|          |     |    |       +-----GCA_001729765.1
+|          |     +----| (73)
+|          |          |     +--GCA_003594915.1
+|          |          |  +--| (51)
+|          |          |  |  |  +--GCA_019046905.1
+|          |          |  |  +--| (75)
+|          |          |  |     +--GCA_026344075.1
+|          |          +--| (41)
+|          |             +-------GCA_003964905.1
+|       +--| (23)
+|       |  |       +--GCA_002939185.1
+|       |  +-------| (79)
+|       |          +---------------------------------GCA_019047785.1
+|    +--| (57)
+|    |  +----------GCA_001729805.1
++----| (100)
+|    |       +--GCA_001750725.1
+|    +-------| (100)
+|            +--GCA_019047005.1
+|
++--GCA_009660455.1
+
+
+Consensus tree in newick format: 
+
+(GCA_000025565.1:0.0000025601,((((((((GCA_000211415.1:0.0017240189,((GCA_001654845.1:0.0012290884,GCA_003594935.2:0.0006771866)47:0.0006158178,GCA_004331265.1:0.0010914691)65:0.0007881924)86:0.0004059256,(GCA_009176645.1:0.0005063198,GCA_034008295.1:0.0014086030)37:0.0002117864)28:0.0001331777,(GCA_001521715.1:0.0004252795,GCA_008364625.2:0.0002126031)53:0.0000025601)58:0.0002131008,((GCA_001984825.2:0.0008527909,GCA_034008275.1:0.0002123925)93:0.0004262336,GCA_008364555.1:0.0002129485)60:0.0004253215)22:0.0002125007,((GCA_001039365.2:0.0002130729,GCA_026420145.1:0.0000025601)26:0.0000025601,((((((((((((((((((((GCA_001729705.1:0.0000000000,GCA_013743755.1:0.0000000000):0.0000000000,GCA_004331385.1:0.0000000000):0.0000000000,GCA_020097195.1:0.0000000000):0.0000000000,GCA_013625575.1:0.0000000000):0.0000000000,GCA_020695685.1:0.0000000000):0.0000000000,GCA_013731155.1:0.0000000000):0.0000000000,GCA_013743295.1:0.0000000000):0.0000000000,GCA_013744415.1:0.0000000000):0.0000000000,GCA_013726395.1:0.0000000000):0.0000000000,GCA_013743935.1:0.0000000000):0.0000000000,GCA_013747975.1:0.0000000000):0.0000000000,GCA_013625265.1:0.0000000000):0.0000000000,GCA_905330335.2:0.0000000000):0.0000025601,GCA_002954165.1:0.0000025601)16:0.0000025601,(((GCA_001729725.1:0.0002130265,(GCA_003660125.1:0.0002128652,GCA_019356035.1:0.0002130025)76:0.0002131383)86:0.0002128527,GCA_031432835.1:0.0000025601)26:0.0000025601,(((GCA_001729745.1:0.0000025601,GCA_040096145.1:0.0002123688)49:0.0000025601,GCA_052922205.1:0.0002126258)69:0.0002124225,GCA_013747035.1:0.0002123905)27:0.0000025601)6:0.0000025601)25:0.0000025601,GCA_019048245.1:0.0000025601)51:0.0001823570,GCA_001729785.1:0.0002600087)79:0.0002235720,GCA_028890245.1:0.0006114532)81:0.0004273857,GCA_001729765.1:0.0004528753)82:0.0006104073,((GCA_003594915.1:0.0002126291,(GCA_019046905.1:0.0002127152,GCA_026344075.1:0.0002127660)75:0.0002124177)51:0.0000025601,GCA_003964905.1:0.0006383460)41:0.0000025601)73:0.0004239600)6:0.0000025601)36:0.0002358386,(GCA_002939185.1:0.0002124531,GCA_019047785.1:0.0025628107)79:0.0006154252)23:0.0000025601,GCA_001729805.1:0.0008269292)57:0.0002361728,(GCA_001750725.1:0.0000025601,GCA_019047005.1:0.0000025601)100:0.0006364083)100:0.0004266293,GCA_009660455.1:0.0000025601);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/ani-cases/2026-10-02/task12-astra-focused-scope/trees/canonical-plus/tree.treefile -m "LG+F+G4{0.0200401}" --length 5010
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/ani-cases/2026-10-02/task12-astra-focused-scope/trees/canonical-plus.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/ani-cases/2026-10-02/task12-astra-focused-scope/trees/canonical-plus.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Oct  2 10:38:16 2026
+Total CPU time used: 746.915814 seconds (0h:12m:26s)
+Total wall-clock time used: 94.78305281 seconds (0h:1m:34s)
+

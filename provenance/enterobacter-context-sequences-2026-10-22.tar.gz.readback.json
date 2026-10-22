@@ -1,0 +1,9 @@
+{
+  "archive": "enterobacter-context-sequences-2026-10-22.tar.gz",
+  "archive_sha256": "09fbaa9c84e73a1a1f700598aa9399764483a9b3d1c92d2b27f0ffdfccc42ad5",
+  "members_verified": 7,
+  "uncompressed_bytes_verified": 34709766,
+  "all_member_hashes_match": true,
+  "regular_files_only": true,
+  "extracted_files": 0
+}

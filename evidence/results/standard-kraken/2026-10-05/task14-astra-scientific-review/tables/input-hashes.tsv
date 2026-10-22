@@ -1,0 +1,14 @@
+path	bytes	sha256
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/summaries/taxid-profiles.tsv	44228318	9de8afceb2dc729f7bd9c5685c019913c4644fe66e6696fbe0efbfa37a66a715
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/profile-details/native-contig-calls.tsv	3217167	f3acb9a04dced6c5936173d2f1885b8afe9a2e984e1ecb9668934126936a76c7
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/inputs/accession-assignments.tsv	1480776	440fcd0c24c9d369900876812196100cd3a7cc9e2744c6a6183f89dd9c5bd3d6
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/profile-details/overlap-stratum-membership.tsv	131890	d5d7a0d27b64b86dfc960ddb8232b79076aa929e62b77698c00a76fb3ad67788
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/database/names.dmp	277328399	b33479cd76a2afd4e7017a7da526eaa59f6afd69287618bae2146ffa623e05e1
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/database/nodes.dmp	206650301	720174579658bcfe70d0034d90750500b0eebc3b4cba9fee400ac38e138619b2
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/source-snapshot/task14_standard_kraken.py	22744	85836e9e22c90b0b1bd8b771c9e0876a0f1db882ce8e84cb7229e6fed4c23977
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/source-snapshot/apply_reporting_categories.py	15928	817405adb354958547ece55a60bb62a303582570a0de351384bdae848fff0b9d
+results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv	1480776	440fcd0c24c9d369900876812196100cd3a7cc9e2744c6a6183f89dd9c5bd3d6
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/raw/native.confidence0.output.gz	812143361	61e57eba38aaf69a0d254b8258779e2ef7a1de723de151e8b32cfc29b611023c
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/raw/native.confidence0.1.output.gz	812136925	75ebca81c7ea0614399c703f7c2917c9de516e8b52c8df6afad33be566855342
+results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/database/seqid2taxid.map	9365135	c01554a0b96fa3dc1d52978e533efe6eae358eb4bc90d1959701753dea83811e
+results/ani-cases/2026-10-03/task12-astra-reporting-category-application/study-categories.tsv	4173214	4e11cd78fe353db4b68d99a794d05a4a00f025d7587e9abaf35b94c9483f5bde

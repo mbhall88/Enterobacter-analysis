@@ -1,0 +1,15 @@
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+host: bun130
+slurm_job_id: 28862380
+threads: 8
+alignment: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/alignment-panel/alignment.faa 1855d2f556d973e852c76842b66ec904d5cf2f50a92bcc182a5c35e17f211863
+loci: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/ledger-panel/loci.nex 5397ae4f0f05bd54c91e008697f58ebf7e37f41ac53a4fde962c5fb9b10e47c9 (69 loci)
+sCF model: Q.PLANT+F+I+R3
+sCF quartets: 1000
+sCF seeds: 20260923 20260924 20260925
+reference: ml=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/ml.treefile 2fd7a7fccf67a57c3ded43958ccb0b705ca4590178e06a9a5b2946006c6b801a
+reference: marker=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/con-marker.treefile 747d128d325871193e5f097c57c391dc9430bbb9c7b61be900e92035c388197e
+reference: third=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/con-third.treefile 0d81af34529d5340c3db88da9bd711a38e42a14b579aaf2bb548a75882147b44
+reference: verticall=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/con-verticall.treefile 29be5d3e0b6b2327fc584ad97f97d812b4720f0386cd17e979897399aaa089b7
+started: 2026-09-23T15:06:10+10:00
+finished: 2026-09-23T15:09:22+10:00

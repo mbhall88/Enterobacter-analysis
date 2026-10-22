@@ -1,0 +1,7 @@
+{
+  "events": 8776,
+  "original_core": 3571306,
+  "removed_core_bases": 1973894,
+  "retained_core_bases": 1597412,
+  "mask": "union of all inferred recombinant intervals across all taxa; common sites retained for comparability"
+}

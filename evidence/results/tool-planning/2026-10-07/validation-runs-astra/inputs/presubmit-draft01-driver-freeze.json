@@ -1,0 +1,8 @@
+{
+  "driver_pins_sha256": "10042dd95d98c19144ca4805f5361580a4de731efa7d71e8072a0a2337ad74f7",
+  "verification": {
+    "changed": 0,
+    "object_pins": 5,
+    "package_source_files": 19
+  }
+}

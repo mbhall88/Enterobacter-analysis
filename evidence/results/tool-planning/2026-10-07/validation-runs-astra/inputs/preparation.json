@@ -1,0 +1,18 @@
+{
+  "expert": 100,
+  "genomes": 5803,
+  "layer1_named": 922,
+  "layer3_effective": 4821,
+  "layer3_held": 36,
+  "layers": {
+    "layer1": 946,
+    "layer3": 4857
+  },
+  "note": "Metadata adapters only; frozen crosswalk wording is retained verbatim, including historical decision notes.",
+  "package_positive_policy": false,
+  "verification": {
+    "changed": 0,
+    "object_pins": 5,
+    "package_source_files": 19
+  }
+}

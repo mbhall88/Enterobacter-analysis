@@ -1,0 +1,4 @@
+hypothesis	genes	decisive	present	present_fraction_of_decisive	contradicted	contradicted_fraction_of_decisive	unresolved	unresolved_fraction_of_decisive
+distance	109	109	1	0.0092	68	0.6239	40	0.367
+marker_sister	109	109	4	0.0367	63	0.578	42	0.3853
+marker_chinensis	109	109	1	0.0092	53	0.4862	55	0.5046

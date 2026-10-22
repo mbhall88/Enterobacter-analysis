@@ -1,0 +1,141 @@
+# Task 17 command ledger — results/conflict-resolution/2026-09-23/task17-opus55-resolve
+# Claude Opus 5.5 (claude-opus-5-5), 23 September 2026. Run from the project root.
+# NOT a script to execute top to bottom: each block records what ran, in order, with its Slurm job.
+# Slurm: partition general, account a_uqccr, QoS normal, every heavy stage its own job (SET-14),
+# each checked with `ssubmit --dry-run --json` first.
+RUN=results/conflict-resolution/2026-09-23/task17-opus55-resolve
+T11=results/full-cohort/2026-09-22/task11-opus-full
+
+# ---- 0. Environment: Panaroo 1.8.0 + pyrodigal 3.7.1 + MAFFT 7.526, pinned (explicit spec in env/)
+CONDA_PKGS_DIRS=$PWD/.work/conda-pkgs ~/sw/miniforge3/bin/mamba create -y -p .work/envs/panaroo \
+  -c conda-forge -c bioconda --override-channels panaroo=1.8.0 pyrodigal=3.7.1 mafft=7.526
+
+# ---- 1. The second E. sichuanensis assembly: chromosome scope, then verticall repair
+#         (the Task 04 scope builder and the Task 06/11 repair script, unchanged)
+echo GCA_025002605.1 > $RUN/shared/extra-genome/accessions.txt
+python3 scripts/build_type_reference_sets.py \
+  --datasets-dir results/reference-panel/2026-09-16/task02-type-assembly-qc-astra/download/package/ncbi_dataset/data \
+  --accessions $RUN/shared/extra-genome/accessions.txt --output $RUN/shared/extra-genome/type-sequences
+python3 scripts/repair_pilot_inputs.py --manifest $RUN/shared/extra-genome/repair-manifest.tsv \
+  --verticall .work/envs/verticall/bin/verticall --output $RUN/shared/extra-genome/repair
+
+# ---- 2. Freeze the focused subsets (C1, C2, C3; C12x added later, see step 9)
+python3 scripts/build_conflict_subsets.py build --config config/conflict-resolution.json --output $RUN
+python3 scripts/build_conflict_subsets.py build --config config/conflict-resolution.json --output $RUN --conflict C12x
+
+# ---- 3. Line 1: Verticall rows out of Task 11's 16 GB table (job 28859111; C12x: 28862877)
+python3 scripts/extract_verticall_pairs.py --pairwise $T11/verticall-1089/full-1089-pairwise.tsv \
+  --ids $RUN/shared/verticall/subset-union.ids.txt --region-ids $RUN/shared/verticall/region-a.ids.txt \
+  --universe manifests/full.ids.txt --summary-out $RUN/shared/verticall/subset-pairs.summary.tsv \
+  --regions-out $RUN/shared/verticall/region-rows.tsv --record $RUN/shared/verticall/extract-record.json \
+  --expected-sha256 963576bd4456ff155e28e6b734b4f4147a8a2edd20aa947802128e5892841ca0
+# Verticall for GCA_025002605.1 against the C1 u C2 genomes only, both directions (job 28860571;
+# 28859221 failed before any pair: minimap2 not on PATH)
+PATH=$PWD/.work/envs/verticall/bin:$PATH verticall pairwise -i $RUN/shared/verticall-extra/assemblies \
+  -o $RUN/shared/verticall-extra/extra-pairwise.tsv --existing_tsv $RUN/shared/verticall-extra/existing-pairs.tsv \
+  --skip_check -t 16
+for c in C1 C2 C3; do
+  python3 scripts/analyse_verticall_conflict.py --config config/conflict-resolution.json --conflict $c \
+    --run-dir $RUN --summary $RUN/shared/verticall/subset-pairs.summary.tsv \
+    --summary $RUN/shared/verticall-extra/extra-pairwise.tsv --regions $RUN/shared/verticall/region-rows.tsv \
+    --regions $RUN/shared/verticall-extra/extra-pairwise.tsv --output $RUN/<conflict-dir>/verticall
+done
+
+# ---- 4. GTDB-Tk identify/align for GCA_025002605.1 (job 28859146), then the subset marker alignments
+bash scripts/run_marker_cohort.sh --batchfile $RUN/shared/marker-extra/batchfile.tsv --run-dir $RUN/shared/marker-extra --threads 4
+for c in C1-ludwigii C2-sichuanensis C3-trio C12x-extended-sampling; do for scope in subset panel; do
+  python3 scripts/subset_marker_alignment.py --filtered $T11/marker/filtered/alignment.faa \
+    --untrimmed $T11/marker/alignments/full.user_msa.fasta.gz --column-map $T11/marker/filtered/column-map.tsv \
+    --partitions $T11/marker/filtered/partitions.nex --ids $RUN/$c/subset/$scope.ids.txt \
+    --panel $RUN/$c/subset/panel.ids.txt \
+    --extra-untrimmed $RUN/shared/marker-extra/full/align/gtdbtk.bac120.user_msa.fasta.gz \
+    --output $RUN/$c/marker/alignment[-panel]
+  python3 scripts/build_conflict_subsets.py verify --ids $RUN/$c/subset/$scope.ids.txt $RUN/$c/marker/alignment[-panel]/alignment.faa
+done; done
+
+# ---- 5. Line 3: topology tests on the markers (subset jobs 28860513/16/18, panel 28860514/17/19;
+#         C12x 28862832/33)
+bash scripts/run_topology_tests.sh --alignment $RUN/$c/marker/alignment/alignment.faa \
+  --constraints $RUN/$c/subset/constraints/subset --out $RUN/$c/marker/topology-subset --threads 16
+bash scripts/run_topology_tests.sh --alignment $RUN/$c/marker/alignment-panel/alignment.faa \
+  --constraints $RUN/$c/subset/constraints/panel --out $RUN/$c/marker/topology-panel --threads 8
+python3 scripts/summarise_topology_tests.py --topology $RUN/$c/marker/topology-<scope> \
+  --hypotheses $RUN/$c/subset/hypotheses.json --scope <scope> --outgroups <two outgroup tips> \
+  --output $RUN/$c/marker/topology-<scope>-summary.tsv
+
+# ---- 6. Line 4: marker ledger, gene trees, gCF/sCF (jobs 28862380 C3 [re-run], 28862381 C1, 28862382 C2)
+python3 scripts/build_locus_ledger.py markers --alignment $RUN/$c/marker/alignment-panel/alignment.faa \
+  --partitions $RUN/$c/marker/alignment-panel/partitions.nex --output $RUN/$c/marker/ledger-panel
+bash scripts/run_concordance.sh --alignment $RUN/$c/marker/alignment-panel/alignment.faa \
+  --loci $RUN/$c/marker/ledger-panel/loci.nex --out $RUN/$c/marker/concordance-panel \
+  --model '<the panel ML model>' --seqtype AA --threads 8 \
+  --references ml=<panel ml.treefile> --references <hyp>=<panel con-hyp.treefile> ...
+python3 scripts/summarise_concordance.py --hypotheses $RUN/$c/subset/hypotheses.json --scope panel \
+  --concordance $RUN/$c/marker/concordance-panel --references ml <hyp> ... \
+  --loci $RUN/$c/marker/ledger-panel/loci.nex --alignment $RUN/$c/marker/alignment-panel/alignment.faa \
+  --seqtype AA --outgroups <outgroups> --quartet <four tips> --output $RUN/$c/marker/concordance-panel-summary
+
+# ---- 7. Line 5 inputs: pyrodigal gene calls (interactive, 241 s at 4 CPUs; 8 more for C12x),
+#         Panaroo per subset (jobs 28860217/19/20; C12x 28862821)
+CPUS=4 bash scripts/run_pyrodigal_annotation.sh $RUN/shared/annotation-inputs.tsv $RUN/shared/annotation
+CPUS=4 bash scripts/run_pyrodigal_annotation.sh $RUN/shared/annotation-extra-inputs.tsv $RUN/shared/annotation-extra
+bash scripts/run_panaroo_subset.sh $RUN/$c/subset/subset.ids.txt $RUN/shared/panaroo-inputs-combined.txt $RUN/$c/core-genome
+
+# ---- 8. Why the methods disagree: distance-tree sensitivity (interactive; FastME as Tasks 08/11)
+python3 scripts/distance_tree_sensitivity.py --ids $RUN/$c/subset/subset.ids.txt \
+  --verticall $RUN/shared/verticall/subset-pairs.summary.tsv --verticall $RUN/shared/verticall-extra/extra-pairwise.tsv \
+  --gamma-alpha 1 --gamma-alpha 0.5 --gamma-alpha 0.25 --fastme .work/envs/verticall/bin/fastme \
+  --hypotheses $RUN/$c/subset/hypotheses.json --scope subset --outgroups <two tips> \
+  --output $RUN/$c/distance-sensitivity/verticall-subset
+# taxon-sampling series on Task 11's own JC matrix, each tree pruned to the subset before reading
+for s in subset mid all1089; do
+  python3 scripts/distance_tree_sensitivity.py --ids <ids for s> \
+    --phylip "task11-jc-matrix=$T11/verticall-1089/matrices/full-1089-median-first.phylip" \
+    --evaluate-on $RUN/$c/subset/subset-cohort.ids.txt --fastme .work/envs/verticall/bin/fastme \
+    --hypotheses $RUN/$c/subset/hypotheses.json --scope subset --outgroups <two tips> --threads 4 \
+    --output $RUN/$c/distance-sensitivity/verticall-sampling-$s
+done
+# Mashtree seed sweeps (seeds 1001-1020, Task 11's wrapper unchanged; jobs 28861993-96)
+bash scripts/run_mashtree_seeds.sh --list $RUN/shared/mashtree-sampling/<set>.list \
+  --out $RUN/shared/mashtree-sampling/<set> --no-primary --cpus 8 --expected-tips $RUN/shared/mashtree-sampling/<set>.ids.txt
+
+# ---- 9. C12x (extended sampling) was declared after step 8's result; see the README.
+
+# ---- 8b. FastME on the core concatenations (interactive), s in subset panel
+python3 scripts/distance_tree_sensitivity.py --ids $RUN/$c/subset/$s.ids.txt \
+  --alignment $RUN/$c/core-genome/ledger-$s/alignment.fna --gamma-alpha 1 --gamma-alpha 0.5 \
+  --fastme .work/envs/verticall/bin/fastme --hypotheses $RUN/$c/subset/hypotheses.json --scope $s \
+  --outgroups <two tips> --threads 4 --output $RUN/$c/distance-sensitivity/core-$s
+# The partitioned IQ-TREE runs' ml.mldist files were also tried (--mldist) and found degenerate
+# (every entry 1e-06 under a partition model); the outputs were deleted and are not used.
+# C3 fixed-parameter AU (pos12)
+cd ${PROJECT_ROOT} && bash scripts/run_au_fixed_params.sh --alignment results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/alignment.fna --dir results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12 --out results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12-fixedparams --candidate ml=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/ml.treefile --candidate marker=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.treefile --candidate third=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-third.treefile --candidate verticall=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-verticall.treefile --threads 16
+# C3 fixed-parameter AU (codon3)
+cd ${PROJECT_ROOT} && bash scripts/run_au_fixed_params.sh --alignment results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/alignment.fna --dir results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3 --out results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3-fixedparams --candidate ml=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/ml.treefile --candidate marker=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-marker.treefile --candidate third=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.treefile --candidate verticall=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-verticall.treefile --threads 16
+# jobs: pos12 28881188; codon3 28881189 (afterok:28870159, the codon3 (hof, not) search). ssubmit --mem 48G --time 24h, 16 CPUs, general/a_uqccr/normal
+# sDF1/sDF2 order check (interactive, ~45 s each): parsimony sCF on the C1 pos12 ML and distance trees
+for ref in ml distance; do t=$RUN/C1-ludwigii/core-genome/topology-panel-pos12/$([ $ref = ml ] && echo ml || echo con-distance).treefile
+  iqtree3 -t $t -s $RUN/C1-ludwigii/core-genome/ledger-panel/alignment.fna --scf 200 --seed 20260923 -T 4 \
+    --prefix $RUN/C1-ludwigii/core-genome/scf-order-check/$ref.pscf; done
+# C1 quartet site patterns by codon position (interactive, ~2 min; the script is kept here, not in scripts/)
+python3 $RUN/commands/c1_site_patterns_by_codon_position.py   # -> C12x-extended-sampling/core-genome/c1-site-patterns-by-codon-position.json
+# C3 hoffmannii regraft scans and masking (jobs: pos12 scan, masked pos12 28875685, codon3 unmasked/masked)
+python3 scripts/regraft_scan.py --tree $RUN/C3-trio/core-genome/topology-panel-<scheme>/ml.treefile --tip GCA_001729745.1 \
+  --hypotheses $RUN/C3-trio/subset/hypotheses.json --scope panel --outgroups GCA_019048245.1 GCA_004331385.1 \
+  --output $RUN/C3-trio/core-genome/hof-regraft-<scheme>/placements
+iqtree3 -s <alignment: ledger-panel/alignment.fna or hof-masked/alignment.fna> -st DNA -p $RUN/C3-trio/core-genome/ledger-panel/partition-<scheme>.nex \
+  -t $RUN/C3-trio/core-genome/topology-panel-<scheme>/ml.treefile --tree-fix --trees $RUN/C3-trio/core-genome/hof-regraft-<scheme>/placements.trees \
+  --test 1000 --test-au -T 16 --seed 20260923 --keep-ident --prefix <hof-regraft-<scheme>/scan | hof-masked/scan-<scheme>>
+# masking: the union of GCA_001729745.1's Verticall horizontal regions (Task 11 table) against every
+# intestinihominis- and nototheniae-lineage genome of the C3 subset -> hof-masked/masked-regions.json (rule and
+# intervals recorded there) and masked-genes.txt; then
+python3 scripts/mask_tip_in_genes.py --alignment $RUN/C3-trio/core-genome/ledger-panel/alignment.fna \
+  --genes $RUN/C3-trio/core-genome/ledger-panel/concatenation-genes.nex --mask-genes $RUN/C3-trio/core-genome/hof-masked/masked-genes.txt \
+  --tip GCA_001729745.1 --output $RUN/C3-trio/core-genome/hof-masked/alignment.fna
+# Core quartet tables, regenerated with one bootstrap seed (interactive, ~5 min): tables/core-site-patterns.tsv, tables/core-gene-quartets.tsv
+python3 $RUN/commands/core_quartet_tables.py
+# C12x positional runs tests on the FINAL gene trees (the first version read the file while its job was running; superseded/)
+python3 $RUN/commands/c12x_positional_gene_quartets.py
+# Hashes (run last; re-run after the jobs still running at handover finish)
+bash $RUN/commands/hash_outputs.sh
+python3 scripts/summarise_topology_tests.py --topology $RUN/C1-ludwigii/core-genome/topology-panel-codon3 --hypotheses $RUN/C1-ludwigii/subset/hypotheses.json --scope panel --outgroups GCA_019048125.1 GCA_000982825.1 --output $RUN/C1-ludwigii/core-genome/topology-panel-codon3-summary.tsv

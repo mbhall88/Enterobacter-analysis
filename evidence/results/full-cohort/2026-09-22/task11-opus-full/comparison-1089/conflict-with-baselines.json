@@ -1,0 +1,25 @@
+{
+  "rule": "SET-18 rule 3: no cross-method conflict figure is printed without the within-method baseline it must be read against, in the same statistic and under the same collapsing rule.",
+  "statistic": "percent of a tree's retained splits incompatible with a split the other tree also retains",
+  "reportable_figures": 92,
+  "unreportable_figures": 4,
+  "trees_with_a_baseline": [
+    "bac120_fasttree",
+    "bac120_fasttree_jtt",
+    "bac120_fasttree_lg",
+    "bac120_veryfasttree",
+    "mashtree_consensus",
+    "mashtree_consensus_20",
+    "mashtree_primary_seed42",
+    "mashtree_seed1001",
+    "mashtree_sketch5000_consensus",
+    "verticall_fastme",
+    "verticall_fastme_asymmetrical"
+  ],
+  "figures_exceeding_their_own_baseline": 86,
+  "same_inference_class_figures": 36,
+  "outputs": {
+    "reportable": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/conflict-with-baselines.tsv",
+    "unreportable": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/conflict-with-baselines-unreportable.tsv"
+  }
+}

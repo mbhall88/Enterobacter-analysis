@@ -1,0 +1,4 @@
+hypothesis_1	hypothesis_2	genes_present_1_only	genes_present_2_only	genes_present_both	share_1_of_deciding
+distance	marker_sister	4	4	0	0.5
+distance	marker_outside	4	5	0	0.4444
+marker_sister	marker_outside	4	5	0	0.4444

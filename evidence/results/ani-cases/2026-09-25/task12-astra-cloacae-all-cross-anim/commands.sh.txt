@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd ${PROJECT_ROOT}
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 MPLCONFIGDIR=/tmp/enterobacter-clocross-mpl
+RUN=results/ani-cases/2026-09-25/task12-astra-cloacae-all-cross-anim
+# Executed preparation and submissions (do not rerun completed output paths):
+# gh issue view 2 --repo mbhall88/Enterobacter --json number,title,body,comments > "$RUN/inputs/issue2-start.json"
+# python "$RUN/prepare.py" > "$RUN/logs/prepare.stdout"
+# python "$RUN/submit_pairs.py" > "$RUN/logs/dry-run.json"
+# python "$RUN/submit_pairs.py" --submit > "$RUN/logs/submission.stdout"
+# gh issue comment 2 --repo mbhall88/Enterobacter --body-file "$RUN/decision-comment.md" > "$RUN/logs/decision-comment-url.txt"
+# Per-job exact argv and plans: logs/pair-submissions/*.command.json, *.json
+# Per-pair actual tool command, exit status and timing: anim/pairs/*/command.json
+# Final audit/summarization commands will be recorded in finish.sh.
+# Executed threshold/denominator fixture tests:
+# .work/envs/verticall/bin/python -m unittest discover -s tests -p test_summarize_cloacae_cross_anim.py -v > "$RUN/logs/tests.stdout" 2> "$RUN/logs/tests.stderr"
+# Monitor only this run, then collect scheduler accounting and execute finish.sh:
+# python "$RUN/watch_finish.py" > "$RUN/logs/watch-finish.stdout" 2> "$RUN/logs/watch-finish.stderr"
+# Completed reporting/publication commands:
+# python "$RUN/write_report.py"
+# python "$RUN/publish_package.py" > "$RUN/logs/publish.stdout"
+# gh issue comment 2 --repo mbhall88/Enterobacter --body-file "$RUN/comment.md" > "$RUN/logs/comment-url.txt"

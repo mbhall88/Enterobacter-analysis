@@ -1,0 +1,163 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Input file name: ${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/local/GCA_026344075.1/tests/nonrecombinant.core.fna
+Type of analysis: tree reconstruction
+Random seed number: 20260927
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 38 sequences with 1597412 nucleotide sites
+Number of constant sites: 1.41728e+06 (= 88.7238% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1.41728e+06 (= 88.7238% of all sites)
+Number of parsimony informative sites: 143247
+Number of distinct site patterns: 29855
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 4.9621
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 4.9621
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2222
+  pi(C) = 0.2775
+  pi(G) = 0.2774
+  pi(T) = 0.2228
+
+Rate matrix Q:
+
+  A    -1.088    0.1608    0.7978    0.1291
+  C    0.1288   -0.9304    0.1608    0.6408
+  G     0.639    0.1608    -0.929    0.1291
+  T    0.1288    0.7981    0.1608    -1.088
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.02003
+
+ Category  Relative_rate  Proportion
+  1         4.865e-31      0.25
+  2         1.043e-15      0.25
+  3         9.7e-07        0.25
+  4         4              0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+STARTING TREE
+-------------
+
+Log-likelihood of the tree: -4120585.8866 (s.e. 4599.2388)
+Unconstrained log-likelihood (without tree): -3806457.8265
+Number of free parameters (#branches + #model parameters): 78
+Akaike information criterion (AIC) score: 8241327.7732
+Corrected Akaike information criterion (AICc) score: 8241327.7809
+Bayesian information criterion (BIC) score: 8242285.9170
+
+Total tree length (sum of branch lengths): 0.2355
+Sum of internal branch lengths: 0.1396 (59.2673% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCA_001562175.1' is drawn at root
+
++--GCA_001562175.1
+|
+|                                                               +--GCA_003594915.1
+|                                                            +--|
+|                                                            |  +--GCA_039718975.1
+|                                                         +--|
+|                                                         |  +--GCA_045278925.1
+|                    +------------------------------------|
+|                    |                                    +--GCA_045348695.1
+|                +---|
+|                |   |                     +--GCA_030510045.1
+|                |   +---------------------|
+|                |                         +--GCA_043966805.1
+|         +------|
+|         |      |                              +--GCA_004804375.1
+|         |      |                           +--|
+|         |      |                           |  +--GCA_035658275.1
+|         |      |                        +--|
+|         |      |                        |  |  +--GCA_004804395.1
+|         |      |                        |  +--|
+|         |      |                        |     +--GCA_015137655.1
+|         |      |                     +--|
+|         |      |                     |  |                 +**GCA_019046905.1
+|         |      |                     |  |              +**|
+|         |      |                     |  |              |  +**GCA_900324475.1
+|         |      |                     |  |           +**|
+|         |      |                     |  |           |  +**GCA_020099235.1
+|         |      |                     |  |        +**|
+|         |      |                     |  |        |  +**GCA_020097235.1
+|         |      |                     |  |     +--|
+|         |      |                     |  |     |  +**GCA_020099255.1
+|         |      |                     |  |  +--|
+|         |      |                     |  |  |  +--GCA_054382355.1
+|         |      |                     |  +--|
+|         |      |                     |     |     +--GCA_031218175.1
+|         |      |                     |     |  +--|
+|         |      |                     |     |  |  +--GCA_035847925.1
+|         |      |                     |     +--|
+|         |      |                     |        |  +--GCA_031851455.1
+|         |      |                     |        +--|
+|         |      |                     |           +--GCA_043971365.1
+|         |      |                  +--|
+|         |      |                  |  |  +--GCA_020042625.1
+|         |      |                  |  +--|
+|         |      |                  |     +--GCA_023374275.1
+|         |      |               +--|
+|         |      |               |  |  +--GCA_043967505.1
+|         |      |               |  +--|
+|         |      |               |     |  +--GCA_043970685.1
+|         |      |               |     +--|
+|         |      |               |        +--GCA_043972025.1
+|         |      |            +--|
+|         |      |            |  |     +--GCA_014596715.2
+|         |      |            |  |  +--|
+|         |      |            |  |  |  |  +--GCA_037008725.2
+|         |      |            |  |  |  +--|
+|         |      |            |  |  |     +--GCA_037008945.2
+|         |      |            |  +--|
+|         |      |            |     |  +--GCA_031216605.1
+|         |      |            |     +--|
+|         |      |            |        |  +**GCA_052970525.1
+|         |      |            |        +--|
+|         |      |            |           +**GCA_053165385.1
+|         |      +------------|
+|         |                   +---GCA_043966825.1
+|      +--|
+|      |  +---GCA_026344075.1
+|   +--|
+|   |  +---GCA_047525435.1
++---|
+|   |   +--GCA_024160165.1
+|   +---|
+|       +--GCA_034107265.1
+|
++--GCA_055683465.1
+
+Tree in newick format:
+
+(GCA_001562175.1:0.0000527180,((((((((GCA_003594915.1:0.0027116136,GCA_039718975.1:0.0028894789):0.0013087898,GCA_045278925.1:0.0040074578):0.0010567498,GCA_045348695.1:0.0039635635):0.0455241270,(GCA_030510045.1:0.0032306100,GCA_043966805.1:0.0031114516):0.0280018796):0.0057543398,(((((((GCA_004804375.1:0.0038970397,GCA_035658275.1:0.0039765298):0.0007308612,(GCA_004804395.1:0.0039846426,GCA_015137655.1:0.0040510394):0.0006910231):0.0002483844,((((((GCA_019046905.1:0.0000000626,GCA_900324475.1:0.0000000626):0.0000000626,GCA_020099235.1:0.0000000626):0.0000000626,GCA_020097235.1:0.0000000626):0.0000000626,GCA_020099255.1:0.0000000626):0.0040131553,GCA_054382355.1:0.0039510664):0.0006679613,((GCA_031218175.1:0.0033775990,GCA_035847925.1:0.0035284089):0.0009695929,(GCA_031851455.1:0.0000355409,GCA_043971365.1:0.0000272554):0.0042146713):0.0004068389):0.0002467913):0.0002451642,(GCA_020042625.1:0.0040077173,GCA_023374275.1:0.0040452941):0.0007924181):0.0004065735,(GCA_043967505.1:0.0045072525,(GCA_043970685.1:0.0040671806,GCA_043972025.1:0.0038858455):0.0008606590):0.0005541756):0.0011141944,((GCA_014596715.2:0.0027723476,(GCA_037008725.2:0.0000021942,GCA_037008945.2:0.0000007229):0.0027507215):0.0005892530,(GCA_031216605.1:0.0029599653,(GCA_052970525.1:0.0000000626,GCA_053165385.1:0.0000000626):0.0026233422):0.0005840665):0.0017875498):0.0008323635,GCA_043966825.1:0.0053618449):0.0171144828):0.0092799580,GCA_026344075.1:0.0051216679):0.0010800524,GCA_047525435.1:0.0055141209):0.0011405689,(GCA_024160165.1:0.0001034358,GCA_034107265.1:0.0000934935):0.0051541064):0.0054700014,GCA_055683465.1:0.0000519215);
+

@@ -1,0 +1,218 @@
+#!/usr/bin/env bash
+# Task 11 command ledger -- full-cohort inference on the frozen N = 1,090 panel.
+# Owner: Claude Opus 5 (`claude-opus-5[1m]`).  Run: results/full-cohort/2026-09-22/task11-opus-full
+# 22 September 2026.  A record of what ran, in order.  Not meant to be executed as one script:
+# several stages refuse an existing output directory on purpose, and the Slurm jobs are submitted
+# rather than run inline.
+set -euo pipefail
+PROJECT=${PROJECT_ROOT}
+RUN="$PROJECT/results/full-cohort/2026-09-22/task11-opus-full"
+S="$PROJECT/scripts"
+cd "$PROJECT"
+
+# ---------------------------------------------------------------------------------------
+# Environment (TESTED block of docs/analysis-execution-plan.md; nothing is on PATH by default)
+# ---------------------------------------------------------------------------------------
+VERTICALL="$PROJECT/.work/envs/verticall/bin/verticall"          # Verticall 0.4.2
+MASHTREE_ENV="$PROJECT/.work/envs/mashtree"                      # mashtree 1.4.6 + its own mash 2.3
+VERYFASTTREE="$PROJECT/.work/envs/veryfasttree/bin/VeryFastTree"  # 4.0.5
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
+# gtdb-tk/2.7.2+232 and GTDBTK_DATA_PATH are loaded inside the marker wrappers.
+# MASHTREE_ENV is never prepended to a shared PATH: it carries its own mash.
+
+# =======================================================================================
+# 1. Freeze the full cohort with the Task 06 builder
+# =======================================================================================
+# 1a. Derive the two panel-specific builder inputs.  Full coverage under SET-17 means every study
+#     candidate is a member; the out-of-genus set is RECOMPUTED, the settled exclusions carried.
+python3 "$S/build_full_cohort_inputs.py" \
+  --study-manifest manifests/study-candidates.tsv \
+  --gtdb-membership results/gtdb-context/2026-09-18/task05-opus-membership-subtree/tables/gtdb-membership.tsv \
+  --type-ani results/ani-screen/2026-09-17/task04-opus-type-anchored/tables/type-assignment-summary.tsv \
+  --carry-dispositions results/phylogeny-inputs/2026-09-18/task06-opus-freeze/tables/panel-dispositions.tsv \
+  --membership-reason 'SET-17 full coverage at the frozen comparison denominator: every study candidate is a full-cohort member, no representative cap, no sampling rule. Michael, DEC-009 Decision 1, 22 September 2026.' \
+  --output "$RUN/freeze/inputs-derivation"
+
+# 1b. The freeze itself -- the audited Task 06 builder, with --prefix full.
+T04=results/ani-screen/2026-09-17/task04-opus-type-anchored/inputs
+T05=results/gtdb-context/2026-09-18/task05-opus-membership-subtree/tables
+T06=results/phylogeny-inputs/2026-09-18/task06-opus-freeze
+/usr/bin/time -v -o "$RUN/logs/freeze.time.txt" python3 "$S/freeze_phylogeny_inputs.py" \
+  --study-draft "$RUN/freeze/inputs-derivation/full-study-membership.tsv" \
+  --additions manifests/pilot-boundary-additions.tsv \
+  --types manifests/types.tsv --outgroups manifests/outgroups.tsv \
+  --exclusions manifests/exclusions.tsv \
+  --dispositions "$RUN/freeze/inputs-derivation/full-dispositions.tsv" \
+  --study-manifest manifests/study-candidates.tsv \
+  --study-index "$T04/study-chromosome-index.tsv" \
+  --type-scopes "$T04/type-sequences/type-reference-sequence-scopes.tsv" \
+  --outgroup-scopes "$T06/outgroup-selection/sequences/outgroup-sequence-scopes.tsv" \
+  --gtdb-membership "$T05/gtdb-membership.tsv" \
+  --marker-qc results/marker-pilot/2026-09-19/task07-opus-bac120/identify/identify/gtdbtk.bac120.markers_summary.tsv \
+  --marker-qc results/reference-panel/2026-09-16/task02-type-assembly-qc-astra/gtdb-identify-r2/identify/gtdbtk.bac120.markers_summary.tsv \
+  --marker-qc "$T06/outgroup-selection/gtdb-identify/identify/gtdbtk.bac120.markers_summary.tsv" \
+  --tiers tier_1_ani_cannot_decide,tier_2_boundary_context,tier_3_group_representation \
+  --derivative-dir "$RUN/repaired" --output "$RUN/freeze" --prefix full --write-manifests
+
+# 1c. One `verticall repair` derivative per tip, both hashes recorded.
+/usr/bin/time -v -o "$RUN/logs/repair.time.txt" \
+  python3 "$S/repair_pilot_inputs.py" --manifest manifests/full.tsv \
+    --verticall "$VERTICALL" --output "$RUN/repair"
+
+# =======================================================================================
+# 2. The toy validation of --part, before any full pairwise run (Michael, DEC-009 Decision 1)
+# =======================================================================================
+# 2a. An 8-genome structural smoke test first, in the interactive allocation: cheap, immediate,
+#     and it catches a wiring error before any queue time is spent.
+bash "$S/run_verticall_cohort.sh" --stage stage --manifest "$RUN/toy/smoke/smoke8.ids.txt" \
+  --derivative-map "$RUN/repair/source-derivative-map.tsv" --run-dir "$RUN/toy/smoke" --label smoke8
+bash "$S/run_verticall_cohort.sh" --stage index --run-dir "$RUN/toy/smoke" --label smoke8 --threads 8
+bash "$S/run_verticall_cohort.sh" --stage pairwise --run-dir "$RUN/toy/smoke" --label smoke8 --part 1/1 --threads 8
+for i in 1 2 3 4; do
+  bash "$S/run_verticall_cohort.sh" --stage pairwise --run-dir "$RUN/toy/smoke" --label smoke8 --part $i/4 --threads 8
+done
+bash "$S/run_verticall_cohort.sh" --stage merge --run-dir "$RUN/toy/smoke" --label smoke8 --parts 4
+
+# 2b. The 100-genome toy Michael asked for: --part 1/1 against 20 parts, as Slurm jobs.
+bash "$S/run_verticall_cohort.sh" --stage stage --manifest "$RUN/toy/toy100.ids.txt" \
+  --derivative-map "$RUN/repair/source-derivative-map.tsv" --run-dir "$RUN/toy" --label toy100
+bash "$S/run_verticall_cohort.sh" --stage index --run-dir "$RUN/toy" --label toy100 --threads 8
+
+# 2c. Every batch job below was validated with `ssubmit --dry-run --json` and then with
+#     `sbatch --test-only` against partition general / account a_uqccr / QoS normal before
+#     submission. QoS `normal` caps a user at 1,536 CPUs, which is why the 100 Verticall parts
+#     request 8 CPUs each (800) rather than 16 (1,600 -- over the cap).
+SS="ssubmit --json"
+OUT="--output=$RUN/logs/slurm/%x-%A_%a.out --error=$RUN/logs/slurm/%x-%A_%a.err"
+SITE="--partition=general --account=a_uqccr"
+
+$SS ecc-t11-toy-whole \
+  "bash $S/run_verticall_cohort.sh --stage pairwise --run-dir $RUN/toy --label toy100 --part 1/1 --threads 16" \
+  --mem 32G --time 6h -- --cpus-per-task=16 $SITE $OUT                      # 28806904
+$SS ecc-t11-toy-part \
+  'bash '"$S"'/run_verticall_cohort.sh --stage pairwise --run-dir '"$RUN"'/toy --label toy100 --part ${SLURM_ARRAY_TASK_ID}/20 --threads 4' \
+  --mem 12G --time 4h -- --cpus-per-task=4 --array=1-20 $SITE $OUT          # 28806905
+
+bash "$S/run_verticall_cohort.sh" --stage merge --run-dir "$RUN/toy" --label toy100 --parts 20
+python3 "$S/validate_verticall_partition.py" \
+  --whole "$RUN/toy/parts/part_1_of_1.tsv" \
+  $(for i in $(seq 1 20); do printf -- "--part %s " "$RUN/toy/parts/part_${i}_of_20.tsv"; done) \
+  --whole-matrix "$RUN/toy/matrices/toy100-whole.phylip" \
+  --parted-matrix "$RUN/toy/matrices/toy100-parted.phylip" \
+  --expected-ids "$RUN/toy/toy100.ids.txt" \
+  --output "$RUN/toy/partition-validation.json"
+
+# =======================================================================================
+# 3. Verticall at full scale -- stage and index once, then 100 independent parts
+# =======================================================================================
+$SS ecc-t11-vc-index \
+  "bash $S/run_verticall_cohort.sh --stage stage --manifest $PROJECT/manifests/full.ids.txt --derivative-map $RUN/repair/source-derivative-map.tsv --run-dir $RUN/verticall --label full && bash $S/run_verticall_cohort.sh --stage index --run-dir $RUN/verticall --label full --threads 16" \
+  --mem 32G --time 4h -- --cpus-per-task=16 $SITE $OUT                      # 28806906
+
+# =======================================================================================
+# 4. BAC120 at full scale
+# =======================================================================================
+$SS ecc-t11-bac120 \
+  "bash $S/run_marker_cohort.sh --batchfile $RUN/marker/inputs/full.abs.batch.tsv --run-dir $RUN/marker --threads 16" \
+  --mem 64G --time 12h -- --cpus-per-task=16 $SITE $OUT                     # 28806907
+
+# =======================================================================================
+# 5. Mashtree: 20 recorded seeds + the SET-19 consensus, and the sketch-size sensitivity
+# =======================================================================================
+$SS ecc-t11-mashtree \
+  "bash $S/run_mashtree_seeds.sh --list $RUN/mashtree/inputs/full.abs.list --out $RUN/mashtree/seeds --cpus 16 --expected-tips $PROJECT/manifests/full.ids.txt" \
+  --mem 16G --time 8h -- --cpus-per-task=16 $SITE $OUT                      # 28806908 (failed), 28807671
+$SS ecc-t11-mash5k \
+  "bash $S/run_mashtree_seeds.sh --list $RUN/mashtree/inputs/full.abs.list --out $RUN/mashtree/sketch5000 --cpus 16 --sketch-size 5000 --no-primary --expected-tips $PROJECT/manifests/full.ids.txt" \
+  --mem 16G --time 8h -- --cpus-per-task=16 $SITE $OUT                      # 28807672
+
+# 5b. Michael asked mid-run (22 Sep) whether 20 seeds was too few. Measured, not argued: 84 of the
+#     872 consensus splits sat on a count whose 95% interval straddles the majority line, so
+#     seeds 1021-2000 were run as 49 array tasks and a second consensus built from all 1,000.
+$SS ecc-t11-mash1k \
+  'i=$SLURM_ARRAY_TASK_ID; first=$((1021 + 20*(i-1))); last=$((first + 19)); seeds=$(seq $first $last); bash '"$S"'/run_mashtree_seeds.sh --list '"$RUN"'/mashtree/inputs/full.abs.list --out '"$RUN"'/mashtree/seeds --cpus 8 --no-primary --trees-only --seeds "$seeds"' \
+  --mem 12G --time 6h -- --cpus-per-task=8 --array=1-49 $SITE $OUT           # 28810413
+python3 "$S/majority_rule_consensus.py" \
+  $(for s in $(seq 1001 2000); do printf -- "--replicate %s " "$RUN/mashtree/seeds/trees/seed-$s.nwk"; done) \
+  --expected-tips "$PROJECT/manifests/full.ids.txt" --statistic-name mash_sketch_stability \
+  --output-prefix "$RUN/mashtree/seeds/consensus-1000/majority-rule"
+
+# =======================================================================================
+# 6. BAC120 downstream: marker QC BEFORE inference, then the alignments, then four trees
+# =======================================================================================
+bash "$RUN/commands/run_marker_downstream.sh"
+$SS ecc-t11-marker-trees \
+  "bash $S/run_marker_trees.sh --run-dir $RUN/marker --alignment $RUN/marker/filtered/alignment.faa --threads 16" \
+  --mem 48G --time 12h -- --cpus-per-task=16 $SITE $OUT                      # 28808495
+
+# =======================================================================================
+# 7. Verticall at full scale: 100 parts, submitted ONLY after the toy validation passed
+# =======================================================================================
+$SS ecc-t11-vc-part \
+  'bash '"$S"'/run_verticall_cohort.sh --stage pairwise --run-dir '"$RUN"'/verticall --label full --part ${SLURM_ARRAY_TASK_ID}/100 --threads 8' \
+  --mem 24G --time 12h -- --cpus-per-task=8 --array=1-100 $SITE $OUT         # 28812350
+
+bash "$S/run_verticall_cohort.sh" --stage merge --run-dir "$RUN/verticall" --label full --parts 100
+
+# The gate: pair accounting on the merged table, with NO matrices, before any matrix is built.
+/usr/bin/time -v -o "$RUN/logs/qc-gate.time" python3 "$S/qc_verticall.py" \
+  --pairwise "$RUN/verticall/full-pairwise.tsv" \
+  --expected-ids "$PROJECT/manifests/full.ids.txt" \
+  --output "$RUN/verticall/qc/gate-before-any-matrix"
+
+# Then the four matrices, QC again over them, and FastME on each QC-passing matrix.
+bash "$S/run_verticall_cohort.sh" --stage downstream \
+  --manifest "$PROJECT/manifests/full.ids.txt" --run-dir "$RUN/verticall" --label full --threads 8
+
+# =======================================================================================
+# 8. The three-method comparison, under SET-18
+# =======================================================================================
+python3 "$RUN/commands/make_full_comparison_config.py" 39714     # writes config/tree-comparison-full.json
+bash "$RUN/commands/run_full_comparison.sh"
+python3 "$S/report_conflict_with_baselines.py" \
+  --summary "$RUN/comparison/summary.tsv" --config "$PROJECT/config/tree-comparison-full.json" \
+  --output-prefix "$RUN/comparison/conflict-with-baselines"
+
+python3 -m unittest discover -s tests
+
+# =======================================================================================
+# 9. Follow-up, 23 September (Opus 5.5, claude-opus-5-5): SET-20 and SET-21 from Michael.
+#    SET-20: exclude GCA_006385655.1. SET-21: the Mashtree comparator is the 1,000-seed consensus.
+#    Trees are PRUNED to the 1,089 set, not re-inferred.
+# =======================================================================================
+python3 "$S/build_full_cohort_inputs.py" \
+  --study-manifest manifests/study-candidates.tsv \
+  --gtdb-membership results/gtdb-context/2026-09-18/task05-opus-membership-subtree/tables/gtdb-membership.tsv \
+  --type-ani results/ani-screen/2026-09-17/task04-opus-type-anchored/tables/type-assignment-summary.tsv \
+  --carry-dispositions results/phylogeny-inputs/2026-09-18/task06-opus-freeze/tables/panel-dispositions.tsv \
+  --carry-dispositions "$RUN/decisions/set-20-dispositions.tsv" \
+  --membership-reason 'SET-17 full coverage at the frozen comparison denominator: every study candidate is a full-cohort member, no representative cap, no sampling rule. Michael, DEC-009 Decision 1, 22 September 2026.' \
+  --output "$RUN/freeze-1089/inputs-derivation"
+python3 "$S/freeze_phylogeny_inputs.py" \
+  --study-draft "$RUN/freeze-1089/inputs-derivation/full-study-membership.tsv" \
+  --additions manifests/pilot-boundary-additions.tsv --types manifests/types.tsv \
+  --outgroups manifests/outgroups.tsv --exclusions manifests/exclusions.tsv \
+  --dispositions "$RUN/freeze-1089/inputs-derivation/full-dispositions.tsv" \
+  --study-manifest manifests/study-candidates.tsv --study-index "$T04/study-chromosome-index.tsv" \
+  --type-scopes "$T04/type-sequences/type-reference-sequence-scopes.tsv" \
+  --outgroup-scopes "$T06/outgroup-selection/sequences/outgroup-sequence-scopes.tsv" \
+  --gtdb-membership "$T05/gtdb-membership.tsv" \
+  --marker-qc "$RUN/marker/identify/identify/gtdbtk.bac120.markers_summary.tsv" \
+  --tiers tier_1_ani_cannot_decide,tier_2_boundary_context,tier_3_group_representation \
+  --derivative-dir "$RUN/repaired" --output "$RUN/freeze-1089" --prefix full --write-manifests
+
+# Prune all fourteen comparator trees at 12 decimals. (At the default 6, prune_tree.py rounded 90
+# Verticall branches to zero; it now refuses to do that.) Sources and outputs as in README §9.1.
+python3 "$S/prune_tree.py" --decimals 12 --tree "$RUN/verticall/trees/full-median-first.nwk" \
+  --keep manifests/full.ids.txt --output "$RUN/pruned-1089/verticall/median-first.nwk" \
+  --report "$RUN/pruned-1089/reports/verticall__median-first.nwk.json"
+# ... and likewise for the other thirteen (marker x4, verticall x3, mashtree x6).
+
+# Verticall pair accounting and matrices at N = 1,089, from the existing merged pairwise table.
+bash "$RUN/verticall-1089/run.sh"
+
+python3 "$RUN/commands/make_full_comparison_config.py" 39714   # now writes the SET-20/SET-21 config
+python3 "$S/compare_phylogenies.py" --config config/tree-comparison-full.json \
+  --output "$RUN/comparison-1089" --root .
+python3 "$S/report_conflict_with_baselines.py" --summary "$RUN/comparison-1089/summary.tsv" \
+  --config config/tree-comparison-full.json --output-prefix "$RUN/comparison-1089/conflict-with-baselines"

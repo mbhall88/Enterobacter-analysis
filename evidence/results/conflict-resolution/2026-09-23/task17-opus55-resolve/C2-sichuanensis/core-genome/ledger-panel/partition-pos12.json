@@ -1,0 +1,19 @@
+{
+ "scheme": "pos12",
+ "model_per_partition": "GTR+F+R4",
+ "genes": 3209,
+ "genes_in_frame": 3207,
+ "genes_out_of_frame": 2,
+ "out_of_frame_genes": [
+  "group_3859",
+  "group_8153"
+ ],
+ "partitions": [
+  "pos1",
+  "pos2"
+ ],
+ "columns_per_partition": {
+  "pos1": 1073100,
+  "pos2": 1073100
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "alert_ani_minimum": "96",
+  "alert_reference_af_minimum": "80",
+  "decision_record": "https://github.com/mbhall88/Enterobacter/issues/3#issuecomment-6014123942",
+  "input_kind": "assembly",
+  "near_boundary_ani_minimum": "95",
+  "near_boundary_both_af_minimum": "80",
+  "near_boundary_decision_record": "https://github.com/mbhall88/Enterobacter/issues/3#issuecomment-6016074353",
+  "policy_status": "frozen_candidate_for_independent_validation",
+  "production_enabled": false,
+  "query_quality": "reported_not_required",
+  "rank_rule_canonical_sha256": "de3ec713ce3b902127c4402e893d84bb74ea38bb6faf5f82ae65fb03b9be4018",
+  "schema_version": "2.1-frozen-candidate-config"
+}

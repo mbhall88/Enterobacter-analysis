@@ -1,0 +1,86 @@
+stage	rule	unit	count	note
+input	audited_assembly_files	files	3807	results/handover-audit/2026-09-11/assembly_manifest.tsv
+input	discovery_roster_rows	accessions	1079	docs/audit/public-accession-crosswalk.tsv
+input	legacy_metadata_rows	genomes	1068	MoniqueC_ECC_Study/reference_metadata.tsv
+input	audit_role:classifier_reference_copy	files	1068	role assigned by the FASTA audit
+input	audit_role:public_whole	files	1062	role assigned by the FASTA audit
+input	audit_role:study_chromosome_candidate	files	1068	role assigned by the FASTA audit
+input	audit_role:type_reference_candidate	files	148	role assigned by the FASTA audit
+input	audit_role:unexpected_query_in_study_dir	files	1	role assigned by the FASTA audit
+input	audit_role:validation_candidate	files	417	role assigned by the FASTA audit
+input	audit_role:validation_quarantine	files	43	role assigned by the FASTA audit
+entities	public_discovery:entities	accessions	1079	files collapsed onto stable identities
+entities	public_discovery:files	files	3198	every audited file is assigned once
+rules	public_discovery:reason:adjudicated_exclusion:quality_failed_and_taxonomically_unreliable	accessions	1	counted per entity; an entity may carry several reasons
+rules	public_discovery:reason:duplicate_chromosome_sequence_across_accessions	accessions	4	counted per entity; an entity may carry several reasons
+rules	public_discovery:reason:duplicate_submission_of_selected_inference_entity	accessions	4	counted per entity; an entity may carry several reasons
+rules	public_discovery:reason:duplicate_whole_sequence_across_accessions	accessions	4	counted per entity; an entity may carry several reasons
+rules	public_discovery:reason:legacy_exclude_marker_unresolved	accessions	1	counted per entity; an entity may carry several reasons
+rules	public_discovery:note:assembly_also_archived_as_a_type_reference	accessions	56	recorded, not disqualifying
+rules	public_discovery:note:audit_and_provenance_record_retained	accessions	1	recorded, not disqualifying
+rules	public_discovery:note:chromosome_extraction_absent_closed_by_verified_file_record	accessions	10	recorded, not disqualifying
+rules	public_discovery:note:legacy_label_requires_review	accessions	21	recorded, not disqualifying
+rules	public_discovery:note:multiple_accession_representations_of_one_assembly	accessions	49	recorded, not disqualifying
+rules	public_discovery:note:no_local_sequence_for_roster_accession_closed_by_verified_file_record	accessions	1	recorded, not disqualifying
+rules	public_discovery:note:one_assembly_inference_unit_accession_crosswalk_retained	accessions	49	recorded, not disqualifying
+rules	public_discovery:note:retained_in_provenance_and_exclusions	accessions	4	recorded, not disqualifying
+rules	public_discovery:note:selected_inference_entity_for_duplicate_submission_pair	accessions	4	recorded, not disqualifying
+rules	public_discovery:note:unresolved_taxonomy_context_candidate	accessions	1	recorded, not disqualifying
+rules	public_discovery:note:whole_assembly_file_absent	accessions	17	recorded, not disqualifying
+rules	public_discovery:note:whole_assembly_representation_verified_from_resolved_record	accessions	17	recorded, not disqualifying
+final	public_discovery:exclude	accessions	5	disposition after all rules
+final	public_discovery:keep	accessions	1074	disposition after all rules
+entities	clinical_validation:entities	sample_aliases	405	files collapsed onto stable identities
+entities	clinical_validation:files	files	461	every audited file is assigned once
+rules	clinical_validation:reason:alias_collision_sequence_concordant	sample_aliases	11	counted per entity; an entity may carry several reasons
+rules	clinical_validation:reason:alias_collision_sequence_discordant	sample_aliases	1	counted per entity; an entity may carry several reasons
+rules	clinical_validation:reason:identical_sequence_under_different_sample_aliases	sample_aliases	2	counted per entity; an entity may carry several reasons
+rules	clinical_validation:reason:quarantined_copy_sequence_differs_from_retained_candidate	sample_aliases	2	counted per entity; an entity may carry several reasons
+rules	clinical_validation:note:clinical_query_copy_present_in_public_chromosome_directory	sample_aliases	1	recorded, not disqualifying
+rules	clinical_validation:note:quarantined_leading_zero_copy_sequence_matches_candidate	sample_aliases	41	recorded, not disqualifying
+final	clinical_validation:hold	sample_aliases	16	disposition after all rules
+final	clinical_validation:keep	sample_aliases	389	disposition after all rules
+entities	type_reference_inventory:entities	files	148	files collapsed onto stable identities
+entities	type_reference_inventory:files	files	148	every audited file is assigned once
+rules	type_reference_inventory:reason:type_panel_verified_in_task_02	files	148	counted per entity; an entity may carry several reasons
+rules	type_reference_inventory:note:multiple_accession_representations_of_one_assembly	files	104	recorded, not disqualifying
+rules	type_reference_inventory:note:species_named_file_without_accession	files	15	recorded, not disqualifying
+final	type_reference_inventory:defer	files	148	disposition after all rules
+adjudications	decisions_read	decisions	6	results/cohort/2026-09-15/task01-astra-public-provenance/adjudications.tsv
+adjudications	decisions_applied	decisions	6	accepted or verified-bookkeeping decisions actually applied
+adjudications	decision:LEGACY-EXCLUDE	entities	1	accepted; excluded_from_phylogeny_and_classifier_reference
+adjudications	decision:PAIR-01	entities	2	accepted; one_inference_unit_per_duplicate_submission_pair
+adjudications	decision:PAIR-02	entities	2	accepted; one_inference_unit_per_duplicate_submission_pair
+adjudications	decision:PAIR-03	entities	2	accepted; one_inference_unit_per_duplicate_submission_pair
+adjudications	decision:PAIR-04	entities	2	accepted; one_inference_unit_per_duplicate_submission_pair
+adjudications	decision:ROUTINE-GCA-GCF	entities	0	no_adjudication_required; one_assembly_inference_unit_with_retained_crosswalk
+resolved_files	records_verified	accessions	27	paths, file checksums, sequence hash, length and named accession re-checked on disk
+resolved_files	whole_origin:ncbi_download_2026-09-15	accessions	17	additional sequence representation, not an audited file
+resolved_files	whole_origin:student_archive	accessions	10	additional sequence representation, not an audited file
+resolved_files	chromosome_origin:derived_exact_accession	accessions	11	additional sequence representation, not an audited file
+resolved_files	chromosome_origin:student_archive_existing	accessions	16	additional sequence representation, not an audited file
+resolved_files	entity_role:context_candidate	accessions	1	role assigned from the verified file record
+resolved_files	entity_role:study_candidate	accessions	26	role assigned from the verified file record
+questions	status:accepted	questions	9	every question is retained; status is annotated, never erased
+questions	status:deferred	questions	16	every question is retained; status is annotated, never erased
+questions	status:partially_accepted	questions	1	every question is retained; status is annotated, never erased
+questions	status:resolved	questions	55	every question is retained; status is annotated, never erased
+final	key_conflicts	conflicts	0	repeated keys reported rather than silently collapsed
+final	provenance_questions	questions	81	open identity questions carried to the coordinator
+final	study_candidates	accessions	1074	manifests/study-candidates.tsv
+final	validation_candidates	sample_aliases	389	manifests/validation-candidates.tsv
+manifest_diff	study-candidates.tsv:added	rows	15	shared manifest before this run versus the proposed rows
+manifest_diff	study-candidates.tsv:after	rows	1074	shared manifest before this run versus the proposed rows
+manifest_diff	study-candidates.tsv:before	rows	1059	shared manifest before this run versus the proposed rows
+manifest_diff	study-candidates.tsv:column_added	rows	20	shared manifest before this run versus the proposed rows
+manifest_diff	study-candidates.tsv:retained	rows	1059	shared manifest before this run versus the proposed rows
+manifest_diff	validation-candidates.tsv:after	rows	389	shared manifest before this run versus the proposed rows
+manifest_diff	validation-candidates.tsv:before	rows	389	shared manifest before this run versus the proposed rows
+manifest_diff	validation-candidates.tsv:column_added	rows	5	shared manifest before this run versus the proposed rows
+manifest_diff	validation-candidates.tsv:retained	rows	389	shared manifest before this run versus the proposed rows
+manifest_diff	exclusions.tsv:after	rows	169	shared manifest before this run versus the proposed rows
+manifest_diff	exclusions.tsv:before	rows	184	shared manifest before this run versus the proposed rows
+manifest_diff	exclusions.tsv:changed	rows	10	shared manifest before this run versus the proposed rows
+manifest_diff	exclusions.tsv:column_added	rows	5	shared manifest before this run versus the proposed rows
+manifest_diff	exclusions.tsv:removed	rows	15	shared manifest before this run versus the proposed rows
+manifest_diff	exclusions.tsv:retained	rows	164	shared manifest before this run versus the proposed rows

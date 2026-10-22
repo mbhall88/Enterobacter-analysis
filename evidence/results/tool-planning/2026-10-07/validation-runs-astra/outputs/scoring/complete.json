@@ -1,0 +1,13 @@
+{
+  "expert_near_clone_mismatches": 0,
+  "expert_truth_sha256": "039c544311093bd4a6eb50862748598f365bdd30bc9602d321acf27db56c584b",
+  "layers": [
+    "layer1",
+    "layer3",
+    "layer3-held",
+    "expert"
+  ],
+  "positive_assignments_enabled": false,
+  "scorer_sha256": "2afa6d761fb5d890032fa53fc87f03907f2ff9051b32cfddc52de0cf3234a19f",
+  "script_sha256": "7092961d4a339ddac20e50f002837a59fef324c40137b549724363d3af92ca7e"
+}

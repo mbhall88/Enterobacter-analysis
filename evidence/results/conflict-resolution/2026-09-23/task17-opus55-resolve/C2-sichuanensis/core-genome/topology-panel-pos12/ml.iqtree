@@ -1,0 +1,164 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Partition file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/partition-pos12.nex
+Input file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/alignment.fna
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 20260923
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 31 taxa with 2 partitions and 2146200 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	31	1073100	71453	91439	889940	889940	pos1
+   2	DNA	31	1073100	42696	46570	967741	967741	pos2
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+R4       1.3450  GTR{1.45236,2.11345,1.1953,0.434536,6.21453}+F{0.241336,0.264287,0.359339,0.135039}+R4{0.393029,0.0915844,0.430715,0.0915877,0.141085,2.68732,0.0351712,15.5075}
+   2  GTR+F+R4       0.6550  GTR{5.65341,10.1506,1.67395,5.93733,4.90716}+F{0.280827,0.230452,0.182082,0.306639}+R4{0.43916,0.144792,0.467351,0.145189,0.0731896,4.10245,0.0202996,27.9957}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5921638.0988 (s.e. 5832.6463)
+Unconstrained log-likelihood (without tree): -10227409.9573
+Number of free parameters (#branches + #model parameters): 88
+Akaike information criterion (AIC) score: 11843452.1976
+Corrected Akaike information criterion (AICc) score: 11843452.2049
+Bayesian information criterion (BIC) score: 11844559.1680
+
+Marginal log-likelihood of the tree: -6005109.2760
+Marginal Akaike information criterion (mAIC) score: 12010394.5520
+
+Total tree length (sum of branch lengths): 0.6367
+Sum of internal branch lengths: 0.1642 (25.7928% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCA_000025565.1' is drawn at root
+
++--GCA_000025565.1
+|
+|                      +-----------------------------------------GCA_000982825.1
+|        +-------------|
+|        |             +------------------------GCA_019048125.1
+|     +--|
+|     |  |                       +--GCA_001039365.2
+|     |  |                    +--|
+|     |  |                    |  +--GCA_001729805.1
+|     |  |                 +--|
+|     |  |                 |  +--GCA_026420145.1
+|     |  |              +--|
+|     |  |              |  |        +--GCA_001521715.1
+|     |  |              |  |     +--|
+|     |  |              |  |     |  |  +--GCA_019443845.1
+|     |  |              |  |     |  +--|
+|     |  |              |  |     |     +--GCA_025908375.1
+|     |  |              |  |  +--|
+|     |  |              |  |  |  +--GCA_008364625.2
+|     |  |              |  +--|
+|     |  |              |     +--GCA_008364555.1
+|     |  |           +--|
+|     |  |           |  |  +--GCA_001984825.2
+|     |  |           |  +--|
+|     |  |           |     +--GCA_034008275.1
+|     |  |        +--|
+|     |  |        |  |           +--GCA_002939185.1
+|     |  |        |  |        +--|
+|     |  |        |  |        |  +--GCA_009036245.1
+|     |  |        |  |     +--|
+|     |  |        |  |     |  |  +--GCA_042434935.1
+|     |  |        |  |     |  +--|
+|     |  |        |  |     |     +--GCA_905330125.2
+|     |  |        |  |  +--|
+|     |  |        |  |  |  +--GCA_025002605.1
+|     |  |        |  +--|
+|     |  |        |     +--GCA_034008295.1
+|     |  |     +--|
+|     |  |     |  |  +--GCA_001729765.1
+|     |  |     |  +--|
+|     |  |     |     |  +--GCA_003594915.1
+|     |  |     |     +--|
+|     |  |     |        |  +--GCA_019046905.1
+|     |  |     |        +--|
+|     |  |     |           +--GCA_026344075.1
+|     |  |  +--|
+|     |  |  |  |  +--GCA_004193715.1
+|     |  |  |  +--|
+|     |  |  |     |  +--GCA_023023105.1
+|     |  |  |     +--|
+|     |  |  |        |  +--GCA_036669895.1
+|     |  |  |        +--|
+|     |  |  |           +--GCA_041937165.1
+|     |  +--|
+|     |     +--GCA_001750725.1
+|  +--|
+|  |  +--GCA_009660455.1
++--|
+|  +--GCA_021497605.1
+|
++--GCA_040892585.1
+
+Tree in newick format:
+
+(GCA_000025565.1:0.0013883576,((((GCA_000982825.1:0.2202806092,GCA_019048125.1:0.1316304447):0.0772717522,((((((((GCA_001039365.2:0.0037462560,GCA_001729805.1:0.0053703518):0.0031156721,GCA_026420145.1:0.0052547349):0.0017395414,(((GCA_001521715.1:0.0038163729,(GCA_019443845.1:0.0014511475,GCA_025908375.1:0.0014344783):0.0012230964):0.0010360755,GCA_008364625.2:0.0037542259):0.0028882952,GCA_008364555.1:0.0061596014):0.0012697872):0.0009277590,(GCA_001984825.2:0.0053467440,GCA_034008275.1:0.0048718938):0.0054783849):0.0024176153,((((GCA_002939185.1:0.0013390905,GCA_009036245.1:0.0012264244):0.0001892288,(GCA_042434935.1:0.0013682782,GCA_905330125.2:0.0012663591):0.0003424702):0.0004092238,GCA_025002605.1:0.0014511403):0.0099670940,GCA_034008295.1:0.0084875082):0.0024952838):0.0019654817,(GCA_001729765.1:0.0126324307,(GCA_003594915.1:0.0070191837,(GCA_019046905.1:0.0050414510,GCA_026344075.1:0.0041170556):0.0028517638):0.0040308265):0.0039888771):0.0020639276,(GCA_004193715.1:0.0054375484,(GCA_023023105.1:0.0019004851,(GCA_036669895.1:0.0000401170,GCA_041937165.1:0.0000351126):0.0021184539):0.0028487402):0.0105973191):0.0046471309,GCA_001750725.1:0.0193046088):0.0035626400):0.0097914407,GCA_009660455.1:0.0046494509):0.0043465639,GCA_021497605.1:0.0013534083):0.0006319336,GCA_040892585.1:0.0012848323);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-pos12/ml.treefile -p results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-pos12/ml.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/alignment.fna --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/alignment.fna --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep 23 18:05:30 2026
+Total CPU time used: 22631.9 seconds (6h:17m:11s)
+Total wall-clock time used: 2918.62 seconds (0h:48m:38s)
+

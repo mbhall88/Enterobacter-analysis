@@ -1,0 +1,23 @@
+{
+  "source_routines": [
+    {
+      "path": "results/manuscript/2026-10-16/issue29-methods-revision-codex-860c235c/assemble_sources.py",
+      "sha256": "a6c3a4347b769db89c577a9a069900056d4b51c16ecfeed9bcfdcd7094af8ea0"
+    },
+    {
+      "path": "results/manuscript/2026-10-16/issue29-methods-revision-codex-860c235c/code_catalogues.py",
+      "sha256": "277fda3788fb4a6b7b01ea637778060c5fc0f17c3dbdb2d42542492fa50cb199"
+    },
+    {
+      "path": "results/manuscript/2026-10-16/issue29-methods-revision-codex-860c235c/figures.py",
+      "sha256": "7aa3e4bdfd2d91f56573685f27ce3c3d6e6293c7a2d1a6e06ae38ad8e3c168ce"
+    },
+    {
+      "path": "results/manuscript/2026-10-22/issue29-review-v7-codex-0184949d/dataset_flow.py",
+      "sha256": "cd66112ea54ad1b71c0db09092d07c11dd28f9c8401b75a2a134060bf8d695d7"
+    }
+  ],
+  "derived_code": "Only table routines and selected display-ID logic; no references, plotting, metadata refresh or classifier execution.",
+  "public_inputs": "Exact upstream saved products or documented non-output projections. Source/export hashes are distinct.",
+  "public_output": "Frozen numbered table bytes including historical private issue pointers; companion public evidence map belongs to table deposit."
+}

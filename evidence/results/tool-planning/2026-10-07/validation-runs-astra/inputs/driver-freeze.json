@@ -1,0 +1,9 @@
+{
+  "driver_pins_sha256": "9baf064bdccf8af48e49c13c69215fdb13b2a18aebea54c4b1aafe1e74e0b175",
+  "note": "Final review fix before any native run: preserve child exit even if subsequent input hash fails. Previous driver hashes retained.",
+  "verification": {
+    "changed": 0,
+    "object_pins": 5,
+    "package_source_files": 19
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "205687d1acc55f2200c0f776c5bd3bd60bede482e97aa5c00860b81ceccc72b9",
+  "restored_files": 249,
+  "restored_bytes": 1054707423,
+  "all_archive_and_target_hashes_verified": true,
+  "original_bound_manifests_verified": 4,
+  "classification_executed": false,
+  "portable_full_rerun_verified": false
+}

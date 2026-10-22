@@ -1,0 +1,18 @@
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+host: bun153
+slurm_job_id: 28875429
+threads: 16
+alignment: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/alignment.fna 63d50df29e854746eb74cb7a377bb70a11fdbf6b42e3dc48cabeb1f410f80629
+loci: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/loci.nex 4b965927bfb25d00f757e6b5340e1a6b38542181d3a321f0830ba82c666ff0ba (3103 loci)
+sCF model: partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/partition-codon3.nex
+sCF quartets: 100
+sCF seeds: 20260923 20260924 20260925
+reference: ml=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/ml.treefile fa931cd8b498ad962f89ecab37f8aaa414a86f7f65986b820409a156983976b1
+reference: C1_distance=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_distance.treefile da09bc8175e732ad43d27cf6498825786302f8431764e54d9f7644808f01e1be
+reference: C1_marker_outside=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_outside.treefile c5fba1159773c9ae90186eef69671ceabd67786a527533c8dc066e98cb106cdc
+reference: C1_marker_sister=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_sister.treefile 9bd4d9e7145f1671fe6bd105a7b8610fdf30a61eb390ca5478cd46acb754530c
+reference: C2_distance=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_distance.treefile 641303f64f32205796fb53bb3c3dc422f01804bf1e2dafcd9114337d960223c9
+reference: C2_marker_chinensis=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_chinensis.treefile 63471907688e77bba6aeab88e9235a99e177df8214ee99695bb3b9748f325420
+reference: C2_marker_sister=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_sister.treefile 027f99d059d5a50592e8ce0234ccdadfe1ab1bcbf247992ada84f030540a740a
+started: 2026-09-23T21:11:52+10:00
+finished: 2026-09-26T12:41:32+10:00

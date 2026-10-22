@@ -1,0 +1,15 @@
+{
+  "candidate_tips": 97,
+  "primary_tips": 94,
+  "focal_tips": 5,
+  "full_columns": 41084,
+  "primary_columns": 40254,
+  "canonical_columns": 5010,
+  "held_references": [
+    "GCA_039593615.1",
+    "GCA_048288465.1",
+    "GCA_048288485.1"
+  ],
+  "all_query_nucleotide_inputs_match": true,
+  "all_query_canonical_projections_match": true
+}

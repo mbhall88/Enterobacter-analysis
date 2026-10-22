@@ -1,0 +1,280 @@
+{
+  "bac120_fasttree": {
+    "tips": [
+      "GCA_026420145.1",
+      "GCA_008364555.1",
+      "GCA_001729805.1",
+      "GCA_001039365.2",
+      "GCA_019046905.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.016486,
+        "confidence": 0.986,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1",
+          "GCA_008364555.1",
+          "GCA_019046905.1",
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.00308,
+        "confidence": 0.249,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1",
+          "GCA_008364555.1",
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": "GCA_026420145.1",
+        "length": 0.0034159999999999998,
+        "confidence": null,
+        "descendants": [
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.001048,
+        "confidence": 1.0,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1",
+          "GCA_008364555.1"
+        ]
+      },
+      {
+        "name": "GCA_008364555.1",
+        "length": 0.003355,
+        "confidence": null,
+        "descendants": [
+          "GCA_008364555.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.001652,
+        "confidence": 1.0,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1"
+        ]
+      },
+      {
+        "name": "GCA_001729805.1",
+        "length": 0.003834,
+        "confidence": null,
+        "descendants": [
+          "GCA_001729805.1"
+        ]
+      },
+      {
+        "name": "GCA_001039365.2",
+        "length": 0.002017,
+        "confidence": null,
+        "descendants": [
+          "GCA_001039365.2"
+        ]
+      },
+      {
+        "name": "GCA_019046905.1",
+        "length": 0.007951999999999999,
+        "confidence": null,
+        "descendants": [
+          "GCA_019046905.1"
+        ]
+      }
+    ]
+  },
+  "verticall_fastme": {
+    "tips": [
+      "GCA_001729805.1",
+      "GCA_001039365.2",
+      "GCA_008364555.1",
+      "GCA_026420145.1",
+      "GCA_019046905.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.037203,
+        "confidence": null,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1",
+          "GCA_008364555.1",
+          "GCA_019046905.1",
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.014754999999999999,
+        "confidence": null,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1",
+          "GCA_008364555.1",
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.002535,
+        "confidence": null,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1",
+          "GCA_008364555.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.007123,
+        "confidence": null,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1"
+        ]
+      },
+      {
+        "name": "GCA_001729805.1",
+        "length": 0.022443,
+        "confidence": null,
+        "descendants": [
+          "GCA_001729805.1"
+        ]
+      },
+      {
+        "name": "GCA_001039365.2",
+        "length": 0.017857,
+        "confidence": null,
+        "descendants": [
+          "GCA_001039365.2"
+        ]
+      },
+      {
+        "name": "GCA_008364555.1",
+        "length": 0.028167,
+        "confidence": null,
+        "descendants": [
+          "GCA_008364555.1"
+        ]
+      },
+      {
+        "name": "GCA_026420145.1",
+        "length": 0.023752,
+        "confidence": null,
+        "descendants": [
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": "GCA_019046905.1",
+        "length": 0.048178,
+        "confidence": null,
+        "descendants": [
+          "GCA_019046905.1"
+        ]
+      }
+    ]
+  },
+  "mashtree_consensus": {
+    "tips": [
+      "GCA_001729805.1",
+      "GCA_001039365.2",
+      "GCA_008364555.1",
+      "GCA_026420145.1",
+      "GCA_019046905.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.021674,
+        "confidence": 0.919,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1",
+          "GCA_008364555.1",
+          "GCA_019046905.1",
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.017513,
+        "confidence": 0.582,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1",
+          "GCA_008364555.1",
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.003821,
+        "confidence": 0.517,
+        "descendants": [
+          "GCA_001039365.2",
+          "GCA_001729805.1"
+        ]
+      },
+      {
+        "name": "GCA_001729805.1",
+        "length": 0.019688,
+        "confidence": null,
+        "descendants": [
+          "GCA_001729805.1"
+        ]
+      },
+      {
+        "name": "GCA_001039365.2",
+        "length": 0.02238,
+        "confidence": null,
+        "descendants": [
+          "GCA_001039365.2"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.001284,
+        "confidence": 0.512,
+        "descendants": [
+          "GCA_008364555.1",
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": "GCA_008364555.1",
+        "length": 0.025357,
+        "confidence": null,
+        "descendants": [
+          "GCA_008364555.1"
+        ]
+      },
+      {
+        "name": "GCA_026420145.1",
+        "length": 0.023779,
+        "confidence": null,
+        "descendants": [
+          "GCA_026420145.1"
+        ]
+      },
+      {
+        "name": "GCA_019046905.1",
+        "length": 0.033313,
+        "confidence": null,
+        "descendants": [
+          "GCA_019046905.1"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,923 @@
+{
+  "python": {
+    "argv": [
+      ".work/envs/task12-pyani/bin/python",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "Python 3.10.21\n",
+    "stderr": ""
+  },
+  "blastn": {
+    "argv": [
+      ".work/envs/task12-pyani/bin/blastn",
+      "-version"
+    ],
+    "exit_code": 0,
+    "stdout": "blastn: 2.17.0+\n Package: blast 2.17.0, build Aug 22 2026 11:52:50\n",
+    "stderr": ""
+  },
+  "makeblastdb": {
+    "argv": [
+      ".work/envs/task12-pyani/bin/makeblastdb",
+      "-version"
+    ],
+    "exit_code": 0,
+    "stdout": "makeblastdb: 2.17.0+\n Package: blast 2.17.0, build Aug 22 2026 11:52:50\n",
+    "stderr": ""
+  },
+  "seqkit": {
+    "argv": [
+      "seqkit",
+      "version"
+    ],
+    "exit_code": 0,
+    "stdout": "seqkit v2.14.0\n",
+    "stderr": ""
+  },
+  "ssubmit": {
+    "argv": [
+      "ssubmit",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "ssubmit 1.3.0\n",
+    "stderr": ""
+  },
+  "pyani_conda": {
+    "name": "pyani",
+    "version": "0.2.13.1",
+    "build": "pyhdc42f0e_0",
+    "build_number": 0,
+    "channel": "https://conda.anaconda.org/bioconda/linux-64",
+    "subdir": "noarch",
+    "fn": "pyani-0.2.13.1-pyhdc42f0e_0.tar.bz2",
+    "md5": "82fb5119b05be82b0f53315dbfe61af1",
+    "url": "https://conda.anaconda.org/bioconda/noarch/pyani-0.2.13.1-pyhdc42f0e_0.tar.bz2",
+    "sha256": "6ed19889c2fcb135fec45e3784d18d6a99568a386bf6ea6277dbbdeed68d5cf2",
+    "depends": [
+      "pandas",
+      "numpy",
+      "biopython",
+      "scipy",
+      "matplotlib-base",
+      "tqdm",
+      "blast",
+      "networkx",
+      "intervaltree",
+      "sqlalchemy",
+      "seaborn-base",
+      "mummer",
+      "blast-legacy",
+      "namedlist",
+      "python >=3.7"
+    ],
+    "constrains": [],
+    "noarch": "python",
+    "license": "MIT",
+    "package_type": "noarch_python",
+    "timestamp": 1723218573000,
+    "size": 109096,
+    "requested_spec": "pyani=0.2.13",
+    "package_tarball_full_path": "${PROJECT_ROOT}/.work/conda-pkgs/pyani-0.2.13.1-pyhdc42f0e_0.tar.bz2",
+    "extracted_package_dir": "${PROJECT_ROOT}/.work/conda-pkgs/pyani-0.2.13.1-pyhdc42f0e_0",
+    "files": [
+      "bin/average_nucleotide_identity.py",
+      "bin/delta_filter_wrapper.py",
+      "bin/genbank_get_genomes_by_taxon.py",
+      "bin/pyani",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/INSTALLER",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/LICENSE",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/METADATA",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/RECORD",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/REQUESTED",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/WHEEL",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/direct_url.json",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/entry_points.txt",
+      "lib/python3.10/site-packages/pyani-0.3.0a0.dist-info/top_level.txt",
+      "lib/python3.10/site-packages/pyani/__init__.py",
+      "lib/python3.10/site-packages/pyani/anib.py",
+      "lib/python3.10/site-packages/pyani/aniblastall.py",
+      "lib/python3.10/site-packages/pyani/anim.py",
+      "lib/python3.10/site-packages/pyani/blast.py",
+      "lib/python3.10/site-packages/pyani/dependencies.py",
+      "lib/python3.10/site-packages/pyani/download.py",
+      "lib/python3.10/site-packages/pyani/fastani.py",
+      "lib/python3.10/site-packages/pyani/logger.py",
+      "lib/python3.10/site-packages/pyani/nucmer.py",
+      "lib/python3.10/site-packages/pyani/pyani_classify.py",
+      "lib/python3.10/site-packages/pyani/pyani_config.py",
+      "lib/python3.10/site-packages/pyani/pyani_files.py",
+      "lib/python3.10/site-packages/pyani/pyani_graphics/__init__.py",
+      "lib/python3.10/site-packages/pyani/pyani_graphics/mpl/__init__.py",
+      "lib/python3.10/site-packages/pyani/pyani_graphics/sns/__init__.py",
+      "lib/python3.10/site-packages/pyani/pyani_jobs.py",
+      "lib/python3.10/site-packages/pyani/pyani_orm.py",
+      "lib/python3.10/site-packages/pyani/pyani_report.py",
+      "lib/python3.10/site-packages/pyani/pyani_tools.py",
+      "lib/python3.10/site-packages/pyani/run_multiprocessing.py",
+      "lib/python3.10/site-packages/pyani/run_sge.py",
+      "lib/python3.10/site-packages/pyani/scripts/__init__.py",
+      "lib/python3.10/site-packages/pyani/scripts/average_nucleotide_identity.py",
+      "lib/python3.10/site-packages/pyani/scripts/delta_filter_wrapper.py",
+      "lib/python3.10/site-packages/pyani/scripts/genbank_get_genomes_by_taxon.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__init__.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/anib_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/aniblastall_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/anim_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/classify_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/common_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/createdb_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/download_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/fastani_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/index_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/listdeps_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/plot_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/report_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/run_common_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/scheduling_parser.py",
+      "lib/python3.10/site-packages/pyani/scripts/pyani_script.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__init__.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_anib.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_aniblastall.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_anim.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_classify.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_createdb.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_download.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_fastani.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_index.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_listdeps.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_plot.py",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/subcmd_report.py",
+      "lib/python3.10/site-packages/pyani/tetra.py",
+      "lib/python3.10/site-packages/pyani/__pycache__/__init__.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/anib.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/aniblastall.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/anim.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/blast.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/dependencies.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/download.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/fastani.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/logger.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/nucmer.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/pyani_classify.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/pyani_config.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/pyani_files.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/pyani_graphics/__pycache__/__init__.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/pyani_graphics/mpl/__pycache__/__init__.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/pyani_graphics/sns/__pycache__/__init__.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/pyani_jobs.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/pyani_orm.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/pyani_report.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/pyani_tools.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/run_multiprocessing.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/run_sge.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/__pycache__/__init__.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/__pycache__/average_nucleotide_identity.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/__pycache__/delta_filter_wrapper.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/__pycache__/genbank_get_genomes_by_taxon.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/__init__.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/anib_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/aniblastall_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/anim_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/classify_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/common_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/createdb_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/download_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/fastani_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/index_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/listdeps_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/plot_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/report_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/run_common_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/scheduling_parser.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/__pycache__/pyani_script.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/__init__.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_anib.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_aniblastall.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_anim.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_classify.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_createdb.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_download.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_fastani.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_index.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_listdeps.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_plot.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_report.cpython-310.pyc",
+      "lib/python3.10/site-packages/pyani/__pycache__/tetra.cpython-310.pyc"
+    ],
+    "paths_data": {
+      "paths_version": 1,
+      "paths": [
+        {
+          "_path": "python-scripts/average_nucleotide_identity.py",
+          "prefix_placeholder": "/opt/conda/conda-bld/pyani_1723218401298/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+          "file_mode": "text",
+          "path_type": "hardlink",
+          "sha256": "ef69d92c2bdac270690a90c7b4f24460de44c007fb7dfce89fc2b385cd391f0b",
+          "size_in_bytes": 531,
+          "sha256_in_prefix": "e5444fafec2968bf8ec9a4147d5b824de0044a026047737d1bfc12a018f8e7cb"
+        },
+        {
+          "_path": "python-scripts/delta_filter_wrapper.py",
+          "prefix_placeholder": "/opt/conda/conda-bld/pyani_1723218401298/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+          "file_mode": "text",
+          "path_type": "hardlink",
+          "sha256": "97ded340aa22317656ca9307de07149efacef25f6ce1e8bbd2dd381bf5e8cdb3",
+          "size_in_bytes": 524,
+          "sha256_in_prefix": "c9013cb86fd3f596d2386ae64ccfb814d1105ee84d9acdb7467bcfe12564e8cd"
+        },
+        {
+          "_path": "python-scripts/genbank_get_genomes_by_taxon.py",
+          "prefix_placeholder": "/opt/conda/conda-bld/pyani_1723218401298/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+          "file_mode": "text",
+          "path_type": "hardlink",
+          "sha256": "d349d8add980895ee17e6ade479b6387328ee387283a7da77d27e6070b29d2e8",
+          "size_in_bytes": 532,
+          "sha256_in_prefix": "3792b19dfaf8128538f25c89af03aa1316bd52a4bac2ddee56c10cfb88f08db8"
+        },
+        {
+          "_path": "python-scripts/pyani",
+          "prefix_placeholder": "/opt/conda/conda-bld/pyani_1723218401298/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+          "file_mode": "text",
+          "path_type": "hardlink",
+          "sha256": "6833a041ce15a8b345281219239a88c5df37211126ab546b47892df7e96a92fd",
+          "size_in_bytes": 516,
+          "sha256_in_prefix": "9caab642714e8029a360e9869f36c3a90b5498e42947eb103b44e1d41deb87f9"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/INSTALLER",
+          "path_type": "hardlink",
+          "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+          "size_in_bytes": 5,
+          "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/LICENSE",
+          "path_type": "hardlink",
+          "sha256": "24a011d3cc460db25e395f76f0cbcd58918d9418cefd13aa02f4176f26efab75",
+          "size_in_bytes": 1145,
+          "sha256_in_prefix": "24a011d3cc460db25e395f76f0cbcd58918d9418cefd13aa02f4176f26efab75"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/METADATA",
+          "path_type": "hardlink",
+          "sha256": "cee2dad791d8505544b20b6681f5e757f6372a48fb718c4fb395d79c9802e31d",
+          "size_in_bytes": 57719,
+          "sha256_in_prefix": "cee2dad791d8505544b20b6681f5e757f6372a48fb718c4fb395d79c9802e31d"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/RECORD",
+          "path_type": "hardlink",
+          "sha256": "8c50683636c8cbfbc1bc75d4dacf034b845e9002b7d34f7fa0ffe6971da0e55b",
+          "size_in_bytes": 9391,
+          "sha256_in_prefix": "8c50683636c8cbfbc1bc75d4dacf034b845e9002b7d34f7fa0ffe6971da0e55b"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/REQUESTED",
+          "path_type": "hardlink",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size_in_bytes": 0,
+          "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/WHEEL",
+          "path_type": "hardlink",
+          "sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+          "size_in_bytes": 91,
+          "sha256_in_prefix": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/direct_url.json",
+          "path_type": "hardlink",
+          "sha256": "f42dd7a2f139ed8b9406091db3591b6fa98824d673723420885b9f98151f6c63",
+          "size_in_bytes": 79,
+          "sha256_in_prefix": "f42dd7a2f139ed8b9406091db3591b6fa98824d673723420885b9f98151f6c63"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/entry_points.txt",
+          "path_type": "hardlink",
+          "sha256": "c995daa54f25a92acf3acfc654a5d096ca54d1f300a3fffc1ca6a4b2079969e3",
+          "size_in_bytes": 302,
+          "sha256_in_prefix": "c995daa54f25a92acf3acfc654a5d096ca54d1f300a3fffc1ca6a4b2079969e3"
+        },
+        {
+          "_path": "site-packages/pyani-0.3.0a0.dist-info/top_level.txt",
+          "path_type": "hardlink",
+          "sha256": "55172866405dacf60c281e7d3116677203f51132733e280c5ae19ad40f51ea7f",
+          "size_in_bytes": 6,
+          "sha256_in_prefix": "55172866405dacf60c281e7d3116677203f51132733e280c5ae19ad40f51ea7f"
+        },
+        {
+          "_path": "site-packages/pyani/__init__.py",
+          "path_type": "hardlink",
+          "sha256": "83f3ceded05db4b96de8b2ecfe4df1403e4185ea4e99fe7daf1d06fd856d4a56",
+          "size_in_bytes": 1766,
+          "sha256_in_prefix": "83f3ceded05db4b96de8b2ecfe4df1403e4185ea4e99fe7daf1d06fd856d4a56"
+        },
+        {
+          "_path": "site-packages/pyani/anib.py",
+          "path_type": "hardlink",
+          "sha256": "94b8b8b97549e2d0da1cf01696e1f7eda53a5150f35d772e23e4b97bbb22209a",
+          "size_in_bytes": 25490,
+          "sha256_in_prefix": "94b8b8b97549e2d0da1cf01696e1f7eda53a5150f35d772e23e4b97bbb22209a"
+        },
+        {
+          "_path": "site-packages/pyani/aniblastall.py",
+          "path_type": "hardlink",
+          "sha256": "fbcb52fa6cfb2d1f869ce4a02e240d5b434c7f8fb5e8f7d49c5f557dac564781",
+          "size_in_bytes": 3921,
+          "sha256_in_prefix": "fbcb52fa6cfb2d1f869ce4a02e240d5b434c7f8fb5e8f7d49c5f557dac564781"
+        },
+        {
+          "_path": "site-packages/pyani/anim.py",
+          "path_type": "hardlink",
+          "sha256": "92f95c578dfe5931a2b8b44b4b3cc803b0d1161e3c125428729d66a3b850fceb",
+          "size_in_bytes": 18787,
+          "sha256_in_prefix": "92f95c578dfe5931a2b8b44b4b3cc803b0d1161e3c125428729d66a3b850fceb"
+        },
+        {
+          "_path": "site-packages/pyani/blast.py",
+          "path_type": "hardlink",
+          "sha256": "992cc85cee63ff2cc18c5edf38472b52a3fe46f997cd2b1738c530c149bc3d86",
+          "size_in_bytes": 2541,
+          "sha256_in_prefix": "992cc85cee63ff2cc18c5edf38472b52a3fe46f997cd2b1738c530c149bc3d86"
+        },
+        {
+          "_path": "site-packages/pyani/dependencies.py",
+          "path_type": "hardlink",
+          "sha256": "ef9302d74eb4ce5b29907f4117c2821df4a5c78adba6af22482a6071d9e9e567",
+          "size_in_bytes": 3611,
+          "sha256_in_prefix": "ef9302d74eb4ce5b29907f4117c2821df4a5c78adba6af22482a6071d9e9e567"
+        },
+        {
+          "_path": "site-packages/pyani/download.py",
+          "path_type": "hardlink",
+          "sha256": "b7533c7275de8ce78c6e45975057ce7945eacfbdeb780390dd524f611e42d933",
+          "size_in_bytes": 19790,
+          "sha256_in_prefix": "b7533c7275de8ce78c6e45975057ce7945eacfbdeb780390dd524f611e42d933"
+        },
+        {
+          "_path": "site-packages/pyani/fastani.py",
+          "path_type": "hardlink",
+          "sha256": "f073c84d5b7f2c69e4b2995a6eead3970fde05b89d998dddbd245fa950205170",
+          "size_in_bytes": 14809,
+          "sha256_in_prefix": "f073c84d5b7f2c69e4b2995a6eead3970fde05b89d998dddbd245fa950205170"
+        },
+        {
+          "_path": "site-packages/pyani/logger.py",
+          "path_type": "hardlink",
+          "sha256": "0024b46c832060ad9229b52dcef93046dbb670f0bb9bd02ec78c14e124c3e986",
+          "size_in_bytes": 4304,
+          "sha256_in_prefix": "0024b46c832060ad9229b52dcef93046dbb670f0bb9bd02ec78c14e124c3e986"
+        },
+        {
+          "_path": "site-packages/pyani/nucmer.py",
+          "path_type": "hardlink",
+          "sha256": "bfe66948082afeda842b574f285095b68adad0bd0fbd3d7a635e1772e4cffeb5",
+          "size_in_bytes": 11460,
+          "sha256_in_prefix": "bfe66948082afeda842b574f285095b68adad0bd0fbd3d7a635e1772e4cffeb5"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_classify.py",
+          "path_type": "hardlink",
+          "sha256": "170b22df2a8f573c5644eebbfc5b12c99f7df98eccdc907c9619abd167cdddb8",
+          "size_in_bytes": 6412,
+          "sha256_in_prefix": "170b22df2a8f573c5644eebbfc5b12c99f7df98eccdc907c9619abd167cdddb8"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_config.py",
+          "path_type": "hardlink",
+          "sha256": "6f287b243859cbe94be4158ff2a5be4436ae05c1c42e89f91db16f6dabbe9407",
+          "size_in_bytes": 6882,
+          "sha256_in_prefix": "6f287b243859cbe94be4158ff2a5be4436ae05c1c42e89f91db16f6dabbe9407"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_files.py",
+          "path_type": "hardlink",
+          "sha256": "89f722107281948bcc780fe4f5a8a0c0e011d7d174e8477943107a9bfe0b7c4d",
+          "size_in_bytes": 7719,
+          "sha256_in_prefix": "89f722107281948bcc780fe4f5a8a0c0e011d7d174e8477943107a9bfe0b7c4d"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_graphics/__init__.py",
+          "path_type": "hardlink",
+          "sha256": "6218f54c63211c81e3eed42676edf6c39d0c212eb0a39e004d469fcf0a7be3b6",
+          "size_in_bytes": 3206,
+          "sha256_in_prefix": "6218f54c63211c81e3eed42676edf6c39d0c212eb0a39e004d469fcf0a7be3b6"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_graphics/mpl/__init__.py",
+          "path_type": "hardlink",
+          "sha256": "f313f4f0afe4f7881ac83853375354ec7f72d063f987dd3fe3a7a95e08218172",
+          "size_in_bytes": 13814,
+          "sha256_in_prefix": "f313f4f0afe4f7881ac83853375354ec7f72d063f987dd3fe3a7a95e08218172"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_graphics/sns/__init__.py",
+          "path_type": "hardlink",
+          "sha256": "ce3c03e8ea4548f874f2ab0c3984e78e95c484116caca961afaa9a17e176ef3e",
+          "size_in_bytes": 9274,
+          "sha256_in_prefix": "ce3c03e8ea4548f874f2ab0c3984e78e95c484116caca961afaa9a17e176ef3e"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_jobs.py",
+          "path_type": "hardlink",
+          "sha256": "17ec7956da780020a9b67ab0c5de8369e6197030bb6b0b3d83a7f3a6ab48f992",
+          "size_in_bytes": 8574,
+          "sha256_in_prefix": "17ec7956da780020a9b67ab0c5de8369e6197030bb6b0b3d83a7f3a6ab48f992"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_orm.py",
+          "path_type": "hardlink",
+          "sha256": "ac89253080e5b9cd731f1f442120532a39d564dcdd1e13151fcd4f0195b684cf",
+          "size_in_bytes": 23902,
+          "sha256_in_prefix": "ac89253080e5b9cd731f1f442120532a39d564dcdd1e13151fcd4f0195b684cf"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_report.py",
+          "path_type": "hardlink",
+          "sha256": "b000068ac36342c3ec6486825918c6c5ca00972809eb86fb87b9e89e4915548f",
+          "size_in_bytes": 7432,
+          "sha256_in_prefix": "b000068ac36342c3ec6486825918c6c5ca00972809eb86fb87b9e89e4915548f"
+        },
+        {
+          "_path": "site-packages/pyani/pyani_tools.py",
+          "path_type": "hardlink",
+          "sha256": "f3ca65c0d395fefba24b70651d64eb881c230181bad12ab0739424c14c4a50b0",
+          "size_in_bytes": 11053,
+          "sha256_in_prefix": "f3ca65c0d395fefba24b70651d64eb881c230181bad12ab0739424c14c4a50b0"
+        },
+        {
+          "_path": "site-packages/pyani/run_multiprocessing.py",
+          "path_type": "hardlink",
+          "sha256": "206514701d3ea91ab9b80b29b3d16583b916525d8008ea539869637d23431f84",
+          "size_in_bytes": 5462,
+          "sha256_in_prefix": "206514701d3ea91ab9b80b29b3d16583b916525d8008ea539869637d23431f84"
+        },
+        {
+          "_path": "site-packages/pyani/run_sge.py",
+          "path_type": "hardlink",
+          "sha256": "2dd78a5998958651669a81f8e9e331f2d2448248d5722e102bc5a5c0f2de7dc1",
+          "size_in_bytes": 12765,
+          "sha256_in_prefix": "2dd78a5998958651669a81f8e9e331f2d2448248d5722e102bc5a5c0f2de7dc1"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/__init__.py",
+          "path_type": "hardlink",
+          "sha256": "3529dd6bd4cc966f49c18c8fe2b396154931175cd3085aa8e2357b9d1bb82ca3",
+          "size_in_bytes": 1559,
+          "sha256_in_prefix": "3529dd6bd4cc966f49c18c8fe2b396154931175cd3085aa8e2357b9d1bb82ca3"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/average_nucleotide_identity.py",
+          "path_type": "hardlink",
+          "sha256": "8670a0a9d4285d823d0e5be0cb3d9382fdf156e6371325d9531020c66767987b",
+          "size_in_bytes": 36095,
+          "sha256_in_prefix": "8670a0a9d4285d823d0e5be0cb3d9382fdf156e6371325d9531020c66767987b"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/delta_filter_wrapper.py",
+          "path_type": "hardlink",
+          "sha256": "f471322b91f9d35a1d125eec39819c5d81ea4549f1837b2fbace5f679d0be577",
+          "size_in_bytes": 3057,
+          "sha256_in_prefix": "f471322b91f9d35a1d125eec39819c5d81ea4549f1837b2fbace5f679d0be577"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/genbank_get_genomes_by_taxon.py",
+          "path_type": "hardlink",
+          "sha256": "2e42ea267a85063f4868a018c90c528719fde77fe6814eb3373969aaf8584773",
+          "size_in_bytes": 29548,
+          "sha256_in_prefix": "2e42ea267a85063f4868a018c90c528719fde77fe6814eb3373969aaf8584773"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/__init__.py",
+          "path_type": "hardlink",
+          "sha256": "b2a3b071ebf07a2ca7ff2f646b5938ceeabc71507dd0d9e0866905064b31d495",
+          "size_in_bytes": 4917,
+          "sha256_in_prefix": "b2a3b071ebf07a2ca7ff2f646b5938ceeabc71507dd0d9e0866905064b31d495"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/anib_parser.py",
+          "path_type": "hardlink",
+          "sha256": "8b136c8b167e2155ed99115339d7a3a3042693cc8cce09d1b0a1962b027b48d4",
+          "size_in_bytes": 3857,
+          "sha256_in_prefix": "8b136c8b167e2155ed99115339d7a3a3042693cc8cce09d1b0a1962b027b48d4"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/aniblastall_parser.py",
+          "path_type": "hardlink",
+          "sha256": "278ab695eb68cd87d4455d3abb8c7d1928d14b475094fcfe6172ad7c65a0a6dd",
+          "size_in_bytes": 2726,
+          "sha256_in_prefix": "278ab695eb68cd87d4455d3abb8c7d1928d14b475094fcfe6172ad7c65a0a6dd"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/anim_parser.py",
+          "path_type": "hardlink",
+          "sha256": "11f1a7ba7b888a1447da8d981f335889f01d22e885bc30a33323f32407e55abe",
+          "size_in_bytes": 3806,
+          "sha256_in_prefix": "11f1a7ba7b888a1447da8d981f335889f01d22e885bc30a33323f32407e55abe"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/classify_parser.py",
+          "path_type": "hardlink",
+          "sha256": "17632d848f27191a4eb9fa0117d9ab6f0ab295780096292f0cdd2206e46ef94c",
+          "size_in_bytes": 4465,
+          "sha256_in_prefix": "17632d848f27191a4eb9fa0117d9ab6f0ab295780096292f0cdd2206e46ef94c"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/common_parser.py",
+          "path_type": "hardlink",
+          "sha256": "4c8442dc3cd67efbd1a1003b417bb57df398b8b29fe8e6222b65a7f0fa9babcc",
+          "size_in_bytes": 2975,
+          "sha256_in_prefix": "4c8442dc3cd67efbd1a1003b417bb57df398b8b29fe8e6222b65a7f0fa9babcc"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/createdb_parser.py",
+          "path_type": "hardlink",
+          "sha256": "8fd5a677db671c2a157f7c1156804bb1cab858b9bed36e4aa793e3beb6efc1ef",
+          "size_in_bytes": 2657,
+          "sha256_in_prefix": "8fd5a677db671c2a157f7c1156804bb1cab858b9bed36e4aa793e3beb6efc1ef"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/download_parser.py",
+          "path_type": "hardlink",
+          "sha256": "b6d27b00ff36bed183a2d859b9cbbd8e8a4b576a4f172fa9aa3fc5b8272c21c4",
+          "size_in_bytes": 5653,
+          "sha256_in_prefix": "b6d27b00ff36bed183a2d859b9cbbd8e8a4b576a4f172fa9aa3fc5b8272c21c4"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/fastani_parser.py",
+          "path_type": "hardlink",
+          "sha256": "973a7ad76b20e5c7e406d878ab88bd5ca376810cf351a383f60a77fcf5c637d1",
+          "size_in_bytes": 6646,
+          "sha256_in_prefix": "973a7ad76b20e5c7e406d878ab88bd5ca376810cf351a383f60a77fcf5c637d1"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/index_parser.py",
+          "path_type": "hardlink",
+          "sha256": "5d2f5394b85360ed4f392e3979c109a40a2bfc840d2c64b53bc937f7ef521a14",
+          "size_in_bytes": 3019,
+          "sha256_in_prefix": "5d2f5394b85360ed4f392e3979c109a40a2bfc840d2c64b53bc937f7ef521a14"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/listdeps_parser.py",
+          "path_type": "hardlink",
+          "sha256": "18798422a5e1a76aed83911e74d001e7877cd766d28307202277c815cd39f233",
+          "size_in_bytes": 2412,
+          "sha256_in_prefix": "18798422a5e1a76aed83911e74d001e7877cd766d28307202277c815cd39f233"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/plot_parser.py",
+          "path_type": "hardlink",
+          "sha256": "6d0676cc8bad29c7185089112ad391a93ee68921c42999628be8d078b8d848c3",
+          "size_in_bytes": 3894,
+          "sha256_in_prefix": "6d0676cc8bad29c7185089112ad391a93ee68921c42999628be8d078b8d848c3"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/report_parser.py",
+          "path_type": "hardlink",
+          "sha256": "2a4c94e5611f4c9331629cba2109f371af238d5dca433394b865e957d7c3fa28",
+          "size_in_bytes": 4559,
+          "sha256_in_prefix": "2a4c94e5611f4c9331629cba2109f371af238d5dca433394b865e957d7c3fa28"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/run_common_parser.py",
+          "path_type": "hardlink",
+          "sha256": "c593201d52fb90bff325fe46f76acb501fcc95af44a3af8d217044bb420eabfc",
+          "size_in_bytes": 2894,
+          "sha256_in_prefix": "c593201d52fb90bff325fe46f76acb501fcc95af44a3af8d217044bb420eabfc"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/parsers/scheduling_parser.py",
+          "path_type": "hardlink",
+          "sha256": "60a8ead54781cb183c441064bd0d35641c8ae86a4fddd5007917d9d542ab4579",
+          "size_in_bytes": 3047,
+          "sha256_in_prefix": "60a8ead54781cb183c441064bd0d35641c8ae86a4fddd5007917d9d542ab4579"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/pyani_script.py",
+          "path_type": "hardlink",
+          "sha256": "5ce2abfda3a1b9d5d335f548ce06c8fd4ae6712a4c1003b9bb81b68ce4aaa7db",
+          "size_in_bytes": 6940,
+          "sha256_in_prefix": "5ce2abfda3a1b9d5d335f548ce06c8fd4ae6712a4c1003b9bb81b68ce4aaa7db"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/__init__.py",
+          "path_type": "hardlink",
+          "sha256": "7807f1d1a66fedc3a3a65787405e7ffe8d894f2ab82e63a8bea55c01697208ed",
+          "size_in_bytes": 2022,
+          "sha256_in_prefix": "7807f1d1a66fedc3a3a65787405e7ffe8d894f2ab82e63a8bea55c01697208ed"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_anib.py",
+          "path_type": "hardlink",
+          "sha256": "fa6752b377f13d61691ab5e3de57f91338a1ca58f0e3e63706e2ca257c08d332",
+          "size_in_bytes": 11681,
+          "sha256_in_prefix": "fa6752b377f13d61691ab5e3de57f91338a1ca58f0e3e63706e2ca257c08d332"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_aniblastall.py",
+          "path_type": "hardlink",
+          "sha256": "edf227460c16f43b3ca8533ad01babcc4c5055c325d3d99421259f5e04617db2",
+          "size_in_bytes": 1825,
+          "sha256_in_prefix": "edf227460c16f43b3ca8533ad01babcc4c5055c325d3d99421259f5e04617db2"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_anim.py",
+          "path_type": "hardlink",
+          "sha256": "217b08e3049f71dba9b31944b274ed62217908c9fa534665347fee301ff83e69",
+          "size_in_bytes": 17113,
+          "sha256_in_prefix": "217b08e3049f71dba9b31944b274ed62217908c9fa534665347fee301ff83e69"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_classify.py",
+          "path_type": "hardlink",
+          "sha256": "4ac1c7846984aa060d88f74bd09bd38a2bc2599c2c15941150601f7d259d82ec",
+          "size_in_bytes": 6373,
+          "sha256_in_prefix": "4ac1c7846984aa060d88f74bd09bd38a2bc2599c2c15941150601f7d259d82ec"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_createdb.py",
+          "path_type": "hardlink",
+          "sha256": "fce45d0d9b758a017f7805bc8281f6965bb961cc339972275cabbbe2d5862411",
+          "size_in_bytes": 2636,
+          "sha256_in_prefix": "fce45d0d9b758a017f7805bc8281f6965bb961cc339972275cabbbe2d5862411"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_download.py",
+          "path_type": "hardlink",
+          "sha256": "40ee7a656cfc66290c79f41e9d303836b4b8e20dc2c33772e8d0e7cc738f158b",
+          "size_in_bytes": 14504,
+          "sha256_in_prefix": "40ee7a656cfc66290c79f41e9d303836b4b8e20dc2c33772e8d0e7cc738f158b"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_fastani.py",
+          "path_type": "hardlink",
+          "sha256": "1978740a18d137dfc14f099debe015726ca01fdf7c869ccd972a4696ad502151",
+          "size_in_bytes": 18510,
+          "sha256_in_prefix": "1978740a18d137dfc14f099debe015726ca01fdf7c869ccd972a4696ad502151"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_index.py",
+          "path_type": "hardlink",
+          "sha256": "cdee40b836e9369b9156efd03e40f22b83a8e3eb57c2910ab88fb9b827b91c92",
+          "size_in_bytes": 4115,
+          "sha256_in_prefix": "cdee40b836e9369b9156efd03e40f22b83a8e3eb57c2910ab88fb9b827b91c92"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_listdeps.py",
+          "path_type": "hardlink",
+          "sha256": "88463685f1c1935575581704a4fe35359805f23cf3c1bf922e3f20442887ed4a",
+          "size_in_bytes": 3160,
+          "sha256_in_prefix": "88463685f1c1935575581704a4fe35359805f23cf3c1bf922e3f20442887ed4a"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_plot.py",
+          "path_type": "hardlink",
+          "sha256": "d08da38777c4eb114a44cb3e3a077d590a8d7c083662dc2d8ebf8039b4f08910",
+          "size_in_bytes": 9948,
+          "sha256_in_prefix": "d08da38777c4eb114a44cb3e3a077d590a8d7c083662dc2d8ebf8039b4f08910"
+        },
+        {
+          "_path": "site-packages/pyani/scripts/subcommands/subcmd_report.py",
+          "path_type": "hardlink",
+          "sha256": "879a067898f35b66d11df051ac28455f376e571619f6b76604e9ae74aeb560a8",
+          "size_in_bytes": 14578,
+          "sha256_in_prefix": "879a067898f35b66d11df051ac28455f376e571619f6b76604e9ae74aeb560a8"
+        },
+        {
+          "_path": "site-packages/pyani/tetra.py",
+          "path_type": "hardlink",
+          "sha256": "01ad50bc503d7b3e04cefcb41f643b3251b50b8bd816a5c4e83d94ae288abdff",
+          "size_in_bytes": 7846,
+          "sha256_in_prefix": "01ad50bc503d7b3e04cefcb41f643b3251b50b8bd816a5c4e83d94ae288abdff"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/__init__.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/anib.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/aniblastall.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/anim.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/blast.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/dependencies.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/download.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/fastani.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/logger.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/nucmer.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/pyani_classify.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/pyani_config.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/pyani_files.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/pyani_graphics/__pycache__/__init__.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/pyani_graphics/mpl/__pycache__/__init__.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/pyani_graphics/sns/__pycache__/__init__.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/pyani_jobs.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/pyani_orm.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/pyani_report.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/pyani_tools.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/run_multiprocessing.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/run_sge.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/__pycache__/__init__.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/__pycache__/average_nucleotide_identity.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/__pycache__/delta_filter_wrapper.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/__pycache__/genbank_get_genomes_by_taxon.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/__init__.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/anib_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/aniblastall_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/anim_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/classify_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/common_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/createdb_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/download_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/fastani_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/index_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/listdeps_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/plot_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/report_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/run_common_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/parsers/__pycache__/scheduling_parser.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/__pycache__/pyani_script.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/__init__.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_anib.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_aniblastall.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_anim.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_classify.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_createdb.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_download.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_fastani.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_index.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_listdeps.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_plot.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/scripts/subcommands/__pycache__/subcmd_report.cpython-310.pyc",
+          "path_type": "pyc_file"
+        },
+        {
+          "_path": "lib/python3.10/site-packages/pyani/__pycache__/tetra.cpython-310.pyc",
+          "path_type": "pyc_file"
+        }
+      ]
+    },
+    "link": {
+      "source": "${PROJECT_ROOT}/.work/conda-pkgs/pyani-0.2.13.1-pyhdc42f0e_0",
+      "type": 1
+    }
+  }
+}

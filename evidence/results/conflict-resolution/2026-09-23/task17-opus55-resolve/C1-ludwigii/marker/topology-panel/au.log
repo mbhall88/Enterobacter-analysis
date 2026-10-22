@@ -1,0 +1,194 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    bun151 (AVX512, FMA3, 3022 GB RAM)
+Command: ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/iqtree3 -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/alignment-panel/alignment.faa -st AA -T 8 --seed 20260923 --keep-ident -m Q.INSECT+F+R4 -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/ml.treefile --tree-fix --trees results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/candidates.nwk --test 10000 --test-au --test-weight --prefix results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/au
+Seed:    20260923 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 23 15:00:55 2026
+Kernel:  AVX+FMA - 8 threads (8 CPU cores detected)
+
+Reading alignment file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/alignment-panel/alignment.faa ... Fasta format detected
+Reading fasta file: done in 0.00884223 secs using 99.1% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0155823 secs using 312.1% CPU
+Alignment has 32 sequences with 39714 columns, 2786 distinct patterns
+1778 parsimony-informative, 2471 singleton sites, 35465 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.2198e-05 secs using 90.03% CPU
+   1  GCA_000025565.1    0.07%    passed    100.00%
+   2  GCA_000982825.1    0.70%    passed     98.16%
+   3  GCA_001039365.2    0.31%    passed    100.00%
+   4  GCA_001521715.1    0.00%    passed    100.00%
+   5  GCA_001729765.1    0.40%    passed    100.00%
+   6  GCA_001729805.1    0.01%    passed    100.00%
+   7  GCA_001750725.1    0.03%    passed    100.00%
+   8  GCA_001984825.2    0.00%    passed    100.00%
+   9  GCA_002939185.1    0.12%    passed    100.00%
+  10  GCA_003594915.1    0.04%    passed    100.00%
+  11  GCA_004193715.1    0.06%    passed    100.00%
+  12  GCA_008364555.1    0.01%    passed    100.00%
+  13  GCA_008364625.2    0.00%    passed    100.00%
+  14  GCA_009036245.1    0.25%    passed    100.00%
+  15  GCA_009660455.1    0.01%    passed    100.00%
+  16  GCA_019046905.1    0.04%    passed    100.00%
+  17  GCA_019048125.1    1.26%    passed     99.83%
+  18  GCA_020099215.1    0.03%    passed    100.00%
+  19  GCA_020783215.1    0.03%    passed    100.00%
+  20  GCA_020882135.1    0.00%    passed    100.00%
+  21  GCA_023023105.1    1.18%    passed    100.00%
+  22  GCA_025002605.1    0.12%    passed    100.00%
+  23  GCA_026344075.1    0.04%    passed    100.00%
+  24  GCA_026420145.1    0.01%    passed    100.00%
+  25  GCA_029718255.1    0.03%    passed    100.00%
+  26  GCA_034008275.1    0.01%    passed    100.00%
+  27  GCA_034008295.1    0.01%    passed    100.00%
+  28  GCA_036669895.1    0.58%    passed    100.00%
+  29  GCA_041937165.1    0.01%    passed    100.00%
+  30  GCA_042434935.1    0.01%    passed    100.00%
+  31  GCA_046015545.2    0.79%    passed    100.00%
+  32  GCA_905330125.2    0.01%    passed    100.00%
+****  TOTAL              0.19%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/ml.treefile ...
+
+NOTE: 55 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -169146.665
+2. Current log-likelihood: -166158.602
+3. Current log-likelihood: -165681.314
+4. Current log-likelihood: -165355.548
+5. Current log-likelihood: -165200.023
+6. Current log-likelihood: -165178.746
+7. Current log-likelihood: -165171.762
+8. Current log-likelihood: -165164.048
+9. Current log-likelihood: -165154.542
+10. Current log-likelihood: -165143.332
+11. Current log-likelihood: -165132.429
+12. Current log-likelihood: -165122.934
+13. Current log-likelihood: -165114.395
+14. Current log-likelihood: -165110.790
+15. Current log-likelihood: -165107.259
+16. Current log-likelihood: -165103.510
+17. Current log-likelihood: -165099.509
+18. Current log-likelihood: -165095.242
+19. Current log-likelihood: -165090.704
+20. Current log-likelihood: -165085.890
+21. Current log-likelihood: -165080.805
+22. Current log-likelihood: -165075.461
+23. Current log-likelihood: -165069.888
+24. Current log-likelihood: -165064.142
+25. Current log-likelihood: -165058.249
+26. Current log-likelihood: -165052.313
+27. Current log-likelihood: -165046.438
+28. Current log-likelihood: -165040.751
+29. Current log-likelihood: -165035.371
+30. Current log-likelihood: -165030.440
+31. Current log-likelihood: -165025.998
+32. Current log-likelihood: -165022.059
+33. Current log-likelihood: -165018.946
+34. Current log-likelihood: -165016.523
+35. Current log-likelihood: -165014.787
+36. Current log-likelihood: -165013.556
+37. Current log-likelihood: -165012.745
+38. Current log-likelihood: -165012.193
+39. Current log-likelihood: -165011.771
+40. Current log-likelihood: -165011.385
+41. Current log-likelihood: -165011.003
+42. Current log-likelihood: -165010.619
+43. Current log-likelihood: -165010.226
+44. Current log-likelihood: -165009.817
+45. Current log-likelihood: -165009.398
+46. Current log-likelihood: -165008.968
+47. Current log-likelihood: -165008.525
+48. Current log-likelihood: -165008.069
+49. Current log-likelihood: -165007.599
+50. Current log-likelihood: -165007.117
+51. Current log-likelihood: -165006.620
+52. Current log-likelihood: -165006.099
+53. Current log-likelihood: -165005.569
+54. Current log-likelihood: -165005.029
+55. Current log-likelihood: -165004.461
+56. Current log-likelihood: -165003.867
+57. Current log-likelihood: -165003.268
+58. Current log-likelihood: -165002.649
+59. Current log-likelihood: -165002.012
+60. Current log-likelihood: -165001.358
+61. Current log-likelihood: -165000.689
+62. Current log-likelihood: -165000.004
+63. Current log-likelihood: -164999.305
+64. Current log-likelihood: -164998.593
+65. Current log-likelihood: -164997.869
+66. Current log-likelihood: -164997.132
+67. Current log-likelihood: -164996.388
+68. Current log-likelihood: -164995.638
+69. Current log-likelihood: -164994.890
+70. Current log-likelihood: -164994.150
+71. Current log-likelihood: -164993.417
+72. Current log-likelihood: -164992.694
+73. Current log-likelihood: -164991.988
+74. Current log-likelihood: -164991.304
+75. Current log-likelihood: -164990.647
+76. Current log-likelihood: -164990.031
+77. Current log-likelihood: -164989.453
+78. Current log-likelihood: -164988.918
+79. Current log-likelihood: -164988.431
+80. Current log-likelihood: -164987.992
+81. Current log-likelihood: -164987.604
+82. Current log-likelihood: -164987.275
+83. Current log-likelihood: -164986.990
+84. Current log-likelihood: -164986.747
+85. Current log-likelihood: -164986.544
+86. Current log-likelihood: -164986.375
+87. Current log-likelihood: -164986.237
+88. Current log-likelihood: -164986.125
+89. Current log-likelihood: -164986.042
+90. Current log-likelihood: -164985.975
+91. Current log-likelihood: -164985.921
+92. Current log-likelihood: -164985.879
+93. Current log-likelihood: -164985.846
+Optimal log-likelihood: -164985.835
+Site proportion and rates:  (0.481,0.207) (0.447,0.208) (0.062,7.102) (0.010,35.050)
+Parameters optimization took 93 rounds (48.133 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -164985.835
+Total tree length: 0.253
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 381.291 sec (0h:6m:21s)
+Total wall-clock time used: 48.160 sec (0h:0m:48s)
+Reading trees in results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/candidates.nwk ...
+
+4 trees detected
+Note: 106.842 MB of RAM required!
+Creating 10000 bootstrap replicates...
+done
+Tree 1 / LogL: -164985.834
+Tree 2 / LogL: -165067.056
+Tree 3 / LogL: -165043.016
+Tree 4 / LogL: -165082.683
+Performing RELL-BP test...
+Performing KH and SH test...
+Computing pairwise logl difference variance ...
+Performing WKH and WSH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+3 MB required for AU test
+Generating 10 x 10000 multiscale bootstrap replicates... 7.769 seconds
+TreeID	AU	RSS	d	c
+1	0.924	13.511	-1.338	0.094
+2	0.000	1.394	4.645	0.247
+3	0.004	8.793	2.666	0.031
+4	0.100	12.137	1.274	-0.009
+Time for AU test: 7.769 seconds
+Time for evaluating all trees: 10.106 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/au.iqtree
+  Maximum-likelihood tree:       results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/au.treefile
+  Evaluated user trees:          results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/au.trees
+  Screen log file:               results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/marker/topology-panel/au.log
+
+Date and Time: Wed Sep 23 15:01:53 2026

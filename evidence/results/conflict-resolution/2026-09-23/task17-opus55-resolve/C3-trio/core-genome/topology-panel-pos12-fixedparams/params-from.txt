@@ -1,0 +1,4 @@
+parameters_from	marker
+search_lnl	-4447056.6434
+model_file	results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.best_model.nex
+start_tree	results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.treefile

@@ -1,0 +1,34 @@
+ncbi_name_normalised	kind	expected_species_ids	expected_species_names	expected_subspecies_id	expected_subspecies_name	effective_assemblies	effective_components	moderate_or_unreported	held_assemblies	open_decision	basis
+Enterobacter asburiae	equivalent	ECTX-SP002	Enterobacter asburiae			195	88	39	3		same name
+Enterobacter bugandensis	equivalent	ECTX-SP003	Enterobacter bugandensis			74	34	15	2		same name; nematophilus kept separate (issue 2, 27 Sep)
+Enterobacter cancerogenus	equivalent	ECTX-SP004	Enterobacter cancerogenus			4	4	1	1		same name
+Enterobacter chengduensis	equivalent	ECTX-SP005	Enterobacter chengduensis			5	3	0	0		same species; NCBI gives no subspecies
+Enterobacter chuandaensis	equivalent	ECTX-SP007	Enterobacter chuandaensis			2	2	1	0		same name
+Enterobacter cloacae	equivalent	ECTX-SP008	Enterobacter cloacae			270	125	152	1		same species; NCBI gives no subspecies
+Enterobacter cloacae complex sp.	unnamed					222	12	40	0		complex-level label; no species expectation
+Enterobacter cloacae subsp. cloacae	equivalent	ECTX-SP008	Enterobacter cloacae	ECTX-SS003	Enterobacter cloacae subsp. cloacae	21	12	3	1		same name
+Enterobacter cloacae subsp. dissolvens	equivalent	ECTX-SP008	Enterobacter cloacae	ECTX-SS004	Enterobacter cloacae subsp. dissolvens	2	1	0	0		same name
+Enterobacter hormaechei	broader	ECTX-SP009;ECTX-SP025	Enterobacter hormaechei;Enterobacter xiangfangensis			2574	379	655	6		NCBI sensu lato covers project hormaechei and xiangfangensis (Group B and hoffmannii group separated from the hormaechei type lineage, issue 2, 24 Sep)
+Enterobacter hormaechei subsp. hoffmannii	combination_change	ECTX-SP025	Enterobacter xiangfangensis	ECTX-SS007	Enterobacter xiangfangensis subsp. hoffmannii	74	14	7	0	DEC-004 A/B species rank (Leah)	project xiangfangensis subsp. hoffmannii (final name open)
+Enterobacter hormaechei subsp. hormaechei	equivalent	ECTX-SP009	Enterobacter hormaechei			3	3	0	0		type lineage of project hormaechei
+Enterobacter hormaechei subsp. oharae	combination_change	ECTX-SP025	Enterobacter xiangfangensis	ECTX-SS008	Enterobacter xiangfangensis subsp. oharae	26	5	3	0		project xiangfangensis subsp. oharae
+Enterobacter hormaechei subsp. steigerwaltii	combination_change	ECTX-SP025	Enterobacter xiangfangensis	ECTX-SS009	Enterobacter xiangfangensis subsp. steigerwaltii	332	19	47	0		project xiangfangensis subsp. steigerwaltii
+Enterobacter hormaechei subsp. xiangfangensis	combination_change	ECTX-SP025	Enterobacter xiangfangensis	ECTX-SS010	Enterobacter xiangfangensis subsp. xiangfangensis	170	41	12	0		project xiangfangensis subsp. xiangfangensis
+Enterobacter huaxiensis	equivalent	ECTX-SP010	Enterobacter huaxiensis			1	1	0	0		same name
+Enterobacter intestinihominis	combination_change	ECTX-SP025	Enterobacter xiangfangensis	ECTX-SS007	Enterobacter xiangfangensis subsp. hoffmannii	3	1	3	0	DEC-004 A/B species rank (Leah)	project hoffmannii/intestinihominis group (issue 2, 24 Sep; final name open)
+Enterobacter kobei	equivalent	ECTX-SP011	Enterobacter kobei			179	83	25	0		same name
+Enterobacter ludwigii	equivalent	ECTX-SP012	Enterobacter ludwigii			171	60	51	1		same name
+Enterobacter mori	equivalent	ECTX-SP013	Enterobacter mori			33	22	8	0		same name
+Enterobacter oligotrophicus	equivalent	ECTX-SP015	Enterobacter oligotrophicus			1	1	1	0		same name
+Enterobacter pasteurii	equivalent	ECTX-SP016	Enterobacter pasteurii			0	0	0	1		same name
+Enterobacter pseudoroggenkampii	equivalent	ECTX-SP017	Enterobacter pseudoroggenkampii			1	1	0	0		same name
+Enterobacter quasihormaechei	equivalent	ECTX-SP018	Enterobacter quasihormaechei			3	1	0	0		same name
+Enterobacter quasiroggenkampii	combination_change	ECTX-SP019	Enterobacter roggenkampii	ECTX-SS005	Enterobacter roggenkampii subsp. quasiroggenkampii	3	1	3	0		project roggenkampii subsp. quasiroggenkampii
+Enterobacter roggenkampii	equivalent	ECTX-SP019	Enterobacter roggenkampii			237	84	36	0		same species; NCBI gives no subspecies
+Enterobacter sichuanensis	equivalent	ECTX-SP021	Enterobacter sichuanensis			1	1	0	0		same name
+Enterobacter soli	equivalent	ECTX-SP022	Enterobacter soli			1	1	1	0		same name
+Enterobacter sp.	unnamed					210	108	32	19		genus-level label; no species expectation
+Enterobacter vonholyi	equivalent	ECTX-SP023	Enterobacter vonholyi			0	0	0	1		same name
+Enterobacter wuhouensis	equivalent	ECTX-SP024	Enterobacter wuhouensis			1	1	0	0		same name
+Lelliottia nimipressuralis	outside_genus					1	1	1	0		no Lelliottia reference; no Enterobacter result expected
+Lelliottia sp.	outside_genus					1	1	1	0		no Lelliottia reference; no Enterobacter result expected

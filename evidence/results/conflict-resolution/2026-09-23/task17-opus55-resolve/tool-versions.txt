@@ -1,0 +1,12 @@
+panaroo: panaroo 1.8.0
+pyrodigal: pyrodigal v3.7.1
+mafft: v7.526 (2024/Apr/26)
+cd-hit: 		====== CD-HIT version 4.8.1 (built on Nov 12 2024) ======
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+fastme: FastME 2.1.6.3
+verticall: Verticall v0.4.2
+minimap2: 2.30-r1287
+mashtree: Mashtree 1.4.6
+gtdb-tk module: gtdb-tk/2.7.2+232
+python: Python 3.12.11
+numpy: 2.3.3

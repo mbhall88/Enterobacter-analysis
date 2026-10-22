@@ -1,0 +1,4 @@
+hypothesis_1	hypothesis_2	genes_present_1_only	genes_present_2_only	genes_present_both	share_1_of_deciding
+verticall	marker	0	2	0	0.0
+verticall	third	0	4	0	0.0
+marker	third	2	4	0	0.3333

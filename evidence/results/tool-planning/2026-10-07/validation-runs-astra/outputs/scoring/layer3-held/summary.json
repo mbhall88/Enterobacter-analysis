@@ -1,0 +1,1385 @@
+{
+  "block_sensitivity": {
+    "layer3_held": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP004": 1,
+        "ECTX-SP008": 1,
+        "ECTX-SP016": 1,
+        "ECTX-SP023": 1,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 4,
+        "withheld": 1
+      },
+      "genomes": 5,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 4,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    }
+  },
+  "component_weighted": {
+    "layer3_held": {
+      "consistent": 4.0,
+      "withheld": 1.0
+    },
+    "layer3_held|assembly_level=Contig": {
+      "consistent": 2.0,
+      "withheld": 1.0
+    },
+    "layer3_held|assembly_level=Scaffold": {
+      "consistent": 2.0
+    },
+    "layer3_held|crosswalk_kind=broader": {
+      "consistent": 2.0
+    },
+    "layer3_held|crosswalk_kind=broader,qc_stratum=high_quality,assembly_level=Contig": {
+      "consistent": 1.0
+    },
+    "layer3_held|crosswalk_kind=broader,qc_stratum=high_quality,assembly_level=Scaffold": {
+      "consistent": 1.0
+    },
+    "layer3_held|crosswalk_kind=equivalent": {
+      "consistent": 4.0,
+      "withheld": 1.0
+    },
+    "layer3_held|crosswalk_kind=equivalent,qc_stratum=high_quality,assembly_level=Contig": {
+      "consistent": 2.0,
+      "withheld": 1.0
+    },
+    "layer3_held|crosswalk_kind=equivalent,qc_stratum=high_quality,assembly_level=Scaffold": {
+      "consistent": 2.0
+    },
+    "layer3_held|expert_sample=False": {
+      "consistent": 4.0,
+      "withheld": 1.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter asburiae": {
+      "consistent": 2.0,
+      "withheld": 1.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter bugandensis": {
+      "consistent": 1.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter cancerogenus": {
+      "consistent": 1.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter cloacae": {
+      "consistent": 1.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter cloacae subsp. cloacae": {
+      "consistent": 1.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter hormaechei": {
+      "consistent": 2.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter ludwigii": {
+      "consistent": 1.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter pasteurii": {
+      "consistent": 1.0
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter vonholyi": {
+      "consistent": 1.0
+    },
+    "layer3_held|near_clone=False": {
+      "consistent": 3.0,
+      "withheld": 1.0
+    },
+    "layer3_held|near_clone=True": {
+      "consistent": 3.0
+    },
+    "layer3_held|qc_stratum=high_quality": {
+      "consistent": 4.0,
+      "withheld": 1.0
+    }
+  },
+  "groups": {
+    "layer3_held": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP002": 2,
+        "ECTX-SP003": 2,
+        "ECTX-SP004": 1,
+        "ECTX-SP008": 2,
+        "ECTX-SP009": 3,
+        "ECTX-SP012": 1,
+        "ECTX-SP016": 1,
+        "ECTX-SP023": 1,
+        "ECTX-SP025": 3,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 16,
+        "withheld": 1
+      },
+      "genomes": 36,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 12,
+        "names_a_species": 1,
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 16,
+        "descriptive_result": 6,
+        "descriptive_withheld": 13,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|assembly_level=Contig": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP002": 2,
+        "ECTX-SP003": 2,
+        "ECTX-SP008": 1,
+        "ECTX-SP009": 1,
+        "ECTX-SP012": 1,
+        "ECTX-SP016": 1,
+        "ECTX-SP023": 1,
+        "ECTX-SP025": 3,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 12,
+        "withheld": 1
+      },
+      "genomes": 28,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 10,
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 12,
+        "descriptive_result": 5,
+        "descriptive_withheld": 10,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|assembly_level=Scaffold": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP004": 1,
+        "ECTX-SP008": 1,
+        "ECTX-SP009": 2
+      },
+      "crosswalk_species": {
+        "consistent": 4
+      },
+      "genomes": 8,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 2,
+        "names_a_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 4,
+        "descriptive_result": 1,
+        "descriptive_withheld": 3
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=broader": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP009": 3,
+        "ECTX-SP025": 3
+      },
+      "crosswalk_species": {
+        "consistent": 6
+      },
+      "genomes": 6,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 6
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=broader,qc_stratum=high_quality,assembly_level=Contig": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP009": 1,
+        "ECTX-SP025": 3
+      },
+      "crosswalk_species": {
+        "consistent": 4
+      },
+      "genomes": 4,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 4
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=broader,qc_stratum=high_quality,assembly_level=Scaffold": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP009": 2
+      },
+      "crosswalk_species": {
+        "consistent": 2
+      },
+      "genomes": 2,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 2
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=equivalent": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP002": 2,
+        "ECTX-SP003": 2,
+        "ECTX-SP004": 1,
+        "ECTX-SP008": 2,
+        "ECTX-SP012": 1,
+        "ECTX-SP016": 1,
+        "ECTX-SP023": 1,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 10,
+        "withheld": 1
+      },
+      "genomes": 11,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 10,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=equivalent,qc_stratum=high_quality,assembly_level=Contig": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP002": 2,
+        "ECTX-SP003": 2,
+        "ECTX-SP008": 1,
+        "ECTX-SP012": 1,
+        "ECTX-SP016": 1,
+        "ECTX-SP023": 1,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 8,
+        "withheld": 1
+      },
+      "genomes": 9,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 8,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=equivalent,qc_stratum=high_quality,assembly_level=Scaffold": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP004": 1,
+        "ECTX-SP008": 1
+      },
+      "crosswalk_species": {
+        "consistent": 2
+      },
+      "genomes": 2,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 2
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=unnamed": {
+      "accuracy_denominator": 0,
+      "genomes": 19,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 12,
+        "names_a_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_result": 6,
+        "descriptive_withheld": 13
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=unnamed,qc_stratum=fragmented_high_quality,assembly_level=Contig": {
+      "accuracy_denominator": 0,
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=unnamed,qc_stratum=high_quality,assembly_level=Contig": {
+      "accuracy_denominator": 0,
+      "genomes": 10,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 6
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_result": 4,
+        "descriptive_withheld": 6
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=unnamed,qc_stratum=high_quality,assembly_level=Scaffold": {
+      "accuracy_denominator": 0,
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_result": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=unnamed,qc_stratum=moderate_quality_stress,assembly_level=Contig": {
+      "accuracy_denominator": 0,
+      "genomes": 4,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 3
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_result": 1,
+        "descriptive_withheld": 3
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|crosswalk_kind=unnamed,qc_stratum=moderate_quality_stress,assembly_level=Scaffold": {
+      "accuracy_denominator": 0,
+      "genomes": 3,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 2,
+        "names_a_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_withheld": 3
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|expert_sample=False": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP002": 2,
+        "ECTX-SP003": 2,
+        "ECTX-SP004": 1,
+        "ECTX-SP008": 2,
+        "ECTX-SP009": 3,
+        "ECTX-SP012": 1,
+        "ECTX-SP016": 1,
+        "ECTX-SP023": 1,
+        "ECTX-SP025": 3,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 16,
+        "withheld": 1
+      },
+      "genomes": 36,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 12,
+        "names_a_species": 1,
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 16,
+        "descriptive_result": 6,
+        "descriptive_withheld": 13,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter asburiae": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP002": 2,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 2,
+        "withheld": 1
+      },
+      "genomes": 3,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 2,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter bugandensis": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP003": 2
+      },
+      "crosswalk_species": {
+        "consistent": 2
+      },
+      "genomes": 2,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 2
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter cancerogenus": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP004": 1
+      },
+      "crosswalk_species": {
+        "consistent": 1
+      },
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter cloacae": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP008": 1
+      },
+      "crosswalk_species": {
+        "consistent": 1
+      },
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter cloacae subsp. cloacae": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP008": 1
+      },
+      "crosswalk_species": {
+        "consistent": 1
+      },
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter hormaechei": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP009": 3,
+        "ECTX-SP025": 3
+      },
+      "crosswalk_species": {
+        "consistent": 6
+      },
+      "genomes": 6,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 6
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter ludwigii": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP012": 1
+      },
+      "crosswalk_species": {
+        "consistent": 1
+      },
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter pasteurii": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP016": 1
+      },
+      "crosswalk_species": {
+        "consistent": 1
+      },
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter sp.": {
+      "accuracy_denominator": 0,
+      "genomes": 19,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 12,
+        "names_a_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_result": 6,
+        "descriptive_withheld": 13
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|ncbi_name_normalised=Enterobacter vonholyi": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP023": 1
+      },
+      "crosswalk_species": {
+        "consistent": 1
+      },
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|near_clone=False": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP002": 2,
+        "ECTX-SP003": 2,
+        "ECTX-SP004": 1,
+        "ECTX-SP012": 1,
+        "ECTX-SP023": 1,
+        "ECTX-SP025": 3,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 10,
+        "withheld": 1
+      },
+      "genomes": 30,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 12,
+        "names_a_species": 1,
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 10,
+        "descriptive_result": 6,
+        "descriptive_withheld": 13,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|near_clone=True": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP008": 2,
+        "ECTX-SP009": 3,
+        "ECTX-SP016": 1
+      },
+      "crosswalk_species": {
+        "consistent": 6
+      },
+      "genomes": 6,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {},
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 6
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|qc_stratum=fragmented_high_quality": {
+      "accuracy_denominator": 0,
+      "genomes": 1,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|qc_stratum=high_quality": {
+      "accuracy_denominator": 0,
+      "crosswalk_returned_species": {
+        "ECTX-SP002": 2,
+        "ECTX-SP003": 2,
+        "ECTX-SP004": 1,
+        "ECTX-SP008": 2,
+        "ECTX-SP009": 3,
+        "ECTX-SP012": 1,
+        "ECTX-SP016": 1,
+        "ECTX-SP023": 1,
+        "ECTX-SP025": 3,
+        "withheld": 1
+      },
+      "crosswalk_species": {
+        "consistent": 16,
+        "withheld": 1
+      },
+      "genomes": 28,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 6,
+        "names_expected_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "consistent": 16,
+        "descriptive_result": 5,
+        "descriptive_withheld": 6,
+        "withheld": 1
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {
+        "consistent": 1
+      },
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    },
+    "layer3_held|qc_stratum=moderate_quality_stress": {
+      "accuracy_denominator": 0,
+      "genomes": 7,
+      "label_sources": {},
+      "named_coverage": [
+        0,
+        0
+      ],
+      "named_coverage_ci95": null,
+      "note_outcomes": {
+        "absent": 5,
+        "names_a_species": 1
+      },
+      "run_failed": 0,
+      "species_outcomes": {
+        "descriptive_result": 1,
+        "descriptive_withheld": 6
+      },
+      "species_results": 0,
+      "structural_rows": 0,
+      "structural_rows_wrong": 0,
+      "subspecies_outcomes": {},
+      "subspecies_structural_outcomes": {},
+      "tool_species_outside_passing": 0,
+      "withheld_reasons": {},
+      "wrong_among_results_ci95": null,
+      "wrong_result_basis": "excludes structural rows (label is the only species passing 95/80)",
+      "wrong_results": 0,
+      "wrong_subspecies": [
+        0,
+        0
+      ],
+      "wrong_subspecies_basis": "correct species with a subspecies result; excludes subspecies_structural rows",
+      "wrong_subspecies_ci95": null
+    }
+  },
+  "interval": "exact two-sided 95% Clopper-Pearson; genomes treated as independent",
+  "results_manifest_sha256": "6cdbb7fdd541a42e2a0161569e33d40c8ae77cdd0111aa0d13f42b34e6a5e0ad",
+  "scorer_sha256": "2afa6d761fb5d890032fa53fc87f03907f2ff9051b32cfddc52de0cf3234a19f",
+  "truth_sha256": "6558e1c27cdbf9a77f8867b4bba5dd6fdaefc3958955f99a06653ebce7857eaa"
+}

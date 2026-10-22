@@ -1,0 +1,19 @@
+{
+  "cap": 20,
+  "chosen": 20,
+  "eligible": 91,
+  "forms": 4,
+  "inputs": {
+    "${PROJECT_ROOT}/results/tool-planning/2026-10-06/validation-design-claude/outputs/design-artifacts-attempt08/expert-sample-option-stratified-n100.tsv": "f2787df9399a60e4dbfd6281ddcc0e43fd1945e8252b979419c4748e64febd61",
+    "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/outputs/scoring/layer3-truth.tsv": "2484dfe0d7c1c9ba3bc6ee6b3ee0cf4f5291c1459c2ce26c2612af2e864a97f9",
+    "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/outputs/scoring/layer3/scored-genomes.tsv": "d15b69e325b2b60acfe6c42d6f419d705c9fa055288ad86d9cb5c3616c5cb4dc"
+  },
+  "seed": "Enterobacter-validation-disagreement-20261007-v1",
+  "slots": {
+    "Enterobacter cloacae": 11,
+    "Enterobacter cloacae subsp. cloacae": 1,
+    "Enterobacter hormaechei subsp. oharae": 1,
+    "Enterobacter hormaechei subsp. xiangfangensis": 7
+  },
+  "source_sha256": "11b6b4083dd7d5813269f9a04cef7f90c93dc72aa12258737d85f06dc8285525"
+}

@@ -1,0 +1,15 @@
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+host: bun130
+slurm_job_id: 28874095
+threads: 16
+alignment: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/alignment.fna 7ae46fbbd827ff3cac5996aced5cf2b1fd4f762808dcb9e8da4dcc96489b6842
+loci: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/loci.nex 59c83514bb30dc4bc78830f041eb948578340d79dfed87883af0984bc35f93dd (3731 loci)
+sCF model: partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/partition-codon3.nex
+sCF quartets: 100
+sCF seeds: 20260923 20260924 20260925
+reference: ml=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/ml.treefile 46130024f346db21f91ecdb9ffe5aa03d3977dca3ed578787d323da93543179e
+reference: marker=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.treefile 0c8693bda247a6d484cba02a7ff9c42ad03b3ec933c2901a687498fad58553c0
+reference: third=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-third.treefile af647c8bb252fef0f53baef44f24993f2f255f7238846b300b7fa55395a33d83
+reference: verticall=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-verticall.treefile da2f080a9d9e5b5543c6cafa12197284a8047a5eb7d052d280712672ffc59d6e
+started: 2026-09-23T18:32:05+10:00
+finished: 2026-09-24T00:41:11+10:00

@@ -1,0 +1,41 @@
+{
+  "GV1b": {
+    "gv_source_group": 148,
+    "gv_unassessable_singleton": 15,
+    "gv_withheld_overlap": 10
+  },
+  "GV2": {
+    "gv_withheld_incomplete": 123,
+    "gv_unassessable_singleton": 15,
+    "gv_source_group": 26,
+    "gv_withheld_overlap": 9
+  },
+  "GV3-public": {
+    "gv_assigned": 539,
+    "gv_no_compatible": 111,
+    "gv_withheld_overlap": 71,
+    "gv_assigned_singleton": 26,
+    "gv_withheld_member_af": 2
+  },
+  "GV3-study": {
+    "self_member:gv_source_group": 157,
+    "self_member:gv_withheld_overlap": 8
+  },
+  "GV4": {
+    "gv_source_group": 67,
+    "gv_withheld_overlap": 58,
+    "gv_withheld_member_af": 5,
+    "gv_withheld_parent": 180,
+    "gv_no_compatible": 10,
+    "gv_other_group_under_omission": 2
+  },
+  "GV4-saved": {
+    "gv_withheld_incomplete": 10,
+    "gv_source_group": 5,
+    "gv_withheld_parent": 10
+  },
+  "GV6": {
+    "gv_no_compatible": 163,
+    "gv_other_group_under_omission": 10
+  }
+}

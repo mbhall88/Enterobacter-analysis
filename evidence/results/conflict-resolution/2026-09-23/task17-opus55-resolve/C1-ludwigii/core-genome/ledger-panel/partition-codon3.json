@@ -1,0 +1,26 @@
+{
+ "scheme": "codon3",
+ "model_per_partition": "GTR+F+R4",
+ "genes": 3238,
+ "genes_in_frame": 3233,
+ "genes_out_of_frame": 5,
+ "out_of_frame_genes": [
+  "group_26418",
+  "group_450",
+  "group_25456",
+  "group_26280",
+  "group_3372"
+ ],
+ "partitions": [
+  "pos1",
+  "pos2",
+  "pos3",
+  "noncodon"
+ ],
+ "columns_per_partition": {
+  "pos1": 1080307,
+  "pos2": 1080307,
+  "pos3": 1080307,
+  "noncodon": 1952
+ }
+}

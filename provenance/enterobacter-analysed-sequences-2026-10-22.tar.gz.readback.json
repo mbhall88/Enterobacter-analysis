@@ -1,0 +1,9 @@
+{
+  "archive": "enterobacter-analysed-sequences-2026-10-22.tar.gz",
+  "archive_sha256": "945abeffa9b2d4cc876c9ffe5d780c38ff91556fd91fa322b8933e166ce5a099",
+  "members_verified": 1176,
+  "uncompressed_bytes_verified": 5646969842,
+  "all_member_hashes_match": true,
+  "regular_files_only": true,
+  "extracted_files": 0
+}

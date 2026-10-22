@@ -1,0 +1,9 @@
+{
+  "archive": "enterobacter-analysis-alignments-trees-2026-10-22.tar.gz",
+  "archive_sha256": "0113324555ce462823fd78d9177b66ee79ab672497388d2bdf2897048ca8b1ff",
+  "members_verified": 1036,
+  "uncompressed_bytes_verified": 4050121066,
+  "all_member_hashes_match": true,
+  "regular_files_only": true,
+  "extracted_files": 0
+}

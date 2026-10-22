@@ -1,0 +1,13 @@
+reference	hypothesis	kind	branch_in_reference	branch_id	branch_length	collapsed_gCF	collapsed_gCF_N	collapsed_gDF1	collapsed_gDF1_N	collapsed_gDF2	collapsed_gDF2_N	collapsed_gDFP	collapsed_gDFP_N	collapsed_gN	raw_gCF	raw_gCF_N	raw_gDF1	raw_gDF1_N	raw_gDF2	raw_gDF2_N	raw_gDFP	raw_gDFP_N	raw_gN	sCF_seed_20260923	sCF_seed_20260924	sCF_seed_20260925	sCF_mean	sCF_range	sDF1_mean	sDF1_range	sDF2_mean	sDF2_range	sN_mean	sN_range
+ml	verticall	quartet	False																															
+ml	marker	quartet	True	64	9.03764e-05	0	0	0	0	0	0	100	69	69	0	0	0	0	0	0	100	69	69	57.75	57.11	57.67	57.51	0.64	25.96	0.24	16.52	0.79	7.21	0.11
+ml	third	quartet	False																															
+marker	verticall	quartet	False																															
+marker	marker	quartet	True	84	7.6001e-05	0	0	0	0	0	0	100	69	69	0	0	0	0	0	0	100	69	69	51.1	50.85	50.83	50.93	0.27	11.1	0.48	37.97	0.52	6.0	0.03
+marker	third	quartet	False																															
+third	verticall	quartet	False																															
+third	marker	quartet	False																															
+third	third	quartet	True	62	2.56501e-05	0	0	0	0	0	0	100	69	69	0	0	0	0	0	0	100	69	69	23.73	23.58	23.92	23.74	0.34	28.43	0.76	47.82	0.42	5.12	0.06
+verticall	verticall	quartet	True	60	2.2987e-05	0	0	0	0	0	0	100	69	69	0	0	0	0	0	0	100	69	69	27.02	26.18	27.25	26.82	1.07	35.52	0.8	37.66	0.43	5.58	0.06
+verticall	marker	quartet	False																															
+verticall	third	quartet	False																															

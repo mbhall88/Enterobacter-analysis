@@ -1,0 +1,11 @@
+figure	display_a	display_b	type_a_accession_version	type_a_taxon	type_b_accession_version	type_b_taxon	ani_percent	af_a_percent	af_b_percent	af_min_percent	type_a_scope_status	type_b_scope_status	at_or_above_95_ani	at_or_above_95_ani_and_80_af
+S2	T01	T24	GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	95.1100	81.1800	89.1500	81.1800	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+S2	T01	T13	GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001750725.1	Enterobacter ludwigii	88.6800	53.3500	58.3700	53.3500	assembled_chromosome	assembled_chromosome	False	False
+S2	T01	T15	GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_002939185.1	Enterobacter sichuanensis	89.8300	58.0200	63.0700	58.0200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S2	T01	T33	GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_034008295.1	Enterobacter chinensis	89.3500	58.6800	64.3700	58.6800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S2	T24	T13	GCA_001750725.1	Enterobacter ludwigii	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	88.4900	58.9400	59.1600	58.9400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S2	T24	T15	GCA_002939185.1	Enterobacter sichuanensis	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	90.0400	65.0500	65.7200	65.0500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S2	T24	T33	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_034008295.1	Enterobacter chinensis	89.6800	67.8400	67.7500	67.7500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S2	T13	T15	GCA_001750725.1	Enterobacter ludwigii	GCA_002939185.1	Enterobacter sichuanensis	88.8000	56.6300	56.2600	56.2600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S2	T13	T33	GCA_001750725.1	Enterobacter ludwigii	GCA_034008295.1	Enterobacter chinensis	88.9800	62.0800	62.2300	62.0800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S2	T15	T33	GCA_002939185.1	Enterobacter sichuanensis	GCA_034008295.1	Enterobacter chinensis	92.3900	76.7400	77.4400	76.7400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False

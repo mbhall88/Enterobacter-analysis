@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+# Execution ledger: commands already run in chronological stages. Do not rerun this file.
+# Exact native per-genome argv/timing/exit/resources live in queries/CODE/attempt01/.
+# Exact scheduler argv and JSON live in logs/layer{1,3}-{plan,submit}/.
+# Source creation/editing is preserved in source/ and the reviewed driver pin inventories.
+# CWD ${PROJECT_ROOT}
+# All Python invocations use PYTHONDONTWRITEBYTECODE=1; no frozen files are mutated.
+
+# Preflight (completed)
+# Full40file check: source/check_freeze.py from expert-labelling-claude;
+# output inputs/freeze-check-initial.json. Source package files additionally
+# checked by common.verify_object against the posted canonical inventory digest.
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src .work/envs/verticall/bin/python -m enterobacter_classifier analyze --help
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src .work/envs/verticall/bin/python -m pytest results/tool-planning/2026-10-06/validation-design-claude/source -q -p no:cacheprovider
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src .work/envs/verticall/bin/python results/tool-planning/2026-10-07/validation-runs-astra/source/prepare.py
+# Synthetic test versions/results are retained under logs/*tests-attempt*.
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src .work/envs/verticall/bin/python -m pytest results/tool-planning/2026-10-07/validation-runs-astra/source/test_execution.py -q -p no:cacheprovider
+
+# Layer1 (completed and audited)
+PYTHONDONTWRITEBYTECODE=1 .work/envs/verticall/bin/python results/tool-planning/2026-10-07/validation-runs-astra/source/submit.py --layer layer1
+PYTHONDONTWRITEBYTECODE=1 .work/envs/verticall/bin/python results/tool-planning/2026-10-07/validation-runs-astra/source/submit.py --layer layer1 --submit
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src .work/envs/verticall/bin/python results/tool-planning/2026-10-07/validation-runs-astra/source/collect.py --layer layer1
+
+# Layer3 (submitted; collection not yet run at this ledger update)
+PYTHONDONTWRITEBYTECODE=1 .work/envs/verticall/bin/python results/tool-planning/2026-10-07/validation-runs-astra/source/submit.py --layer layer3
+PYTHONDONTWRITEBYTECODE=1 .work/envs/verticall/bin/python results/tool-planning/2026-10-07/validation-runs-astra/source/submit.py --layer layer3 --submit
+
+# Postprocessing and infrastructure recovery (completed; this is a ledger, not a rerun script).
+# Exact ssubmit argv and embedded worker commands are in outputs/command-index.tsv.
+# Original finalizer29418415 cancelled before it started; public29417945 interrupted by file quota.
+scancel 29417945 29418415
+# archive_completed.py executed from /tmp/enterobacter-validation-quota-recovery-2026-10-07/
+# with /usr/bin/time -v; identical source and logs now retained in the recovery run.
+# Verified archive SHA ada1ab5a75c1ea6fa3df76d0484ff0de635baf2df5da7f2f97c827ae628710ae.
+# Recovery array29419004, finalizer29419005; finalizer invokes these exact scripts sequentially:
+#   validation-quota-recovery-astra/source/collect_recovery.py
+#   validation-runs-astra/source/layer2.py
+#   validation-runs-astra/source/score_layers.py
+# Scorer/draw child commands, all inputs and hashes, wall times and exit0 records:
+#   logs/score-{layer1,layer3,layer3-held,expert}/command.json
+#   logs/draw-disagreements/command.json
+# Native per-query commands remain in all queries/CODE/attempt01/{started,finished}.json
+#   across both run directories. Failed/interrupted prior records remain in the original run.

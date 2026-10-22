@@ -1,0 +1,4 @@
+hypothesis_1	hypothesis_2	genes_present_1_only	genes_present_2_only	genes_present_both	share_1_of_deciding
+distance	marker_sister	1	4	0	0.2
+distance	marker_chinensis	1	1	0	0.5
+marker_sister	marker_chinensis	3	0	1	1.0

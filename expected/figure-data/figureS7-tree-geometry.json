@@ -1,0 +1,275 @@
+{
+  "bac120_fasttree": {
+    "tips": [
+      "GCA_003964905.1",
+      "GCA_000211415.1",
+      "GCA_034008295.1",
+      "GCA_003594915.1",
+      "GCA_002939185.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.011664,
+        "confidence": 0.922,
+        "descendants": [
+          "GCA_000211415.1",
+          "GCA_002939185.1",
+          "GCA_003594915.1",
+          "GCA_003964905.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.008971,
+        "confidence": 1.0,
+        "descendants": [
+          "GCA_000211415.1",
+          "GCA_003964905.1"
+        ]
+      },
+      {
+        "name": "GCA_003964905.1",
+        "length": 0.004024,
+        "confidence": null,
+        "descendants": [
+          "GCA_003964905.1"
+        ]
+      },
+      {
+        "name": "GCA_000211415.1",
+        "length": 0.005277,
+        "confidence": null,
+        "descendants": [
+          "GCA_000211415.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.003466,
+        "confidence": 1.0,
+        "descendants": [
+          "GCA_002939185.1",
+          "GCA_003594915.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.001356,
+        "confidence": 0.986,
+        "descendants": [
+          "GCA_003594915.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": "GCA_034008295.1",
+        "length": 0.012019000000000002,
+        "confidence": null,
+        "descendants": [
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": "GCA_003594915.1",
+        "length": 0.007209,
+        "confidence": null,
+        "descendants": [
+          "GCA_003594915.1"
+        ]
+      },
+      {
+        "name": "GCA_002939185.1",
+        "length": 0.009923000000000001,
+        "confidence": null,
+        "descendants": [
+          "GCA_002939185.1"
+        ]
+      }
+    ]
+  },
+  "verticall_fastme": {
+    "tips": [
+      "GCA_002939185.1",
+      "GCA_034008295.1",
+      "GCA_003594915.1",
+      "GCA_000211415.1",
+      "GCA_003964905.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.022525,
+        "confidence": null,
+        "descendants": [
+          "GCA_000211415.1",
+          "GCA_002939185.1",
+          "GCA_003594915.1",
+          "GCA_003964905.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.014678,
+        "confidence": null,
+        "descendants": [
+          "GCA_002939185.1",
+          "GCA_003594915.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.008458,
+        "confidence": null,
+        "descendants": [
+          "GCA_002939185.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": "GCA_002939185.1",
+        "length": 0.042569,
+        "confidence": null,
+        "descendants": [
+          "GCA_002939185.1"
+        ]
+      },
+      {
+        "name": "GCA_034008295.1",
+        "length": 0.034986,
+        "confidence": null,
+        "descendants": [
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": "GCA_003594915.1",
+        "length": 0.049266,
+        "confidence": null,
+        "descendants": [
+          "GCA_003594915.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.041224000000000004,
+        "confidence": null,
+        "descendants": [
+          "GCA_000211415.1",
+          "GCA_003964905.1"
+        ]
+      },
+      {
+        "name": "GCA_000211415.1",
+        "length": 0.013968,
+        "confidence": null,
+        "descendants": [
+          "GCA_000211415.1"
+        ]
+      },
+      {
+        "name": "GCA_003964905.1",
+        "length": 0.020011,
+        "confidence": null,
+        "descendants": [
+          "GCA_003964905.1"
+        ]
+      }
+    ]
+  },
+  "mashtree_consensus": {
+    "tips": [
+      "GCA_034008295.1",
+      "GCA_002939185.1",
+      "GCA_003594915.1",
+      "GCA_003964905.1",
+      "GCA_000211415.1"
+    ],
+    "branches": [
+      {
+        "name": null,
+        "length": 0.016489,
+        "confidence": 0.506,
+        "descendants": [
+          "GCA_000211415.1",
+          "GCA_002939185.1",
+          "GCA_003594915.1",
+          "GCA_003964905.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.005185,
+        "confidence": 0.919,
+        "descendants": [
+          "GCA_002939185.1",
+          "GCA_003594915.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.01242,
+        "confidence": 0.99,
+        "descendants": [
+          "GCA_002939185.1",
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": "GCA_034008295.1",
+        "length": 0.034662,
+        "confidence": null,
+        "descendants": [
+          "GCA_034008295.1"
+        ]
+      },
+      {
+        "name": "GCA_002939185.1",
+        "length": 0.036422,
+        "confidence": null,
+        "descendants": [
+          "GCA_002939185.1"
+        ]
+      },
+      {
+        "name": "GCA_003594915.1",
+        "length": 0.036758,
+        "confidence": null,
+        "descendants": [
+          "GCA_003594915.1"
+        ]
+      },
+      {
+        "name": null,
+        "length": 0.026739,
+        "confidence": 1,
+        "descendants": [
+          "GCA_000211415.1",
+          "GCA_003964905.1"
+        ]
+      },
+      {
+        "name": "GCA_003964905.1",
+        "length": 0.017543,
+        "confidence": null,
+        "descendants": [
+          "GCA_003964905.1"
+        ]
+      },
+      {
+        "name": "GCA_000211415.1",
+        "length": 0.022538,
+        "confidence": null,
+        "descendants": [
+          "GCA_000211415.1"
+        ]
+      }
+    ]
+  }
+}

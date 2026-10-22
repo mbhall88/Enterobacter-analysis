@@ -1,0 +1,4 @@
+parameters_from	third
+search_lnl	-9668283.5312
+model_file	results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.best_model.nex
+start_tree	results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.treefile

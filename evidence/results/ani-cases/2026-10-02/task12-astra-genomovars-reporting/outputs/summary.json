@@ -1,0 +1,122 @@
+{
+  "genomes": 173,
+  "pairs": 14878,
+  "groups": 25,
+  "singleton_groups": 15,
+  "group_sizes": [
+    92,
+    17,
+    15,
+    12,
+    6,
+    5,
+    4,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "checks_passed": 14909,
+  "sensitivity": [
+    {
+      "linkage": "complete",
+      "cutoff": 99.495,
+      "groups": 25,
+      "singleton_groups": 15,
+      "largest_group": 92,
+      "same_partition_as_primary": true,
+      "within_pairs_below_99_5": 0
+    },
+    {
+      "linkage": "complete",
+      "cutoff": 99.5,
+      "groups": 25,
+      "singleton_groups": 15,
+      "largest_group": 92,
+      "same_partition_as_primary": true,
+      "within_pairs_below_99_5": 0
+    },
+    {
+      "linkage": "complete",
+      "cutoff": 99.505,
+      "groups": 25,
+      "singleton_groups": 15,
+      "largest_group": 92,
+      "same_partition_as_primary": true,
+      "within_pairs_below_99_5": 0
+    },
+    {
+      "linkage": "average",
+      "cutoff": 99.495,
+      "groups": 25,
+      "singleton_groups": 15,
+      "largest_group": 92,
+      "same_partition_as_primary": true,
+      "within_pairs_below_99_5": 0
+    },
+    {
+      "linkage": "average",
+      "cutoff": 99.5,
+      "groups": 25,
+      "singleton_groups": 15,
+      "largest_group": 92,
+      "same_partition_as_primary": true,
+      "within_pairs_below_99_5": 0
+    },
+    {
+      "linkage": "average",
+      "cutoff": 99.505,
+      "groups": 25,
+      "singleton_groups": 15,
+      "largest_group": 92,
+      "same_partition_as_primary": true,
+      "within_pairs_below_99_5": 0
+    },
+    {
+      "linkage": "single",
+      "cutoff": 99.495,
+      "groups": 23,
+      "singleton_groups": 13,
+      "largest_group": 92,
+      "same_partition_as_primary": false,
+      "within_pairs_below_99_5": 21
+    },
+    {
+      "linkage": "single",
+      "cutoff": 99.5,
+      "groups": 23,
+      "singleton_groups": 13,
+      "largest_group": 92,
+      "same_partition_as_primary": false,
+      "within_pairs_below_99_5": 21
+    },
+    {
+      "linkage": "single",
+      "cutoff": 99.505,
+      "groups": 23,
+      "singleton_groups": 13,
+      "largest_group": 92,
+      "same_partition_as_primary": false,
+      "within_pairs_below_99_5": 21
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  }
+}

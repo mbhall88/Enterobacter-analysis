@@ -1,0 +1,37 @@
+coded_id	layer	truth_kind	label_source	structural	subspecies_structural	result_outside_passing	species_outcome	subspecies_outcome	note_outcome	result_species_id	result_subspecies_id	reasons	note_species_id	crosswalk_kind	qc_stratum	assembly_level	expert_sample	near_clone
+VAL-L3-316E81C4D5C3	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP004				equivalent	high_quality	Scaffold	False	False
+VAL-L3-C958D36259D6	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP009				broader	high_quality	Scaffold	False	True
+VAL-L3-784BC683BECA	layer3_held	crosswalk_none	none	False	False	False	descriptive_result			ECTX-SP019	ECTX-SS006			unnamed	high_quality	Scaffold	False	False
+VAL-L3-92550FBAB032	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP009				broader	high_quality	Scaffold	False	True
+VAL-L3-D7BE38514E16	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			nearest_below_species_ANI		unnamed	high_quality	Contig	False	False
+VAL-L3-E26CE48A0870	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			no_estimate		unnamed	moderate_quality_stress	Contig	False	False
+VAL-L3-4A0456B98C9A	layer3_held	crosswalk	none	False	False	False	withheld		names_expected_species			nearest_below_species_ANI	ECTX-SP002	equivalent	high_quality	Contig	False	False
+VAL-L3-3DE8603DCB4B	layer3_held	crosswalk_none	none	False	False	False	descriptive_result			ECTX-SP019	ECTX-SS005			unnamed	high_quality	Contig	False	False
+VAL-L3-CFB35A61D1BD	layer3_held	crosswalk_none	none	False	False	False	descriptive_result			ECTX-SP022				unnamed	high_quality	Contig	False	False
+VAL-L3-2702927AD76D	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			no_estimate		unnamed	high_quality	Contig	False	False
+VAL-L3-41EC292C25E4	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			no_estimate		unnamed	high_quality	Contig	False	False
+VAL-L3-714BEA4C517D	layer3_held	crosswalk_none	none	False	False	False	descriptive_result			ECTX-SP025	ECTX-SS010			unnamed	high_quality	Contig	False	False
+VAL-L3-E114A356320C	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			no_estimate		unnamed	high_quality	Contig	False	False
+VAL-L3-23FEC830AA14	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			no_estimate		unnamed	high_quality	Contig	False	False
+VAL-L3-D988E05241AF	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			no_estimate		unnamed	moderate_quality_stress	Contig	False	False
+VAL-L3-19E57E3DD3F8	layer3_held	crosswalk_none	none	False	False	False	descriptive_result			ECTX-SP013				unnamed	high_quality	Contig	False	False
+VAL-L3-2B898B14370B	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		names_a_species			nearest_below_species_ANI	ECTX-SP013	unnamed	moderate_quality_stress	Scaffold	False	False
+VAL-L3-7D033F62FFAC	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP003				equivalent	high_quality	Contig	False	False
+VAL-L3-CB0C4FBCA8A4	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP003				equivalent	high_quality	Contig	False	False
+VAL-L3-C8F09D3F5991	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP023				equivalent	high_quality	Contig	False	False
+VAL-L3-9D4EB91A8A2F	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP002				equivalent	high_quality	Contig	False	False
+VAL-L3-C9C762CC5646	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			no_estimate		unnamed	moderate_quality_stress	Contig	False	False
+VAL-L3-66642DE95905	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			nearest_below_species_ANI		unnamed	fragmented_high_quality	Contig	False	False
+VAL-L3-2BF54D2E908D	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			nearest_below_species_ANI		unnamed	high_quality	Contig	False	False
+VAL-L3-696A0FF2FAC9	layer3_held	crosswalk_none	none	False	False	False	descriptive_result			ECTX-SP001				unnamed	moderate_quality_stress	Contig	False	False
+VAL-L3-E2C5504485DF	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP025	ECTX-SS009			broader	high_quality	Contig	False	False
+VAL-L3-7E9D7208A4DB	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP025	ECTX-SS009			broader	high_quality	Contig	False	False
+VAL-L3-C0BAFFB6AF51	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP025	ECTX-SS009			broader	high_quality	Contig	False	False
+VAL-L3-4AE434ECD68C	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP016				equivalent	high_quality	Contig	False	True
+VAL-L3-F6D0FDD3ACB7	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP012				equivalent	high_quality	Contig	False	False
+VAL-L3-74ECEA8912FD	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP009				broader	high_quality	Contig	False	True
+VAL-L3-AC347D9BF46C	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP002				equivalent	high_quality	Contig	False	False
+VAL-L3-36E39CD5B6D1	layer3_held	crosswalk	none	False	False	False	consistent			ECTX-SP008	ECTX-SS004			equivalent	high_quality	Contig	False	True
+VAL-L3-623123A6E1AF	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			no_estimate		unnamed	moderate_quality_stress	Scaffold	False	False
+VAL-L3-01F8A39078F5	layer3_held	crosswalk_none	none	False	False	False	descriptive_withheld		absent			nearest_below_species_ANI		unnamed	moderate_quality_stress	Scaffold	False	False
+VAL-L3-164AD6B55E2F	layer3_held	crosswalk	none	False	False	False	consistent	consistent		ECTX-SP008	ECTX-SS003			equivalent	high_quality	Scaffold	False	True

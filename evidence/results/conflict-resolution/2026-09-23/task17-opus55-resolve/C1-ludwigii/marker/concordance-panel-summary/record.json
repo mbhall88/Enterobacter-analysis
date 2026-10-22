@@ -1,0 +1,16 @@
+{
+ "hypotheses": [
+  "distance",
+  "marker_sister",
+  "marker_outside"
+ ],
+ "references": [
+  "ml",
+  "distance",
+  "marker_outside",
+  "marker_sister"
+ ],
+ "loci": 109,
+ "gene_trees_checked_against_partition_order": 109,
+ "seed": 20260923
+}

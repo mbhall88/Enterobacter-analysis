@@ -1,0 +1,60 @@
+# Task17 correction run, 30 Sep 2026 — command ledger, in order. Not a script to run top to bottom.
+# Claude Opus 5.5 (claude-opus-5-5[1m]); interactive allocation 29126954 (bun148). Run from the repo root.
+# No IQ-TREE, tree inference, alignment, masking, dDDH or Slurm submission. No GitHub write.
+RUN=results/conflict-resolution/2026-09-30/task17-claude-audit-corrections
+T17=results/conflict-resolution/2026-09-23/task17-opus55-resolve
+
+# 15:37 claim appended to docs/task-status/17-conflict-resolution.md; run directory created
+mkdir -p $RUN/{inputs,snapshots,before,after,checks,logs}
+git status --porcelain > $RUN/inputs/git-status-at-start.txt
+git rev-parse HEAD > $RUN/inputs/git-head-at-start.txt
+
+# 15:37 fresh DEC-004 snapshot (read-only)
+python3 scripts/fetch_github_decisions.py --output $RUN/snapshots/github-2026-09-30 --id DEC-004 | tee $RUN/logs/fetch-dec004.log
+
+# 15:4x scheduler history for every Task17 job (sacct retained it)
+sacct -u $USER -S 2026-09-23T00:00 -E now -X -D --parsable2 \
+  --format=JobID,JobName%60,State,ExitCode,Submit,Start,End,Elapsed,NCPUS,ReqMem,NodeList \
+  > $RUN/checks/sacct-all-user-2026-09-23-to-30.psv
+sacct -j 28875409 -D --parsable2 --format=JobID,JobName%60,State,ExitCode,Submit,Eligible,Start,End,Elapsed,Reason \
+  > $RUN/checks/sacct-28875409.psv
+squeue -u $USER   # no Task17 job queued or running (checked 15:38)
+
+# 15:48-16:00 read-only verification of C1/C3 against saved outputs (ete3 from the pinned treeprofiler env);
+# rerun as sections E2, E3 and F were added; the final run is the one logged
+/usr/bin/time -v .work/envs/treeprofiler/bin/python $RUN/scripts/verify_c1_c3.py > $RUN/logs/verify_c1_c3.log 2>&1
+#   first attempt failed parsing IQ-TREE's "[ tree i lh=... ]" prefix in au.trees; parser fixed, rerun
+
+# 15:5x hash the Task17 outputs left out of its 23 Sep manifests, and record their Git state
+( cd $T17 && find C1-ludwigii/core-genome/concordance-panel C2-sichuanensis/core-genome/concordance-panel \
+    C3-trio/core-genome/concordance-panel C12x-extended-sampling/core-genome/concordance-panel \
+    C2-sichuanensis/core-genome/topology-panel-codon3 C3-trio/core-genome/topology-panel-codon3 \
+    C12x-extended-sampling/core-genome/topology-panel-codon3 C3-trio/core-genome/topology-panel-codon3-fixedparams \
+    C12x-extended-sampling/marker/topology-subset logs -type f -print0 | sort -z | xargs -0 -P 8 -n 64 sha256sum | sort -k2 ) \
+  > $RUN/checks/task17-late-outputs.sha256   # header line added
+git status --porcelain -- $T17 > $RUN/checks/task17-git-status-late-outputs.txt
+
+# 15:5x before-snapshots of the owned records
+cp -p $T17/README.md $RUN/before/task17-README.md
+cp -p $T17/tables/dispositions.tsv $RUN/before/dispositions.tsv
+cp -p $T17/manuscript-contribution.md $RUN/before/manuscript-contribution.md
+git show HEAD:docs/task-status/17-conflict-resolution.md > $RUN/before/17-conflict-resolution.md
+cp -p docs/analysis-execution-plan.md $RUN/before/analysis-execution-plan.working-tree.md   # includes Astra's 15:53 row-12 edit
+git show HEAD:docs/analysis-execution-plan.md > $RUN/before/analysis-execution-plan.HEAD.md
+sha256sum $RUN/before/* > $RUN/before/before.sha256
+
+# 16:00-16:25 corrections, by exact-string replacement (Claude Code Edit tool and short python3 patches that
+# assert each old string occurs once): Task17 README (banner, s5.1, s7.3, s7.4, s7.5, s8.1, s10.1, s10.3, s11, s12),
+# tables/dispositions.tsv (C1/C2/C3 fields; column unfinished_jobs renamed job_status; column correction added),
+# manuscript-contribution.md (status, Methods, C1, C2 caveat, C3, evidence IDs), Task17 handover (status,
+# final summary, correction section), docs/analysis-execution-plan.md (row 17 and the Task17 summary lines only;
+# re-read immediately before writing; only Task17 lines differ from the snapshot).
+
+# inputs read, hashed
+sha256sum <files listed in inputs/input-hashes.sha256> > $RUN/inputs/input-hashes.sha256
+
+# after-copies, patch, validation
+cp -p $T17/README.md $RUN/after/task17-README.md   # and the other four records
+diff -u $RUN/before/<file> <current file> >> $RUN/changes.patch
+python3 -m unittest tests.test_task17_conflicts > $RUN/logs/unittest-task17.log 2>&1
+python3 $RUN/scripts/validate_correction.py | tee $RUN/logs/validate.log

@@ -1,0 +1,2018 @@
+{
+  "trees": {
+    "bac120_fasttree": {
+      "input_sha256": "a9bc0abab028e8a265090ce79189036f11b5fb893b715f817dae9a0bb7d18bb8",
+      "tip_count": 35,
+      "outgroups": [
+        "GCA_000982825.1",
+        "GCA_019048125.1"
+      ],
+      "outgroup_split_present": true,
+      "same_unrooted_splits_lengths_support": true,
+      "pairwise_distance_checks": 595,
+      "drawing_nodes": [
+        {
+          "id": 69,
+          "name": null,
+          "x": 0,
+          "y": 3.7540283203125,
+          "support": null,
+          "children": [
+            26,
+            28
+          ]
+        },
+        {
+          "id": 26,
+          "name": null,
+          "x": 0.015247,
+          "y": 6.008056640625,
+          "support": 1.0,
+          "children": [
+            18,
+            27
+          ]
+        },
+        {
+          "id": 18,
+          "name": null,
+          "x": 0.021176,
+          "y": 9.01611328125,
+          "support": 1.0,
+          "children": [
+            17,
+            19
+          ]
+        },
+        {
+          "id": 17,
+          "name": null,
+          "x": 0.022433,
+          "y": 12.5322265625,
+          "support": 0.701,
+          "children": [
+            16,
+            31
+          ]
+        },
+        {
+          "id": 16,
+          "name": null,
+          "x": 0.023948,
+          "y": 17.064453125,
+          "support": 0.854,
+          "children": [
+            32,
+            15
+          ]
+        },
+        {
+          "id": 32,
+          "name": null,
+          "x": 0.025826,
+          "y": 24.03515625,
+          "support": 1.0,
+          "children": [
+            34,
+            33
+          ]
+        },
+        {
+          "id": 34,
+          "name": null,
+          "x": 0.027414,
+          "y": 29.0703125,
+          "support": 1.0,
+          "children": [
+            60,
+            35
+          ]
+        },
+        {
+          "id": 60,
+          "name": null,
+          "x": 0.031591,
+          "y": 33.75,
+          "support": 1.0,
+          "children": [
+            62,
+            61
+          ]
+        },
+        {
+          "id": 62,
+          "name": null,
+          "x": 0.037232,
+          "y": 34.5,
+          "support": 1.0,
+          "children": [
+            64,
+            63
+          ]
+        },
+        {
+          "id": 64,
+          "name": "GCA_000025565.1",
+          "x": 0.039883,
+          "y": 35,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 63,
+          "name": "GCA_009660455.1",
+          "x": 0.039487,
+          "y": 34,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 61,
+          "name": "GCA_002939185.1",
+          "x": 0.037337,
+          "y": 33,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 35,
+          "name": null,
+          "x": 0.02877,
+          "y": 24.390625,
+          "support": 0.986,
+          "children": [
+            36,
+            53
+          ]
+        },
+        {
+          "id": 36,
+          "name": null,
+          "x": 0.031239,
+          "y": 26.65625,
+          "support": 1.0,
+          "children": [
+            37,
+            50
+          ]
+        },
+        {
+          "id": 37,
+          "name": null,
+          "x": 0.031849999999999996,
+          "y": 28.8125,
+          "support": 0.249,
+          "children": [
+            45,
+            38
+          ]
+        },
+        {
+          "id": 45,
+          "name": null,
+          "x": 0.032898,
+          "y": 30.75,
+          "support": 1.0,
+          "children": [
+            47,
+            46
+          ]
+        },
+        {
+          "id": 47,
+          "name": null,
+          "x": 0.03455,
+          "y": 31.5,
+          "support": 1.0,
+          "children": [
+            49,
+            48
+          ]
+        },
+        {
+          "id": 49,
+          "name": "GCA_001039365.2",
+          "x": 0.036566999999999995,
+          "y": 32,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 48,
+          "name": "GCA_001729805.1",
+          "x": 0.038383999999999995,
+          "y": 31,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 46,
+          "name": "GCA_008364555.1",
+          "x": 0.036252999999999994,
+          "y": 30,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 38,
+          "name": null,
+          "x": 0.032417999999999995,
+          "y": 26.875,
+          "support": 0.9,
+          "children": [
+            40,
+            39
+          ]
+        },
+        {
+          "id": 40,
+          "name": null,
+          "x": 0.034558,
+          "y": 27.75,
+          "support": 0.889,
+          "children": [
+            42,
+            41
+          ]
+        },
+        {
+          "id": 42,
+          "name": null,
+          "x": 0.034838,
+          "y": 28.5,
+          "support": 0.731,
+          "children": [
+            43,
+            44
+          ]
+        },
+        {
+          "id": 43,
+          "name": "GCA_001521715.1",
+          "x": 0.037185,
+          "y": 29,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 44,
+          "name": "GCA_008364625.2",
+          "x": 0.037644000000000004,
+          "y": 28,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 41,
+          "name": "GCA_034008295.1",
+          "x": 0.040789,
+          "y": 27,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 39,
+          "name": "GCA_026420145.1",
+          "x": 0.03526599999999999,
+          "y": 26,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 50,
+          "name": null,
+          "x": 0.033381,
+          "y": 24.5,
+          "support": 1.0,
+          "children": [
+            51,
+            52
+          ]
+        },
+        {
+          "id": 51,
+          "name": "GCA_001984825.2",
+          "x": 0.035996,
+          "y": 25,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 52,
+          "name": "GCA_034008275.1",
+          "x": 0.036163,
+          "y": 24,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 53,
+          "name": null,
+          "x": 0.030062000000000002,
+          "y": 22.125,
+          "support": 0.991,
+          "children": [
+            54,
+            55
+          ]
+        },
+        {
+          "id": 54,
+          "name": "GCA_001729765.1",
+          "x": 0.035283,
+          "y": 23,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 55,
+          "name": null,
+          "x": 0.032271,
+          "y": 21.25,
+          "support": 1.0,
+          "children": [
+            56,
+            57
+          ]
+        },
+        {
+          "id": 56,
+          "name": "GCA_003594915.1",
+          "x": 0.035979000000000004,
+          "y": 22,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 57,
+          "name": null,
+          "x": 0.034223,
+          "y": 20.5,
+          "support": 1.0,
+          "children": [
+            59,
+            58
+          ]
+        },
+        {
+          "id": 59,
+          "name": "GCA_019046905.1",
+          "x": 0.036722000000000005,
+          "y": 21,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 58,
+          "name": "GCA_026344075.1",
+          "x": 0.035554,
+          "y": 20,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 33,
+          "name": "GCA_001750725.1",
+          "x": 0.035875000000000004,
+          "y": 19,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 15,
+          "name": null,
+          "x": 0.025647,
+          "y": 10.09375,
+          "support": 0.922,
+          "children": [
+            13,
+            65
+          ]
+        },
+        {
+          "id": 13,
+          "name": null,
+          "x": 0.030192,
+          "y": 11.1875,
+          "support": 1.0,
+          "children": [
+            11,
+            14
+          ]
+        },
+        {
+          "id": 11,
+          "name": null,
+          "x": 0.031632,
+          "y": 12.375,
+          "support": 0.998,
+          "children": [
+            9,
+            12
+          ]
+        },
+        {
+          "id": 9,
+          "name": null,
+          "x": 0.032835,
+          "y": 13.75,
+          "support": 1.0,
+          "children": [
+            3,
+            10
+          ]
+        },
+        {
+          "id": 3,
+          "name": null,
+          "x": 0.033511000000000006,
+          "y": 15.5,
+          "support": 0.966,
+          "children": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "name": null,
+          "x": 0.03418600000000001,
+          "y": 16.75,
+          "support": 1.0,
+          "children": [
+            66,
+            0
+          ]
+        },
+        {
+          "id": 66,
+          "name": null,
+          "x": 0.03446400000000001,
+          "y": 17.5,
+          "support": 0.906,
+          "children": [
+            68,
+            67
+          ]
+        },
+        {
+          "id": 68,
+          "name": "GCA_001729705.1",
+          "x": 0.03539700000000001,
+          "y": 18,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 67,
+          "name": "GCA_001729785.1",
+          "x": 0.03639800000000001,
+          "y": 17,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 0,
+          "name": null,
+          "x": 0.035612000000000005,
+          "y": 16.0,
+          "support": 1.0,
+          "children": [
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "name": "GCA_001729725.1",
+          "x": 0.036370000000000006,
+          "y": 16,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 4,
+          "name": null,
+          "x": 0.03596200000000001,
+          "y": 14.25,
+          "support": 0.643,
+          "children": [
+            5,
+            6
+          ]
+        },
+        {
+          "id": 5,
+          "name": "GCA_001729745.1",
+          "x": 0.03640700000000001,
+          "y": 15,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 6,
+          "name": null,
+          "x": 0.036285000000000005,
+          "y": 13.5,
+          "support": 0.885,
+          "children": [
+            7,
+            8
+          ]
+        },
+        {
+          "id": 7,
+          "name": "GCA_040096145.1",
+          "x": 0.037022000000000006,
+          "y": 14,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 8,
+          "name": "GCA_052922205.1",
+          "x": 0.03688,
+          "y": 13,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 10,
+          "name": "GCA_019048245.1",
+          "x": 0.035058000000000006,
+          "y": 12,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 12,
+          "name": "GCA_004331385.1",
+          "x": 0.034879,
+          "y": 11,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 14,
+          "name": "GCA_028890245.1",
+          "x": 0.036072,
+          "y": 10,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 65,
+          "name": "GCA_009176645.1",
+          "x": 0.032586,
+          "y": 9,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 31,
+          "name": "GCA_019047785.1",
+          "x": 0.037996,
+          "y": 8,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 19,
+          "name": null,
+          "x": 0.024213000000000002,
+          "y": 5.5,
+          "support": 1.0,
+          "children": [
+            20,
+            23
+          ]
+        },
+        {
+          "id": 20,
+          "name": null,
+          "x": 0.027375000000000003,
+          "y": 6.5,
+          "support": 1.0,
+          "children": [
+            22,
+            21
+          ]
+        },
+        {
+          "id": 22,
+          "name": "GCA_000211415.1",
+          "x": 0.032652,
+          "y": 7,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 21,
+          "name": "GCA_003964905.1",
+          "x": 0.031399,
+          "y": 6,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 23,
+          "name": null,
+          "x": 0.027028000000000003,
+          "y": 4.5,
+          "support": 1.0,
+          "children": [
+            24,
+            25
+          ]
+        },
+        {
+          "id": 24,
+          "name": "GCA_003594935.2",
+          "x": 0.035821000000000006,
+          "y": 5,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 25,
+          "name": "GCA_004331265.1",
+          "x": 0.033188,
+          "y": 4,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 27,
+          "name": "GCA_001654845.1",
+          "x": 0.027278999999999998,
+          "y": 3,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 28,
+          "name": null,
+          "x": 0.015247,
+          "y": 1.5,
+          "support": null,
+          "children": [
+            29,
+            30
+          ]
+        },
+        {
+          "id": 29,
+          "name": "GCA_000982825.1",
+          "x": 0.083311,
+          "y": 2,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 30,
+          "name": "GCA_019048125.1",
+          "x": 0.052728,
+          "y": 1,
+          "support": null,
+          "children": []
+        }
+      ]
+    },
+    "verticall_fastme": {
+      "input_sha256": "eb142140f48d8a67b0e5e2cb4deb1c4ccdf89165fba88348d53d0087dcd4b511",
+      "tip_count": 35,
+      "outgroups": [
+        "GCA_000982825.1",
+        "GCA_019048125.1"
+      ],
+      "outgroup_split_present": true,
+      "same_unrooted_splits_lengths_support": true,
+      "pairwise_distance_checks": 595,
+      "drawing_nodes": [
+        {
+          "id": 69,
+          "name": null,
+          "x": 0,
+          "y": 6.015625,
+          "support": null,
+          "children": [
+            0,
+            66
+          ]
+        },
+        {
+          "id": 0,
+          "name": null,
+          "x": 0.0054645,
+          "y": 10.53125,
+          "support": null,
+          "children": [
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "name": null,
+          "x": 0.0199905,
+          "y": 10.53125,
+          "support": null,
+          "children": [
+            2,
+            65
+          ]
+        },
+        {
+          "id": 2,
+          "name": null,
+          "x": 0.0279895,
+          "y": 18.0625,
+          "support": null,
+          "children": [
+            3,
+            36
+          ]
+        },
+        {
+          "id": 3,
+          "name": null,
+          "x": 0.0323385,
+          "y": 28.48046875,
+          "support": null,
+          "children": [
+            4,
+            9
+          ]
+        },
+        {
+          "id": 4,
+          "name": null,
+          "x": 0.032675499999999996,
+          "y": 33.75,
+          "support": null,
+          "children": [
+            5,
+            8
+          ]
+        },
+        {
+          "id": 5,
+          "name": null,
+          "x": 0.0709475,
+          "y": 34.5,
+          "support": null,
+          "children": [
+            6,
+            7
+          ]
+        },
+        {
+          "id": 6,
+          "name": "GCA_000025565.1",
+          "x": 0.0935085,
+          "y": 35,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 7,
+          "name": "GCA_009660455.1",
+          "x": 0.0921935,
+          "y": 34,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 8,
+          "name": "GCA_001750725.1",
+          "x": 0.09696149999999999,
+          "y": 33,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 9,
+          "name": null,
+          "x": 0.0426675,
+          "y": 23.2109375,
+          "support": null,
+          "children": [
+            10,
+            29
+          ]
+        },
+        {
+          "id": 10,
+          "name": null,
+          "x": 0.0456805,
+          "y": 25.296875,
+          "support": null,
+          "children": [
+            11,
+            26
+          ]
+        },
+        {
+          "id": 11,
+          "name": null,
+          "x": 0.0515915,
+          "y": 27.09375,
+          "support": null,
+          "children": [
+            12,
+            23
+          ]
+        },
+        {
+          "id": 12,
+          "name": null,
+          "x": 0.0547635,
+          "y": 28.6875,
+          "support": null,
+          "children": [
+            16,
+            13
+          ]
+        },
+        {
+          "id": 16,
+          "name": null,
+          "x": 0.0574225,
+          "y": 29.875,
+          "support": null,
+          "children": [
+            17,
+            22
+          ]
+        },
+        {
+          "id": 17,
+          "name": null,
+          "x": 0.059957500000000004,
+          "y": 30.75,
+          "support": null,
+          "children": [
+            18,
+            21
+          ]
+        },
+        {
+          "id": 18,
+          "name": null,
+          "x": 0.0670805,
+          "y": 31.5,
+          "support": null,
+          "children": [
+            20,
+            19
+          ]
+        },
+        {
+          "id": 20,
+          "name": "GCA_001039365.2",
+          "x": 0.0849375,
+          "y": 32,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 19,
+          "name": "GCA_001729805.1",
+          "x": 0.0895235,
+          "y": 31,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 21,
+          "name": "GCA_008364555.1",
+          "x": 0.08812450000000001,
+          "y": 30,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 22,
+          "name": "GCA_026420145.1",
+          "x": 0.0811745,
+          "y": 29,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 13,
+          "name": null,
+          "x": 0.0663485,
+          "y": 27.5,
+          "support": null,
+          "children": [
+            14,
+            15
+          ]
+        },
+        {
+          "id": 14,
+          "name": "GCA_001521715.1",
+          "x": 0.0788765,
+          "y": 28,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 15,
+          "name": "GCA_008364625.2",
+          "x": 0.08842050000000001,
+          "y": 27,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 23,
+          "name": null,
+          "x": 0.0678375,
+          "y": 25.5,
+          "support": null,
+          "children": [
+            24,
+            25
+          ]
+        },
+        {
+          "id": 24,
+          "name": "GCA_001984825.2",
+          "x": 0.08852249999999999,
+          "y": 26,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 25,
+          "name": "GCA_034008275.1",
+          "x": 0.0885325,
+          "y": 25,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 26,
+          "name": null,
+          "x": 0.0511255,
+          "y": 23.5,
+          "support": null,
+          "children": [
+            27,
+            28
+          ]
+        },
+        {
+          "id": 27,
+          "name": "GCA_002939185.1",
+          "x": 0.0936945,
+          "y": 24,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 28,
+          "name": "GCA_034008295.1",
+          "x": 0.08611150000000001,
+          "y": 23,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 29,
+          "name": null,
+          "x": 0.047834499999999995,
+          "y": 21.125,
+          "support": null,
+          "children": [
+            30,
+            31
+          ]
+        },
+        {
+          "id": 30,
+          "name": "GCA_001729765.1",
+          "x": 0.0966575,
+          "y": 22,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 31,
+          "name": null,
+          "x": 0.05882749999999999,
+          "y": 20.25,
+          "support": null,
+          "children": [
+            32,
+            33
+          ]
+        },
+        {
+          "id": 32,
+          "name": "GCA_003594915.1",
+          "x": 0.09193349999999999,
+          "y": 21,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 33,
+          "name": null,
+          "x": 0.0681855,
+          "y": 19.5,
+          "support": null,
+          "children": [
+            34,
+            35
+          ]
+        },
+        {
+          "id": 34,
+          "name": "GCA_019046905.1",
+          "x": 0.0908455,
+          "y": 20,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 35,
+          "name": "GCA_026344075.1",
+          "x": 0.0856685,
+          "y": 19,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 36,
+          "name": null,
+          "x": 0.0297215,
+          "y": 7.64453125,
+          "support": null,
+          "children": [
+            37,
+            64
+          ]
+        },
+        {
+          "id": 37,
+          "name": null,
+          "x": 0.0317085,
+          "y": 11.2890625,
+          "support": null,
+          "children": [
+            38,
+            45
+          ]
+        },
+        {
+          "id": 38,
+          "name": null,
+          "x": 0.0371225,
+          "y": 16.5,
+          "support": null,
+          "children": [
+            39,
+            42
+          ]
+        },
+        {
+          "id": 39,
+          "name": null,
+          "x": 0.06921350000000001,
+          "y": 17.5,
+          "support": null,
+          "children": [
+            40,
+            41
+          ]
+        },
+        {
+          "id": 40,
+          "name": "GCA_000211415.1",
+          "x": 0.0831815,
+          "y": 18,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 41,
+          "name": "GCA_003964905.1",
+          "x": 0.08922450000000001,
+          "y": 17,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 42,
+          "name": null,
+          "x": 0.0430165,
+          "y": 15.5,
+          "support": null,
+          "children": [
+            43,
+            44
+          ]
+        },
+        {
+          "id": 43,
+          "name": "GCA_003594935.2",
+          "x": 0.0915535,
+          "y": 16,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 44,
+          "name": "GCA_004331265.1",
+          "x": 0.0897685,
+          "y": 15,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 45,
+          "name": null,
+          "x": 0.032759500000000004,
+          "y": 6.078125,
+          "support": null,
+          "children": [
+            46,
+            63
+          ]
+        },
+        {
+          "id": 46,
+          "name": null,
+          "x": 0.052673500000000005,
+          "y": 7.15625,
+          "support": null,
+          "children": [
+            47,
+            62
+          ]
+        },
+        {
+          "id": 47,
+          "name": null,
+          "x": 0.0635875,
+          "y": 8.3125,
+          "support": null,
+          "children": [
+            48,
+            61
+          ]
+        },
+        {
+          "id": 48,
+          "name": null,
+          "x": 0.0711775,
+          "y": 9.625,
+          "support": null,
+          "children": [
+            49,
+            60
+          ]
+        },
+        {
+          "id": 49,
+          "name": null,
+          "x": 0.0756695,
+          "y": 11.25,
+          "support": null,
+          "children": [
+            50,
+            55
+          ]
+        },
+        {
+          "id": 50,
+          "name": null,
+          "x": 0.0810855,
+          "y": 12.75,
+          "support": null,
+          "children": [
+            51,
+            54
+          ]
+        },
+        {
+          "id": 51,
+          "name": null,
+          "x": 0.0823225,
+          "y": 13.5,
+          "support": null,
+          "children": [
+            53,
+            52
+          ]
+        },
+        {
+          "id": 53,
+          "name": "GCA_001729705.1",
+          "x": 0.09244250000000001,
+          "y": 14,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 52,
+          "name": "GCA_001729725.1",
+          "x": 0.09108550000000001,
+          "y": 13,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 54,
+          "name": "GCA_001729785.1",
+          "x": 0.0946145,
+          "y": 12,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 55,
+          "name": null,
+          "x": 0.0938055,
+          "y": 9.75,
+          "support": null,
+          "children": [
+            57,
+            56
+          ]
+        },
+        {
+          "id": 57,
+          "name": null,
+          "x": 0.0939275,
+          "y": 10.5,
+          "support": null,
+          "children": [
+            58,
+            59
+          ]
+        },
+        {
+          "id": 58,
+          "name": "GCA_001729745.1",
+          "x": 0.0972965,
+          "y": 11,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 59,
+          "name": "GCA_040096145.1",
+          "x": 0.0972645,
+          "y": 10,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 56,
+          "name": "GCA_052922205.1",
+          "x": 0.0974975,
+          "y": 9,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 60,
+          "name": "GCA_019048245.1",
+          "x": 0.09779550000000001,
+          "y": 8,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 61,
+          "name": "GCA_004331385.1",
+          "x": 0.09554750000000001,
+          "y": 7,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 62,
+          "name": "GCA_028890245.1",
+          "x": 0.0965575,
+          "y": 6,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 63,
+          "name": "GCA_019047785.1",
+          "x": 0.1038905,
+          "y": 5,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 64,
+          "name": "GCA_009176645.1",
+          "x": 0.0908205,
+          "y": 4,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 65,
+          "name": "GCA_001654845.1",
+          "x": 0.08944950000000002,
+          "y": 3,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 66,
+          "name": null,
+          "x": 0.0054645,
+          "y": 1.5,
+          "support": null,
+          "children": [
+            67,
+            68
+          ]
+        },
+        {
+          "id": 67,
+          "name": "GCA_000982825.1",
+          "x": 0.1010205,
+          "y": 2,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 68,
+          "name": "GCA_019048125.1",
+          "x": 0.1009245,
+          "y": 1,
+          "support": null,
+          "children": []
+        }
+      ]
+    },
+    "mashtree_consensus": {
+      "input_sha256": "ac00c38cff595b7825ac2fc646bd1e59571b817024b44a0987136ca151ee7aeb",
+      "tip_count": 35,
+      "outgroups": [
+        "GCA_000982825.1",
+        "GCA_019048125.1"
+      ],
+      "outgroup_split_present": true,
+      "same_unrooted_splits_lengths_support": true,
+      "pairwise_distance_checks": 595,
+      "drawing_nodes": [
+        {
+          "id": 67,
+          "name": null,
+          "x": 0,
+          "y": 6.748046875,
+          "support": null,
+          "children": [
+            0,
+            64
+          ]
+        },
+        {
+          "id": 0,
+          "name": null,
+          "x": 0.0075305,
+          "y": 11.99609375,
+          "support": 1,
+          "children": [
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "name": null,
+          "x": 0.0148555,
+          "y": 11.99609375,
+          "support": 0.745,
+          "children": [
+            2,
+            63
+          ]
+        },
+        {
+          "id": 2,
+          "name": null,
+          "x": 0.018336500000000002,
+          "y": 20.9921875,
+          "support": 0.755,
+          "children": [
+            58,
+            3
+          ]
+        },
+        {
+          "id": 58,
+          "name": null,
+          "x": 0.0214265,
+          "y": 33.75,
+          "support": 0.747,
+          "children": [
+            60,
+            59
+          ]
+        },
+        {
+          "id": 60,
+          "name": null,
+          "x": 0.0481965,
+          "y": 34.5,
+          "support": 1,
+          "children": [
+            61,
+            62
+          ]
+        },
+        {
+          "id": 61,
+          "name": "GCA_000025565.1",
+          "x": 0.0688595,
+          "y": 35,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 62,
+          "name": "GCA_009660455.1",
+          "x": 0.0701045,
+          "y": 34,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 59,
+          "name": "GCA_001750725.1",
+          "x": 0.0745655,
+          "y": 33,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 3,
+          "name": null,
+          "x": 0.020557500000000003,
+          "y": 8.234375,
+          "support": 0.593,
+          "children": [
+            4,
+            57,
+            56
+          ]
+        },
+        {
+          "id": 4,
+          "name": null,
+          "x": 0.022442500000000004,
+          "y": 15.703125,
+          "support": 0.507,
+          "children": [
+            21,
+            5
+          ]
+        },
+        {
+          "id": 21,
+          "name": null,
+          "x": 0.024019500000000003,
+          "y": 24.234375,
+          "support": 0.506,
+          "children": [
+            49,
+            22
+          ]
+        },
+        {
+          "id": 49,
+          "name": null,
+          "x": 0.0281145,
+          "y": 30.5,
+          "support": 1,
+          "children": [
+            50,
+            53
+          ]
+        },
+        {
+          "id": 50,
+          "name": null,
+          "x": 0.0507585,
+          "y": 31.5,
+          "support": 1,
+          "children": [
+            52,
+            51
+          ]
+        },
+        {
+          "id": 52,
+          "name": "GCA_000211415.1",
+          "x": 0.0732965,
+          "y": 32,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 51,
+          "name": "GCA_003964905.1",
+          "x": 0.0683015,
+          "y": 31,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 53,
+          "name": null,
+          "x": 0.0339165,
+          "y": 29.5,
+          "support": 1,
+          "children": [
+            54,
+            55
+          ]
+        },
+        {
+          "id": 54,
+          "name": "GCA_003594935.2",
+          "x": 0.07323450000000001,
+          "y": 30,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 55,
+          "name": "GCA_004331265.1",
+          "x": 0.0726755,
+          "y": 29,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 22,
+          "name": null,
+          "x": 0.0292045,
+          "y": 17.96875,
+          "support": 0.919,
+          "children": [
+            23,
+            44
+          ]
+        },
+        {
+          "id": 23,
+          "name": null,
+          "x": 0.0310555,
+          "y": 19.6875,
+          "support": 0.956,
+          "children": [
+            24,
+            43
+          ]
+        },
+        {
+          "id": 24,
+          "name": null,
+          "x": 0.036727499999999996,
+          "y": 21.375,
+          "support": 0.797,
+          "children": [
+            25,
+            40
+          ]
+        },
+        {
+          "id": 25,
+          "name": null,
+          "x": 0.040536499999999996,
+          "y": 23.25,
+          "support": 0.99,
+          "children": [
+            26,
+            37
+          ]
+        },
+        {
+          "id": 26,
+          "name": null,
+          "x": 0.043275499999999995,
+          "y": 25.0,
+          "support": 0.991,
+          "children": [
+            27,
+            34
+          ]
+        },
+        {
+          "id": 27,
+          "name": null,
+          "x": 0.046717499999999995,
+          "y": 26.5,
+          "support": 0.582,
+          "children": [
+            28,
+            31
+          ]
+        },
+        {
+          "id": 28,
+          "name": null,
+          "x": 0.05053849999999999,
+          "y": 27.5,
+          "support": 0.517,
+          "children": [
+            30,
+            29
+          ]
+        },
+        {
+          "id": 30,
+          "name": "GCA_001039365.2",
+          "x": 0.0729185,
+          "y": 28,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 29,
+          "name": "GCA_001729805.1",
+          "x": 0.0702265,
+          "y": 27,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 31,
+          "name": null,
+          "x": 0.048001499999999996,
+          "y": 25.5,
+          "support": 0.512,
+          "children": [
+            32,
+            33
+          ]
+        },
+        {
+          "id": 32,
+          "name": "GCA_008364555.1",
+          "x": 0.0733585,
+          "y": 26,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 33,
+          "name": "GCA_026420145.1",
+          "x": 0.0717805,
+          "y": 25,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 34,
+          "name": null,
+          "x": 0.05228649999999999,
+          "y": 23.5,
+          "support": 1,
+          "children": [
+            35,
+            36
+          ]
+        },
+        {
+          "id": 35,
+          "name": "GCA_001521715.1",
+          "x": 0.06988149999999999,
+          "y": 24,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 36,
+          "name": "GCA_008364625.2",
+          "x": 0.07012049999999999,
+          "y": 23,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 37,
+          "name": null,
+          "x": 0.052351499999999995,
+          "y": 21.5,
+          "support": 1,
+          "children": [
+            38,
+            39
+          ]
+        },
+        {
+          "id": 38,
+          "name": "GCA_001984825.2",
+          "x": 0.0726735,
+          "y": 22,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 39,
+          "name": "GCA_034008275.1",
+          "x": 0.07437949999999999,
+          "y": 21,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 40,
+          "name": null,
+          "x": 0.041624499999999995,
+          "y": 19.5,
+          "support": 0.99,
+          "children": [
+            42,
+            41
+          ]
+        },
+        {
+          "id": 42,
+          "name": "GCA_002939185.1",
+          "x": 0.07804649999999999,
+          "y": 20,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 41,
+          "name": "GCA_034008295.1",
+          "x": 0.0762865,
+          "y": 19,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 43,
+          "name": "GCA_001729765.1",
+          "x": 0.0728805,
+          "y": 18,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 44,
+          "name": null,
+          "x": 0.0375945,
+          "y": 16.25,
+          "support": 1,
+          "children": [
+            48,
+            45
+          ]
+        },
+        {
+          "id": 48,
+          "name": "GCA_003594915.1",
+          "x": 0.06596250000000001,
+          "y": 17,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 45,
+          "name": null,
+          "x": 0.0423885,
+          "y": 15.5,
+          "support": 1,
+          "children": [
+            46,
+            47
+          ]
+        },
+        {
+          "id": 46,
+          "name": "GCA_019046905.1",
+          "x": 0.0625175,
+          "y": 16,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 47,
+          "name": "GCA_026344075.1",
+          "x": 0.0661235,
+          "y": 15,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 5,
+          "name": null,
+          "x": 0.0355105,
+          "y": 7.171875,
+          "support": 1,
+          "children": [
+            6,
+            20
+          ]
+        },
+        {
+          "id": 6,
+          "name": null,
+          "x": 0.0431135,
+          "y": 8.34375,
+          "support": 1,
+          "children": [
+            7,
+            19
+          ]
+        },
+        {
+          "id": 7,
+          "name": null,
+          "x": 0.050652499999999996,
+          "y": 9.6875,
+          "support": 1,
+          "children": [
+            8,
+            18
+          ]
+        },
+        {
+          "id": 8,
+          "name": null,
+          "x": 0.05492349999999999,
+          "y": 11.375,
+          "support": 1,
+          "children": [
+            9,
+            14
+          ]
+        },
+        {
+          "id": 9,
+          "name": null,
+          "x": 0.06038149999999999,
+          "y": 12.75,
+          "support": 0.996,
+          "children": [
+            10,
+            13
+          ]
+        },
+        {
+          "id": 10,
+          "name": null,
+          "x": 0.06117349999999999,
+          "y": 13.5,
+          "support": 0.91,
+          "children": [
+            12,
+            11
+          ]
+        },
+        {
+          "id": 12,
+          "name": "GCA_001729705.1",
+          "x": 0.07193449999999998,
+          "y": 14,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 11,
+          "name": "GCA_001729725.1",
+          "x": 0.07253449999999999,
+          "y": 13,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 13,
+          "name": "GCA_001729785.1",
+          "x": 0.07477149999999999,
+          "y": 12,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 14,
+          "name": null,
+          "x": 0.06969149999999999,
+          "y": 10.0,
+          "support": 0.986,
+          "children": [
+            15,
+            17,
+            16
+          ]
+        },
+        {
+          "id": 15,
+          "name": "GCA_001729745.1",
+          "x": 0.07405149999999999,
+          "y": 11,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 17,
+          "name": "GCA_040096145.1",
+          "x": 0.07538249999999999,
+          "y": 10,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 16,
+          "name": "GCA_052922205.1",
+          "x": 0.07575449999999999,
+          "y": 9,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 18,
+          "name": "GCA_019048245.1",
+          "x": 0.0776345,
+          "y": 8,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 19,
+          "name": "GCA_004331385.1",
+          "x": 0.0718245,
+          "y": 7,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 20,
+          "name": "GCA_028890245.1",
+          "x": 0.0744635,
+          "y": 6,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 57,
+          "name": "GCA_009176645.1",
+          "x": 0.0702865,
+          "y": 5,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 56,
+          "name": "GCA_019047785.1",
+          "x": 0.0783185,
+          "y": 4,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 63,
+          "name": "GCA_001654845.1",
+          "x": 0.0734875,
+          "y": 3,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 64,
+          "name": null,
+          "x": 0.0075305,
+          "y": 1.5,
+          "support": null,
+          "children": [
+            66,
+            65
+          ]
+        },
+        {
+          "id": 66,
+          "name": "GCA_000982825.1",
+          "x": 0.0966085,
+          "y": 2,
+          "support": null,
+          "children": []
+        },
+        {
+          "id": 65,
+          "name": "GCA_019048125.1",
+          "x": 0.09798849999999999,
+          "y": 1,
+          "support": null,
+          "children": []
+        }
+      ]
+    }
+  },
+  "distance_checks": 1785,
+  "all_geometry_preserved": true,
+  "label_change": "Superscript T marks selected historical type genomes; key includes every assembly accession. Tree data and scientific labels unchanged."
+}

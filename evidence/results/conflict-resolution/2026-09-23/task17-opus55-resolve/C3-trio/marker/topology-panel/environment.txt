@@ -1,0 +1,9 @@
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+host: bun143
+slurm_job_id: 28860519
+threads: 8
+alignment: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/alignment-panel/alignment.faa 1855d2f556d973e852c76842b66ec904d5cf2f50a92bcc182a5c35e17f211863
+seed: 20260923
+started: 2026-09-23T14:40:52+10:00
+model: Q.PLANT+F+I+R3
+finished: 2026-09-23T14:52:06+10:00

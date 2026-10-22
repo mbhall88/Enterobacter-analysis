@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd ${PROJECT_ROOT}
+RUN=results/ani-cases/2026-10-02/task12-astra-genomovars-reporting
+PY=.work/envs/task12-populations/bin/python
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
+"$PY" --version > "$RUN/logs/python-version.txt"
+csvtk version > "$RUN/logs/csvtk-version.txt"
+"$PY" scripts/task12_group_a_genomovars.py --help > "$RUN/logs/cli-help.txt"
+"$PY" -m unittest discover -s tests -p test_task12_group_a_genomovars.py -v > "$RUN/logs/tests.txt" 2>&1
+/usr/bin/time -v -o "$RUN/logs/clustering.time" "$PY" scripts/task12_group_a_genomovars.py \
+ --populations results/ani-cases/2026-10-02/task12-astra-group-a-populations \
+ --naming results/ani-cases/2026-10-02/task12-astra-group-a-naming-approved/naming-overlay.tsv \
+ --output "$RUN/outputs" > "$RUN/logs/clustering.stdout" 2> "$RUN/logs/clustering.stderr"
+csvtk --tabs --num-cpus 1 nrow "$RUN/outputs/memberships.tsv" > "$RUN/logs/csvtk-membership-count.txt"
+csvtk --tabs --num-cpus 1 nrow "$RUN/outputs/genomovars.tsv" > "$RUN/logs/csvtk-group-count.txt"

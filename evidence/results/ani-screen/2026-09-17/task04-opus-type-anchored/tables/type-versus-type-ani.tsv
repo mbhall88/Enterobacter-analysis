@@ -1,0 +1,529 @@
+type_a_accession_version	type_a_taxon	type_b_accession_version	type_b_taxon	ani_percent	af_a_percent	af_b_percent	af_min_percent	type_a_scope_status	type_b_scope_status	at_or_above_95_ani	at_or_above_95_ani_and_80_af
+GCA_040096145.1	Enterobacter intestinihominis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	99.1200	88.5900	89.2600	88.5900	chromosome_assigned_draft_contigs	assembled_chromosome	True	True
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_040096145.1	Enterobacter intestinihominis	99.1200	93.3000	87.2600	87.2600	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	99.0900	93.6200	88.2200	88.2200	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	97.6800	88.0500	86.9800	86.9800	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	97.2800	87.7700	88.9500	87.7700	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	97.1400	86.3700	88.6000	86.3700	assembled_chromosome	assembled_chromosome	True	True
+GCA_000211415.1	Enterobacter mori	GCA_003964905.1	Enterobacter quasimori	96.2300	80.5900	84.9000	80.5900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	True	True
+GCA_001521715.1	Enterobacter asburiae	GCA_008364625.2	Enterobacter dykesii	96.1200	82.2900	85.1600	82.2900	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	96.0400	86.9700	84.0200	84.0200	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	96.0300	89.5600	87.3500	87.3500	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	96.0300	85.2300	88.5500	85.2300	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_040096145.1	Enterobacter intestinihominis	95.9200	83.8400	82.4700	82.4700	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	95.9200	85.0500	89.4500	85.0500	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	95.8800	85.9100	84.1100	84.1100	assembled_chromosome	assembled_chromosome	True	True
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_040096145.1	Enterobacter intestinihominis	95.7300	86.1300	83.6900	83.6900	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_040096145.1	Enterobacter intestinihominis	95.7200	86.6100	83.0400	83.0400	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001729805.1	Enterobacter roggenkampii	95.7000	86.2800	87.3300	86.2800	chromosome_assigned_draft_contigs	assembled_chromosome	True	True
+GCA_001984825.2	Enterobacter chengduensis	GCA_034008275.1	Enterobacter rongchengensis	95.5500	77.0500	79.6300	77.0500	assembled_chromosome	chromosome_assigned_draft_contigs	True	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	95.4900	84.6300	83.8800	83.8800	assembled_chromosome	assembled_chromosome	True	True
+GCA_019046905.1	Enterobacter bugandensis	GCA_026344075.1	Enterobacter nematophilus	95.4600	86.8400	87.1300	86.8400	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	95.1100	81.1800	89.1500	81.1800	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	94.9400	74.8300	84.2200	74.8300	assembled_chromosome	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_026420145.1	Enterobacter pseudoroggenkampii	94.8500	85.3800	84.3500	84.3500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	94.8400	73.6200	83.8700	73.6200	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	94.7300	75.3300	83.6500	75.3300	assembled_chromosome	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_026420145.1	Enterobacter pseudoroggenkampii	94.4400	80.6000	78.0900	78.0900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_008364555.1	Enterobacter vonholyi	94.3500	82.0400	85.9000	82.0400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	94.3100	75.8200	82.1200	75.8200	assembled_chromosome	assembled_chromosome	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_026344075.1	Enterobacter nematophilus	94.3000	85.1300	83.7700	83.7700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_008364625.2	Enterobacter dykesii	94.2700	86.3700	87.0400	86.3700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_008364555.1	Enterobacter vonholyi	94.2700	81.4800	83.6700	81.4800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_026420145.1	Enterobacter pseudoroggenkampii	94.1800	85.8300	80.9900	80.9900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_008364555.1	Enterobacter vonholyi	94.1800	83.1400	86.0000	83.1400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	94.0600	82.0200	71.3500	71.3500	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_026420145.1	Enterobacter pseudoroggenkampii	94.0600	85.5600	80.1100	80.1100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_026420145.1	Enterobacter pseudoroggenkampii	94.0500	83.2000	81.2000	81.2000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	GCA_040096145.1	Enterobacter intestinihominis	94.0200	83.4500	72.0500	72.0500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_019046905.1	Enterobacter bugandensis	93.9100	83.4300	81.8300	81.8300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_004331385.1	Enterobacter quasihormaechei	93.9000	83.9100	83.7800	83.7800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	93.9000	82.8900	78.2300	78.2300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_004331385.1	Enterobacter quasihormaechei	93.7500	80.6100	83.6200	80.6100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_004331385.1	Enterobacter quasihormaechei	93.7200	81.8900	83.8300	81.8900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_004331385.1	Enterobacter quasihormaechei	93.6400	80.4800	84.5100	80.4800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_040096145.1	Enterobacter intestinihominis	93.4800	84.0500	78.7200	78.7200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_008364625.2	Enterobacter dykesii	93.4200	79.4400	83.8200	79.4400	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_008364625.2	Enterobacter dykesii	93.3800	80.5200	83.9400	80.5200	assembled_chromosome	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001984825.2	Enterobacter chengduensis	93.3500	78.1800	72.1000	72.1000	assembled_chromosome	assembled_chromosome	False	False
+GCA_026420145.1	Enterobacter pseudoroggenkampii	GCA_034008275.1	Enterobacter rongchengensis	93.2700	78.0400	76.7600	76.7600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	93.2600	71.6100	77.6800	71.6100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001729805.1	Enterobacter roggenkampii	93.2600	80.2700	79.6900	79.6900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_034008275.1	Enterobacter rongchengensis	93.2000	78.8900	75.1800	75.1800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001521715.1	Enterobacter asburiae	93.1800	77.6100	79.1300	77.6100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_008364625.2	Enterobacter dykesii	93.1800	72.0300	80.8300	72.0300	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_034008275.1	Enterobacter rongchengensis	93.1700	80.0600	73.7200	73.7200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_034008275.1	Enterobacter rongchengensis	93.1700	79.0100	76.7700	76.7700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_034008275.1	Enterobacter rongchengensis	93.0200	79.7100	76.5200	76.5200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_026420145.1	Enterobacter pseudoroggenkampii	93.0200	73.1400	76.8500	73.1400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001984825.2	Enterobacter chengduensis	92.9700	78.4000	73.7200	73.7200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_034008275.1	Enterobacter rongchengensis	92.9500	80.2200	74.4500	74.4500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_001984825.2	Enterobacter chengduensis	92.8600	80.1500	74.4600	74.4600	assembled_chromosome	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_008364555.1	Enterobacter vonholyi	92.7500	71.8500	80.0100	71.8500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_026420145.1	Enterobacter pseudoroggenkampii	GCA_034008295.1	Enterobacter chinensis	92.6800	80.1800	80.5100	80.1800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_034008295.1	Enterobacter chinensis	92.4500	81.6900	76.8000	76.8000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_034008295.1	Enterobacter chinensis	92.4500	77.1300	75.0400	75.0400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_034008295.1	Enterobacter chinensis	92.3900	76.7400	77.4400	76.7400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_034008295.1	Enterobacter chinensis	92.1200	77.7400	77.1200	77.1200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_034008295.1	Enterobacter chinensis	91.9900	79.7900	75.5900	75.5900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_034008295.1	Enterobacter chinensis	91.9500	77.9200	76.3600	76.3600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_019046905.1	Enterobacter bugandensis	91.9400	76.4500	76.2900	76.2900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_003594915.1	Enterobacter chuandaensis	91.9100	72.6100	73.8700	72.6100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_026420145.1	Enterobacter pseudoroggenkampii	91.8500	77.9800	74.2600	74.2600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_002939185.1	Enterobacter sichuanensis	91.8300	74.6700	72.5200	72.5200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_028890245.1	Enterobacter pasteurii	91.8300	78.4800	74.2200	74.2200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_019046905.1	Enterobacter bugandensis	91.8200	78.4400	78.8500	78.4400	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_019046905.1	Enterobacter bugandensis	91.8200	79.4900	76.6500	76.6500	assembled_chromosome	assembled_chromosome	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_008364625.2	Enterobacter dykesii	91.8200	76.1900	77.5000	76.1900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_019046905.1	Enterobacter bugandensis	91.7700	77.5600	75.3700	75.3700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_026344075.1	Enterobacter nematophilus	91.7600	74.6300	74.7200	74.6300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_026344075.1	Enterobacter nematophilus	91.7500	76.6100	74.6900	74.6900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_026420145.1	Enterobacter pseudoroggenkampii	91.7500	74.3300	74.7000	74.3300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_026420145.1	Enterobacter pseudoroggenkampii	91.7100	69.4300	67.1900	67.1900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_002939185.1	Enterobacter sichuanensis	91.7000	73.7000	72.4500	72.4500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_034008275.1	Enterobacter rongchengensis	GCA_034008295.1	Enterobacter chinensis	91.6500	71.8800	73.3800	71.8800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_019046905.1	Enterobacter bugandensis	GCA_026420145.1	Enterobacter pseudoroggenkampii	91.6500	77.0400	74.8000	74.8000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_003594915.1	Enterobacter chuandaensis	91.6400	74.8300	76.6900	74.8300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_026344075.1	Enterobacter nematophilus	GCA_026420145.1	Enterobacter pseudoroggenkampii	91.6400	75.6500	73.2100	73.2100	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_026344075.1	Enterobacter nematophilus	91.6400	79.3300	76.7500	76.7500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_003594915.1	Enterobacter chuandaensis	91.6200	72.1000	74.8000	72.1000	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_034008295.1	Enterobacter chinensis	91.6100	69.9900	73.8400	69.9900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_026344075.1	Enterobacter nematophilus	91.6000	74.9600	75.6000	74.9600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_019046905.1	Enterobacter bugandensis	91.6000	75.6600	76.9800	75.6600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_019046905.1	Enterobacter bugandensis	91.6000	69.5900	75.3000	69.5900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_028890245.1	Enterobacter pasteurii	91.5900	78.2000	75.7100	75.7100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_028890245.1	Enterobacter pasteurii	91.5900	74.7800	74.2700	74.2700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_028890245.1	Enterobacter pasteurii	GCA_040096145.1	Enterobacter intestinihominis	91.5800	74.3000	73.5900	73.5900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_028890245.1	Enterobacter pasteurii	91.5700	75.7300	74.3000	74.3000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_008364555.1	Enterobacter vonholyi	91.5600	73.9600	74.6500	73.9600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_028890245.1	Enterobacter pasteurii	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	91.5100	73.4800	73.3300	73.3300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_008364625.2	Enterobacter dykesii	91.4900	71.0700	76.2800	71.0700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_001984825.2	Enterobacter chengduensis	91.4800	71.1700	67.9500	67.9500	assembled_chromosome	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_026344075.1	Enterobacter nematophilus	91.4800	68.9900	74.9000	68.9900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_003594915.1	Enterobacter chuandaensis	91.4800	66.3700	73.2200	66.3700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_008364555.1	Enterobacter vonholyi	91.4600	70.7200	75.3300	70.7200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_002939185.1	Enterobacter sichuanensis	91.4500	72.8500	70.2300	70.2300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_028890245.1	Enterobacter pasteurii	91.3800	78.6500	74.2600	74.2600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_026344075.1	Enterobacter nematophilus	91.3600	72.5900	74.1000	72.5900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_019046905.1	Enterobacter bugandensis	GCA_034008275.1	Enterobacter rongchengensis	91.3300	74.0100	70.6800	70.6800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_034008275.1	Enterobacter rongchengensis	91.2600	72.4400	67.8600	67.8600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_019046905.1	Enterobacter bugandensis	91.1900	71.5900	73.9600	71.5900	assembled_chromosome	assembled_chromosome	False	False
+GCA_026344075.1	Enterobacter nematophilus	GCA_034008275.1	Enterobacter rongchengensis	91.1300	72.9900	69.4800	69.4800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_034008295.1	Enterobacter chinensis	91.0900	73.3900	70.1800	70.1800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_003964905.1	Enterobacter quasimori	91.0900	65.6800	65.7500	65.6800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_026344075.1	Enterobacter nematophilus	91.0800	72.2900	74.9300	72.2900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001729765.1	Enterobacter kobei	91.0600	70.1600	67.7700	67.7700	assembled_chromosome	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_003964905.1	Enterobacter quasimori	91.0500	67.4900	68.8900	67.4900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_008364625.2	Enterobacter dykesii	91.0200	68.4300	73.3100	68.4300	assembled_chromosome	assembled_chromosome	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_004331265.1	Enterobacter wuhouensis	91.0200	69.9600	70.0900	69.9600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_008364625.2	Enterobacter dykesii	91.0000	67.9800	70.2700	67.9800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_003964905.1	Enterobacter quasimori	91.0000	68.1000	68.6800	68.1000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_003594915.1	Enterobacter chuandaensis	91.0000	68.9600	72.6400	68.9600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_034008275.1	Enterobacter rongchengensis	90.9900	67.7400	66.8400	66.8400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_026344075.1	Enterobacter nematophilus	GCA_034008295.1	Enterobacter chinensis	90.9800	73.8300	71.7500	71.7500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	GCA_028890245.1	Enterobacter pasteurii	90.9600	74.6300	65.0600	65.0600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_001729805.1	Enterobacter roggenkampii	90.9600	68.8700	70.7800	68.8700	assembled_chromosome	assembled_chromosome	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_034008275.1	Enterobacter rongchengensis	90.9000	68.5100	67.7200	67.7200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_002939185.1	Enterobacter sichuanensis	90.8900	66.0600	69.0600	66.0600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_008364555.1	Enterobacter vonholyi	90.8200	66.9900	68.7100	66.9900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_019046905.1	Enterobacter bugandensis	GCA_034008295.1	Enterobacter chinensis	90.8200	74.0900	72.2300	72.2300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_026420145.1	Enterobacter pseudoroggenkampii	90.8000	68.1600	68.3700	68.1600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_008364555.1	Enterobacter vonholyi	90.7900	66.4200	70.6200	66.4200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001729765.1	Enterobacter kobei	90.7000	69.1400	68.0900	68.0900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_003964905.1	Enterobacter quasimori	90.6700	62.2200	67.5500	62.2200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_026344075.1	Enterobacter nematophilus	90.6400	68.6000	68.6000	68.6000	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_034008275.1	Enterobacter rongchengensis	90.6200	66.5900	63.3900	63.3900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_026344075.1	Enterobacter nematophilus	90.6200	64.9900	67.4900	64.9900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_019046905.1	Enterobacter bugandensis	90.6000	68.9900	68.7600	68.7600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001521715.1	Enterobacter asburiae	90.5900	61.5000	64.7100	61.5000	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_004331265.1	Enterobacter wuhouensis	90.5800	67.3300	64.7800	64.7800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_003964905.1	Enterobacter quasimori	90.5800	68.9600	67.8600	67.8600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_004331265.1	Enterobacter wuhouensis	90.5300	61.3400	62.1800	61.3400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_019046905.1	Enterobacter bugandensis	90.4900	66.5100	68.8400	66.5100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_008364625.2	Enterobacter dykesii	90.4900	62.4700	68.0200	62.4700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_003594915.1	Enterobacter chuandaensis	90.4700	66.5300	70.2000	66.5300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_026420145.1	Enterobacter pseudoroggenkampii	90.3900	62.3000	63.5100	62.3000	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_008364555.1	Enterobacter vonholyi	90.3800	59.7400	64.5500	59.7400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_003964905.1	Enterobacter quasimori	90.3600	67.2300	69.9900	67.2300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_003594915.1	Enterobacter chuandaensis	90.2100	59.4900	63.6800	59.4900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_034008295.1	Enterobacter chinensis	90.1600	66.6600	64.7700	64.7700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_034008295.1	Enterobacter chinensis	90.1600	65.9900	66.4700	65.9900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_004331265.1	Enterobacter wuhouensis	90.1600	59.7900	57.5900	57.5900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_019046905.1	Enterobacter bugandensis	90.0800	63.1200	60.8400	60.8400	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_026344075.1	Enterobacter nematophilus	90.0700	60.9300	64.1800	60.9300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001039365.2	Enterobacter quasiroggenkampii	90.0700	61.4500	63.4100	61.4500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_003594935.2	Enterobacter huaxiensis	90.0500	62.7400	63.4800	62.7400	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	90.0400	65.0500	65.7200	65.0500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_034008295.1	Enterobacter chinensis	90.0300	63.8400	65.3400	63.8400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_034008275.1	Enterobacter rongchengensis	89.9900	58.7600	58.9200	58.7600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001729805.1	Enterobacter roggenkampii	89.9500	61.2900	64.0200	61.2900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_002939185.1	Enterobacter sichuanensis	89.9400	63.6200	63.5100	63.5100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001984825.2	Enterobacter chengduensis	89.9300	59.9400	58.1600	58.1600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_008364625.2	Enterobacter dykesii	89.9100	58.3500	62.6900	58.3500	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_003594935.2	Enterobacter huaxiensis	89.9000	60.4100	58.0900	58.0900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_019046905.1	Enterobacter bugandensis	89.8600	62.4900	61.6700	61.6700	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_019046905.1	Enterobacter bugandensis	89.8400	62.2900	62.2900	62.2900	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_002939185.1	Enterobacter sichuanensis	89.8300	58.0200	63.0700	58.0200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_003964905.1	Enterobacter quasimori	89.8200	61.2400	63.6000	61.2400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_004331265.1	Enterobacter wuhouensis	89.7700	62.3900	59.0700	59.0700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_026420145.1	Enterobacter pseudoroggenkampii	89.7600	60.0900	60.4400	60.0900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_019046905.1	Enterobacter bugandensis	89.7100	61.7400	64.8200	61.7400	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_034008295.1	Enterobacter chinensis	89.6800	67.8400	67.7500	67.7500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_019046905.1	Enterobacter bugandensis	89.6600	61.7800	62.5500	61.7800	assembled_chromosome	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_026344075.1	Enterobacter nematophilus	89.6300	60.6900	63.0800	60.6900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_019046905.1	Enterobacter bugandensis	89.6200	64.0100	61.6100	61.6100	assembled_chromosome	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_004331265.1	Enterobacter wuhouensis	89.6200	57.8200	60.4000	57.8200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001521715.1	Enterobacter asburiae	89.6000	55.3800	62.4400	55.3800	assembled_chromosome	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_034008275.1	Enterobacter rongchengensis	89.5900	58.9600	58.3300	58.3300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001729805.1	Enterobacter roggenkampii	89.5700	57.3900	64.2300	57.3900	assembled_chromosome	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_019046905.1	Enterobacter bugandensis	89.5700	60.4300	62.5900	60.4300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_008364555.1	Enterobacter vonholyi	89.5700	57.9600	61.7800	57.9600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_026420145.1	Enterobacter pseudoroggenkampii	89.5200	64.6300	64.2900	64.2900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_004331265.1	Enterobacter wuhouensis	89.5200	60.5500	58.7500	58.7500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_019046905.1	Enterobacter bugandensis	89.5100	57.2000	64.3500	57.2000	assembled_chromosome	assembled_chromosome	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_026344075.1	Enterobacter nematophilus	89.5100	61.4300	59.4200	59.4200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	89.4900	64.9800	64.5300	64.5300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	89.4800	65.5500	62.1800	62.1800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_026344075.1	Enterobacter nematophilus	GCA_028890245.1	Enterobacter pasteurii	89.4800	62.4400	61.0500	61.0500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_019046905.1	Enterobacter bugandensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	89.4800	60.3800	59.1100	59.1100	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_003594915.1	Enterobacter chuandaensis	89.4700	56.1200	64.3700	56.1200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_008364625.2	Enterobacter dykesii	89.4600	59.0700	63.5800	59.0700	assembled_chromosome	assembled_chromosome	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_026344075.1	Enterobacter nematophilus	89.4300	64.2200	66.0100	64.2200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_019046905.1	Enterobacter bugandensis	GCA_040096145.1	Enterobacter intestinihominis	89.4200	60.2100	58.5000	58.5000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019046905.1	Enterobacter bugandensis	GCA_028890245.1	Enterobacter pasteurii	89.4200	62.0700	60.8900	60.8900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_004331385.1	Enterobacter quasihormaechei	89.4200	59.8500	60.8900	59.8500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	89.4200	63.0300	61.4000	61.4000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_019046905.1	Enterobacter bugandensis	89.4100	59.4500	61.6900	59.4500	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_002939185.1	Enterobacter sichuanensis	89.3900	59.1900	60.0400	59.1900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_003964905.1	Enterobacter quasimori	89.3900	61.8300	62.8000	61.8300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	89.3800	63.9700	61.2500	61.2500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_003594935.2	Enterobacter huaxiensis	89.3700	61.0300	57.6800	57.6800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_034008295.1	Enterobacter chinensis	89.3500	58.6800	64.3700	58.6800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	89.3400	64.5000	63.2900	63.2900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_003594935.2	Enterobacter huaxiensis	89.3200	61.1200	59.2000	59.2000	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_008364625.2	Enterobacter dykesii	89.3000	55.4300	64.6700	55.4300	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_026344075.1	Enterobacter nematophilus	89.3000	61.0800	61.2900	61.0800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_004331265.1	Enterobacter wuhouensis	89.2800	61.1500	60.0600	60.0600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001039365.2	Enterobacter quasiroggenkampii	89.2700	56.0700	61.9900	56.0700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019046905.1	Enterobacter bugandensis	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	89.2600	52.4100	58.9700	52.4100	assembled_chromosome	assembled_chromosome	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_008364625.2	Enterobacter dykesii	89.2600	59.7600	63.7300	59.7600	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_003594915.1	Enterobacter chuandaensis	89.2500	59.5400	60.7100	59.5400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_026344075.1	Enterobacter nematophilus	89.2500	61.0300	60.4300	60.4300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_026344075.1	Enterobacter nematophilus	89.2500	60.6500	61.6100	60.6500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_004331385.1	Enterobacter quasihormaechei	89.2400	59.6600	61.6800	59.6600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_034008295.1	Enterobacter chinensis	89.2400	57.9500	58.5300	57.9500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_026344075.1	Enterobacter nematophilus	89.2300	57.0100	64.3600	57.0100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_034008275.1	Enterobacter rongchengensis	89.2300	58.9600	58.4300	58.4300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001750725.1	Enterobacter ludwigii	89.2300	60.9500	59.1500	59.1500	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_003964905.1	Enterobacter quasimori	89.2200	60.0100	62.2000	60.0100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_026344075.1	Enterobacter nematophilus	89.2200	59.7000	62.1600	59.7000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_003594915.1	Enterobacter chuandaensis	89.2200	59.0500	60.9500	59.0500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_003964905.1	Enterobacter quasimori	89.2100	61.3400	61.5500	61.3400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_001729805.1	Enterobacter roggenkampii	89.2100	58.2500	57.1900	57.1900	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	89.2000	66.5700	62.6600	62.6600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_028890245.1	Enterobacter pasteurii	89.2000	59.6900	57.4300	57.4300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_001729805.1	Enterobacter roggenkampii	89.2000	57.8900	57.6000	57.6000	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_008364555.1	Enterobacter vonholyi	89.1700	54.3800	62.9600	54.3800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_026344075.1	Enterobacter nematophilus	89.1600	62.1100	59.9800	59.9800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_026420145.1	Enterobacter pseudoroggenkampii	89.1600	58.3000	58.7500	58.3000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_003964905.1	Enterobacter quasimori	89.1600	61.2800	60.6800	60.6800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_026344075.1	Enterobacter nematophilus	GCA_040096145.1	Enterobacter intestinihominis	89.1500	59.9600	58.0600	58.0600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_003594935.2	Enterobacter huaxiensis	89.1500	57.0900	59.5200	57.0900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_003594915.1	Enterobacter chuandaensis	89.1400	59.7200	60.0800	59.7200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_026420145.1	Enterobacter pseudoroggenkampii	89.1300	56.1900	61.3800	56.1900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_026344075.1	Enterobacter nematophilus	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	89.1200	59.8800	58.4200	58.4200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	89.1100	63.5100	61.7800	61.7800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_028890245.1	Enterobacter pasteurii	89.1100	55.8800	57.5600	55.8800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_003594935.2	Enterobacter huaxiensis	89.1100	61.5300	60.0200	60.0200	assembled_chromosome	assembled_chromosome	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	89.1000	58.7000	56.3700	56.3700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_040096145.1	Enterobacter intestinihominis	89.1000	60.1800	57.3500	57.3500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_008364555.1	Enterobacter vonholyi	89.1000	56.7500	60.6000	56.7500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	GCA_026344075.1	Enterobacter nematophilus	89.0800	60.0400	53.5300	53.5300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	89.0800	56.2200	55.4100	55.4100	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001984825.2	Enterobacter chengduensis	89.0500	57.6800	59.9700	57.6800	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_004331385.1	Enterobacter quasihormaechei	89.0300	52.6900	57.3900	52.6900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_004331385.1	Enterobacter quasihormaechei	89.0300	54.4300	58.4900	54.4300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_019046905.1	Enterobacter bugandensis	89.0200	62.4400	63.9700	62.4400	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	89.0200	59.7400	63.1000	59.7400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	89.0100	52.3400	57.7600	52.3400	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_003594935.2	Enterobacter huaxiensis	89.0100	59.6900	58.5300	58.5300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	89.0100	55.5900	56.2100	55.5900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_003594915.1	Enterobacter chuandaensis	88.9900	59.6500	58.5400	58.5400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_003594935.2	Enterobacter huaxiensis	88.9900	61.2500	56.8100	56.8100	assembled_chromosome	assembled_chromosome	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_034008275.1	Enterobacter rongchengensis	88.9800	60.2500	58.9400	58.9400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_034008295.1	Enterobacter chinensis	88.9800	62.0800	62.2300	62.0800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_040096145.1	Enterobacter intestinihominis	88.9700	60.5600	58.6500	58.6500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_009176645.1	Enterobacter oligotrophicus	88.9700	55.8200	61.1300	55.8200	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_001729805.1	Enterobacter roggenkampii	88.9600	60.0100	57.4700	57.4700	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	88.9500	60.4100	61.9100	60.4100	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_026420145.1	Enterobacter pseudoroggenkampii	88.9400	59.3600	59.2600	59.2600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_028890245.1	Enterobacter pasteurii	88.9300	60.1200	58.7800	58.7800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_009176645.1	Enterobacter oligotrophicus	88.9300	59.3000	62.3700	59.3000	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001729765.1	Enterobacter kobei	88.9300	56.8900	57.8200	56.8900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_008364625.2	Enterobacter dykesii	88.9300	57.1500	58.4900	57.1500	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_003964905.1	Enterobacter quasimori	88.9200	62.3000	60.1700	60.1700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_001984825.2	Enterobacter chengduensis	88.9100	57.4700	53.1100	53.1100	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_001729805.1	Enterobacter roggenkampii	88.9100	58.3200	58.7400	58.3200	assembled_chromosome	assembled_chromosome	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_008364555.1	Enterobacter vonholyi	88.9000	57.2000	60.5300	57.2000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001729705.1	Enterobacter hormaechei subsp. oharae	88.9000	55.5800	55.4500	55.4500	assembled_chromosome	assembled_chromosome	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_034008295.1	Enterobacter chinensis	88.8900	55.8000	56.4500	55.8000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.8800	55.8100	54.9200	54.9200	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_040096145.1	Enterobacter intestinihominis	88.8800	55.0200	56.1300	55.0200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_003594935.2	Enterobacter huaxiensis	88.8700	61.2500	58.2500	58.2500	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_001750725.1	Enterobacter ludwigii	88.8600	61.1700	59.7900	59.7900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001750725.1	Enterobacter ludwigii	88.8600	59.0300	58.4100	58.4100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_028890245.1	Enterobacter pasteurii	88.8500	55.4700	56.3700	55.4700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_003594935.2	Enterobacter huaxiensis	88.8500	59.6900	57.5300	57.5300	assembled_chromosome	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_028890245.1	Enterobacter pasteurii	88.8500	55.6100	54.4400	54.4400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_034008275.1	Enterobacter rongchengensis	88.8400	55.0700	59.1700	55.0700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001729765.1	Enterobacter kobei	88.8400	53.1100	57.8400	53.1100	assembled_chromosome	assembled_chromosome	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.8400	59.8300	58.3800	58.3800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_009176645.1	Enterobacter oligotrophicus	88.8400	56.7000	59.8400	56.7000	assembled_chromosome	assembled_chromosome	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_004331265.1	Enterobacter wuhouensis	88.8300	54.1800	54.1400	54.1400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_001984825.2	Enterobacter chengduensis	88.8300	55.2000	51.6400	51.6400	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_009176645.1	Enterobacter oligotrophicus	88.8200	56.3500	60.2000	56.3500	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_009176645.1	Enterobacter oligotrophicus	88.8100	51.9100	57.5100	51.9100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	88.8100	57.1200	59.2400	57.1200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_003594915.1	Enterobacter chuandaensis	88.8100	58.0100	60.8100	58.0100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_002939185.1	Enterobacter sichuanensis	88.8000	56.6300	56.2600	56.2600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	88.8000	57.1000	57.5900	57.1000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.8000	55.3000	54.0200	54.0200	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_028890245.1	Enterobacter pasteurii	88.7900	58.8800	55.7000	55.7000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_004331385.1	Enterobacter quasihormaechei	88.7900	55.0800	59.2900	55.0800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_028890245.1	Enterobacter pasteurii	88.7800	55.2800	56.2800	55.2800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_009176645.1	Enterobacter oligotrophicus	88.7700	53.7700	57.0400	53.7700	assembled_chromosome	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	88.7700	55.1600	57.1800	55.1600	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_008364625.2	Enterobacter dykesii	88.7400	56.1900	59.0000	56.1900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_004331265.1	Enterobacter wuhouensis	88.7400	59.1100	57.7700	57.7700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_028890245.1	Enterobacter pasteurii	88.7300	55.7500	54.9700	54.9700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_040096145.1	Enterobacter intestinihominis	88.7300	54.4000	54.7600	54.4000	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	88.7200	55.1800	56.8900	55.1800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_040096145.1	Enterobacter intestinihominis	88.7200	54.3900	52.7400	52.7400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_019046905.1	Enterobacter bugandensis	88.7100	60.0300	61.7300	60.0300	assembled_chromosome	assembled_chromosome	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.7000	54.4000	61.0200	54.4000	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_001750725.1	Enterobacter ludwigii	88.7000	56.6500	56.9200	56.6500	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_008364625.2	Enterobacter dykesii	88.7000	55.2300	57.2800	55.2300	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_004331265.1	Enterobacter wuhouensis	88.7000	57.8900	55.8900	55.8900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_008364555.1	Enterobacter vonholyi	88.7000	56.0300	56.9000	56.0300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_026420145.1	Enterobacter pseudoroggenkampii	88.7000	56.8000	54.4300	54.4300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.6900	49.6600	56.1800	49.6600	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_008364555.1	Enterobacter vonholyi	88.6900	53.8000	55.3700	53.8000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_026420145.1	Enterobacter pseudoroggenkampii	88.6900	56.1700	54.5400	54.5400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_026420145.1	Enterobacter pseudoroggenkampii	GCA_040096145.1	Enterobacter intestinihominis	88.6900	54.5100	54.5400	54.5100	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.6900	56.7000	57.6000	56.7000	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001750725.1	Enterobacter ludwigii	88.6800	53.3500	58.3700	53.3500	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_004331265.1	Enterobacter wuhouensis	88.6800	57.9200	55.1800	55.1800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.6700	56.9700	53.7800	53.7800	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_026420145.1	Enterobacter pseudoroggenkampii	88.6700	55.6700	54.7300	54.7300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_009176645.1	Enterobacter oligotrophicus	88.6700	50.5300	53.2000	50.5300	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_003964905.1	Enterobacter quasimori	88.6600	53.0200	59.8500	53.0200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_026420145.1	Enterobacter pseudoroggenkampii	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.6500	53.6200	54.0600	53.6200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_019046905.1	Enterobacter bugandensis	88.6400	57.0400	54.0600	54.0600	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_009176645.1	Enterobacter oligotrophicus	88.6300	53.5600	54.5000	53.5600	assembled_chromosome	assembled_chromosome	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_026344075.1	Enterobacter nematophilus	88.6200	59.4800	61.3700	59.4800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_026420145.1	Enterobacter pseudoroggenkampii	88.6200	56.6900	53.0600	53.0600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_040096145.1	Enterobacter intestinihominis	88.6200	56.0600	56.5200	56.0600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.6100	54.6000	55.3700	54.6000	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_009176645.1	Enterobacter oligotrophicus	88.6100	54.2900	56.1900	54.2900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_034008275.1	Enterobacter rongchengensis	88.6100	56.6000	55.5900	55.5900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_034008275.1	Enterobacter rongchengensis	88.6100	56.2800	53.7500	53.7500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_026420145.1	Enterobacter pseudoroggenkampii	GCA_028890245.1	Enterobacter pasteurii	88.6100	53.9600	54.5100	53.9600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.6100	58.5300	54.3000	54.3000	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_008364625.2	Enterobacter dykesii	88.6000	57.3200	57.2200	57.2200	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_001984825.2	Enterobacter chengduensis	88.6000	56.4000	51.4400	51.4400	assembled_chromosome	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.6000	47.0100	52.7900	47.0100	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001729705.1	Enterobacter hormaechei subsp. oharae	88.5800	55.7300	58.5100	55.7300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_008364625.2	Enterobacter dykesii	88.5800	55.9700	55.9600	55.9600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_026420145.1	Enterobacter pseudoroggenkampii	88.5700	57.1600	53.4300	53.4300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_004331385.1	Enterobacter quasihormaechei	88.5600	54.1300	56.4400	54.1300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.5600	45.8400	55.8100	45.8400	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_000211415.1	Enterobacter mori	88.5500	53.9300	57.7900	53.9300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_003594935.2	Enterobacter huaxiensis	88.5400	54.5300	54.3900	54.3900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001729705.1	Enterobacter hormaechei subsp. oharae	88.5400	55.2200	56.1800	55.2200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_028890245.1	Enterobacter pasteurii	88.5400	51.4200	54.5800	51.4200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_040096145.1	Enterobacter intestinihominis	88.5300	55.7800	54.4700	54.4700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_009176645.1	Enterobacter oligotrophicus	88.5300	56.0900	61.3100	56.0900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_001729765.1	Enterobacter kobei	88.5300	55.5000	53.7200	53.7200	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_009176645.1	Enterobacter oligotrophicus	88.5300	56.0600	58.3800	56.0600	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_008364555.1	Enterobacter vonholyi	88.5300	53.0200	55.2400	53.0200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_009176645.1	Enterobacter oligotrophicus	88.5100	58.0200	58.9300	58.0200	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_001984825.2	Enterobacter chengduensis	88.5100	56.8200	50.5500	50.5500	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	88.5100	56.2000	59.7900	56.2000	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_004331385.1	Enterobacter quasihormaechei	88.5100	50.0900	56.2200	50.0900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	88.5000	54.8600	57.9900	54.8600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_028890245.1	Enterobacter pasteurii	GCA_034008295.1	Enterobacter chinensis	88.4900	55.4000	55.0600	55.0600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	88.4900	58.9400	59.1600	58.9400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_003594935.2	Enterobacter huaxiensis	88.4900	52.9400	52.7000	52.7000	assembled_chromosome	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_009176645.1	Enterobacter oligotrophicus	88.4900	50.6800	54.4100	50.6800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.4900	51.9800	55.0600	51.9800	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_028890245.1	Enterobacter pasteurii	88.4800	50.7400	56.0000	50.7400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_028890245.1	Enterobacter pasteurii	88.4700	55.2800	52.6900	52.6900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.4700	54.0200	53.8100	53.8100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_009176645.1	Enterobacter oligotrophicus	88.4700	47.5500	54.2900	47.5500	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001729705.1	Enterobacter hormaechei subsp. oharae	88.4600	51.7200	58.1900	51.7200	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_004331265.1	Enterobacter wuhouensis	88.4600	58.9100	54.7400	54.7400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_001729765.1	Enterobacter kobei	88.4600	55.4800	51.6900	51.6900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_001984825.2	Enterobacter chengduensis	88.4600	57.6600	54.7900	54.7900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.4600	47.2700	54.1200	47.2700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	88.4600	55.2600	55.5300	55.2600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_040096145.1	Enterobacter intestinihominis	88.4600	51.3500	53.9900	51.3500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_034008275.1	Enterobacter rongchengensis	88.4600	55.8400	52.6300	52.6300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	GCA_026420145.1	Enterobacter pseudoroggenkampii	88.4500	54.2500	46.8100	46.8100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_028890245.1	Enterobacter pasteurii	88.4400	54.2000	54.1000	54.1000	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_004331385.1	Enterobacter quasihormaechei	88.4400	53.8600	56.8400	53.8600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_009176645.1	Enterobacter oligotrophicus	88.4300	48.3100	57.3500	48.3100	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_040096145.1	Enterobacter intestinihominis	88.4300	56.0400	52.5000	52.5000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.4200	48.9300	53.0900	48.9300	assembled_chromosome	assembled_chromosome	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_026420145.1	Enterobacter pseudoroggenkampii	88.4100	54.0600	49.7400	49.7400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_040096145.1	Enterobacter intestinihominis	88.4000	54.3000	53.6700	53.6700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_004331385.1	Enterobacter quasihormaechei	88.4000	52.0800	53.9100	52.0800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.3900	46.6800	54.2700	46.6800	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	88.3800	55.2600	60.2800	55.2600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.3800	50.8600	51.4400	50.8600	assembled_chromosome	assembled_chromosome	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_026344075.1	Enterobacter nematophilus	88.3800	57.1800	54.3700	54.3700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_034008295.1	Enterobacter chinensis	88.3700	55.1700	50.9700	50.9700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.3700	48.8900	57.0900	48.8900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_034008275.1	Enterobacter rongchengensis	88.3700	54.9500	53.1300	53.1300	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_034008295.1	Enterobacter chinensis	88.3500	54.6900	53.9800	53.9800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_028890245.1	Enterobacter pasteurii	GCA_034008275.1	Enterobacter rongchengensis	88.3400	54.0200	52.5900	52.5900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.3400	55.0700	56.6000	55.0700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.3400	49.8900	53.2100	49.8900	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	88.3300	49.3700	57.7000	49.3700	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.3300	55.5300	52.8200	52.8200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_028890245.1	Enterobacter pasteurii	88.3300	49.5900	50.2600	49.5900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_004331385.1	Enterobacter quasihormaechei	88.3200	50.3700	53.9800	50.3700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_034008295.1	Enterobacter chinensis	88.3200	55.3700	53.9900	53.9900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_040096145.1	Enterobacter intestinihominis	88.3000	55.5400	52.4400	52.4400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_009176645.1	Enterobacter oligotrophicus	88.3000	48.1900	52.6300	48.1900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_034008275.1	Enterobacter rongchengensis	GCA_040096145.1	Enterobacter intestinihominis	88.3000	51.4000	52.2900	51.4000	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	88.2900	50.6700	56.3100	50.6700	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_009176645.1	Enterobacter oligotrophicus	88.2900	49.8100	51.0800	49.8100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.2800	48.0600	56.0300	48.0600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_034008295.1	Enterobacter chinensis	88.2800	54.4700	51.1900	51.1900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_008364555.1	Enterobacter vonholyi	88.2700	56.4000	55.8700	55.8700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_034008275.1	Enterobacter rongchengensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.2600	52.9800	54.3100	52.9800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_034008275.1	Enterobacter rongchengensis	88.2600	57.0600	52.5300	52.5300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_040096145.1	Enterobacter intestinihominis	88.2500	49.2900	53.8800	49.2900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_034008295.1	Enterobacter chinensis	88.2500	56.3500	52.8800	52.8800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_004331265.1	Enterobacter wuhouensis	88.2500	54.1800	54.0400	54.0400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_009176645.1	Enterobacter oligotrophicus	88.2500	47.8900	52.2100	47.8900	assembled_chromosome	assembled_chromosome	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_028890245.1	Enterobacter pasteurii	88.2400	55.6800	55.9600	55.6800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	88.2400	56.7500	52.5000	52.5000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_008364555.1	Enterobacter vonholyi	88.2400	54.2000	53.7700	53.7700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.2300	43.8500	55.5100	43.8500	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	88.2300	49.5500	56.4900	49.5500	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.2300	47.3800	55.9800	47.3800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_040096145.1	Enterobacter intestinihominis	88.2300	51.4700	51.6700	51.4700	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_019047785.1	Enterobacter cancerogenus	88.2100	55.5000	51.5300	51.5300	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_004331265.1	Enterobacter wuhouensis	88.2000	50.9100	55.2900	50.9100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_034008295.1	Enterobacter chinensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.2000	51.8700	52.0900	51.8700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_040096145.1	Enterobacter intestinihominis	88.2000	57.7800	53.2000	53.2000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_002939185.1	Enterobacter sichuanensis	88.1900	52.2100	50.4500	50.4500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_034008275.1	Enterobacter rongchengensis	88.1900	53.2600	48.2000	48.2000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_009176645.1	Enterobacter oligotrophicus	88.1900	54.3400	55.2800	54.3400	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_034008295.1	Enterobacter chinensis	88.1800	55.9700	53.8500	53.8500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_002939185.1	Enterobacter sichuanensis	88.1800	51.6900	50.5600	50.5600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_034008275.1	Enterobacter rongchengensis	88.1700	56.0100	51.4900	51.4900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_002939185.1	Enterobacter sichuanensis	88.1700	52.4900	48.8100	48.8100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	88.1500	51.6300	54.0500	51.6300	assembled_chromosome	assembled_chromosome	False	False
+GCA_034008295.1	Enterobacter chinensis	GCA_040096145.1	Enterobacter intestinihominis	88.1500	52.5800	52.4000	52.4000	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_002939185.1	Enterobacter sichuanensis	88.1500	52.1000	49.6800	49.6800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_001729765.1	Enterobacter kobei	88.1500	53.3300	52.2600	52.2600	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.1400	49.8800	54.9300	49.8800	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	88.1300	48.7100	53.2700	48.7100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	88.1300	55.6900	56.4100	55.6900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_028890245.1	Enterobacter pasteurii	88.1100	50.5800	51.3600	50.5800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_040096145.1	Enterobacter intestinihominis	88.1000	49.2700	49.5400	49.2700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_009176645.1	Enterobacter oligotrophicus	GCA_028890245.1	Enterobacter pasteurii	88.0700	54.5300	50.6900	50.6900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_003964905.1	Enterobacter quasimori	88.0600	55.1500	56.9000	55.1500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	GCA_034008295.1	Enterobacter chinensis	88.0400	53.5000	46.3500	46.3500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	88.0400	49.4300	50.0800	49.4300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_003594935.2	Enterobacter huaxiensis	GCA_019047785.1	Enterobacter cancerogenus	88.0400	53.3200	54.2100	53.3200	assembled_chromosome	assembled_chromosome	False	False
+GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	GCA_034008275.1	Enterobacter rongchengensis	88.0300	53.8500	45.7000	45.7000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_009176645.1	Enterobacter oligotrophicus	88.0200	50.2900	54.5700	50.2900	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001750725.1	Enterobacter ludwigii	88.0100	51.7200	52.8100	51.7200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	88.0000	55.6200	56.2400	55.6200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_003594935.2	Enterobacter huaxiensis	87.9800	50.0500	54.2700	50.0500	assembled_chromosome	assembled_chromosome	False	False
+GCA_004331265.1	Enterobacter wuhouensis	GCA_019047785.1	Enterobacter cancerogenus	87.9800	53.0700	53.8600	53.0700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_019047785.1	Enterobacter cancerogenus	87.9600	48.7100	47.6200	47.6200	assembled_chromosome	assembled_chromosome	False	False
+GCA_008364625.2	Enterobacter dykesii	GCA_019047785.1	Enterobacter cancerogenus	87.9400	50.7000	47.8900	47.8900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	87.9300	56.7500	53.3200	53.3200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_003964905.1	Enterobacter quasimori	GCA_019047785.1	Enterobacter cancerogenus	87.9200	50.9800	49.7800	49.7800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	87.9100	56.6900	54.6100	54.6100	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	87.9000	52.9000	53.0500	52.9000	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_040096145.1	Enterobacter intestinihominis	87.9000	52.6100	52.3600	52.3600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	87.8900	54.1800	52.9000	52.9000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	87.8900	55.1900	51.9400	51.9400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	87.8800	44.0100	51.2500	44.0100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_004331385.1	Enterobacter quasihormaechei	87.8800	46.7900	50.2300	46.7900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	87.8700	55.3900	54.7400	54.7400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019046905.1	Enterobacter bugandensis	GCA_019047785.1	Enterobacter cancerogenus	87.8300	51.6500	50.6000	50.6000	assembled_chromosome	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_004331385.1	Enterobacter quasihormaechei	87.8000	46.2400	53.9600	46.2400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_004331265.1	Enterobacter wuhouensis	87.7800	53.0500	52.6600	52.6600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_019047785.1	Enterobacter cancerogenus	87.7500	50.4100	50.0000	50.0000	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729805.1	Enterobacter roggenkampii	GCA_019047785.1	Enterobacter cancerogenus	87.7300	50.4400	49.6700	49.6700	assembled_chromosome	assembled_chromosome	False	False
+GCA_001984825.2	Enterobacter chengduensis	GCA_019047785.1	Enterobacter cancerogenus	87.6900	46.1800	48.9500	46.1800	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_019047785.1	Enterobacter cancerogenus	87.6600	50.9700	49.9400	49.9400	assembled_chromosome	assembled_chromosome	False	False
+GCA_004331385.1	Enterobacter quasihormaechei	GCA_019047785.1	Enterobacter cancerogenus	87.6600	50.5100	47.7100	47.7100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_003594915.1	Enterobacter chuandaensis	GCA_019047785.1	Enterobacter cancerogenus	87.6100	49.9200	47.9600	47.9600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_019047785.1	Enterobacter cancerogenus	87.6000	53.0300	50.0100	50.0100	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729765.1	Enterobacter kobei	GCA_019047785.1	Enterobacter cancerogenus	87.5700	46.4100	46.9700	46.4100	assembled_chromosome	assembled_chromosome	False	False
+GCA_019047785.1	Enterobacter cancerogenus	GCA_026344075.1	Enterobacter nematophilus	87.5700	49.7200	50.9200	49.7200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_003594935.2	Enterobacter huaxiensis	87.5500	51.1100	50.6500	50.6500	assembled_chromosome	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_019047785.1	Enterobacter cancerogenus	87.5300	48.8200	48.6700	48.6700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	87.5000	45.8200	52.8200	45.8200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_019047785.1	Enterobacter cancerogenus	GCA_034008275.1	Enterobacter rongchengensis	87.5000	49.4500	48.2000	48.2000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	GCA_001750725.1	Enterobacter ludwigii	87.4700	51.8500	48.5400	48.5400	assembled_chromosome	assembled_chromosome	False	False
+GCA_019047785.1	Enterobacter cancerogenus	GCA_026420145.1	Enterobacter pseudoroggenkampii	87.4400	47.3200	46.9000	46.9000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729705.1	Enterobacter hormaechei subsp. oharae	GCA_001750725.1	Enterobacter ludwigii	87.4300	51.1400	49.7400	49.7400	assembled_chromosome	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_001750725.1	Enterobacter ludwigii	87.4300	52.5300	50.4200	50.4200	assembled_chromosome	assembled_chromosome	False	False
+GCA_000211415.1	Enterobacter mori	GCA_019047785.1	Enterobacter cancerogenus	87.4000	45.5200	46.8200	45.5200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_019047785.1	Enterobacter cancerogenus	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	87.4000	41.9100	48.1400	41.9100	assembled_chromosome	assembled_chromosome	False	False
+GCA_019047785.1	Enterobacter cancerogenus	GCA_028890245.1	Enterobacter pasteurii	87.3900	50.1600	50.2300	50.1600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_008364555.1	Enterobacter vonholyi	GCA_019047785.1	Enterobacter cancerogenus	87.3800	48.1700	45.8600	45.8600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_019047785.1	Enterobacter cancerogenus	87.3700	42.5800	46.9300	42.5800	assembled_chromosome	assembled_chromosome	False	False
+GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	GCA_019047785.1	Enterobacter cancerogenus	87.3600	46.6300	46.8000	46.6300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_002939185.1	Enterobacter sichuanensis	GCA_019047785.1	Enterobacter cancerogenus	87.3600	43.7300	44.3500	43.7300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	GCA_019047785.1	Enterobacter cancerogenus	87.3500	51.5100	49.8000	49.8000	assembled_chromosome	assembled_chromosome	False	False
+GCA_019047785.1	Enterobacter cancerogenus	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	87.3300	47.8000	47.7600	47.7600	assembled_chromosome	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_004331265.1	Enterobacter wuhouensis	87.3200	45.5100	46.1100	45.5100	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	87.2900	48.2400	48.5600	48.2400	assembled_chromosome	assembled_chromosome	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_028890245.1	Enterobacter pasteurii	87.2900	47.9900	48.4100	47.9900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	GCA_001750725.1	Enterobacter ludwigii	87.2500	51.6000	50.8000	50.8000	assembled_chromosome	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_003594935.2	Enterobacter huaxiensis	87.2200	46.3700	46.9000	46.3700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_019047785.1	Enterobacter cancerogenus	GCA_034008295.1	Enterobacter chinensis	87.2200	45.3600	45.1500	45.1500	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_019047785.1	Enterobacter cancerogenus	GCA_040096145.1	Enterobacter intestinihominis	87.2100	47.9600	47.5600	47.5600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_040096145.1	Enterobacter intestinihominis	87.1800	47.8400	47.8000	47.8000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	87.1800	42.9900	49.7500	42.9900	assembled_chromosome	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_019046905.1	Enterobacter bugandensis	87.1400	44.8500	47.0800	44.8500	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_004331385.1	Enterobacter quasihormaechei	87.1400	47.0600	50.2000	47.0600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_000211415.1	Enterobacter mori	GCA_001654845.1	Enterobacter soli	87.1300	44.2700	44.2800	44.2700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001750725.1	Enterobacter ludwigii	GCA_019047785.1	Enterobacter cancerogenus	87.1000	44.8100	45.1500	44.8100	assembled_chromosome	assembled_chromosome	False	False
+GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001654845.1	Enterobacter soli	87.0400	45.9200	44.5100	44.5100	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001521715.1	Enterobacter asburiae	GCA_001654845.1	Enterobacter soli	87.0300	45.7400	43.4800	43.4800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_009176645.1	Enterobacter oligotrophicus	87.0100	45.2900	50.1600	45.2900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_002939185.1	Enterobacter sichuanensis	86.9900	41.7600	42.3500	41.7600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_034008275.1	Enterobacter rongchengensis	86.9600	43.3500	43.4500	43.3500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_026420145.1	Enterobacter pseudoroggenkampii	86.9600	45.3500	46.2200	45.3500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_008364625.2	Enterobacter dykesii	86.9500	44.2500	48.1700	44.2500	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_003964905.1	Enterobacter quasimori	86.9400	46.8400	49.3300	46.8400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_008364555.1	Enterobacter vonholyi	86.8900	43.1900	46.6500	43.1900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_034008295.1	Enterobacter chinensis	86.8900	44.4200	45.4600	44.4200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_001750725.1	Enterobacter ludwigii	86.8700	43.6200	44.5200	43.6200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_001729805.1	Enterobacter roggenkampii	86.8600	44.2200	46.1800	44.2200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_003594915.1	Enterobacter chuandaensis	86.8300	42.8700	45.8800	42.8700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_026344075.1	Enterobacter nematophilus	86.7800	43.5400	45.8500	43.5400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_009660455.1	Enterobacter cloacae subsp. dissolvens	86.7400	44.5700	45.6600	44.5700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_001729765.1	Enterobacter kobei	86.7300	40.7100	41.3600	40.7100	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_000025565.1	Enterobacter cloacae / Enterobacter cloacae subsp. cloacae	GCA_001654845.1	Enterobacter soli	86.7100	41.1200	44.0800	41.1200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_001984825.2	Enterobacter chengduensis	86.6800	42.6400	41.3700	41.3700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_040096145.1	Enterobacter intestinihominis	86.6400	40.9100	41.7200	40.9100	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_001729725.1	Enterobacter hormaechei subsp. steigerwaltii	86.5700	42.7300	44.3000	42.7300	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_052922205.1	Enterobacter hoffmannii subsp. nototheniae	86.4700	42.4800	43.6500	42.4800	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_001729705.1	Enterobacter hormaechei subsp. oharae	86.4000	41.7200	43.7800	41.7200	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_019047785.1	Enterobacter cancerogenus	86.3500	40.7600	41.9200	40.7600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_004331385.1	Enterobacter quasihormaechei	86.3400	40.1200	43.6800	40.1200	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+GCA_001654845.1	Enterobacter soli	GCA_001729745.1	Enterobacter hormaechei subsp. hoffmannii	86.2700	41.3000	45.0400	41.3000	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_001729785.1	Enterobacter hormaechei subsp. xiangfangensis	86.2400	41.6400	44.2900	41.6400	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_019048245.1	Enterobacter hormaechei / Enterobacter hormaechei subsp. hormaechei	85.8900	36.1900	42.7400	36.1900	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+GCA_001654845.1	Enterobacter soli	GCA_028890245.1	Enterobacter pasteurii	85.8500	40.0700	41.2500	40.0700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False

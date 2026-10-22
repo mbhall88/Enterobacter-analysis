@@ -1,0 +1,168 @@
+#!/usr/bin/env bash
+# P6a (#27) formal nomenclature register — exact commands, in the order run on 8 Oct 2026,
+# followed by the 9 Oct 2026 revision for the coordinator review (R1-R3; section at the end).
+# Steps marked "8 Oct (superseded script)" ran the code now kept in superseded/2026-10-08-pre-review/scripts/.
+# Run from the repository root: ${PROJECT_ROOT}
+# All network access is read-only GETs of public pages/APIs (LPSN, NCBI Datasets v2, GTDB API card,
+# PMC, public culture-collection catalogues). No ordering, login, posting or contact.
+set -euo pipefail
+RUN=results/project-review/2026-10-08/p6a-nomenclature-register-claude
+mkdir -p $RUN/{inputs,outputs,logs,checks,scripts} $RUN/sources/{icnp,lpsn,literature,ijsem}
+
+# --- Claim (already done; recorded for completeness) ---------------------------------------------
+# .work/claims/issue-27/owner.json written; claim comment logs/claim-comment.md posted with
+#   gh issue comment 27 -R mbhall88/Enterobacter --body-file -   (URL in logs/claim-comment.url)
+# Owner line + labels: gh issue edit 27 -R mbhall88/Enterobacter --body-file $RUN/logs/issue27-body-after.md \
+#   --remove-label status:ready --add-label status:in-progress
+
+# --- Decision inputs (read-only snapshots of the cited DEC-004 comments) ---------------------------
+for c in 5881570584 5925503549 5942807222 5946939511 5947129754 5950936288 \
+         5923562552 5950340532 5950557263 5925858585 5960193786 5961101406 5963112449 5963404731; do
+  gh api repos/mbhall88/Enterobacter/issues/comments/$c > $RUN/inputs/issue2-comment-$c.json
+done
+gh issue view 8 -R mbhall88/Enterobacter --json title,state,labels,comments > $RUN/inputs/issue8.json
+
+# --- ICNP 2025 Revision (same file as the Task18 copy; sha256 117c1f12...) -------------------------
+curl -sS -m 120 -L -o $RUN/sources/icnp/icnp-2025-revision-ucp.pdf https://ciencia.ucp.pt/ws/files/144324547/144324441.pdf
+uvx --with pypdf==5.1.0 python -c "
+import pypdf
+r=pypdf.PdfReader('$RUN/sources/icnp/icnp-2025-revision-ucp.pdf')
+out=open('$RUN/sources/icnp/icnp-2025-revision-ucp.txt','w')
+for i,p in enumerate(r.pages):
+    out.write(f'\n\n===== PDF PAGE {i+1} =====\n'); out.write(p.extract_text() or '')
+"
+
+# --- LPSN snapshot (75 pages, 73 records) ------------------------------------------------------------
+(time python3 $RUN/scripts/fetch_lpsn.py --out $RUN/sources/lpsn \
+    --extra /species/lelliottia-nimipressuralis /genus/lelliottia) > $RUN/logs/fetch_lpsn.log 2>&1
+
+# --- Validation Lists (PMC) ------------------------------------------------------------------------
+curl -sS -m 60 -L -A "Mozilla/5.0" -o $RUN/sources/ijsem/validation-list-225-PMC12483762.html https://pmc.ncbi.nlm.nih.gov/articles/PMC12483762/
+curl -sS -L -A "Mozilla/5.0 (P6a nomenclature register; read-only)" -o $RUN/sources/ijsem/validation-list-221-PMC12281875.html https://pmc.ncbi.nlm.nih.gov/articles/PMC12281875/
+curl -sS -L -A "Mozilla/5.0 (P6a nomenclature register; read-only)" -o $RUN/sources/ijsem/validation-list-230-PMC13426511.html https://pmc.ncbi.nlm.nih.gov/articles/PMC13426511/
+
+# --- Open-access protologues (PMC); hashes in sources/literature/retrieval.tsv -----------------------
+for x in "wu2020-msystems-PMC7406230 PMC7406230" "he2024-spectrum-PMC11302248 PMC11302248" \
+         "sutton2018-f1000res-PMC6097438 PMC6097438" "hoffmann2005-jcm-PMC1169129 PMC1169129"; do
+  set -- $x
+  curl -sS -L -A "Mozilla/5.0 (P6a nomenclature register; read-only)" -o $RUN/sources/literature/$1.html https://pmc.ncbi.nlm.nih.gov/articles/$2/
+done
+
+# --- Priority competitors: type assembly + GTDB R232 species for every validly published Enterobacter name
+# 8 Oct (superseded script; output kept unchanged in checks/type-placement/)
+(time python3 $RUN/superseded/2026-10-08-pre-review/scripts/type_placement_check.py --lpsn $RUN/sources/lpsn/lpsn-records.tsv \
+    --overlay results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+    --reps /scratch/opendata/genomics/GTDB/releases/release232/taxonomy/gtdb_taxonomy.tsv \
+    --panel results/reference-panel/2026-09-17/task02-approved-manifests-astra/types.tsv \
+    --out $RUN/checks/type-placement) > $RUN/logs/type_placement_check.log 2>&1
+
+# --- Public catalogue snapshot for the eight act-relevant type strains --------------------------------
+(time python3 $RUN/scripts/check_collections.py --out $RUN/checks/collections) > $RUN/logs/check_collections.log 2>&1
+
+# --- NCBI records of the 17 type assemblies ----------------------------------------------------------
+python3 $RUN/scripts/type_assembly_records.py --out $RUN/checks/type-assemblies > $RUN/logs/type_assembly_records.log 2>&1
+
+# --- Exact size and G+C of type genomes (local frozen FASTA; read-only) ------------------------------
+D=results/reference-panel/2026-09-16/task02-type-assembly-qc-astra
+args=()
+for a in GCA_001729785.1 GCA_001729705.1 GCA_001729725.1 GCA_001729745.1 GCA_040096145.1 GCA_052922205.1 \
+         GCA_019048245.1 GCA_001729805.1 GCA_001039365.2 GCA_001984825.2 GCA_034008275.1 GCA_000211415.1 \
+         GCA_003964905.1 GCA_001521715.1 GCA_008364625.2 GCA_000025565.1 GCA_009660455.1; do
+  p=$(grep "/${a}/" $D/fasta-paths.txt | head -1)
+  [ -z "$p" ] && p=$(ls MoniqueC_ECC_Study/all_assemblies/All_Enterobacter_NCBI/${a}_*genomic.fna | head -1)
+  p=${p#${PROJECT_ROOT}/}; args+=("$a=$p")
+done
+printf '%s\n' "${args[@]}" > $RUN/inputs/type-genome-fasta-paths.txt
+# 8 Oct (superseded script: rounded -B percentages); rerun with the corrected script in the revision section
+$RUN/superseded/2026-10-08-pre-review/scripts/type_genome_gc.sh $RUN/checks/type-assemblies/type-genome-gc.tsv "${args[@]}" 2> $RUN/logs/type_genome_gc.log
+
+# --- Circumscription ranges (whole assemblies, manifest-verified SHA-256) -----------------------------
+# 8 Oct (superseded script: rounded -B percentages); rerun with the corrected script in the revision section
+(time python3 $RUN/superseded/2026-10-08-pre-review/scripts/circumscription_stats.py \
+    --overlay results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+    --manifest manifests/study-candidates.tsv --type-paths $RUN/inputs/type-genome-fasta-paths.txt \
+    --type-gc $RUN/checks/type-assemblies/type-genome-gc.tsv --out $RUN/checks/circumscription --threads 8) \
+    > $RUN/logs/circumscription_stats.log 2>&1
+
+# --- Input hashes --------------------------------------------------------------------------------------
+{ sha256sum results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+    manifests/study-candidates.tsv results/reference-panel/2026-09-17/task02-approved-manifests-astra/types.tsv \
+    docs/review-decisions-manuscript-map.md docs/meeting-decisions-2026-10-01-session2.md \
+    results/project-review/2026-10-01/task16-astra-item6-comment/naming-rules.md \
+    results/reference-panel/2026-09-16/task02-type-assembly-qc-astra/assembly-qc-evidence.tsv \
+    /scratch/opendata/genomics/GTDB/releases/release232/taxonomy/gtdb_taxonomy.tsv
+  find $RUN/inputs $RUN/sources -type f ! -path '*/lpsn/raw/*' | sort | xargs sha256sum; } > $RUN/inputs.sha256
+
+# --- Register build and validation -----------------------------------------------------------------------
+python3 $RUN/scripts/build_register.py \
+    --overlay results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+    --lpsn $RUN/sources/lpsn/lpsn-records.tsv --collections $RUN/checks/collections/collection-checks.tsv \
+    --type-ncbi $RUN/checks/type-assemblies/type-assemblies-ncbi.tsv --type-gc $RUN/checks/type-assemblies/type-genome-gc.tsv \
+    --circ $RUN/checks/circumscription/circumscription-stats.tsv --out $RUN/outputs > $RUN/logs/build_register.log 2>&1
+python3 $RUN/scripts/validate_register.py --repo . --run $RUN > $RUN/logs/validate_register.log 2>&1
+(cd $RUN && find outputs checks scripts manuscript-contribution.md README.md commands.sh environment.txt -type f \
+    ! -path 'checks/*/raw/*' ! -name '*.pyc' | sort | xargs sha256sum) > $RUN/outputs.sha256
+
+# =====================================================================================================
+# Revision, 9 Oct 2026: coordinator review R1-R3
+#   https://github.com/mbhall88/Enterobacter/issues/27#issuecomment-6059320669
+# =====================================================================================================
+
+# --- Before-copies of every file the revision could change (taken before any edit) ---------------------
+S=$RUN/superseded/2026-10-08-pre-review
+mkdir -p $S/repo-files
+rsync -a --exclude 'checks/*/raw/' --exclude '__pycache__/' $RUN/README.md $RUN/checks $RUN/commands.sh $RUN/environment.txt \
+    $RUN/inputs.sha256 $RUN/outputs.sha256 $RUN/logs $RUN/manuscript-contribution.md $RUN/outputs $RUN/scripts $S/
+cp -a docs/task-status/12-nomenclature-register-claude.md $S/repo-files/docs-task-status-12-nomenclature-register-claude.md
+cp -a .work/claims/issue-27/owner.json $S/repo-files/work-claims-issue-27-owner.json
+(cd $S && find . -type f | sort | xargs sha256sum) > $RUN/superseded/2026-10-08-pre-review.sha256
+# owner.json then set to status "in-progress" with the review link (python json edit; see the claim file)
+
+# --- R3: official GTDB R232 bacterial taxonomy (all genomes), MD5-verified ------------------------------
+G=$RUN/sources/gtdb; mkdir -p $G; B=https://data.gtdb.ecogenomic.org/releases/release232/232.0
+for f in bac120_taxonomy_r232.tsv.gz MD5SUM.txt VERSION.txt; do
+  curl -sS -m 300 -L -A "Mozilla/5.0 (P6a nomenclature register; read-only)" -D $G/$f.headers -o $G/$f $B/$f
+done
+grep bac120_taxonomy_r232.tsv.gz $G/MD5SUM.txt; md5sum $G/bac120_taxonomy_r232.tsv.gz   # both 807e3221f5553142eb0544ce3247d079
+
+# --- R3/R2: metadata competitor screen rerun (paginated NCBI type-material queries, raw pages saved) ----
+(time python3 $RUN/scripts/type_placement_check.py --lpsn $RUN/sources/lpsn/lpsn-records.tsv \
+    --overlay results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+    --r232 $RUN/sources/gtdb/bac120_taxonomy_r232.tsv.gz --r232-md5 $RUN/sources/gtdb/MD5SUM.txt \
+    --reps /scratch/opendata/genomics/GTDB/releases/release232/taxonomy/gtdb_taxonomy.tsv \
+    --panel results/reference-panel/2026-09-17/task02-approved-manifests-astra/types.tsv \
+    --out $RUN/checks/type-placement-20261009) > $RUN/logs/type_placement_check-20261009.log 2>&1
+
+# --- R1: exact G+C from integer per-contig base counts (seqkit fx2tab -C) --------------------------------
+mapfile -t args < $RUN/inputs/type-genome-fasta-paths.txt
+$RUN/scripts/type_genome_gc.sh $RUN/checks/type-assemblies/type-genome-gc.tsv "${args[@]}" 2> $RUN/logs/type_genome_gc.log
+(time python3 $RUN/scripts/circumscription_stats.py \
+    --overlay results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+    --manifest manifests/study-candidates.tsv --type-paths $RUN/inputs/type-genome-fasta-paths.txt \
+    --type-gc $RUN/checks/type-assemblies/type-genome-gc.tsv --out $RUN/checks/circumscription --threads 8) \
+    > $RUN/logs/circumscription_stats.log 2>&1
+# Regression test: passes on the revised scripts, fails on the before-copies (expected; exit 1 tolerated)
+python3 $RUN/scripts/test_gc_exact.py > $RUN/logs/test_gc_exact.log 2>&1
+python3 $RUN/scripts/test_gc_exact.py --scripts $RUN/superseded/2026-10-08-pre-review/scripts \
+    > $RUN/logs/test_gc_exact-superseded-scripts.log 2>&1 || true
+
+# --- Rebuild, validate, hash ---------------------------------------------------------------------------
+python3 $RUN/scripts/build_register.py \
+    --overlay results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+    --lpsn $RUN/sources/lpsn/lpsn-records.tsv --collections $RUN/checks/collections/collection-checks.tsv \
+    --type-ncbi $RUN/checks/type-assemblies/type-assemblies-ncbi.tsv --type-gc $RUN/checks/type-assemblies/type-genome-gc.tsv \
+    --circ $RUN/checks/circumscription/circumscription-stats.tsv \
+    --placement $RUN/checks/type-placement-20261009/type-placement.tsv --out $RUN/outputs > $RUN/logs/build_register.log 2>&1
+python3 $RUN/scripts/validate_register.py --repo . --run $RUN > $RUN/logs/validate_register.log 2>&1
+{ sha256sum results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv \
+    manifests/study-candidates.tsv results/reference-panel/2026-09-17/task02-approved-manifests-astra/types.tsv \
+    docs/review-decisions-manuscript-map.md docs/meeting-decisions-2026-10-01-session2.md \
+    results/project-review/2026-10-01/task16-astra-item6-comment/naming-rules.md \
+    results/reference-panel/2026-09-16/task02-type-assembly-qc-astra/assembly-qc-evidence.tsv \
+    /scratch/opendata/genomics/GTDB/releases/release232/taxonomy/gtdb_taxonomy.tsv \
+    results/project-review/2026-10-08/p6a-coordinator-review-astra/outputs/exact-type-base-counts.tsv
+  find $RUN/inputs $RUN/sources -type f ! -path '*/lpsn/raw/*' | sort | xargs sha256sum; } > $RUN/inputs.sha256
+(cd $RUN && find outputs checks scripts manuscript-contribution.md README.md commands.sh environment.txt -type f \
+    ! -path 'checks/*/raw/*' ! -path '*/base-counts/*' ! -name '*.pyc' | sort | xargs sha256sum) > $RUN/outputs.sha256
+(cd $RUN && find checks \( -path '*/raw/*' -o -path '*/base-counts/*' \) -type f | sort | xargs sha256sum) > $RUN/checks-raw.sha256
+python3 $RUN/scripts/changed_files.py --run $RUN > $RUN/superseded/changed-files.tsv

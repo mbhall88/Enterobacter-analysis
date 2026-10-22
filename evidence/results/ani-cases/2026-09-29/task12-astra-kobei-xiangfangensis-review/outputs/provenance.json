@@ -1,0 +1,18 @@
+{
+  "versions": {
+    "python": "3.10.21",
+    "numpy": "2.2.6",
+    "biopython": "1.88",
+    "matplotlib": "3.10.9"
+  },
+  "inputs": {
+    "results/ani-cases/2026-09-24/task12-astra-group-b-hormaechei/outputs/genome-comparisons.tsv": "c17c05fdf4d6530e418a96833540208f457edf22ed3ee6091522dc75d5a5fb00",
+    "results/ani-cases/2026-09-23/task12-astra-evidence/skani/pairs-complete.tsv": "5dcf3bbba6a812b31eac9301bc838bf33b50b059fbe7ed179dbd5bb192273409",
+    "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/tree-comparison.json": "f19153399e22db2c4daa50919f5f756a17d6799839844e0fdcfa0a5a68bacbcf",
+    "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/bac120_fasttree.both_set12_outgroups.rooted.nwk": "95f5fdca098139271ed8dec9252800fefd10d8cc8150ccdc170e27ece2a7149d",
+    "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/verticall_fastme.both_set12_outgroups.rooted.nwk": "be98d49b7e38a99f7dfee4173536bbf166672ae0fb53431573553515d82d3c49",
+    "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/mashtree_consensus.both_set12_outgroups.rooted.nwk": "b82431146ad7964f8d0e41a1a642c96d5e99992fffb69665ec2dc0366d1341c6",
+    "${PROJECT_ROOT}/results/ani-cases/2026-09-29/task12-astra-kobei-xiangfangensis-review/scripts/review.py": "e254f21977eae95b581445a16f6cef27ca6c00a2f5d4490ac3b21c3ba9f9959a"
+  },
+  "elapsed_seconds": 4.093003034591675
+}

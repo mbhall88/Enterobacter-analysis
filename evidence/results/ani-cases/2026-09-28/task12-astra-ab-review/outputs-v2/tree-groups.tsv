@@ -1,0 +1,7 @@
+method	group	tips	node	branch_length	support_label	support_convention
+bac120_fasttree	A	168	805	9.8e-05	0.643	sh_like_local
+bac120_fasttree	B	438	13	0.000675	1.000	sh_like_local
+verticall_fastme	A	173	1737	0.018136		none
+verticall_fastme	B	437	863	0.001983		none
+mashtree_consensus	A	172	832	0.000345	0.986	seed_stability
+mashtree_consensus	B	437	15	0.001769	0.996	seed_stability

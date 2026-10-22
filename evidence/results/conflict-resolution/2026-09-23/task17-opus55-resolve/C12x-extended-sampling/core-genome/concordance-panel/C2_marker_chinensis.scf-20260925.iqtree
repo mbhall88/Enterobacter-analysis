@@ -1,0 +1,207 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Partition file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/partition-codon3.nex
+Input file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/alignment.fna
+User tree file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_chinensis.treefile
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 20260925
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 50 taxa with 4 partitions and 3155345 total sites (0.00104838% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	50	1051506	135955	131459	824195	824195	pos1
+   2	DNA	50	1051506	80512	68313	919057	919057	pos2
+   3	DNA	50	1051506	711104	734208	199839	199839	pos3
+   4	DNA	48	827	261	224	572	572	noncodon
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+R4       0.2666  GTR{1.34821,2.03962,1.19754,0.432671,5.60028}+F{0.241881,0.26316,0.359641,0.135318}+R4{0.471632,0.117693,0.358654,0.118119,0.134693,3.25836,0.0350215,13.2276}
+   2  GTR+F+R4       0.1319  GTR{5.13703,9.44673,1.64081,5.55629,4.67403}+F{0.281857,0.230221,0.18168,0.306242}+R4{0.402014,0.161492,0.509614,0.161525,0.0703393,5.80693,0.0180325,24.6392}
+   3  GTR+F+R4       2.6014  GTR{1.01509,5.5936,1.70227,0.868156,6.23496}+F{0.121636,0.334597,0.345813,0.197954}+R4{0.251669,0.0760656,0.326854,0.521683,0.342453,1.49268,0.0790234,3.78583}
+   4  GTR+F+R4       1.1503  GTR{1.98834,4.19991,1.35023,1.34506,4.63719}+F{0.182228,0.235177,0.321448,0.261148}+R4{0.326366,0.0387216,0.255777,0.0401715,0.28146,1.24805,0.136397,4.58815}
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -27185322.7500 (s.e. 19940.7350)
+Unconstrained log-likelihood (without tree): -25339823.6808
+Number of free parameters (#branches + #model parameters): 156
+Akaike information criterion (AIC) score: 54370957.5000
+Corrected Akaike information criterion (AICc) score: 54370957.5155
+Bayesian information criterion (BIC) score: 54372979.9789
+
+Marginal log-likelihood of the tree: -28053353.6459
+Marginal Akaike information criterion (mAIC) score: 56107019.2919
+
+Total tree length (sum of branch lengths): 3.3199
+Sum of internal branch lengths: 1.0977 (33.0644% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCA_000025565.1' is drawn at root
+
++--GCA_000025565.1
+|
+|                   +--GCA_000211415.1
+|               +---| (80.2)
+|               |   +--GCA_003964905.1
+|            +--| (39.9)
+|            |  |                          +---------------------------------GCA_000982825.1
+|            |  |              +-----------| (64)
+|            |  |              |           +---------------------GCA_019048125.1
+|            |  |           +--| (43.1)
+|            |  |           |  +-------GCA_001654845.1
+|            |  |        +--| (33.3)
+|            |  |        |  +-----GCA_009176645.1
+|            |  |     +--| (35.3)
+|            |  |     |  +--------GCA_019047785.1
+|            |  |  +--| (34)
+|            |  |  |  |  +----GCA_003594935.2
+|            |  |  |  +--| (47)
+|            |  |  |     +----GCA_004331265.1
+|            |  +--| (37.7)
+|            |     |                  +--GCA_001729705.1
+|            |     |               +--| (47.2)
+|            |     |               |  +--GCA_001729725.1
+|            |     |            +--| (56.9)
+|            |     |            |  +--GCA_001729785.1
+|            |     |         +--| (49.2)
+|            |     |         |  |  +--GCA_001729745.1
+|            |     |         |  +--| (92.5)
+|            |     |         |     |  +--GCA_040096145.1
+|            |     |         |     +--| (39.5)
+|            |     |         |        +--GCA_052922205.1
+|            |     |      +--| (51.2)
+|            |     |      |  +--GCA_019048245.1
+|            |     |   +--| (51.2)
+|            |     |   |  +--GCA_004331385.1
+|            |     +---| (64.9)
+|            |         +---GCA_028890245.1
+|         +--| (40.3)
+|         |  |                       +--GCA_001039365.2
+|         |  |                    +--| (60.3)
+|         |  |                    |  +--GCA_001729805.1
+|         |  |                 +--| (38)
+|         |  |                 |  +--GCA_026420145.1
+|         |  |              +--| (40.9)
+|         |  |              |  +--GCA_008364555.1
+|         |  |           +--| (37.6)
+|         |  |           |  |  +--GCA_001984825.2
+|         |  |           |  +--| (75.8)
+|         |  |           |     +--GCA_034008275.1
+|         |  |        +--| (46.2)
+|         |  |        |  |           +--GCA_001521715.1
+|         |  |        |  |        +--| (33.9)
+|         |  |        |  |        |  +--GCA_039623865.1
+|         |  |        |  |     +--| (42.7)
+|         |  |        |  |     |  +--GCA_051903055.1
+|         |  |        |  |  +--| (71.6)
+|         |  |        |  |  |  +--GCA_008364625.2
+|         |  |        |  +--| (23.9)
+|         |  |        |     +---GCA_034008295.1
+|         |  |     +--| (39.5)
+|         |  |     |  |      +--GCA_002197345.1
+|         |  |     |  |   +--| (63.4)
+|         |  |     |  |   |  +--GCA_025002605.1
+|         |  |     |  +---| (94.9)
+|         |  |     |      |     +--GCA_002939185.1
+|         |  |     |      |  +--| (34.6)
+|         |  |     |      |  |  +--GCA_042434935.1
+|         |  |     |      +--| (46.4)
+|         |  |     |         +--GCA_009036245.1
+|         |  |  +--| (36)
+|         |  |  |  |   +--GCA_004193715.1
+|         |  |  |  +---| (83.1)
+|         |  |  |      |  +--GCA_023023105.1
+|         |  |  |      +--| (72.4)
+|         |  |  |         |  +--GCA_036669895.1
+|         |  |  |         +--| (100)
+|         |  |  |            +--GCA_041937165.1
+|         |  +--| (42.3)
+|         |     |  +---GCA_001729765.1
+|         |     +--| (42.4)
+|         |        |  +--GCA_003594915.1
+|         |        +--| (54.9)
+|         |           |  +--GCA_019046905.1
+|         |           +--| (55.8)
+|         |              +--GCA_026344075.1
+|     +---| (79.1)
+|     |   |        +--GCA_001750725.1
+|     |   |     +--| (36.4)
+|     |   |     |  +--GCA_003010695.1
+|     |   +-----| (96.6)
+|     |         |  +--GCA_031851605.1
+|     |         +--| (33.8)
+|     |            +--GCA_035323105.1
+|  +--| (89.8)
+|  |  +--GCA_009660455.1
++--| (99.7)
+|  +--GCA_045348785.1
+|
++--GCA_021496745.1
+
+Tree in newick format:
+
+(GCA_000025565.1:0.0002241308,((((((GCA_000211415.1:0.0240280600,GCA_003964905.1:0.0207647491)80.2:0.0629614133,((((((GCA_000982825.1:0.5313673504,GCA_019048125.1:0.3518971262)64:0.1875889640,GCA_001654845.1:0.1296347104)43.1:0.0255751407,GCA_009176645.1:0.0968843409)33.3:0.0102862545,GCA_019047785.1:0.1494699687)35.3:0.0114444309,(GCA_003594935.2:0.0827671351,GCA_004331265.1:0.0800077540)47:0.0273694603)34:0.0062475486,((((((GCA_001729705.1:0.0107061738,GCA_001729725.1:0.0113339383)47.2:0.0035957100,GCA_001729785.1:0.0148194810)56.9:0.0076500937,(GCA_001729745.1:0.0026786100,(GCA_040096145.1:0.0038512878,GCA_052922205.1:0.0036684523)39.5:0.0015101572)92.5:0.0222685071)49.2:0.0082607970,GCA_019048245.1:0.0320930270)51.2:0.0133536964,GCA_004331385.1:0.0413394670)51.2:0.0222863395,GCA_028890245.1:0.0647481554)64.9:0.0683614592)37.7:0.0116839649)39.9:0.0219172350,((((((((GCA_001039365.2:0.0212241163,GCA_001729805.1:0.0286643074)60.3:0.0162446768,GCA_026420145.1:0.0291284424)38:0.0065619936,GCA_008364555.1:0.0359269700)40.9:0.0066594092,(GCA_001984825.2:0.0255402693,GCA_034008275.1:0.0243359500)75.8:0.0312728724)37.6:0.0051223113,((((GCA_001521715.1:0.0167338402,GCA_039623865.1:0.0145369747)33.9:0.0024426802,GCA_051903055.1:0.0174137876)42.7:0.0046073385,GCA_008364625.2:0.0203651249)71.6:0.0184563986,GCA_034008295.1:0.0623043988)23.9:0.0012484600)46.2:0.0121447877,((GCA_002197345.1:0.0043590605,GCA_025002605.1:0.0041119615)63.4:0.0031751966,((GCA_002939185.1:0.0056202946,GCA_042434935.1:0.0064623958)34.6:0.0016958445,GCA_009036245.1:0.0054127870)46.4:0.0022669301)94.9:0.0683984724)39.5:0.0091589628,(GCA_004193715.1:0.0273208401,(GCA_023023105.1:0.0079233001,(GCA_036669895.1:0.0000421612,GCA_041937165.1:0.0000387174)100:0.0084593708)72.4:0.0143196890)83.1:0.0706228343)36:0.0080180985,(GCA_001729765.1:0.0744577381,(GCA_003594915.1:0.0393563965,(GCA_019046905.1:0.0282741530,GCA_026344075.1:0.0214676544)55.8:0.0168013016)54.9:0.0221488026)42.4:0.0157755111)42.3:0.0183530682)40.3:0.0177138423,((GCA_001750725.1:0.0043632470,GCA_003010695.1:0.0045784298)36.4:0.0006979143,(GCA_031851605.1:0.0048411109,GCA_035323105.1:0.0044495639)33.8:0.0006192339)96.6:0.1019216901)79.1:0.0710856506,GCA_009660455.1:0.0259983794)89.8:0.0248153253,GCA_045348785.1:0.0045544174)99.7:0.0045248027,GCA_021496745.1:0.0000799935);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/concordance-panel/C2_marker_chinensis.scf-20260925.treefile -p results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/concordance-panel/C2_marker_chinensis.scf-20260925.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/alignment.fna --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/alignment.fna --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Sep 26 04:08:58 2026
+Total CPU time used: 18785.5 seconds (5h:13m:5s)
+Total wall-clock time used: 10861 seconds (3h:1m:1s)
+

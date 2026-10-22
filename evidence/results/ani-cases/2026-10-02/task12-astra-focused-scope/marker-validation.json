@@ -1,0 +1,48 @@
+{
+  "historical_controls_identical": 4,
+  "tree_tips": 51,
+  "oharae_tips": 18,
+  "only_changed_tree_row": "GCA_013731155.1",
+  "summaries": [
+    {
+      "accession": "GCA_001750725.1",
+      "alignment": "primary_fixed_occupancy",
+      "sites": 39714,
+      "historical_control_identical": true,
+      "changed_columns": 0,
+      "gaps_restored": 0,
+      "new_gaps": 0,
+      "aa_substitutions": 0
+    },
+    {
+      "accession": "GCA_001750725.1",
+      "alignment": "canonical",
+      "sites": 5010,
+      "historical_control_identical": true,
+      "changed_columns": 0,
+      "gaps_restored": 0,
+      "new_gaps": 0,
+      "aa_substitutions": 0
+    },
+    {
+      "accession": "GCA_013731155.1",
+      "alignment": "primary_fixed_occupancy",
+      "sites": 39714,
+      "historical_control_identical": true,
+      "changed_columns": 3037,
+      "gaps_restored": 3037,
+      "new_gaps": 0,
+      "aa_substitutions": 0
+    },
+    {
+      "accession": "GCA_013731155.1",
+      "alignment": "canonical",
+      "sites": 5010,
+      "historical_control_identical": true,
+      "changed_columns": 472,
+      "gaps_restored": 418,
+      "new_gaps": 54,
+      "aa_substitutions": 0
+    }
+  ]
+}

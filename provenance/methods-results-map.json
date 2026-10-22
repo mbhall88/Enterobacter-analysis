@@ -1,0 +1,1314 @@
+[
+  {
+    "id": "01-cohort",
+    "paper_sections": [
+      "Methods Genome collection",
+      "S01",
+      "Figure1",
+      "TableS01-S02"
+    ],
+    "claim_ids": [
+      "C01",
+      "COHORT",
+      "PROVENANCE",
+      "FLOW"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/manifests/study-candidates.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "194c686a54a6781f7b8c0b0f9aecad14fbaa01474f6f05d1632462d7b3a71bbc",
+        "bytes": 1104331
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/manifests/types.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "ae0025cbdf494284ec60bc37e8ce58dddbae2592fb4332c330bfbf0c1bddba39",
+        "bytes": 27042
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/manifests/outgroups.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "1c8ceb6703ba01d9de020d22f786c600006a07aa9729a17c5ec070091646d23e",
+        "bytes": 10494
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/inputs/study-chromosome-index.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "0f5df494236d0d947a7133122d1da6a37d37774e38b337ed5abb41bb308ff9b3",
+        "bytes": 195542
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/inputs/type-sequences/type-reference-sequence-scopes.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "2f4eda2f269f637a6a24a26eeac1dc2934c22eb684a04c025954788d3580772c",
+        "bytes": 16503
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/build_type_reference_sets.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "3f5bbb9ea8bea46d40e5de2a4a1ce1c78256c5ed9d5973b7ad821f3e35474d0b",
+        "bytes": 7502
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/build_full_cohort_inputs.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "c2172fb533d8357b1b29f55b9c55e30cefd797f22fcc778c1dfa23764be48a4d",
+        "bytes": 15042
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/freeze_phylogeny_inputs.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "45efd46b7d2894655d9dc58d8e54f234e5593cb515e97f8cec6717b4b26008ca",
+        "bytes": 24694
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/repair_pilot_inputs.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "66d11d88e09b717750348f694df2552f3eb3343321f5ebd7af424206e066df16",
+        "bytes": 9986
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "03cd8f1a450e392b0d2ea3de600925398e46b67637723d2b7432036a50c05c4a",
+        "bytes": 4397
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/commands/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "e48b1928a88f2face6ae7ed99051585c84949dc51896d4032af5b51bc0eb48d7",
+        "bytes": 15669
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/freeze-1089",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/repair",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/cohort/2026-09-16/task01-final-manifests-opus/count-transitions.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "44429b57da7755caa8496b46b13f6fb0a2be8358a6a6a3fb132228bb6607b6f1",
+        "bytes": 9201
+      }
+    ],
+    "environment": [
+      "NCBI Datasets CLI version in input-retrieval receipts",
+      "Python script hashes; exact accession.version and sequence SHA256"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Original database query and original1063 chromosome extractions not retained. Eleven additional extractions documented. Preserve exact analysed chromosome bytes/hashes; a newly downloaded whole assembly is not an equivalent input.",
+      "Public accession alone does not establish all metadata columns are suitable to publish. Clinical validation-candidates.tsv and archive directories excluded."
+    ]
+  },
+  {
+    "id": "02-ani",
+    "paper_sections": [
+      "S02",
+      "FigureS1-S9",
+      "Tables1-2"
+    ],
+    "claim_ids": [
+      "C03",
+      "ANI04",
+      "FIGSUP"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/inputs/study-chromosome-index.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "0f5df494236d0d947a7133122d1da6a37d37774e38b337ed5abb41bb308ff9b3",
+        "bytes": 195542
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/inputs/type-sequences/type-reference-sequence-scopes.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "2f4eda2f269f637a6a24a26eeac1dc2934c22eb684a04c025954788d3580772c",
+        "bytes": 16503
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/select_boundary_cases.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "53973334e20a0397fadc2accaf22630ab7f406eec3ea32f0f741007588769d1e",
+        "bytes": 40001
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/build_type_reference_sets.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "3f5bbb9ea8bea46d40e5de2a4a1ce1c78256c5ed9d5973b7ad821f3e35474d0b",
+        "bytes": 7502
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "03cd8f1a450e392b0d2ea3de600925398e46b67637723d2b7432036a50c05c4a",
+        "bytes": 4397
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/skani/study-vs-types.chromosome-scope.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "249f1697e8b374d2b799fb59509f9d3f5f9845e6452ef1c69fd0511807a3087e",
+        "bytes": 13512773
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/skani/types-vs-study.chromosome-scope.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "9afedeca8116111304466d54368fe2a6ccc2efa79e214b6e1fb7df89df85c9c1",
+        "bytes": 13512773
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/skani/study-vs-types.whole-scope.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "1c3a9749d53af6a81aa3e10cdc9e4061393227e45faf132adc424d159cd416c4",
+        "bytes": 16845371
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/tables/type-versus-type-ani.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "e90ef7ea42991282a6f52d84a15bb0a5aed210c158a3491f8e2d0182cefb076e",
+        "bytes": 101072
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/tables/type-assignment-summary.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "22719723fc911c1f57c75b105449b2d28943fefe6d0ae9ae54118f55ab5ef4cb",
+        "bytes": 645607
+      }
+    ],
+    "environment": [
+      "skani0.3.1",
+      "skani dist --min-af0 -s0 --detailed; reciprocal directions and sequence scopes retained"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Archived all-versus-all table needs exact used source and later refreshed/new-pair tables; do not substitute the classifier whole-assembly database.",
+      "Boundary-specific ANIm uses MUMmer3.23/NUCmer3.1, whereas released tool uses embedded MUMmer4; these are distinct methods."
+    ]
+  },
+  {
+    "id": "03-global-phylogenies",
+    "paper_sections": [
+      "S03",
+      "Figure2",
+      "TableS04"
+    ],
+    "claim_ids": [
+      "C04",
+      "C05",
+      "T11",
+      "ROOTDISPLAY"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/manifests/full.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "5588b905daae3745a26db9a45b75bac690fae9a4bec06b8d1a3bea983f152315",
+        "bytes": 1028999
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/freeze-1089",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/marker/filtered/alignment.faa",
+        "exists": true,
+        "kind": "file",
+        "sha256": "d8cbeb7fdf25efb4903421330293494bff58f2960228eb8e53e277f175cd1caa",
+        "bytes": 43307880
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/marker/filtered/column-map.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/run_marker_cohort.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "fe1bd380f44e645383fbc97f5abd1896a590847f1b9a8a1adf96ef5c7b9a0944",
+        "bytes": 3471
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/filter_marker_alignment.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "dfb5707ac8cd76dd84e9e31c7e7ff22e1470b9b5c65385e7156e70271f1800f5",
+        "bytes": 19293
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/run_marker_trees.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "3348497daed13ea773655975fee479e87d9947191d219cd47c07aafbee81d03e",
+        "bytes": 4772
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/run_verticall_cohort.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "c2f1464b5a7807e326dfa3e586bd5127f7e5214963b474c68a2fda84a52f2b0a",
+        "bytes": 15088
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/run_mashtree_seeds.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "e9e609d9b69ec023e04861d9aac2d16f005938f9f419833cc5c04ded905e7a8e",
+        "bytes": 5360
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/majority_rule_consensus.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "193712760c428bf68d40d4cb1372c21d40cdde019a5645c4e795a5944d82c790",
+        "bytes": 14976
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/prune_tree.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "95a767bf7897e69c8f05c845cfbc3a4b1de7941fd7e3aa5c9ae467544ae0dc02",
+        "bytes": 4227
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/compare_phylogenies.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "151e06aac0a32e35e52eae15ec7a4b3133909f7338da98f6a775bc9a3613a75f",
+        "bytes": 91524
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/report_conflict_with_baselines.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "bb3b2f76fbaaf59c86533aa5dfbc391598625f0808226688371aa97d46fcb6d3",
+        "bytes": 9192
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/commands/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "e48b1928a88f2face6ae7ed99051585c84949dc51896d4032af5b51bc0eb48d7",
+        "bytes": 15669
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/commands/run_full_comparison.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "dab5614bbe64f06ed8b37aec7491228e4341847452a306774aab3e1da7f26c1a",
+        "bytes": 953
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/pruned-1089",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/comparison-1089",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/verticall-1089/matrices",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/marker/filtered",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/marker/alignments",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/full-cohort/2026-09-22/task11-opus-full/mashtree/seeds",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "environment": [
+      "GTDB-Tk2.7.2 R232",
+      "FastTree2.2.0 WAG gamma",
+      "Verticall0.4.2 minimap2 2.30-r1287 FastME2.1.6.3",
+      "Mashtree1.4.6 Mash2.3 quicktree2.5 k21 sketch10000 1000seeds",
+      "tool-versions.txt; environment lock not present in empty env/"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Original inference had1090tips, then1089pruning, then1088sensitivity; do not present pruned outputs as fresh inference.",
+      "Thirteen verbatim historical pruning commands unavailable; saved trees/inputs and precision-preserving algorithm survive.",
+      "Raw Verticall merged table16.13GB; use compact archive only if raw-distance regeneration required. Final four matrices57MB permit tree/comparison reconstruction.",
+      "GTDB R232 reference data is external third-party resource; record version/checksum/acquisition rather than copy whole GTDB."
+    ]
+  },
+  {
+    "id": "04-core-conflicts",
+    "paper_sections": [
+      "S04",
+      "TableS05"
+    ],
+    "claim_ids": [
+      "C06",
+      "C07",
+      "T17"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/shared",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/subset",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/subset",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/subset",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/build_conflict_subsets.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "2a50d022a3d0bb52dbb4bd01fbe496f209be53f8f59fdc4cfc7df8526c37a739",
+        "bytes": 23020
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/commands/core_quartet_tables.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "ba30b7a9b5ec76b36b0816b7a9d8767b3b9412cc17ef2f3e6efeb22535fc45cf",
+        "bytes": 5940
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/commands/c12x_positional_gene_quartets.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "688a701913c92893018374f4dda03d1eeb900e1f94176415f50a596811807462",
+        "bytes": 3175
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/commands/c1_site_patterns_by_codon_position.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "ea04909b8f0699d5ae9632bc54c428e51b4e07f78dec447e17279eda5cedbee3",
+        "bytes": 2113
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/commands/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "88529a289652d8ce518d266095ea902785b2a1c6300b3ac9b8c82d242399da08",
+        "bytes": 13673
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-30/task17-claude-audit-corrections/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "d6f99912a238d365e8812f4caa8d02dfa9595eb90d76fc361319b2b0c3dff02e",
+        "bytes": 4268
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/tables",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/conflict-resolution/2026-09-30/task17-claude-audit-corrections",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "environment": [
+      "Pyrodigal3.7.1 Panaroo1.8.0 CD-HIT4.8.1 MAFFT7.526 IQ-TREE3.1.1",
+      "tool-versions.txt; per-run environment.txt and exact topology/log settings"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Use corrected C1/C3 hypothesis-to-topology map; old incorrect C12x constraint rejection is withdrawn.",
+      "Retain AU .iqtree, candidate trees/constraints, gene/site support tables, locus coordinates and alignment column maps. Individual gene alignments can be compactly archived; do not upload thousands of files separately.",
+      "C3 search/model uncertainty, incomplete abandoned C12x sensitivity, and correlated gene enrichment remain limitations, not gaps to cure by new analysis."
+    ]
+  },
+  {
+    "id": "05-scope-and-reference",
+    "paper_sections": [
+      "S05",
+      "TablesS06-S08"
+    ],
+    "claim_ids": [
+      "C08",
+      "C09",
+      "C10"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-30/task12-astra-scope-s1-s2",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-focused-scope/inputs.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "6754582c433b69df2af01787ceb1570808633c4660b490ffa5796218a01336f1",
+        "bytes": 1545
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-focused-scope/source-snapshot",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-29/task12-astra-hormaechei-reassembly-review/scripts",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-focused-scope/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "72aa7eafc011a16251b3104185540641b9345792e117cf48f967b2c49a3f46f5",
+        "bytes": 2117
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-29/task12-astra-hormaechei-reassembly-review/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "77a40100946f38a6e0efc346a1dbb0f5471cbeec65ab68a72b7ef47a9f05d232",
+        "bytes": 4118
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-focused-scope/anim-sensitivity.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "2a3ab3aee44062ce89ee3cd174f511d6b5bb2b1fbaf94ec73d7e8881545bf4b9",
+        "bytes": 3213
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-focused-scope/marker-input-sensitivity.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "f37a57c69f0c0e3e66d337931dcd0fc9b3be9d1bd8f4ec59f5aae7628ad32c8f",
+        "bytes": 328
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-29/task12-astra-hormaechei-reassembly-review",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "environment": [
+      "GTDB-Tk2.7.2 R232 IQ-TREE3.1.1",
+      "CCS6.4.0 minimap2 2.28-r1209 for reassembly review"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Public reads accession/checksum and submitted conversion required; downloaded original PacBio subread BAM cleaned after CCS, documented.",
+      "Do not copy readstores/BAMs wholesale. Public reads reacquisition plus final assemblies/repeatmodels/site tables are smaller reproduction route.",
+      "Retained all-replicon frozen-reference sensitivity does not justify substituting new assembly in baseline."
+    ]
+  },
+  {
+    "id": "06-boundaries-and-local-trees",
+    "paper_sections": [
+      "S06",
+      "Table2",
+      "FigureS1-S9"
+    ],
+    "claim_ids": [
+      "C11",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C27",
+      "C28",
+      "C29",
+      "C30",
+      "C31",
+      "C32"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/inputs",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/inputs",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-01/task12-astra-genus-tree",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/scripts/local_alignment.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "47298cb4a0a068431156aeacb066cdfbba502d086526746b27ad7043919c5660",
+        "bytes": 5317
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/scripts",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/scripts",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "d1b57e1d8cba8c97e6b1622be0b8a5bd7395169f1f776c1d02866dcb54a2949f",
+        "bytes": 1415
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "7ef4fe67776cf98f15d5c82b95c96747a41f2c8a4009bbb98a820eecfb0c1771",
+        "bytes": 2862
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-25/task12-astra-cloacae-all-cross-anim/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "61065469bab668b3a90c576be8d592dfd18c84ab10458ac59dc690266d3e7b84",
+        "bytes": 1635
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/local",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-scientific-review/ry",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/local",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-09-25/task12-astra-cloacae-all-cross-anim/outputs/comparisons.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "2c7f5553a7a637634d5ef749f32868c2fe232f0680e793ecbd6d80ad5c9f21ed",
+        "bytes": 51821
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-cloacae-dissolvens-anib",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "environment": [
+      "IQ-TREE3.1.1; core alignments include invariant sites",
+      "Asburiae seed20260928; SH-aLRT1000 UFBoot1000 -bnni; sCF100quartets seeds20260928/29",
+      "pyANI/NUCmer3.1 MUMmer3.23",
+      "Gubbins settings must accompany exploratory masked bugandensis trees"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Export primary.core.fna, invariant-site-preserving masked alignment, masks/coordinates, final tree/report and constraints for each reference. Exclude per-sample projection BAMs/indexes if these final inputs suffice.",
+      "Bugandensis recombination mask did not converge and removed~55%; label sensitivity exploratory, not a preferred resolved boundary.",
+      "Some published dDDH are literature values only, not computation to reproduce. Historical ANIb archive not fully reconstructible; later focused ANIb separately retained."
+    ]
+  },
+  {
+    "id": "07-genomovars",
+    "paper_sections": [
+      "S07",
+      "FigureS10",
+      "TablesS09-S10"
+    ],
+    "claim_ids": [
+      "C12",
+      "POP",
+      "P3",
+      "V5FIG"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-group-a-populations/inputs/pairs.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "ba952a048c0f43ec253dbbcb3c040077f7de6908451d4568c2ec37bffc9306cc",
+        "bytes": 2540585
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-group-a-naming-approved/naming-overlay.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/scripts/task12_group_a_genomovars.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "3c206e318a8905e98fee1da72e11e51ab475f8fc41abc00f39f2431b2f07b74c",
+        "bytes": 8615
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-genomovars-reporting/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "cf22eed4568d9f5faf4b3e6de3683dfbf27d39cb4011aafecec88f581562ee3a",
+        "bytes": 1072
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-genomovars-reporting/outputs",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-08/p3a-genomovar-approved-astra/accepted-contract.md",
+        "exists": true,
+        "kind": "file",
+        "sha256": "1616c88a4be5193b8e54b6ce3ec27fcee19d731dd375c2e7ad4c989db429df4f",
+        "bytes": 4150
+      }
+    ],
+    "environment": [
+      "Python/scipy exact versions in task12 population logs",
+      "99.5% complete-linkage chromosome skani; same frozen173genomes"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Clustering does not depend on exposing author messages; export membership/proposed names with a citable interpretation statement.",
+      "Do not confuse population partitions/FastBAPS with final25genomovars; eleven cross-group pairs still meet99.5%."
+    ]
+  },
+  {
+    "id": "08-assignment-accounting",
+    "paper_sections": [
+      "S01",
+      "Table1",
+      "TableS01"
+    ],
+    "claim_ids": [
+      "C01",
+      "C02"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "440fcd0c24c9d369900876812196100cd3a7cc9e2744c6a6183f89dd9c5bd3d6",
+        "bytes": 1480776
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-03/task12-astra-reporting-category-application",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-03/task12-astra-reporting-category-application/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "98afdd0a29179d96e1abf88d700d4e06b3a6102cde18860f104de2693585ca0b",
+        "bytes": 1179
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-03/task12-astra-reporting-category-application/study-categories.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "4e11cd78fe353db4b68d99a794d05a4a00f025d7587e9abaf35b94c9483f5bde",
+        "bytes": 4173214
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/ani-cases/2026-10-03/task12-astra-reporting-category-application/summary.json",
+        "exists": true,
+        "kind": "file",
+        "sha256": "38b29a69eb82b569a83950f2024f78ee6d3c328e1312281535c6e77af13780bc",
+        "bytes": 1591
+      }
+    ],
+    "environment": [
+      "Python; exact classification-change rules/source snapshot"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Retain original source names, approved project names, category and rationale. Replace private issue links with analysis evidence IDs; preserve original TSV immutable internally.",
+      "1074study rows versus1070eligible comparison; biological reassignment is distinct from framework/name/rank change."
+    ]
+  },
+  {
+    "id": "09-initial-validation",
+    "paper_sections": [
+      "S08",
+      "Figure4",
+      "TableS17"
+    ],
+    "claim_ids": [
+      "C19",
+      "C20",
+      "C21"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/inputs/execution-manifest.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "a63aa9098ccf470d1e3ee580cc188c05453c005663a3331dcf58fa5cc799ae46",
+        "bytes": 1616067
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer1-truth.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "2a7a5c1d51c5703541ee329f58f75f38bfdbcfe8c663477d40086a5cd2c67338",
+        "bytes": 276796
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer3-truth.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "21c47d9957f0f40d58fca6637f5a0f3c1aa5f9a9334fc5ea2bc851f986a31ce2",
+        "bytes": 1322808
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer3-held-truth.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "dcadb624a7c39868cef89b216761d6997dbffd39dc817f204124c25a93b0f0c5",
+        "bytes": 9651
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/source",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-06/validation-design-claude/source",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-quota-recovery-astra/source",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "853e715eb843a60f2ef49f623a35ef4a4889f2f0e9c156d2fd7327439d2032bb",
+        "bytes": 3492
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/outputs/command-index.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "80d6186528562d71dacfc1b49f0e24be61bb1c327833b7cd5502b4516ce1fcd3",
+        "bytes": 15065
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/outputs/scoring",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-07/validation-runs-astra/outputs",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-08/validation-adjudications-astra",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "environment": [
+      "Frozen original Python caller; source/hash manifest from sealed design, not current src",
+      "env/execution-environment.json",
+      "5803native queries;9306masked comparisons"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Whole assemblies used; no query CheckM2. Coded IDs remain in labels; public accession crosswalk can be separately permitted without leaking adjudication screens.",
+      "Native per-query outputs were archived during quota recovery; ensure archive/member inventories accompany saved scores."
+    ]
+  },
+  {
+    "id": "10-rust-evaluation",
+    "paper_sections": [
+      "S08",
+      "S10",
+      "FigureS11-S12",
+      "TablesS12-S15,S18-S19"
+    ],
+    "claim_ids": [
+      "C25",
+      "C34",
+      "MAC16"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/inputs/p4b-bindings.json",
+        "exists": true,
+        "kind": "file",
+        "sha256": "9eecd3a6c7ca7b0842b2ca9280a183d295ccc63901b6d2686f121984be3cb8d6",
+        "bytes": 25940
+      },
+      {
+        "source_path": "${EVALUATION_ROOT}/issue25-storage-audit-sol61-9c546e16/continuation-staged/inputs",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${EVALUATION_ROOT}/issue25-storage-audit-sol61-9c546e16/continuation-staged/scripts",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${EVALUATION_ROOT}/issue25-storage-audit-sol61-9c546e16/continuation-staged/proposals/2026-10-13-reporting-correction-sol61-a366acc1",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${EVALUATION_ROOT}/issue25-storage-audit-sol61-9c546e16/continuation-staged/scripts",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${EVALUATION_ROOT}/issue25-storage-audit-sol61-9c546e16/continuation-staged/receipts",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${EVALUATION_ROOT}/issue25-storage-audit-sol61-9c546e16/continuation-staged/outputs",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${EVALUATION_ROOT}/issue25-storage-audit-sol61-9c546e16/continuation-staged/proposals/2026-10-13-reporting-correction-sol61-a366acc1/endpoint-evidence.json",
+        "exists": true,
+        "kind": "file",
+        "sha256": "fa63388fd1b2e224e40516855ae37fd04f9261cc3560eb64fb97eac34beca1a2",
+        "bytes": 44721
+      },
+      {
+        "source_path": "${EVALUATION_ROOT}/issue25-storage-audit-sol61-9c546e16/continuation-staged/proposals/2026-10-13-reporting-correction-sol61-a366acc1/evidence-ledger.json",
+        "exists": true,
+        "kind": "file",
+        "sha256": "0ba0ddf3e2344c985e269c96a216efa98ed48e3f796dee978c82a7b5ad64b7f4",
+        "bytes": 11753
+      }
+    ],
+    "environment": [
+      "Evaluated public-source commit834f4c288e9c163f316f3668f0219004d0adc6da",
+      "Reciprocal MUMmer4 4.0.1 preserve-N MUM/one-to-one span",
+      "Later Mac parity commitc29178f4f2a8383d39917eb9582aac3627642828; release0.1.0 commit6e4376e5d417439ffd593aa1f8d94b0aff9c65d8 separate"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Public source commit must actually resolve after public release; do not silently use0.1.0 in place of evaluated source.",
+      "15220rescue+1780genomovar scores are17000record/settings, not17000independentgenomes. Keep fixed labels/scorer and twelve diagnostic cases.",
+      "Raw11791pair archives stored on group scratch; avoid duplicate upload of all worker caches. Preserve authenticated model/scorer inputs, pair integermetrics and candidate ledgers, then optional compressed raw archives."
+    ]
+  },
+  {
+    "id": "11-standard-kraken",
+    "paper_sections": [
+      "S09",
+      "Figure3,S13-S14",
+      "TableS16"
+    ],
+    "claim_ids": [
+      "C22",
+      "V6FIG"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/inputs",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/database",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/source-snapshot/task14_standard_kraken.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "85836e9e22c90b0b1bd8b771c9e0876a0f1db882ce8e84cb7229e6fed4c23977",
+        "bytes": 22744
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/source-snapshot/task14_kraken_profile_details.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "f34243c9a3cdce033e5b175d8bb0e09f29e204a2eb6d071d8a13e56cc99474a2",
+        "bytes": 7289
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/summarize-profile-strata.py",
+        "exists": true,
+        "kind": "file",
+        "sha256": "27d4e713b7461f896d8ae0557586e40438daffde2f312e604715db6c8bbda967",
+        "bytes": 2976
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/run-analysis.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "d08bab5c83f2d8b5082651b22bd99e7de34655b7d320d0c99173d54d9124281d",
+        "bytes": 501
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/commands-tested.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "4e6e3bfc790121dc47e95814b64773c2cb0f237e497a39f044f32fb0814e4df2",
+        "bytes": 1122
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/postprocessing-commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "fa1bc3dc76f5d0e6876bf21a6a19d671167a0ac9a0283721df408a1035513ec5",
+        "bytes": 1849
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/summaries",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-03/task14-sol61-whole-fragments/profile-details",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/standard-kraken/2026-10-05/task14-astra-scientific-review/tables",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "environment": [
+      "Kraken2 2.1.6 Standard20260226",
+      "confidence0/0.1; nativecontigs and fragments<=150bp",
+      "Source snapshot and database build hashes/overlap"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Four raw.output.gz total~3.70GB; compact final call/profile tables rebuild summaries but are not equivalent to rerunning Kraken.",
+      "Standard20260226 acquisition/hash required; do not silently substitute latest Standard. Redistribution terms/database hosting require separate check."
+    ]
+  },
+  {
+    "id": "12-nomenclature",
+    "paper_sections": [
+      "S11",
+      "Taxonomic descriptions",
+      "TablesS20-S23"
+    ],
+    "claim_ids": [
+      "C33",
+      "FINALNOM"
+    ],
+    "inputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/project-review/2026-10-08/p6a-nomenclature-register-claude/outputs/formal-act-register.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "58f9e8e069e552e422905d282e83cda4b427cb1131faa6ad41e0d5db7360ee0d",
+        "bytes": 35313
+      },
+      {
+        "source_path": "${PROJECT_ROOT}/results/project-review/2026-10-08/p6a-nomenclature-register-claude/outputs/type-documentation.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "156c9bbb55fe80fe5dd58fecef229e5eb02b8a22c6237c7b7082b0c21d917cdb",
+        "bytes": 3550
+      }
+    ],
+    "analysis_sources": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/project-review/2026-10-08/p6a-nomenclature-register-claude/scripts",
+        "exists": true,
+        "kind": "directory",
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "historical_command_evidence": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/project-review/2026-10-08/p6a-nomenclature-register-claude/commands.sh",
+        "exists": true,
+        "kind": "file",
+        "sha256": "5aaf56a9747a156f4702bdcbe322cc3fb825347e26413556f68f13bd15d998ca",
+        "bytes": 13660
+      }
+    ],
+    "durable_outputs": [
+      {
+        "source_path": "${PROJECT_ROOT}/results/project-review/2026-10-09/issue27-rereview-astra/outputs/manuscript-source-refresh.tsv",
+        "exists": true,
+        "kind": "file",
+        "sha256": "b5772d19067c86c318b60995eae847ebf867b30cadcd875579ce86ff9eeff629",
+        "bytes": 1673
+      }
+    ],
+    "environment": [
+      "Python integer ACGT counts; original nomenclatural source metadata"
+    ],
+    "reproduction_mode": "saved-output reconstruction first; biological rerun separate and not tested here",
+    "limitations": [
+      "Publish evidence register and bibliographic pointers, not copyrighted fulltext or private author documents. Type collection documentation and author signoff remain distinct."
+    ]
+  }
+]

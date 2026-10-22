@@ -1,0 +1,6 @@
+display	description	comparison	pairs	min	q25	median	q75	max	ani_ge95	both_af_ge80	passes_95_80
+1	Within hoffmannii lineage	union:A-A	14878	98.51	98.97	99.03	99.92	100.0	14878	14878	14878
+2	Within oharae / steigerwaltii / xiangfangensis set	union:B-B	95703	95.7	97.16	97.82	98.97	100.0	95703	95239	95239
+3	Between the two E. xiangfangensis sets	union:A-B	75774	94.87	95.72	95.74	95.76	96.24	75714	74505	74445
+4	hoffmannii lineage vs E. hormaechei	union:A-H	2249	94.02	94.31	94.32	94.32	94.56	0	1658	0
+5	Other E. xiangfangensis set vs E. hormaechei	union:B-H	5694	94.31	94.66	94.87	94.97	95.23	230	4490	180

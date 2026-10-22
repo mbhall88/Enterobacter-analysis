@@ -1,0 +1,67 @@
+{
+  "study_genomes": 1074,
+  "type_anchors": 33,
+  "expected_pairs": 35442,
+  "measured_pairs": 35442,
+  "unmeasured_pairs": 0,
+  "reciprocal_pairs": 35442,
+  "alternate_scope_pairs": 35442,
+  "rules": {
+    "ani_threshold_percent": 95.0,
+    "af_threshold_percent": 80.0,
+    "af_rule": "both genomes",
+    "ani_window_percent": 1.0,
+    "af_window_percent": 5.0,
+    "competing_species_margin_percent": 0.5,
+    "direction_tolerance_percent": 0.1,
+    "status": "legacy operational baselines under review in DEC-007; not an approved policy"
+  },
+  "study_genomes_with_any_boundary_flag": 904,
+  "flag_counts": {
+    "aligned_fraction_filter_changes_assignment": 11,
+    "aligned_fraction_near_filter_boundary": 136,
+    "best_type_ani_near_species_threshold": 7,
+    "disputed_group:asburiae_dykesii": 101,
+    "disputed_group:cloacae_dissolvens": 46,
+    "disputed_group:hormaechei_complex": 630,
+    "disputed_group:roggenkampii_quasiroggenkampii": 94,
+    "legacy_label_discordant_with_best_type": 595,
+    "legacy_label_not_nomenclatural:compound_label_two_epithets": 4,
+    "legacy_label_not_nomenclatural:genomic_placeholder": 5,
+    "legacy_label_not_nomenclatural:operational_placeholder": 12,
+    "legacy_label_not_nomenclatural:unresolved_legacy_label": 1,
+    "mandatory_legacy_label_review": 20,
+    "ncbi_label_discordant_with_best_type": 135,
+    "nearest_competing_species_within_margin": 192,
+    "no_type_at_or_above_ani_threshold": 26,
+    "replicon_scope_changes_best_type": 27,
+    "replicon_scope_changes_rule_outcome": 16,
+    "strict_versus_inclusive_boundary_changes_outcome": 1
+  },
+  "tier_counts": {
+    "tier_1_ani_cannot_decide": 180,
+    "tier_2_boundary_context": 125,
+    "tier_3_group_representation": 599
+  },
+  "tier_three_strata": 14,
+  "tier_three_represented": 25,
+  "pilot_additions": {
+    "study_genomes": 330,
+    "type_references": 28,
+    "restricted_pending_placement": 1
+  },
+  "direction_agreement": {
+    "pairs_compared": 35442,
+    "max_absolute_ani_difference": 0.0,
+    "pairs_over_direction_tolerance": 0
+  },
+  "replicon_scope_effect": {
+    "pairs_compared": 35442,
+    "max_absolute_ani_difference": 0.67,
+    "max_type_af_drop_from_including_plasmids": -14.56
+  },
+  "review_cases_supplied": 21,
+  "review_cases_not_in_study_manifest": [
+    "GCA_042434945.1"
+  ]
+}

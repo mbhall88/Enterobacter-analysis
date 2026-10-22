@@ -1,0 +1,67 @@
+usage: enterobacter-classifier analyze [-h] --query QUERY --reference-package
+                                       REFERENCE_PACKAGE
+                                       --expected-package-sha256
+                                       EXPECTED_PACKAGE_SHA256 --output OUTPUT
+                                       [--threads THREADS]
+                                       [--development-guides DEVELOPMENT_GUIDES]
+                                       [--quality-evidence QUALITY_EVIDENCE]
+                                       [--expected-quality-sha256 EXPECTED_QUALITY_SHA256]
+                                       [--experimental-rank-rule EXPERIMENTAL_RANK_RULE]
+                                       [--checkm2-config CHECKM2_CONFIG]
+                                       [--expected-checkm2-config-sha256 EXPECTED_CHECKM2_CONFIG_SHA256]
+                                       [--experimental-genomovars]
+                                       [--mlst-config MLST_CONFIG]
+                                       [--expected-mlst-config-sha256 EXPECTED_MLST_CONFIG_SHA256]
+                                       [--experimental-eligibility-config EXPERIMENTAL_ELIGIBILITY_CONFIG]
+                                       [--expected-eligibility-config-sha256 EXPECTED_ELIGIBILITY_CONFIG_SHA256]
+                                       [--skani-binary SKANI_BINARY]
+
+Run the unified development assembly workflow; no positive policy is enabled.
+One command validates an assembly, runs the package-pinned skani binary,
+retains raw evidence and produces the existing uncertainty report. Structural
+validity does not establish biological quality. Reads and final assignment
+rules are not implemented. Original assembly records are neither selected nor
+discarded.
+
+options:
+  -h, --help            show this help message and exit
+  --query QUERY
+  --reference-package REFERENCE_PACKAGE
+  --expected-package-sha256 EXPECTED_PACKAGE_SHA256
+  --output OUTPUT
+  --threads THREADS
+  --development-guides DEVELOPMENT_GUIDES
+                        Explicit display annotations; never assignment gates
+  --quality-evidence QUALITY_EVIDENCE
+                        One pinned local CheckM2 evidence JSON object; imports
+                        estimates without applying a QC gate
+  --expected-quality-sha256 EXPECTED_QUALITY_SHA256
+                        Required with --quality-evidence
+  --experimental-rank-rule EXPERIMENTAL_RANK_RULE
+                        Explicit disabled development rule; candidate
+                        hierarchy only, never positive assignments
+  --checkm2-config CHECKM2_CONFIG
+                        Pinned configuration to run CheckM2 within this
+                        analysis; no QC gate is implied
+  --expected-checkm2-config-sha256 EXPECTED_CHECKM2_CONFIG_SHA256
+                        Required with --checkm2-config
+  --experimental-genomovars
+                        Investigate frozen all-member compatibility when the
+                        experimental rank result nominates a represented
+                        target subspecies
+  --mlst-config MLST_CONFIG
+                        Pinned historical MLST package/runtime configuration;
+                        supplementary typing only
+  --expected-mlst-config-sha256 EXPECTED_MLST_CONFIG_SHA256
+                        Required with --mlst-config
+  --experimental-eligibility-config EXPERIMENTAL_ELIGIBILITY_CONFIG
+                        Pinned disabled eligibility configuration (frozen
+                        candidate policy) bound to --experimental-rank-rule;
+                        needs no QC estimate; reports hypothetical eligibility
+                        and any near-boundary note separately, never
+                        assignments
+  --expected-eligibility-config-sha256 EXPECTED_ELIGIBILITY_CONFIG_SHA256
+                        Required with --experimental-eligibility-config
+  --skani-binary SKANI_BINARY
+                        Explicit local executable matching the package pin;
+                        required for a relocated package

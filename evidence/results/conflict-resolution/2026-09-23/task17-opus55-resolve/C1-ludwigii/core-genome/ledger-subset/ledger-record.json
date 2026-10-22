@@ -1,0 +1,21 @@
+{
+ "mode": "core",
+ "ids": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/subset/subset.ids.txt",
+ "taxa": 130,
+ "core_genes_listed": 3283,
+ "genes_in_concatenation": 3244,
+ "loci_included": 3244,
+ "concatenated_columns": 3257426,
+ "positions": {
+  "reference": "GCA_001750725.1",
+  "reference_length": 4857439,
+  "placed": 3173,
+  "genes": 3283
+ },
+ "rule": {
+  "min_informative": 1,
+  "min_taxa_fraction": 0.8
+ },
+ "loci.nex_sha256": "5fe9411b18afc2cdb63ba75eb40fae61877cdea49511aa7831ecbd9af8897928",
+ "alignment.fna_sha256": "65c0f27fa5c71f7abc9c4153a79ad2d86db959269be67703301c2d09880ff050"
+}

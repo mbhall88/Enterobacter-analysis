@@ -1,0 +1,41 @@
+group	role	path	sha256	bytes	recorded	matches_record
+design	validation design (revision 6)	results/tool-planning/2026-10-06/validation-design-claude/validation-design.md	6e09d49fd738818b8f0a82d322c7cacfd41205d8fff1f8202a554e0d113d7a0d	57868	6e09d49f…7a0d	True
+design	frozen dispositions (attempt03)	results/tool-planning/2026-10-06/validation-design-claude/outputs/exposure-audit-attempt03/reserve-exposure-dispositions.tsv	71d0d86bc1c291b70f062ef0701ee0174a305fd7c88901e8bc0a6a3c6914da81	550124	71d0d86b…da81	True
+artifacts	NCBI-name crosswalk	results/tool-planning/2026-10-06/validation-design-claude/outputs/design-artifacts-attempt08/ncbi-name-crosswalk.tsv	cedeefaa9c0371fb3c8b0e232da94616e35da6c40d94a5edcb1b07dfc12148ea	4579	cedeefaa	True
+artifacts	stratified expert sample (n=100)	results/tool-planning/2026-10-06/validation-design-claude/outputs/design-artifacts-attempt08/expert-sample-option-stratified-n100.tsv	f2787df9399a60e4dbfd6281ddcc0e43fd1945e8252b979419c4748e64febd61	19383	f2787df9	True
+artifacts	Layer 1 manifest	results/tool-planning/2026-10-06/validation-design-claude/outputs/design-artifacts-attempt08/layer1-manifest.tsv	91e798a853007b2b9613aed6eacd83f21e643d42f9df13f190350c57002af968	407179	91e798a8	True
+artifacts	labelling comparators	results/tool-planning/2026-10-06/validation-design-claude/outputs/design-artifacts-attempt08/labelling-comparators.tsv	0298309cfa5be698285f66d5c941cd389275425f19fc4c3e03a6cee6e5c6f36d	284097	0298309c	True
+artifacts	cohort tree tips	results/tool-planning/2026-10-06/validation-design-claude/outputs/design-artifacts-attempt08/cohort-tree-tips.tsv	424fb3d1fd1aabf19dd852ce082d6384c2a8149ed3dc4a72b8fd5fdaf03e02c9	314841	424fb3d1	True
+artifacts	Layer 3 pool strata	results/tool-planning/2026-10-06/validation-design-claude/outputs/design-artifacts-attempt08/layer3-pool-strata.tsv	f99c844e706461fc83b6b25051d661d3697079c72752a30a9d279cb0397eee0b	2879	f99c844e	True
+artifacts	artifact build summary	results/tool-planning/2026-10-06/validation-design-claude/outputs/design-artifacts-attempt08/summary.json	875d298fba925f65b2f501b7f7baac6d8da9682c67d931db08ded51410305a16	9074	875d298f	True
+code	scorer	results/tool-planning/2026-10-06/validation-design-claude/source/score_validation.py	2afa6d761fb5d890032fa53fc87f03907f2ff9051b32cfddc52de0cf3234a19f	19098	2afa6d76…a19f	True
+code	scorer tests	results/tool-planning/2026-10-06/validation-design-claude/source/test_score_validation.py	90f9206d8b173f867d0968b7a3a1a9a8821b9dd9c75e314e2b19c08f2a6ec8ec	16919	90f9206d…ec8ec	True
+code	label transfer	results/tool-planning/2026-10-06/validation-design-claude/source/label_transfer.py	4fc90dab236b7d49c5e90ddc0cf4637ad4fd0661d803c1edd6546163a3ef71a8	36183	4fc90dab…71a8	True
+code	label transfer tests	results/tool-planning/2026-10-06/validation-design-claude/source/test_label_transfer.py	2702cae415c88f8cb2abc97916bbf9a489f9a1f5f66fc5b058064d14c6e080b4	25143	2702cae4…80b4	True
+code	Verticall extension	results/tool-planning/2026-10-06/validation-design-claude/source/verticall_extension.py	c7a46181ef1e14426a69faa1b870c5b9500d41e5462a180e68f481acefac8cf6	9591	c7a46181…cf6	True
+code	Verticall extension tests	results/tool-planning/2026-10-06/validation-design-claude/source/test_verticall_extension.py	330d038aaee3d0319d7d618874f64c74987c63cbe5ab8d3df3403d24bda33a7d	5752	330d038a…a33a7d	True
+code	disagreement draw	results/tool-planning/2026-10-06/validation-design-claude/source/draw_disagreement_review.py	11b6b4083dd7d5813269f9a04cef7f90c93dc72aa12258737d85f06dc8285525	4625	11b6b408	True
+code	disagreement draw tests	results/tool-planning/2026-10-06/validation-design-claude/source/test_draw_disagreement_review.py	2b19c01f75103764cfd430afb03e45d7750a602083ca612d3b46b8202540fe1c	3268	2b19c01f…fe1c	True
+code	artifact builder	results/tool-planning/2026-10-06/validation-design-claude/source/build_design_artifacts.py	0d140649435da1d2b6e26f3858634a05073b7563660641a2656a5774e8e0aa57	27221	0d140649…0aa57	True
+labelling inputs	derivative map (repair)	results/full-cohort/2026-09-22/task11-opus-full/repair/source-derivative-map.tsv	d073eb87f0f4780ff96ce862632e28d827f003b35ddf868ceb42a66a2229eaef	435815	d073eb87…eaef	True
+labelling inputs	derivative map (freeze-1089)	results/full-cohort/2026-09-22/task11-opus-full/freeze-1089/source-derivative-map.tsv	7361356c8e99c3fb68022c8aef6463763d3978774c4b03580a5bc4c1088f123f	387217		
+labelling inputs	BAC120 user MSA	results/full-cohort/2026-09-22/task11-opus-full/marker/alignments/full.user_msa.fasta.gz	8b93ec07f2bc4b8e771242f347c92abd678302fe59b09c1be689936ec982d7cb	25629958		
+labelling inputs	BAC120 filtered alignment	results/full-cohort/2026-09-22/task11-opus-full/marker/filtered/alignment.faa	d8cbeb7fdf25efb4903421330293494bff58f2960228eb8e53e277f175cd1caa	43307880		
+labelling inputs	BAC120 column map	results/full-cohort/2026-09-22/task11-opus-full/marker/filtered/column-map.tsv	eadfbb2636022b3a4cd0a31319e6421942cd6c73edb1c4a801bdc2459a2da985	1968841		
+labelling inputs	BAC120 partitions	results/full-cohort/2026-09-22/task11-opus-full/marker/filtered/partitions.nex	d1b0418c3679bba763ea6ccb5b2e43187c4598dc44f5180cfb31f548702cf984	4035		
+labelling inputs	Verticall paper table	results/full-cohort/2026-09-22/task11-opus-full/verticall-1089/full-1089-pairwise.tsv	963576bd4456ff155e28e6b734b4f4147a8a2edd20aa947802128e5892841ca0	16092730282	963576bd…1ca0	True
+labelling inputs	Verticall skip list	results/tool-planning/2026-10-06/validation-design-claude/outputs/verticall-skip-list-attempt01/paper-directed-pairs.tsv	5a5209ef2da4b29609e146d856f189f6eec805758bf52bedc639010e78dca733	37914646	5a5209ef…a733	True
+labelling inputs	paper BAC120 tree	results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/marker/fasttree-wag.nwk	bfb5b512d65dfc89f6e91bd3626de523359c263dca5b37b8170333dde4f623ce	43701		
+labelling inputs	paper Verticall tree	results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/verticall/median-first.nwk	be296a2ea86eaa59f12b2dda669f13c4bc17f67717aafd53822ac54a0c05730d	43355		
+wrappers	repair_pilot_inputs.py	scripts/repair_pilot_inputs.py	66d11d88e09b717750348f694df2552f3eb3343321f5ebd7af424206e066df16	9986		
+wrappers	run_marker_cohort.sh	scripts/run_marker_cohort.sh	fe1bd380f44e645383fbc97f5abd1896a590847f1b9a8a1adf96ef5c7b9a0944	3471		
+wrappers	subset_marker_alignment.py	scripts/subset_marker_alignment.py	3f76d04f45258d4b81cf24f09dbfe8f1b06c9e5ae260d37351d99e05a217f258	8021		
+wrappers	run_verticall_cohort.sh	scripts/run_verticall_cohort.sh	c2f1464b5a7807e326dfa3e586bd5127f7e5214963b474c68a2fda84a52f2b0a	15088		
+wrappers	qc_verticall.py	scripts/qc_verticall.py	4b682647eb836d4c9be4cb6289a7246faf78c8d8dfdfd8e0d3ccd72e1aebdb42	46802		
+wrappers	gtdb_context.py (imported by label_transfer.py)	scripts/gtdb_context.py	82a37cae4d8e6d4746e5180a9819ea9ec65218224986207013b278241b601d1e	62229		
+wrappers	root_tree.py (imported by label_transfer.py)	scripts/root_tree.py	d7d55566b87159cd20a2c88105cea6f5c66482828d0602d34a2f9ff08f779cea	11213		
+pins	reference package	results/tool-planning/2026-10-06/portable-reference-package-astra/relocated-package/portable.json	12aa0705b774de8ea262869fdc4c85d513c3aa97d39c674f08e85d1c9055b88f	16006	12aa0705b774de8ea262869fdc4c85d513c3aa97d39c674f08e85d1c9055b88f	True
+pins	rank rule	results/tool-planning/2026-10-06/frozen-eligibility-claude/inputs/rank-rule.json	5849c5db6649678963215ca9363a5dfae2ef2b0282d96946aa843814fafa4188	607	5849c5db6649678963215ca9363a5dfae2ef2b0282d96946aa843814fafa4188	True
+pins	eligibility configuration 2.1	results/tool-planning/2026-10-06/near-boundary-claude/inputs/frozen-eligibility-config-2.1.json	3188518eb7bdaad287e7f335ffb18cadfbb41b46308f018f5b69ff33cab7c626	678	3188518eb7bdaad287e7f335ffb18cadfbb41b46308f018f5b69ff33cab7c626	True
+pins	MLST configuration	results/tool-planning/2026-10-06/mlst-runner-integration-astra/inputs/mlst-config.json	1fce9a33cf423967e0c089830ee3e6549930b5d45761ab95ac662ccd1430a937	3412	1fce9a33cf423967e0c089830ee3e6549930b5d45761ab95ac662ccd1430a937	True
+pins	skani 0.3.2 binary	/sw/local/rocky9/noarch/rcc/software/gtdb-tk/gtdbtk_2.7.2/bin/skani	b3000043feb4ce8a5200b3716bae155f34f73e2a123b8b055d574a7897a14151	2734080	b3000043feb4ce8a5200b3716bae155f34f73e2a123b8b055d574a7897a14151	True

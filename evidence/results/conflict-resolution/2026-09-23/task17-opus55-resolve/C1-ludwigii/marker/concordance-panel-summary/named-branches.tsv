@@ -1,0 +1,13 @@
+reference	hypothesis	kind	branch_in_reference	branch_id	branch_length	collapsed_gCF	collapsed_gCF_N	collapsed_gDF1	collapsed_gDF1_N	collapsed_gDF2	collapsed_gDF2_N	collapsed_gDFP	collapsed_gDFP_N	collapsed_gN	raw_gCF	raw_gCF_N	raw_gDF1	raw_gDF1_N	raw_gDF2	raw_gDF2_N	raw_gDFP	raw_gDFP_N	raw_gN	sCF_seed_20260923	sCF_seed_20260924	sCF_seed_20260925	sCF_mean	sCF_range	sDF1_mean	sDF1_range	sDF2_mean	sDF2_range	sN_mean	sN_range
+ml	distance	clade	False																															
+ml	marker_sister	clade	False																															
+ml	marker_outside	clade	False																															
+distance	distance	clade	True	35	0.000530847	3.7	4	4.63	5	9.26	10	82.41	89	108	7.41	8	9.26	10	12.04	13	71.3	77	108	23.12	23.19	23.14	23.15	0.07	35.22	0.06	41.63	0.03	196.5	0.31
+distance	marker_sister	clade	False																															
+distance	marker_outside	clade	False																															
+marker_outside	distance	clade	False																															
+marker_outside	marker_sister	clade	False																															
+marker_outside	marker_outside	clade	True	35	0.0020981991	4.63	5	3.7	4	9.26	10	82.41	89	108	9.26	10	7.41	8	12.04	13	71.3	77	108	35.32	35.47	35.32	35.37	0.15	23.06	0.18	41.57	0.13	196.96	0.65
+marker_sister	distance	clade	False																															
+marker_sister	marker_sister	clade	True	35	0.000896744	3.7	4	1.85	2	9.26	10	85.19	92	108	4.63	5	2.78	3	12.04	13	80.56	87	108	31.66	31.71	31.67	31.68	0.05	27.58	0.18	40.74	0.13	168.7	0.98
+marker_sister	marker_outside	clade	False																															

@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+# Task 04 - type-anchored ANI and pilot boundary selection.
+# Exact commands run on 17 September 2026 inside Slurm allocation 27989640 (8 CPUs allocated;
+# every skani call was given 4). Re-running these requires a NEW output directory: this run is
+# provenance, not a template to overwrite.
+set -euo pipefail
+
+cd ${PROJECT_ROOT}
+RUN=results/ani-screen/2026-09-17/task04-opus-type-anchored
+SKANI=${USER_HOME}/sw/miniforge3/envs/LRE/bin/skani
+DATASETS=${USER_HOME}/sw/miniforge3/envs/Cstriatum/bin/datasets
+
+# 1. Freeze the type panel's sequence scope. The 33 anchors selected in manifests/types.tsv are
+#    fetched fresh: 16 of them have no copy in the archive at all, and a single provenance-recorded
+#    download keeps the panel internally consistent rather than half archived and half new.
+"$DATASETS" summary genome accession --inputfile "$RUN/inputs/all-selected-type-accessions.txt" \
+  --as-json-lines > "$RUN/ncbi/type-assembly-summary.jsonl"
+"$DATASETS" download genome accession --inputfile "$RUN/inputs/all-selected-type-accessions.txt" \
+  --include genome,seq-report --filename "$RUN/ncbi/types.zip"
+unzip -n -q "$RUN/ncbi/types.zip" -d "$RUN/ncbi/types"
+
+python3 scripts/build_type_reference_sets.py \
+  --datasets-dir "$RUN/ncbi/types/ncbi_dataset/data" \
+  --accessions "$RUN/inputs/all-selected-type-accessions.txt" \
+  --output "$RUN/inputs/type-sequences"
+
+# 2. Screen every study chromosome against every type anchor, in both directions and at two
+#    replicon scopes. -s 0 disables skani's default 80% identity screen: the genus contains study
+#    genomes at 82-86% ANI to their nearest anchor, and the default would have dropped exactly the
+#    cases this task exists to find. --min-af 0 relaxes output filtering; filtering happens later,
+#    in the analysis, where it can be varied and counted.
+"$SKANI" dist --ql "$RUN/inputs/study-chromosomes.list" \
+  --rl "$RUN/inputs/type-comparison-chromosome.list" -t 4 --min-af 0 -s 0 --detailed \
+  -o "$RUN/skani/study-vs-types.chromosome-scope.tsv"
+"$SKANI" dist --ql "$RUN/inputs/type-comparison-chromosome.list" \
+  --rl "$RUN/inputs/study-chromosomes.list" -t 4 --min-af 0 -s 0 --detailed \
+  -o "$RUN/skani/types-vs-study.chromosome-scope.tsv"
+"$SKANI" dist --ql "$RUN/inputs/study-chromosomes.list" \
+  --rl "$RUN/inputs/type-comparison-whole.list" -t 4 --min-af 0 -s 0 --detailed \
+  -o "$RUN/skani/study-vs-types.whole-scope.tsv"
+
+# 3. Join identities, enumerate boundary cases, and write the pilot additions.
+python3 scripts/select_boundary_cases.py \
+  --ani "$RUN/skani/study-vs-types.chromosome-scope.tsv" \
+  --reciprocal "$RUN/skani/types-vs-study.chromosome-scope.tsv" \
+  --alternate-scope "$RUN/skani/study-vs-types.whole-scope.tsv" \
+  --study-index "$RUN/inputs/study-chromosome-index.tsv" \
+  --type-scopes "$RUN/inputs/type-sequences/type-reference-sequence-scopes.tsv" \
+  --types manifests/types.tsv \
+  --name-crosswalk manifests/name-alias-crosswalk.tsv \
+  --study-manifest manifests/study-candidates.tsv \
+  --review-cases "$RUN/inputs/mandatory-label-review.txt" \
+  --output "$RUN/tables"
+
+# 4. Test whether a pinned rerun reproduces the archived skani table on the pairs they share, and
+#    whether the archived type sequences are still the current ones.
+python3 scripts/compare_ani_to_archive.py \
+  --new-table "$RUN/skani/study-vs-types.chromosome-scope.tsv" \
+  --archived-table MoniqueC_ECC_Study/all_assemblies/Skani_results/edit/All_ANI.txt \
+  --sequence-pairs "$RUN/inputs/type-sequence-archive-pairs.tsv" \
+  --output "$RUN/archive-comparison"
+
+# 5. All-pairs ANI within the proposed pilot, for tasks 06-10.
+"$SKANI" triangle -l "$RUN/inputs/pilot-candidates.list" -t 4 --sparse --min-af 0 -s 0 --detailed \
+  -o "$RUN/skani/pilot-allpairs.tsv"
+
+python3 -m unittest tests.test_build_type_reference_sets tests.test_select_boundary_cases \
+  tests.test_compare_ani_to_archive -v
+
+# 6. Follow-up, 18 September: does the archived all-versus-all table cover the 1,074-genome cohort,
+#    and do the inputs it names still exist? Answer recorded for Task 12, which owns the rerun.
+python3 scripts/audit_archive_pair_coverage.py \
+  --archived-table MoniqueC_ECC_Study/all_assemblies/Skani_results/edit/All_ANI.txt \
+  --cohort manifests/study-candidates.tsv \
+  --input-root MoniqueC_ECC_Study/all_assemblies \
+  --output "$RUN/archive-coverage"

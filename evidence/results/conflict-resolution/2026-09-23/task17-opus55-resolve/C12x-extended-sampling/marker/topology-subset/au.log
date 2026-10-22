@@ -1,0 +1,379 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    bun129 (AVX512, FMA3, 1510 GB RAM)
+Command: ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/iqtree3 -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/alignment/alignment.faa -st AA -T 16 --seed 20260923 --keep-ident -m Q.PLANT+F+I+R5 -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/ml.treefile --tree-fix --trees results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/candidates.nwk --test 10000 --test-au --test-weight --prefix results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/au
+Seed:    20260923 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 25 01:06:13 2026
+Kernel:  AVX+FMA - 16 threads (16 CPU cores detected)
+
+Reading alignment file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/alignment/alignment.faa ... Fasta format detected
+Reading fasta file: done in 0.0988699 secs using 86.45% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0781375 secs using 104.6% CPU
+Alignment has 234 sequences with 39714 columns, 6503 distinct patterns
+2785 parsimony-informative, 2701 singleton sites, 34228 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0124286 secs using 1199% CPU
+   1  GCA_000025565.1    0.07%    passed    100.00%
+   2  GCA_000211415.1   14.07%    passed     98.37%
+   3  GCA_000235765.3    0.17%    passed    100.00%
+   4  GCA_000239975.1    0.03%    passed    100.00%
+   5  GCA_000512375.1    0.19%    passed    100.00%
+   6  GCA_000632395.1    0.00%    passed    100.00%
+   7  GCA_000770155.1    0.01%    passed    100.00%
+   8  GCA_000783675.2    0.12%    passed    100.00%
+   9  GCA_000801755.2    0.12%    passed    100.00%
+  10  GCA_000982825.1    0.70%    passed     96.89%
+  11  GCA_001022095.1    0.01%    passed    100.00%
+  12  GCA_001029645.1    0.03%    passed    100.00%
+  13  GCA_001039365.2    0.31%    passed    100.00%
+  14  GCA_001521715.1    0.00%    passed    100.00%
+  15  GCA_001617645.1    4.66%    passed    100.00%
+  16  GCA_001620245.1    0.65%    passed    100.00%
+  17  GCA_001654845.1    0.07%    passed    100.00%
+  18  GCA_001719105.1    0.01%    passed    100.00%
+  19  GCA_001729705.1    0.00%    passed    100.00%
+  20  GCA_001729725.1    0.00%    passed    100.00%
+  21  GCA_001729745.1    0.00%    passed    100.00%
+  22  GCA_001729765.1    0.40%    passed    100.00%
+  23  GCA_001729785.1    0.01%    passed    100.00%
+  24  GCA_001729805.1    0.01%    passed    100.00%
+  25  GCA_001750725.1    0.03%    passed    100.00%
+  26  GCA_001984825.2    0.00%    passed    100.00%
+  27  GCA_002025685.1    0.03%    passed    100.00%
+  28  GCA_002197345.1    0.01%    passed    100.00%
+  29  GCA_002208095.1    0.01%    passed    100.00%
+  30  GCA_002303275.1    0.00%    passed    100.00%
+  31  GCA_002863825.3    0.24%    passed    100.00%
+  32  GCA_002939185.1    0.12%    passed    100.00%
+  33  GCA_002982195.1    0.00%    passed    100.00%
+  34  GCA_003010695.1    1.19%    passed    100.00%
+  35  GCA_003071645.1    0.03%    passed    100.00%
+  36  GCA_003594915.1    0.04%    passed    100.00%
+  37  GCA_003594935.2    0.02%    passed    100.00%
+  38  GCA_003940765.1    0.01%    passed    100.00%
+  39  GCA_003964905.1    0.00%    passed    100.00%
+  40  GCA_004151605.1    0.01%    passed    100.00%
+  41  GCA_004193715.1    0.06%    passed    100.00%
+  42  GCA_004331265.1    0.00%    passed    100.00%
+  43  GCA_004331385.1    0.00%    passed    100.00%
+  44  GCA_005518115.1    2.85%    passed    100.00%
+  45  GCA_005848825.1    1.07%    passed    100.00%
+  46  GCA_005890075.1    0.03%    passed    100.00%
+  47  GCA_006228165.1    3.83%    passed    100.00%
+  48  GCA_006385915.1    0.03%    passed    100.00%
+  49  GCA_007035645.1    0.01%    passed    100.00%
+  50  GCA_007035805.1    0.00%    passed    100.00%
+  51  GCA_008364555.1    0.01%    passed    100.00%
+  52  GCA_008364575.2    0.00%    passed    100.00%
+  53  GCA_008364625.2    0.00%    passed    100.00%
+  54  GCA_009036245.1    0.25%    passed    100.00%
+  55  GCA_009176645.1    0.01%    passed    100.00%
+  56  GCA_009660455.1    0.01%    passed    100.00%
+  57  GCA_009707405.1    0.00%    passed    100.00%
+  58  GCA_009811935.2    0.00%    passed    100.00%
+  59  GCA_009811955.2    0.00%    passed    100.00%
+  60  GCA_011396735.1    0.00%    passed    100.00%
+  61  GCA_013375975.1    0.04%    passed    100.00%
+  62  GCA_013376815.1    0.00%    passed    100.00%
+  63  GCA_013615235.1    0.03%    passed    100.00%
+  64  GCA_013739155.1    0.01%    passed    100.00%
+  65  GCA_013740195.1    0.01%    passed    100.00%
+  66  GCA_013749735.1    0.04%    passed    100.00%
+  67  GCA_013782005.1    0.00%    passed    100.00%
+  68  GCA_013784105.1    0.04%    passed    100.00%
+  69  GCA_013784425.1    0.01%    passed    100.00%
+  70  GCA_014169635.1    0.01%    passed    100.00%
+  71  GCA_015138375.1    0.00%    passed    100.00%
+  72  GCA_015168595.1    0.01%    passed    100.00%
+  73  GCA_016027695.1    0.00%    passed    100.00%
+  74  GCA_016864115.1    0.01%    passed    100.00%
+  75  GCA_017347425.1    0.00%    passed    100.00%
+  76  GCA_018140965.1    0.00%    passed    100.00%
+  77  GCA_018394395.1    0.00%    passed    100.00%
+  78  GCA_019046905.1    0.04%    passed    100.00%
+  79  GCA_019047005.1    0.03%    passed    100.00%
+  80  GCA_019047105.1    0.00%    passed    100.00%
+  81  GCA_019047785.1    0.03%    passed    100.00%
+  82  GCA_019048125.1    1.26%    passed     99.65%
+  83  GCA_019048245.1   11.98%    passed     99.97%
+  84  GCA_019048485.1    0.00%    passed    100.00%
+  85  GCA_019428505.1    0.01%    passed    100.00%
+  86  GCA_019443845.1    1.04%    passed    100.00%
+  87  GCA_019930965.1    0.03%    passed    100.00%
+  88  GCA_019968785.1    0.01%    passed    100.00%
+  89  GCA_019968865.1    0.01%    passed    100.00%
+  90  GCA_019973695.1    0.00%    passed    100.00%
+  91  GCA_020099215.1    0.03%    passed    100.00%
+  92  GCA_020149545.1    0.01%    passed    100.00%
+  93  GCA_020540925.1    0.00%    passed    100.00%
+  94  GCA_020783215.1    0.03%    passed    100.00%
+  95  GCA_020783235.1    0.03%    passed    100.00%
+  96  GCA_020783255.1    0.03%    passed    100.00%
+  97  GCA_020882135.1    0.00%    passed    100.00%
+  98  GCA_021496745.1    0.00%    passed    100.00%
+  99  GCA_021497605.1    0.00%    passed    100.00%
+ 100  GCA_021869645.1    0.01%    passed    100.00%
+ 101  GCA_022220405.1    0.00%    passed    100.00%
+ 102  GCA_022570715.1    0.12%    passed    100.00%
+ 103  GCA_022832735.1    0.03%    passed    100.00%
+ 104  GCA_023023045.1    0.12%    passed    100.00%
+ 105  GCA_023023085.1    0.01%    passed    100.00%
+ 106  GCA_023023105.1    1.18%    passed    100.00%
+ 107  GCA_023023145.1    1.78%    passed    100.00%
+ 108  GCA_023023265.1    0.12%    passed    100.00%
+ 109  GCA_023101705.1    0.12%    passed    100.00%
+ 110  GCA_023238665.1    0.01%    passed    100.00%
+ 111  GCA_023920605.1    0.01%    passed    100.00%
+ 112  GCA_024125655.1    4.49%    passed    100.00%
+ 113  GCA_024599655.1    0.00%    passed    100.00%
+ 114  GCA_024599795.1    0.01%    passed    100.00%
+ 115  GCA_024734705.1    0.00%    passed    100.00%
+ 116  GCA_024917615.1    0.00%    passed    100.00%
+ 117  GCA_024917675.1    0.01%    passed    100.00%
+ 118  GCA_025002605.1    0.12%    passed    100.00%
+ 119  GCA_025426135.1    0.00%    passed    100.00%
+ 120  GCA_025908375.1    0.01%    passed    100.00%
+ 121  GCA_025999975.1    0.12%    passed    100.00%
+ 122  GCA_026344075.1    0.04%    passed    100.00%
+ 123  GCA_026420145.1    0.01%    passed    100.00%
+ 124  GCA_027595525.1    0.00%    passed    100.00%
+ 125  GCA_028198205.1    0.03%    passed    100.00%
+ 126  GCA_028622135.1    0.00%    passed    100.00%
+ 127  GCA_028890245.1    0.00%    passed    100.00%
+ 128  GCA_029718255.1    0.03%    passed    100.00%
+ 129  GCA_029718315.1    0.03%    passed    100.00%
+ 130  GCA_029718885.1    0.03%    passed    100.00%
+ 131  GCA_029720995.1    0.04%    passed    100.00%
+ 132  GCA_029721015.1    0.04%    passed    100.00%
+ 133  GCA_029834565.1    0.04%    passed    100.00%
+ 134  GCA_029873395.1    0.00%    passed    100.00%
+ 135  GCA_030166415.1    0.65%    passed    100.00%
+ 136  GCA_030179805.1    0.00%    passed    100.00%
+ 137  GCA_030179835.1    0.00%    passed    100.00%
+ 138  GCA_030406145.1    0.25%    passed    100.00%
+ 139  GCA_030406505.2    0.81%    passed    100.00%
+ 140  GCA_030444535.1    0.00%    passed    100.00%
+ 141  GCA_030444555.1    0.01%    passed    100.00%
+ 142  GCA_030444575.1    0.01%    passed    100.00%
+ 143  GCA_030505295.1    0.62%    passed    100.00%
+ 144  GCA_030706805.1    0.03%    passed    100.00%
+ 145  GCA_031166305.1    0.00%    passed    100.00%
+ 146  GCA_031167025.1    0.00%    passed    100.00%
+ 147  GCA_031851395.1    0.03%    passed    100.00%
+ 148  GCA_031851415.1    0.01%    passed    100.00%
+ 149  GCA_031851435.1    0.03%    passed    100.00%
+ 150  GCA_031851475.1    0.00%    passed    100.00%
+ 151  GCA_031851495.1    0.00%    passed    100.00%
+ 152  GCA_031851515.1    0.03%    passed    100.00%
+ 153  GCA_031851585.1    0.04%    passed    100.00%
+ 154  GCA_031851605.1    0.04%    passed    100.00%
+ 155  GCA_031851625.1    0.00%    passed    100.00%
+ 156  GCA_032301015.1    0.01%    passed    100.00%
+ 157  GCA_032349915.1    0.01%    passed    100.00%
+ 158  GCA_033130105.1    0.03%    passed    100.00%
+ 159  GCA_033802605.1    0.00%    passed    100.00%
+ 160  GCA_033954935.1    0.03%    passed    100.00%
+ 161  GCA_034008275.1    0.01%    passed    100.00%
+ 162  GCA_034008295.1    0.01%    passed    100.00%
+ 163  GCA_034331165.2    0.01%    passed    100.00%
+ 164  GCA_035323105.1    0.03%    passed    100.00%
+ 165  GCA_035324935.1    0.04%    passed    100.00%
+ 166  GCA_035556915.2    0.02%    passed    100.00%
+ 167  GCA_036542125.1    1.88%    passed    100.00%
+ 168  GCA_036669895.1    0.58%    passed    100.00%
+ 169  GCA_038727575.1    0.01%    passed    100.00%
+ 170  GCA_039623865.1    0.24%    passed    100.00%
+ 171  GCA_040096145.1    0.00%    passed    100.00%
+ 172  GCA_040834065.1    0.00%    passed    100.00%
+ 173  GCA_040834085.1    0.01%    passed    100.00%
+ 174  GCA_040892575.1    0.00%    passed    100.00%
+ 175  GCA_040892585.1    0.00%    passed    100.00%
+ 176  GCA_041003815.1    0.01%    passed    100.00%
+ 177  GCA_041006445.1    0.03%    passed    100.00%
+ 178  GCA_041110985.2    0.03%    passed    100.00%
+ 179  GCA_041154375.1    0.49%    passed    100.00%
+ 180  GCA_041937165.1    0.01%    passed    100.00%
+ 181  GCA_042434935.1    0.01%    passed    100.00%
+ 182  GCA_043647335.2    0.03%    passed    100.00%
+ 183  GCA_043964395.1    0.01%    passed    100.00%
+ 184  GCA_043965215.1    0.00%    passed    100.00%
+ 185  GCA_043966055.1    0.13%    passed    100.00%
+ 186  GCA_043972705.1    0.01%    passed    100.00%
+ 187  GCA_043974055.1    0.01%    passed    100.00%
+ 188  GCA_043974065.1    0.03%    passed    100.00%
+ 189  GCA_044344475.1    0.00%    passed    100.00%
+ 190  GCA_045013525.1    0.01%    passed    100.00%
+ 191  GCA_045348775.1    0.01%    passed    100.00%
+ 192  GCA_045348785.1    0.00%    passed    100.00%
+ 193  GCA_046015535.2    0.00%    passed    100.00%
+ 194  GCA_046015545.2    0.79%    passed    100.00%
+ 195  GCA_046024435.2    0.14%    passed    100.00%
+ 196  GCA_047119245.1    0.00%    passed    100.00%
+ 197  GCA_047159435.1    0.16%    passed    100.00%
+ 198  GCA_047456135.1    0.04%    passed    100.00%
+ 199  GCA_048400135.1    4.20%    passed    100.00%
+ 200  GCA_049600895.1    0.00%    passed    100.00%
+ 201  GCA_049852515.1    5.49%    passed    100.00%
+ 202  GCA_049913205.1    0.03%    passed    100.00%
+ 203  GCA_049959435.1    0.03%    passed    100.00%
+ 204  GCA_049990415.1   10.13%    passed    100.00%
+ 205  GCA_050158175.1    0.37%    passed    100.00%
+ 206  GCA_050242595.1   44.15%    passed     65.38%
+ 207  GCA_050626905.1    0.04%    passed    100.00%
+ 208  GCA_050626925.1    0.41%    passed    100.00%
+ 209  GCA_050627035.1    1.98%    passed    100.00%
+ 210  GCA_050642285.1    3.97%    passed    100.00%
+ 211  GCA_050883555.1    0.36%    passed    100.00%
+ 212  GCA_051046885.1    0.01%    passed    100.00%
+ 213  GCA_051903055.1    0.25%    passed    100.00%
+ 214  GCA_052039465.1    0.25%    passed    100.00%
+ 215  GCA_052569525.1    0.12%    passed    100.00%
+ 216  GCA_052721285.1    0.03%    passed    100.00%
+ 217  GCA_052922205.1    0.00%    passed    100.00%
+ 218  GCA_052975065.1    0.00%    passed    100.00%
+ 219  GCA_053691555.1    0.00%    passed    100.00%
+ 220  GCA_053699035.1    0.00%    passed    100.00%
+ 221  GCA_054165345.1    0.37%    passed    100.00%
+ 222  GCA_054356615.1    0.03%    passed    100.00%
+ 223  GCA_054381615.1    1.54%    passed    100.00%
+ 224  GCA_054381635.1    0.04%    passed    100.00%
+ 225  GCA_054382295.1    0.00%    passed    100.00%
+ 226  GCA_054382315.1    0.03%    passed    100.00%
+ 227  GCA_054461275.1    0.03%    passed    100.00%
+ 228  GCA_905231975.2    0.01%    passed    100.00%
+ 229  GCA_905232655.2    0.01%    passed    100.00%
+ 230  GCA_905232685.2    0.01%    passed    100.00%
+ 231  GCA_905233045.2    0.01%    passed    100.00%
+ 232  GCA_905233075.2    0.01%    passed    100.00%
+ 233  GCA_905330125.2    0.01%    passed    100.00%
+ 234  GCA_905331265.2    0.00%    passed    100.00%
+****  TOTAL              0.58%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/ml.treefile ...
+
+NOTE: 1179 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -224647.021
+2. Current log-likelihood: -219199.147
+3. Current log-likelihood: -218834.548
+4. Current log-likelihood: -218731.257
+5. Current log-likelihood: -218684.110
+6. Current log-likelihood: -218651.102
+7. Current log-likelihood: -218629.112
+8. Current log-likelihood: -218614.733
+9. Current log-likelihood: -218603.531
+10. Current log-likelihood: -218592.680
+11. Current log-likelihood: -218581.460
+12. Current log-likelihood: -218570.193
+13. Current log-likelihood: -218559.650
+14. Current log-likelihood: -218550.570
+15. Current log-likelihood: -218543.382
+16. Current log-likelihood: -218538.423
+17. Current log-likelihood: -218534.904
+18. Current log-likelihood: -218532.218
+19. Current log-likelihood: -218529.962
+20. Current log-likelihood: -218527.878
+21. Current log-likelihood: -218525.797
+22. Current log-likelihood: -218523.637
+23. Current log-likelihood: -218521.349
+24. Current log-likelihood: -218518.930
+25. Current log-likelihood: -218516.401
+26. Current log-likelihood: -218513.789
+27. Current log-likelihood: -218511.152
+28. Current log-likelihood: -218508.576
+29. Current log-likelihood: -218506.136
+30. Current log-likelihood: -218503.915
+31. Current log-likelihood: -218501.968
+32. Current log-likelihood: -218500.338
+33. Current log-likelihood: -218499.047
+34. Current log-likelihood: -218498.030
+35. Current log-likelihood: -218497.260
+36. Current log-likelihood: -218496.689
+37. Current log-likelihood: -218496.274
+38. Current log-likelihood: -218495.970
+39. Current log-likelihood: -218495.749
+40. Current log-likelihood: -218495.584
+41. Current log-likelihood: -218495.467
+42. Current log-likelihood: -218495.371
+43. Current log-likelihood: -218495.287
+44. Current log-likelihood: -218495.214
+45. Current log-likelihood: -218495.145
+46. Current log-likelihood: -218495.093
+47. Current log-likelihood: -218495.031
+48. Current log-likelihood: -218494.982
+49. Current log-likelihood: -218494.935
+50. Current log-likelihood: -218494.891
+51. Current log-likelihood: -218494.847
+52. Current log-likelihood: -218494.804
+53. Current log-likelihood: -218494.762
+54. Current log-likelihood: -218494.726
+55. Current log-likelihood: -218494.688
+56. Current log-likelihood: -218494.651
+57. Current log-likelihood: -218494.618
+58. Current log-likelihood: -218494.587
+59. Current log-likelihood: -218494.555
+60. Current log-likelihood: -218494.528
+61. Current log-likelihood: -218494.499
+62. Current log-likelihood: -218494.472
+63. Current log-likelihood: -218494.448
+64. Current log-likelihood: -218494.426
+65. Current log-likelihood: -218494.404
+66. Current log-likelihood: -218494.383
+67. Current log-likelihood: -218494.364
+68. Current log-likelihood: -218494.347
+69. Current log-likelihood: -218494.327
+Optimal log-likelihood: -218494.319
+Proportion of invariable sites: 0.690
+Site proportion and rates:  (0.143,0.707) (0.108,1.140) (0.040,7.152) (0.016,21.243) (0.003,56.676)
+Parameters optimization took 69 rounds (459.930 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -218494.319
+Total tree length: 0.463
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 7271.340 sec (2h:1m:11s)
+Total wall-clock time used: 460.113 sec (0h:7m:40s)
+Reading trees in results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/candidates.nwk ...
+
+7 trees detected
+Note: 249.154 MB of RAM required!
+Creating 10000 bootstrap replicates...
+done
+Tree 1 / LogL: -218498.505
+Tree 2 / LogL: -218563.070
+Tree 3 / LogL: -218569.453
+Tree 4 / LogL: -218614.322
+Tree 5 / LogL: -218675.448
+Tree 6 / LogL: -218487.811
+Tree 7 / LogL: -218611.660
+Performing RELL-BP test...
+Performing KH and SH test...
+Computing pairwise logl difference variance ...
+Performing WKH and WSH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+5 MB required for AU test
+Generating 10 x 10000 multiscale bootstrap replicates... 4.288 seconds
+TreeID	AU	RSS	d	c
+1	0.621	7.820	0.030	0.337
+2	0.262	11.659	1.010	0.373
+3	0.147	2.169	1.463	0.415
+4	0.187	9.658	1.256	0.369
+5	0.020	5.806	2.374	0.322
+6	0.713	12.951	-0.186	0.375
+7	0.193	11.021	1.238	0.373
+Time for AU test: 4.289 seconds
+Time for evaluating all trees: 40.261 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/au.iqtree
+  Maximum-likelihood tree:       results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/au.treefile
+  Evaluated user trees:          results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/au.trees
+  Screen log file:               results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/au.log
+
+Date and Time: Fri Sep 25 01:14:34 2026

@@ -1,0 +1,49 @@
+study_assignment	kraken_name	bases	percent_within_study_group
+Enterobacter hormaechei	Enterobacter hormaechei subsp. hormaechei	61317438	94.6351014651984
+Enterobacter hormaechei	Enterobacter hormaechei subsp. hoffmannii	1259473	1.943824775387351
+Enterobacter hormaechei	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter hormaechei	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter hormaechei	Enterobacter hormaechei subsp. xiangfangensis	111400	0.171930704332805
+Enterobacter hormaechei	Enterobacter hormaechei	815647	1.2588398850712694
+Enterobacter hormaechei	Enterobacter xiangfangensis	0	0.0
+Enterobacter hormaechei	All other calls	1289588	1.9903031700101734
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. hormaechei	4772538	0.5466629214779803
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. hoffmannii	97878157	11.211300832911217
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. steigerwaltii	196573	0.022516147689906507
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. xiangfangensis	718799797	82.3338016346437
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei	12709568	1.455797643434804
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis subsp. hoffmannii	All other calls	38674592	4.429920819842383
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. hoffmannii	1491029	1.6911581912631182
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. oharae	9451130	10.719681452334322
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. xiangfangensis	75652228	85.80643640700819
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei	619828	0.7030226772076439
+Enterobacter xiangfangensis subsp. oharae	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis subsp. oharae	All other calls	951931	1.079701272186719
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. hoffmannii	24858005	1.8987911549971819
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. steigerwaltii	70004913	5.347360321584424
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. xiangfangensis	1159915138	88.60069843021334
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei	16042521	1.2254159969255998
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis subsp. steigerwaltii	All other calls	38328401	2.9277340962794534
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. hoffmannii	9181313	1.124219576869687
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. steigerwaltii	677604	0.0829702333604363
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. xiangfangensis	760666685	93.14096782775705
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei	3817042	0.46738340606989703
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis subsp. xiangfangensis	All other calls	42340608	5.184458955942934
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. hormaechei	0	0.0
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. hoffmannii	209857	4.273136014768247
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. oharae	0	0.0
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. steigerwaltii	0	0.0
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. xiangfangensis	4701220	95.72686398523174
+Enterobacter xiangfangensis	Enterobacter hormaechei	0	0.0
+Enterobacter xiangfangensis	Enterobacter xiangfangensis	0	0.0
+Enterobacter xiangfangensis	All other calls	0	0.0

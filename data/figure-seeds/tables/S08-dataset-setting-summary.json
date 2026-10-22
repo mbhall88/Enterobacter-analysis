@@ -1,0 +1,923 @@
+[
+  {
+    "dataset": "RS7",
+    "setting": "as_run",
+    "applicable": true,
+    "records": 11,
+    "distinct_query_sha256": 11,
+    "counts": {
+      "triggered": 11,
+      "manifest_witness_candidate_references": 33,
+      "reported_witness_candidate_references": 33,
+      "triggered_witness_candidate_references": 33,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 0,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "triggered_withheld:ANIm_no_strict_witness": 11
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "expert",
+    "setting": "as_run",
+    "applicable": true,
+    "records": 100,
+    "distinct_query_sha256": 100,
+    "counts": {
+      "triggered": 0,
+      "manifest_witness_candidate_references": 0,
+      "reported_witness_candidate_references": 226,
+      "triggered_witness_candidate_references": 0,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 0,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 100
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer1",
+    "setting": "as_run",
+    "applicable": true,
+    "records": 946,
+    "distinct_query_sha256": 946,
+    "counts": {
+      "triggered": 5,
+      "manifest_witness_candidate_references": 11,
+      "reported_witness_candidate_references": 3758,
+      "triggered_witness_candidate_references": 11,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 941,
+      "triggered_withheld:ANIm_no_strict_witness": 4,
+      "triggered_withheld:skani_coverage_not_rescuable": 1
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "clone_block|omit_reviewed_species",
+    "applicable": false,
+    "records": 20,
+    "distinct_query_sha256": 20,
+    "counts": {
+      "triggered": 4,
+      "manifest_witness_candidate_references": 10,
+      "reported_witness_candidate_references": 10,
+      "triggered_witness_candidate_references": 10,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 16,
+      "triggered_withheld:ANIm_no_strict_witness": 3,
+      "triggered_withheld:skani_coverage_not_rescuable": 1
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "clone_block|omit_reviewed_species",
+    "applicable": true,
+    "records": 1014,
+    "distinct_query_sha256": 1014,
+    "counts": {
+      "triggered": 678,
+      "manifest_witness_candidate_references": 945,
+      "reported_witness_candidate_references": 945,
+      "triggered_witness_candidate_references": 945,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 0,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "triggered_withheld:ANIm_no_strict_witness": 420,
+      "triggered_withheld:skani_coverage_not_rescuable": 258,
+      "not_triggered": 336
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "clone_block|omit_reviewed_subspecies",
+    "applicable": false,
+    "records": 305,
+    "distinct_query_sha256": 305,
+    "counts": {
+      "triggered": 10,
+      "manifest_witness_candidate_references": 28,
+      "reported_witness_candidate_references": 130,
+      "triggered_witness_candidate_references": 28,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 295,
+      "triggered_withheld:ANIm_no_strict_witness": 9,
+      "triggered_withheld:skani_coverage_not_rescuable": 1
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "clone_block|omit_reviewed_subspecies",
+    "applicable": true,
+    "records": 729,
+    "distinct_query_sha256": 729,
+    "counts": {
+      "triggered": 201,
+      "manifest_witness_candidate_references": 1355,
+      "reported_witness_candidate_references": 3921,
+      "triggered_witness_candidate_references": 1355,
+      "passing_witness_references": 291,
+      "contexts_with_passing_witness": 76,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 66,
+      "contexts_with_method_veto": 26,
+      "expected_crossing_references": 291,
+      "contexts_with_expected_crossing": 76,
+      "incomplete": 0,
+      "rescued": 50,
+      "complete_panel": 76
+    },
+    "scorer_categories": {
+      "not_triggered": 528,
+      "triggered_withheld:skani_coverage_not_rescuable": 37,
+      "triggered_withheld:ANIm_no_strict_witness": 88,
+      "triggered_withheld:method_gate_disagreement": 26,
+      "rescued_correct": 50
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 291,
+      "retained_method_disagreement_veto": 66
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "clone_block|represented",
+    "applicable": true,
+    "records": 1034,
+    "distinct_query_sha256": 1034,
+    "counts": {
+      "triggered": 12,
+      "manifest_witness_candidate_references": 28,
+      "reported_witness_candidate_references": 4051,
+      "triggered_witness_candidate_references": 28,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 1022,
+      "triggered_withheld:ANIm_no_strict_witness": 9,
+      "triggered_withheld:skani_coverage_not_rescuable": 3
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "self_alias|omit_reviewed_species",
+    "applicable": false,
+    "records": 20,
+    "distinct_query_sha256": 20,
+    "counts": {
+      "triggered": 4,
+      "manifest_witness_candidate_references": 10,
+      "reported_witness_candidate_references": 10,
+      "triggered_witness_candidate_references": 10,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 16,
+      "triggered_withheld:ANIm_no_strict_witness": 3,
+      "triggered_withheld:skani_coverage_not_rescuable": 1
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "self_alias|omit_reviewed_species",
+    "applicable": true,
+    "records": 1014,
+    "distinct_query_sha256": 1014,
+    "counts": {
+      "triggered": 678,
+      "manifest_witness_candidate_references": 945,
+      "reported_witness_candidate_references": 945,
+      "triggered_witness_candidate_references": 945,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 0,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "triggered_withheld:ANIm_no_strict_witness": 420,
+      "triggered_withheld:skani_coverage_not_rescuable": 258,
+      "not_triggered": 336
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "self_alias|omit_reviewed_subspecies",
+    "applicable": false,
+    "records": 305,
+    "distinct_query_sha256": 305,
+    "counts": {
+      "triggered": 9,
+      "manifest_witness_candidate_references": 27,
+      "reported_witness_candidate_references": 130,
+      "triggered_witness_candidate_references": 27,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 296,
+      "triggered_withheld:ANIm_no_strict_witness": 8,
+      "triggered_withheld:skani_coverage_not_rescuable": 1
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "self_alias|omit_reviewed_subspecies",
+    "applicable": true,
+    "records": 729,
+    "distinct_query_sha256": 729,
+    "counts": {
+      "triggered": 201,
+      "manifest_witness_candidate_references": 1355,
+      "reported_witness_candidate_references": 3921,
+      "triggered_witness_candidate_references": 1355,
+      "passing_witness_references": 291,
+      "contexts_with_passing_witness": 76,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 66,
+      "contexts_with_method_veto": 26,
+      "expected_crossing_references": 291,
+      "contexts_with_expected_crossing": 76,
+      "incomplete": 0,
+      "rescued": 50,
+      "complete_panel": 76
+    },
+    "scorer_categories": {
+      "not_triggered": 528,
+      "triggered_withheld:skani_coverage_not_rescuable": 37,
+      "triggered_withheld:ANIm_no_strict_witness": 88,
+      "triggered_withheld:method_gate_disagreement": 26,
+      "rescued_correct": 50
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 291,
+      "retained_method_disagreement_veto": 66
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "self_alias|represented",
+    "applicable": true,
+    "records": 1034,
+    "distinct_query_sha256": 1034,
+    "counts": {
+      "triggered": 10,
+      "manifest_witness_candidate_references": 27,
+      "reported_witness_candidate_references": 4051,
+      "triggered_witness_candidate_references": 27,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 1024,
+      "triggered_withheld:ANIm_no_strict_witness": 8,
+      "triggered_withheld:skani_coverage_not_rescuable": 2
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "split_block|omit_reviewed_species",
+    "applicable": false,
+    "records": 20,
+    "distinct_query_sha256": 20,
+    "counts": {
+      "triggered": 4,
+      "manifest_witness_candidate_references": 6,
+      "reported_witness_candidate_references": 6,
+      "triggered_witness_candidate_references": 6,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 16,
+      "triggered_withheld:ANIm_no_strict_witness": 3,
+      "triggered_withheld:skani_coverage_not_rescuable": 1
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "split_block|omit_reviewed_species",
+    "applicable": true,
+    "records": 1014,
+    "distinct_query_sha256": 1014,
+    "counts": {
+      "triggered": 594,
+      "manifest_witness_candidate_references": 417,
+      "reported_witness_candidate_references": 417,
+      "triggered_witness_candidate_references": 417,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 0,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "triggered_withheld:ANIm_no_strict_witness": 253,
+      "triggered_withheld:skani_coverage_not_rescuable": 341,
+      "not_triggered": 420
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "split_block|omit_reviewed_subspecies",
+    "applicable": false,
+    "records": 305,
+    "distinct_query_sha256": 305,
+    "counts": {
+      "triggered": 10,
+      "manifest_witness_candidate_references": 24,
+      "reported_witness_candidate_references": 103,
+      "triggered_witness_candidate_references": 24,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 295,
+      "triggered_withheld:ANIm_no_strict_witness": 9,
+      "triggered_withheld:skani_coverage_not_rescuable": 1
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "split_block|omit_reviewed_subspecies",
+    "applicable": true,
+    "records": 729,
+    "distinct_query_sha256": 729,
+    "counts": {
+      "triggered": 283,
+      "manifest_witness_candidate_references": 482,
+      "reported_witness_candidate_references": 983,
+      "triggered_witness_candidate_references": 482,
+      "passing_witness_references": 38,
+      "contexts_with_passing_witness": 26,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 9,
+      "contexts_with_method_veto": 3,
+      "expected_crossing_references": 38,
+      "contexts_with_expected_crossing": 26,
+      "incomplete": 0,
+      "rescued": 23,
+      "complete_panel": 26
+    },
+    "scorer_categories": {
+      "not_triggered": 446,
+      "triggered_withheld:skani_coverage_not_rescuable": 117,
+      "triggered_withheld:ANIm_no_strict_witness": 140,
+      "rescued_correct": 23,
+      "triggered_withheld:method_gate_disagreement": 3
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 38,
+      "retained_method_disagreement_veto": 9
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer2",
+    "setting": "split_block|represented",
+    "applicable": true,
+    "records": 1034,
+    "distinct_query_sha256": 1034,
+    "counts": {
+      "triggered": 10,
+      "manifest_witness_candidate_references": 24,
+      "reported_witness_candidate_references": 1086,
+      "triggered_witness_candidate_references": 24,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 1,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 1024,
+      "triggered_withheld:ANIm_no_strict_witness": 9,
+      "triggered_withheld:skani_coverage_not_rescuable": 1
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer3",
+    "setting": "as_run",
+    "applicable": true,
+    "records": 4821,
+    "distinct_query_sha256": 4821,
+    "counts": {
+      "triggered": 14,
+      "manifest_witness_candidate_references": 25,
+      "reported_witness_candidate_references": 21968,
+      "triggered_witness_candidate_references": 25,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 0,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 4807,
+      "triggered_withheld:ANIm_no_strict_witness": 9,
+      "triggered_withheld:skani_coverage_not_rescuable": 5
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  },
+  {
+    "dataset": "layer3_held",
+    "setting": "as_run",
+    "applicable": true,
+    "records": 36,
+    "distinct_query_sha256": 36,
+    "counts": {
+      "triggered": 2,
+      "manifest_witness_candidate_references": 8,
+      "reported_witness_candidate_references": 48,
+      "triggered_witness_candidate_references": 8,
+      "passing_witness_references": 0,
+      "contexts_with_passing_witness": 0,
+      "foreign_challenge_references": 0,
+      "contexts_with_foreign_challenge": 0,
+      "method_veto_references": 0,
+      "contexts_with_method_veto": 0,
+      "expected_crossing_references": 0,
+      "contexts_with_expected_crossing": 0,
+      "incomplete": 0,
+      "rescued": 0,
+      "complete_panel": 0
+    },
+    "scorer_categories": {
+      "not_triggered": 34,
+      "triggered_withheld:ANIm_no_strict_witness": 2
+    },
+    "complete_panel_challenge_origins": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "other_panel_challenge_origins_descriptive": {
+      "unreturned": 0,
+      "returned_below_band": 0,
+      "displayed_top_five": 0,
+      "returned_outside_top_five": 0
+    },
+    "actual_reference_diagnostics": {
+      "expected_ANI_method_crossing": 0,
+      "retained_method_disagreement_veto": 0
+    },
+    "denominator_scope": "record-setting observations; applicable=false excluded from omission arm rates; query/settings and source overlap retained, no independent-accuracy claim"
+  }
+]

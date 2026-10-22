@@ -1,0 +1,9 @@
+{
+  "archive": "enterobacter-frozen-evaluation-packages-noticed-2026-10-22.tar.gz",
+  "archive_sha256": "03304c0f0320617a6a942c72b37c362ff8baa0e5ca0269094d16ce50983ec1e6",
+  "members_verified": 53,
+  "uncompressed_bytes_verified": 179820189,
+  "all_member_hashes_match": true,
+  "regular_files_only": true,
+  "extracted_files": 0
+}

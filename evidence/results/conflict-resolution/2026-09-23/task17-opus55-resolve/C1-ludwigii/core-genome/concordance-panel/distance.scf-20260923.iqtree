@@ -1,0 +1,171 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Partition file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/partition-codon3.nex
+Input file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/alignment.fna
+User tree file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-distance.treefile
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 20260923
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 32 taxa with 4 partitions and 3242873 total sites (0.0037621% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	32	1080307	71644	97954	902783	902783	pos1
+   2	DNA	32	1080307	42812	49971	979515	979515	pos2
+   3	DNA	32	1080307	471255	641168	287535	287535	pos3
+   4	DNA	30	1952	512	467	1402	1402	noncodon
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+R4       0.2675  GTR{1.43506,2.0752,1.19137,0.452184,6.04656}+F{0.24184,0.263399,0.359383,0.135378}+R4{0.395173,0.138357,0.45145,0.139024,0.126653,3.61886,0.0267237,15.8744}
+   2  GTR+F+R4       0.1319  GTR{5.51876,9.77816,1.66396,5.69634,4.79719}+F{0.281087,0.230606,0.181953,0.306353}+R4{0.421165,0.162608,0.479081,0.164103,0.081421,4.53214,0.0183336,26.3934}
+   3  GTR+F+R4       2.6007  GTR{1.04232,5.70083,1.67783,0.834778,6.28868}+F{0.122077,0.333173,0.345409,0.199341}+R4{0.273196,0.0879627,0.333846,0.52626,0.34506,1.67009,0.0478974,4.67657}
+   4  GTR+F+R4       0.9642  GTR{1.36189,3.53426,1.00745,1.41488,6.56049}+F{0.221074,0.2569,0.29443,0.227597}+R4{0.361,0.0412936,0.306708,0.0455727,0.230751,1.62078,0.101541,5.88057}
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -18091529.3256 (s.e. 12486.6874)
+Unconstrained log-likelihood (without tree): -21231908.5136
+Number of free parameters (#branches + #model parameters): 120
+Akaike information criterion (AIC) score: 36183298.6511
+Corrected Akaike information criterion (AICc) score: 36183298.6601
+Bayesian information criterion (BIC) score: 36184857.6876
+
+Marginal log-likelihood of the tree: -18905113.2632
+Marginal Akaike information criterion (mAIC) score: 37810466.5264
+
+Total tree length (sum of branch lengths): 2.2211
+Sum of internal branch lengths: 0.8035 (36.1774% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCA_000025565.1' is drawn at root
+
++--GCA_000025565.1
+|
+|                            +-----------------------------------GCA_000982825.1
+|             +--------------| (67.7)
+|             |              +------------------------GCA_019048125.1
+|          +--| (29.2)
+|          |  |                    +--GCA_001039365.2
+|          |  |                 +--| (61.6)
+|          |  |                 |  +--GCA_001729805.1
+|          |  |              +--| (41.6)
+|          |  |              |  +--GCA_026420145.1
+|          |  |           +--| (36.4)
+|          |  |           |  |     +--GCA_001521715.1
+|          |  |           |  |  +--| (64.7)
+|          |  |           |  |  |  +--GCA_008364625.2
+|          |  |           |  +--| (37.6)
+|          |  |           |     +--GCA_008364555.1
+|          |  |        +--| (47.1)
+|          |  |        |  |  +--GCA_001984825.2
+|          |  |        |  +--| (72.7)
+|          |  |        |     +--GCA_034008275.1
+|          |  |     +--| (38.8)
+|          |  |     |  |            +--GCA_002939185.1
+|          |  |     |  |         +--| (31.8)
+|          |  |     |  |         |  +--GCA_009036245.1
+|          |  |     |  |      +--| (48.4)
+|          |  |     |  |      |  |  +--GCA_042434935.1
+|          |  |     |  |      |  +--| (36.4)
+|          |  |     |  |      |     +--GCA_905330125.2
+|          |  |     |  |  +---| (94.7)
+|          |  |     |  |  |   +--GCA_025002605.1
+|          |  |     |  +--| (44.2)
+|          |  |     |     +--GCA_034008295.1
+|          |  |  +--| (40.8)
+|          |  |  |  |  +----GCA_001729765.1
+|          |  |  |  +--| (43.1)
+|          |  |  |     |  +--GCA_003594915.1
+|          |  |  |     +--| (55.5)
+|          |  |  |        |  +--GCA_019046905.1
+|          |  |  |        +--| (55.1)
+|          |  |  |           +--GCA_026344075.1
+|          |  +--| (48)
+|          |     |   +--GCA_004193715.1
+|          |     +---| (74.5)
+|          |         |  +--GCA_023023105.1
+|          |         +--| (72.9)
+|          |            |  +--GCA_036669895.1
+|          |            +--| (100)
+|          |               +--GCA_041937165.1
+|     +----| (79.4)
+|     |    |         +--GCA_001750725.1
+|     |    |      +--| (35)
+|     |    |      |  +--GCA_020783215.1
+|     |    +------| (96.2)
+|     |           |  +--GCA_020099215.1
+|     |           +--| (33.1)
+|     |              +--GCA_029718255.1
+|  +--| (86.9)
+|  |  +--GCA_009660455.1
++--| (42.9)
+|  +--GCA_020882135.1
+|
++--GCA_046015545.2
+
+Tree in newick format:
+
+(GCA_000025565.1:0.0050843812,(((((GCA_000982825.1:0.5168744512,GCA_019048125.1:0.3593287507)67.7:0.2221734656,(((((((GCA_001039365.2:0.0219234098,GCA_001729805.1:0.0294795876)61.6:0.0176690012,GCA_026420145.1:0.0284029291)41.6:0.0086705508,((GCA_001521715.1:0.0212565085,GCA_008364625.2:0.0214585110)64.7:0.0149846381,GCA_008364555.1:0.0361353996)37.6:0.0065527164)36.4:0.0046040902,(GCA_001984825.2:0.0259564447,GCA_034008275.1:0.0249851618)72.7:0.0309865357)47.1:0.0140050717,((((GCA_002939185.1:0.0058204457,GCA_009036245.1:0.0057109872)31.8:0.0010683846,(GCA_042434935.1:0.0061957575,GCA_905330125.2:0.0055668100)36.4:0.0014852457)48.4:0.0026910146,GCA_025002605.1:0.0069516349)94.7:0.0574590549,GCA_034008295.1:0.0425870695)44.2:0.0155850572)38.8:0.0102851338,(GCA_001729765.1:0.0745663072,(GCA_003594915.1:0.0403393684,(GCA_019046905.1:0.0290498991,GCA_026344075.1:0.0218058125)55.1:0.0168813448)55.5:0.0241519902)43.1:0.0200574304)40.8:0.0143346898,(GCA_004193715.1:0.0274118119,(GCA_023023105.1:0.0078780717,(GCA_036669895.1:0.0000404749,GCA_041937165.1:0.0000388467)100:0.0085185198)72.9:0.0149635320)74.5:0.0620986095)48:0.0150649271)29.2:0.0115067020,((GCA_001750725.1:0.0046188255,GCA_020783215.1:0.0042523519)35:0.0005334385,(GCA_020099215.1:0.0045024846,GCA_029718255.1:0.0046338604)33.1:0.0005310296)96.2:0.1024342431)79.4:0.0772028815,GCA_009660455.1:0.0257686548)86.9:0.0250950136,GCA_020882135.1:0.0041901839)42.9:0.0019397715,GCA_046015545.2:0.0047459702);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/concordance-panel/distance.scf-20260923.treefile -p results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/concordance-panel/distance.scf-20260923.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/alignment.fna --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/alignment.fna --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 24 00:11:46 2026
+Total CPU time used: 9594.99 seconds (2h:39m:54s)
+Total wall-clock time used: 4618.9 seconds (1h:16m:58s)
+

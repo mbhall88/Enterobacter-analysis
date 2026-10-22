@@ -1,0 +1,8 @@
+accession	current_ncbi	ncbi_date	historical_kraken_chromosome	historical_kraken_whole	gtdb_r232_species	gtdb_match_basis	gtdb_matched_accession
+GCA_013635495.1	Enterobacter hormaechei	2026-09-23	Enterobacter hoffmannii	Enterobacter hoffmannii	s__Enterobacter intestinihominis	gca_gcf_alias	GCF_013635495.1
+GCA_039734725.2	Enterobacter hormaechei	2026-09-23	Enterobacter hormaechei_B	Enterobacter hormaechei_B	s__Enterobacter hormaechei_C	different_version	GCF_039734725.1
+GCA_044792965.1	Enterobacter hormaechei	2026-09-23	Enterobacter hoffmannii	Enterobacter asburiae_F	s__Enterobacter intestinihominis	gca_gcf_alias	GCF_044792965.1
+GCA_050161365.1	Enterobacter hormaechei	2026-09-23	Enterobacter hoffmannii	Enterobacter hoffmannii	s__Enterobacter intestinihominis	gca_gcf_alias	GCF_050161365.1
+GCA_050165125.1	Enterobacter hormaechei	2026-09-23	Enterobacter hoffmannii	Enterobacter hoffmannii	s__Enterobacter intestinihominis	gca_gcf_alias	GCF_050165125.1
+GCA_050165795.1	Enterobacter hormaechei	2026-09-23	Enterobacter hoffmannii	Enterobacter hoffmannii	s__Enterobacter intestinihominis	gca_gcf_alias	GCF_050165795.1
+GCA_050166045.1	Enterobacter hormaechei	2026-09-23	Enterobacter hoffmannii	Enterobacter hoffmannii	s__Enterobacter intestinihominis	gca_gcf_alias	GCF_050166045.1

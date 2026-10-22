@@ -1,0 +1,52 @@
+{
+  "frozen_at_utc": "2026-09-23T01:41:50.039795+00:00",
+  "manifest_prefix": "full",
+  "frozen_tiers": [
+    "tier_1_ani_cannot_decide",
+    "tier_2_boundary_context",
+    "tier_3_group_representation"
+  ],
+  "candidate_union": 1092,
+  "excluded": 3,
+  "tips": 1089,
+  "tips_by_panel_scope": {
+    "core": 1089
+  },
+  "tips_by_ingroup_status": {
+    "declared_out_of_genus_context": 13,
+    "ingroup": 1073,
+    "outgroup": 2,
+    "restricted_context": 1
+  },
+  "tips_by_role": {
+    "boundary_addition": 328,
+    "outgroup": 2,
+    "study_genome": 1071,
+    "type_anchor": 33
+  },
+  "folded_identical_submissions": {},
+  "sequence_scope": "chromosome_only",
+  "marker_qc_screened": 1089,
+  "marker_qc_not_screened": 0,
+  "input_sha256": {
+    "results/full-cohort/2026-09-22/task11-opus-full/freeze-1089/inputs-derivation/full-study-membership.tsv": "d4eddfaa0fa135ef015e4b82733b8d3b5853838aa71038dd938be155489f6cf4",
+    "manifests/pilot-boundary-additions.tsv": "1fd6259dc2ae86e7ea3ba3a254ed144759633665fd763f4b1599fde4b9ff483e",
+    "manifests/types.tsv": "ae0025cbdf494284ec60bc37e8ce58dddbae2592fb4332c330bfbf0c1bddba39",
+    "manifests/outgroups.tsv": "1c8ceb6703ba01d9de020d22f786c600006a07aa9729a17c5ec070091646d23e",
+    "manifests/exclusions.tsv": "4ba3b079e7fb7aa0605202eee6d99f9acd3156ba930fa71f88fa297304db8800",
+    "results/full-cohort/2026-09-22/task11-opus-full/freeze-1089/inputs-derivation/full-dispositions.tsv": "00a456938361401398e88cdb060e09707b634611376b95a66c5d735bda303adb",
+    "manifests/study-candidates.tsv": "194c686a54a6781f7b8c0b0f9aecad14fbaa01474f6f05d1632462d7b3a71bbc",
+    "results/ani-screen/2026-09-17/task04-opus-type-anchored/inputs/study-chromosome-index.tsv": "0f5df494236d0d947a7133122d1da6a37d37774e38b337ed5abb41bb308ff9b3",
+    "results/ani-screen/2026-09-17/task04-opus-type-anchored/inputs/type-sequences/type-reference-sequence-scopes.tsv": "2f4eda2f269f637a6a24a26eeac1dc2934c22eb684a04c025954788d3580772c",
+    "results/phylogeny-inputs/2026-09-18/task06-opus-freeze/outgroup-selection/sequences/outgroup-sequence-scopes.tsv": "277b0e147b628293c450dc909dad91bee5884a341c474625a71e077d1650426c",
+    "${PROJECT_ROOT}/scripts/freeze_phylogeny_inputs.py": "45efd46b7d2894655d9dc58d8e54f234e5593cb515e97f8cec6717b4b26008ca",
+    "results/gtdb-context/2026-09-18/task05-opus-membership-subtree/tables/gtdb-membership.tsv": "08fd396e9a1562965d868615708696aefda77cae24f43d682e1f24abe27e2394"
+  },
+  "manifests_written": true,
+  "manifest_sha256": {
+    "manifests/full.tsv": "5588b905daae3745a26db9a45b75bac690fae9a4bec06b8d1a3bea983f152315",
+    "manifests/full.list": "c08b7269ae0974e985a3d3049e9b492a5f2efa7fc126fb7839099ec8efc9c1f1",
+    "manifests/full.batch.tsv": "b74a02040c6c7ee8cf04fc39cf9d33d9fba87968dc974ea0d76fe79a382b690c",
+    "manifests/full.ids.txt": "9f5144bad4f1f1d068a2220f5395c6be20b47ac3ec334571ba737aeacccfb943"
+  }
+}

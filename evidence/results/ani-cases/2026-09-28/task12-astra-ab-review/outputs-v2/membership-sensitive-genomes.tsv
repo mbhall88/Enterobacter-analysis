@@ -1,0 +1,8 @@
+accession	union_group	in_all_three	bac120_fasttree	verticall_fastme	mashtree_consensus	best_A_type	best_A_ani	best_A_min_af	passing_A_types	best_B_type	best_B_ani	best_B_min_af	passing_B_types	best_H_type	best_H_ani	best_H_min_af	passing_H_types	A_minus_B_best_ani	archived_label
+GCA_013635495.1	A	False	outside_minimal_type_clades	A	A	GCA_001729745.1	99.03	86.94	3	GCA_001729785.1	96.03	82.02	3	GCA_019048245.1	94.31	70.39	0	3.0	Enterobacter hormaechei subsp hoffmannii
+GCA_039734725.2	B	False	B	outside_minimal_type_clades	outside_minimal_type_clades	GCA_001729745.1	95.11	84.87	2	GCA_001729725.1	96.53	87.58	3	GCA_019048245.1	94.31	73.13	0	-1.4200000000000017	Enterobacter hormaechei ?
+GCA_044792965.1	A	False	A	A	outside_minimal_type_clades	GCA_001729745.1	99.03	91.1	3	GCA_001729785.1	96.03	86.04	3	GCA_019048245.1	94.32	74.78	0	3.0	Enterobacter hormaechei subsp hoffmannii
+GCA_050161365.1	A	False	outside_minimal_type_clades	A	A	GCA_001729745.1	99.09	91.16	3	GCA_001729705.1	95.74	86.3	3	GCA_019048245.1	94.05	73.49	0	3.3500000000000085	Enterobacter hormaechei subsp hoffmannii
+GCA_050165125.1	A	False	outside_minimal_type_clades	A	A	GCA_001729745.1	99.09	91.17	3	GCA_001729705.1	95.74	86.31	3	GCA_019048245.1	94.05	73.49	0	3.3500000000000085	Enterobacter hormaechei subsp hoffmannii
+GCA_050165795.1	A	False	outside_minimal_type_clades	A	A	GCA_001729745.1	99.09	91.15	3	GCA_001729705.1	95.74	86.3	3	GCA_019048245.1	94.05	73.49	0	3.3500000000000085	Enterobacter hormaechei subsp hoffmannii
+GCA_050166045.1	A	False	outside_minimal_type_clades	A	A	GCA_001729745.1	99.09	91.16	3	GCA_001729705.1	95.74	86.3	3	GCA_019048245.1	94.05	73.49	0	3.3500000000000085	Enterobacter hormaechei subsp hoffmannii

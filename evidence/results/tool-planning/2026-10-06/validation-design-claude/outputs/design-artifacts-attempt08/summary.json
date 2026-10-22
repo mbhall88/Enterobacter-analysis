@@ -1,0 +1,266 @@
+{
+  "cohort_tree_tips": {
+    "by_kind": {
+      "named": 1062,
+      "unassigned_or_context": 27
+    },
+    "by_role": {
+      "outgroup": 2,
+      "study": 1056,
+      "study_context": 15,
+      "type_anchor_nonstudy": 16
+    },
+    "named_species": 24,
+    "tips": 1089,
+    "unassigned_by_status": {
+      "outgroup|retained_context_restriction|": 2,
+      "study_context|approved_review_treatment|Lelliottia nimipressuralis": 1,
+      "study_context|retained_context_restriction|": 14,
+      "study|approved_review_treatment|": 2,
+      "study|approved_review_treatment|Enterobacter sp.": 7,
+      "study|excluded_or_restricted_analysis_scope|": 1
+    }
+  },
+  "expert_options": {
+    "random-n100": {
+      "by_kind": {
+        "broader": 52,
+        "combination_change": 12,
+        "equivalent": 27,
+        "unnamed": 9
+      },
+      "by_name": {
+        "Enterobacter asburiae": 5,
+        "Enterobacter bugandensis": 2,
+        "Enterobacter cloacae": 4,
+        "Enterobacter cloacae complex sp.": 3,
+        "Enterobacter cloacae subsp. cloacae": 2,
+        "Enterobacter hormaechei": 52,
+        "Enterobacter hormaechei subsp. oharae": 1,
+        "Enterobacter hormaechei subsp. steigerwaltii": 9,
+        "Enterobacter hormaechei subsp. xiangfangensis": 2,
+        "Enterobacter kobei": 4,
+        "Enterobacter ludwigii": 3,
+        "Enterobacter mori": 1,
+        "Enterobacter roggenkampii": 5,
+        "Enterobacter soli": 1,
+        "Enterobacter sp.": 6
+      },
+      "distinct_components": 66,
+      "max_per_component": 10,
+      "moderate_or_unreported": 26,
+      "name_groups": 15,
+      "project_species_expected": 10,
+      "selected": 100
+    },
+    "stratified-n100": {
+      "by_kind": {
+        "broader": 13,
+        "combination_change": 13,
+        "equivalent": 51,
+        "outside_genus": 2,
+        "unnamed": 21
+      },
+      "by_name": {
+        "Enterobacter asburiae": 6,
+        "Enterobacter bugandensis": 4,
+        "Enterobacter cancerogenus": 1,
+        "Enterobacter chengduensis": 1,
+        "Enterobacter chuandaensis": 1,
+        "Enterobacter cloacae": 7,
+        "Enterobacter cloacae complex sp.": 3,
+        "Enterobacter cloacae subsp. cloacae": 2,
+        "Enterobacter cloacae subsp. dissolvens": 1,
+        "Enterobacter hormaechei": 13,
+        "Enterobacter hormaechei subsp. hoffmannii": 2,
+        "Enterobacter hormaechei subsp. hormaechei": 1,
+        "Enterobacter hormaechei subsp. oharae": 2,
+        "Enterobacter hormaechei subsp. steigerwaltii": 3,
+        "Enterobacter hormaechei subsp. xiangfangensis": 4,
+        "Enterobacter huaxiensis": 1,
+        "Enterobacter intestinihominis": 1,
+        "Enterobacter kobei": 6,
+        "Enterobacter ludwigii": 5,
+        "Enterobacter mori": 3,
+        "Enterobacter oligotrophicus": 1,
+        "Enterobacter pseudoroggenkampii": 1,
+        "Enterobacter quasihormaechei": 1,
+        "Enterobacter quasiroggenkampii": 1,
+        "Enterobacter roggenkampii": 6,
+        "Enterobacter sichuanensis": 1,
+        "Enterobacter soli": 1,
+        "Enterobacter sp.": 18,
+        "Enterobacter wuhouensis": 1,
+        "Lelliottia nimipressuralis": 1,
+        "Lelliottia sp.": 1
+      },
+      "distinct_components": 92,
+      "max_per_component": 6,
+      "moderate_or_unreported": 41,
+      "name_groups": 31,
+      "project_species_expected": 19,
+      "selected": 100
+    }
+  },
+  "inputs": {
+    "${PROJECT_ROOT}/results/ani-cases/2026-09-23/task12-astra-evidence/skani/pairs-complete.tsv": "5dcf3bbba6a812b31eac9301bc838bf33b50b059fbe7ed179dbd5bb192273409",
+    "${PROJECT_ROOT}/results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv": "440fcd0c24c9d369900876812196100cd3a7cc9e2744c6a6183f89dd9c5bd3d6",
+    "${PROJECT_ROOT}/results/tool-planning/2026-10-04/balanced-marker-discovery-astra/design-v2/split-manifest.tsv": "97dc8164d739cf2ce2a63d966a47e8c56f266a8495c704b6beda1ef0ad3780c0",
+    "${PROJECT_ROOT}/results/tool-planning/2026-10-06/portable-reference-package-astra/relocated-package/portable.json": "12aa0705b774de8ea262869fdc4c85d513c3aa97d39c674f08e85d1c9055b88f",
+    "${PROJECT_ROOT}/results/tool-planning/2026-10-06/prospective-confirmation-astra/inputs/execution-freeze/design/remaining-reserve-metadata.tsv": "f70d35ff981cf2f67b0acd6dd145660a193bf3fc07ee1332f7b1df7e3dcd0255",
+    "${PROJECT_ROOT}/results/tool-planning/2026-10-06/validation-design-claude/outputs/exposure-audit-attempt03/reserve-exposure-dispositions.tsv": "71d0d86bc1c291b70f062ef0701ee0174a305fd7c88901e8bc0a6a3c6914da81"
+  },
+  "labelling_comparators": {
+    "by_kind": {
+      "named": 1062,
+      "unassigned_or_context": 24
+    },
+    "genomes": 1086
+  },
+  "layer1": {
+    "all_nonreference": {
+      "clone_blocks": 410,
+      "genomes": 946,
+      "named_sharing_clone_block_with_reference": 354,
+      "named_sharing_split_block_with_reference": 721,
+      "named_species": 17,
+      "named_with_subspecies": 689,
+      "split_blocks": 176,
+      "strata": {
+        "context_or_unnamed_challenge": 24,
+        "named_below_development_QC_gate": 295,
+        "named_high_QC": 627
+      }
+    },
+    "development_nonreference": {
+      "clone_blocks": 371,
+      "genomes": 894,
+      "named_sharing_clone_block_with_reference": 354,
+      "named_sharing_split_block_with_reference": 721,
+      "named_species": 16,
+      "named_with_subspecies": 670,
+      "split_blocks": 140,
+      "strata": {
+        "context_or_unnamed_challenge": 20,
+        "named_below_development_QC_gate": 288,
+        "named_high_QC": 586
+      }
+    },
+    "internal_reserve": {
+      "clone_blocks": 39,
+      "genomes": 52,
+      "named_sharing_clone_block_with_reference": 0,
+      "named_sharing_split_block_with_reference": 0,
+      "named_species": 13,
+      "named_with_subspecies": 19,
+      "split_blocks": 36,
+      "strata": {
+        "context_or_unnamed_challenge": 4,
+        "named_below_development_QC_gate": 7,
+        "named_high_QC": 41
+      }
+    },
+    "named_label_status": {
+      "approved_review_treatment": 836,
+      "source_name_retained_not_individually_adjudicated": 86
+    },
+    "references_among_layer1": 0,
+    "reserve_development_blocks_shared": 0,
+    "rule_design_genomes": [
+      "GCA_030406505.2",
+      "GCA_900322715.1",
+      "GCA_900322725.1"
+    ],
+    "saved_pairs_ani_class": {
+      "all": {
+        "multiple": 128,
+        "none": 1,
+        "sole_species_is_label": 793
+      },
+      "development": {
+        "multiple": 124,
+        "none": 1,
+        "sole_species_is_label": 749
+      },
+      "internal_reserve": {
+        "multiple": 4,
+        "sole_species_is_label": 44
+      }
+    }
+  },
+  "layer3": {
+    "common_name_groups": [
+      "Enterobacter asburiae",
+      "Enterobacter bugandensis",
+      "Enterobacter cloacae",
+      "Enterobacter cloacae subsp. cloacae",
+      "Enterobacter hormaechei",
+      "Enterobacter hormaechei subsp. hoffmannii",
+      "Enterobacter hormaechei subsp. oharae",
+      "Enterobacter hormaechei subsp. steigerwaltii",
+      "Enterobacter hormaechei subsp. xiangfangensis",
+      "Enterobacter kobei",
+      "Enterobacter ludwigii",
+      "Enterobacter mori",
+      "Enterobacter roggenkampii"
+    ],
+    "effective_assemblies": 4821,
+    "effective_by_kind": {
+      "broader": 2574,
+      "combination_change": 608,
+      "equivalent": 1205,
+      "outside_genus": 2,
+      "unnamed": 432
+    },
+    "effective_by_level": {
+      "Chromosome": 13,
+      "Contig": 3523,
+      "Scaffold": 1285
+    },
+    "effective_by_qc_stratum": {
+      "fragmented_high_quality": 179,
+      "high_quality": 3505,
+      "moderate_quality_stress": 581,
+      "unreported_quality_stress": 556
+    },
+    "effective_components": 788,
+    "effective_name_forms": 31,
+    "held_assemblies": 36,
+    "largest_effective_component_sizes": [
+      522,
+      374,
+      308
+    ],
+    "largest_effective_components": [
+      "PRV-10022134836e8ed2",
+      "PRV-c20e57e7ee16cdd0",
+      "PRV-c28cd9dd478bb0ee"
+    ],
+    "outside_genus": [
+      "Lelliottia nimipressuralis",
+      "Lelliottia sp."
+    ],
+    "rare_name_groups": [
+      "Enterobacter cancerogenus",
+      "Enterobacter chengduensis",
+      "Enterobacter chuandaensis",
+      "Enterobacter cloacae subsp. dissolvens",
+      "Enterobacter hormaechei subsp. hormaechei",
+      "Enterobacter huaxiensis",
+      "Enterobacter intestinihominis",
+      "Enterobacter oligotrophicus",
+      "Enterobacter pseudoroggenkampii",
+      "Enterobacter quasihormaechei",
+      "Enterobacter quasiroggenkampii",
+      "Enterobacter sichuanensis",
+      "Enterobacter soli",
+      "Enterobacter wuhouensis"
+    ],
+    "reserve_assemblies": 4857,
+    "reserve_components": 803,
+    "sample_eligible": 4821
+  },
+  "seed": "Enterobacter-validation-expert-20261006-v1",
+  "sequence_files_read": 0,
+  "source_sha256": "0d140649435da1d2b6e26f3858634a05073b7563660641a2656a5774e8e0aa57"
+}

@@ -1,0 +1,21 @@
+{
+ "mode": "core",
+ "ids": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/subset/subset.ids.txt",
+ "taxa": 234,
+ "core_genes_listed": 3155,
+ "genes_in_concatenation": 3112,
+ "loci_included": 3112,
+ "concatenated_columns": 3164111,
+ "positions": {
+  "reference": "GCA_001750725.1",
+  "reference_length": 4857439,
+  "placed": 3042,
+  "genes": 3155
+ },
+ "rule": {
+  "min_informative": 1,
+  "min_taxa_fraction": 0.8
+ },
+ "loci.nex_sha256": "dfa5cc95193405d29b6d3219b9823325046c7186d2e7ba79020f20e2376e0058",
+ "alignment.fna_sha256": "cc6a3f1751523bcd4d42f59c748b25380af492f93568b7b0d7555601f1429e0c"
+}

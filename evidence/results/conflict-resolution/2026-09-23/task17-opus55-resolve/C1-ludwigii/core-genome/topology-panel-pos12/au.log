@@ -1,0 +1,216 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    bun151 (AVX512, FMA3, 3022 GB RAM)
+Command: ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/iqtree3 -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/alignment.fna -st DNA -p results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/partition-pos12.nex -T 16 --seed 20260923 --keep-ident -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/ml.treefile --tree-fix --trees results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/candidates.nwk --test 10000 --test-au --test-weight --prefix results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/au
+Seed:    20260923 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 23 18:10:40 2026
+Kernel:  AVX+FMA - 16 threads (16 CPU cores detected)
+
+Reading partition model file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/partition-pos12.nex ...
+Reading alignment file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/alignment.fna ... Fasta format detected
+Reading fasta file: done in 0.773228 secs using 87.7% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 2.18886 secs using 64.03% CPU
+WARNING: 34502 sites contain only gaps or ambiguous characters.
+Alignment has 32 sequences with 3242873 columns, 544350 distinct patterns
+789560 parsimony-informative, 282078 singleton sites, 2171235 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0258489 secs using 1206% CPU
+   1  GCA_000025565.1    2.85%    failed      0.00%
+   2  GCA_000982825.1   62.11%    failed      0.00%
+   3  GCA_001039365.2    2.38%    failed      0.00%
+   4  GCA_001521715.1    5.69%    failed      0.00%
+   5  GCA_001729765.1    5.04%    failed      0.00%
+   6  GCA_001729805.1    2.78%    failed      0.00%
+   7  GCA_001750725.1    4.39%    failed      0.00%
+   8  GCA_001984825.2    3.34%    failed      0.00%
+   9  GCA_002939185.1    2.61%    failed      0.00%
+  10  GCA_003594915.1    2.75%    failed      0.00%
+  11  GCA_004193715.1    2.82%    failed      0.00%
+  12  GCA_008364555.1    2.89%    failed      0.00%
+  13  GCA_008364625.2    2.75%    failed      0.00%
+  14  GCA_009036245.1    2.41%    failed      0.00%
+  15  GCA_009660455.1    2.14%    failed      0.00%
+  16  GCA_019046905.1    2.59%    failed      0.00%
+  17  GCA_019048125.1   52.63%    failed      0.00%
+  18  GCA_020099215.1    2.09%    failed      0.00%
+  19  GCA_020783215.1    2.03%    failed      0.00%
+  20  GCA_020882135.1    2.33%    failed      0.00%
+  21  GCA_023023105.1    4.19%    failed      0.00%
+  22  GCA_025002605.1    2.24%    failed      0.00%
+  23  GCA_026344075.1    2.69%    failed      0.00%
+  24  GCA_026420145.1    2.12%    failed      0.00%
+  25  GCA_029718255.1    2.07%    failed      0.00%
+  26  GCA_034008275.1    2.97%    failed      0.00%
+  27  GCA_034008295.1    2.17%    failed      0.00%
+  28  GCA_036669895.1    3.23%    failed      0.00%
+  29  GCA_041937165.1    3.01%    failed      0.00%
+  30  GCA_042434935.1    2.30%    failed      0.00%
+  31  GCA_046015545.2    3.12%    failed      0.00%
+  32  GCA_905330125.2    2.38%    failed      0.00%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              6.28%  32 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Loading 2 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	32	1080307	97954	902783	GTR+F+R4	pos1
+2	DNA	32	1080307	49971	979515	GTR+F+R4	pos2
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions and number of threads is changed to 2
+
+Note: For long partitions, you can use --parallel-over-sites option to force
+      multi-threading strategy over alignment sites and utilise all the threads.
+      However, parallelisation over sites will have adverse effect on short partitions.
+Reading input tree file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/ml.treefile ...
+
+NOTE: 475 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -6303629.915
+Current log-likelihood at step 1: -5927234.550
+Current log-likelihood at step 2: -5905761.404
+Current log-likelihood at step 3: -5897158.200
+Current log-likelihood at step 4: -5895260.602
+Current log-likelihood at step 5: -5894159.922
+Current log-likelihood at step 6: -5893013.015
+Current log-likelihood at step 7: -5891972.044
+Current log-likelihood at step 8: -5890955.219
+Current log-likelihood at step 9: -5890221.254
+Current log-likelihood at step 10: -5889668.175
+Current log-likelihood at step 11: -5889191.566
+Current log-likelihood at step 12: -5888829.692
+Current log-likelihood at step 13: -5888510.707
+Current log-likelihood at step 14: -5888229.234
+Current log-likelihood at step 15: -5887999.411
+Current log-likelihood at step 16: -5887812.033
+Current log-likelihood at step 17: -5887665.459
+Current log-likelihood at step 18: -5887548.707
+Current log-likelihood at step 19: -5887451.414
+Current log-likelihood at step 20: -5887367.920
+Current log-likelihood at step 21: -5887289.536
+Current log-likelihood at step 22: -5887212.956
+Current log-likelihood at step 23: -5887138.100
+Current log-likelihood at step 24: -5887064.691
+Current log-likelihood at step 25: -5886993.225
+Current log-likelihood at step 26: -5886923.966
+Current log-likelihood at step 27: -5886857.414
+Current log-likelihood at step 28: -5886794.234
+Current log-likelihood at step 29: -5886734.288
+Current log-likelihood at step 30: -5886678.581
+Current log-likelihood at step 31: -5886627.134
+Current log-likelihood at step 32: -5886579.868
+Current log-likelihood at step 33: -5886536.920
+Current log-likelihood at step 34: -5886498.224
+Current log-likelihood at step 35: -5886463.837
+Current log-likelihood at step 36: -5886433.507
+Current log-likelihood at step 37: -5886406.600
+Current log-likelihood at step 38: -5886383.026
+Current log-likelihood at step 39: -5886362.421
+Current log-likelihood at step 40: -5886344.493
+Current log-likelihood at step 41: -5886328.846
+Current log-likelihood at step 42: -5886315.257
+Current log-likelihood at step 43: -5886303.415
+Current log-likelihood at step 44: -5886293.031
+Current log-likelihood at step 45: -5886284.004
+Current log-likelihood at step 46: -5886276.046
+Current log-likelihood at step 47: -5886269.043
+Current log-likelihood at step 48: -5886262.765
+Current log-likelihood at step 49: -5886257.067
+Current log-likelihood at step 50: -5886251.615
+Current log-likelihood at step 51: -5886246.533
+Current log-likelihood at step 52: -5886241.975
+Current log-likelihood at step 53: -5886237.846
+Current log-likelihood at step 54: -5886233.941
+Current log-likelihood at step 55: -5886230.365
+Current log-likelihood at step 56: -5886227.109
+Current log-likelihood at step 57: -5886224.078
+Current log-likelihood at step 58: -5886221.228
+Current log-likelihood at step 59: -5886218.608
+Current log-likelihood at step 60: -5886216.037
+Current log-likelihood at step 61: -5886213.665
+Current log-likelihood at step 62: -5886211.017
+Current log-likelihood at step 63: -5886208.997
+Current log-likelihood at step 64: -5886206.944
+Current log-likelihood at step 65: -5886205.040
+Current log-likelihood at step 66: -5886203.252
+Current log-likelihood at step 67: -5886201.720
+Current log-likelihood at step 68: -5886199.865
+Current log-likelihood at step 69: -5886198.057
+Current log-likelihood at step 70: -5886196.499
+Current log-likelihood at step 71: -5886194.913
+Current log-likelihood at step 72: -5886193.327
+Current log-likelihood at step 73: -5886191.739
+Current log-likelihood at step 74: -5886190.181
+Current log-likelihood at step 75: -5886188.664
+Current log-likelihood at step 76: -5886187.107
+Current log-likelihood at step 77: -5886185.593
+Current log-likelihood at step 78: -5886184.060
+Current log-likelihood at step 79: -5886182.473
+Current log-likelihood at step 80: -5886180.869
+Current log-likelihood at step 81: -5886179.327
+Current log-likelihood at step 82: -5886177.764
+Current log-likelihood at step 83: -5886176.168
+Current log-likelihood at step 84: -5886174.619
+Current log-likelihood at step 85: -5886173.054
+Current log-likelihood at step 86: -5886171.418
+Current log-likelihood at step 87: -5886169.826
+Current log-likelihood at step 88: -5886168.259
+Current log-likelihood at step 89: -5886166.677
+Current log-likelihood at step 90: -5886165.105
+Current log-likelihood at step 91: -5886163.531
+Current log-likelihood at step 92: -5886161.941
+Current log-likelihood at step 93: -5886160.365
+Current log-likelihood at step 94: -5886158.717
+Current log-likelihood at step 95: -5886157.121
+Current log-likelihood at step 96: -5886155.510
+Current log-likelihood at step 97: -5886153.853
+Current log-likelihood at step 98: -5886152.252
+Current log-likelihood at step 99: -5886150.658
+Partition-specific rates:  1.349 0.651
+Parameters optimization took 99 rounds (635.059 sec)
+
+Wrote distance file to... 
+Partition information was printed to results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/au.best_model.nex
+BEST SCORE FOUND : -5886150.658
+Total tree length: 0.627
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 1951.619 sec (0h:32m:31s)
+Total wall-clock time used: 635.425 sec (0h:10m:35s)
+Reading trees in results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/candidates.nwk ...
+
+4 trees detected
+Note: 4370.974 MB of RAM required!
+Creating 10000 bootstrap replicates...
+done
+Tree 1 / LogL: -5886150.606
+Tree 2 / LogL: -5886304.623
+Tree 3 / LogL: -5886150.611
+Tree 4 / LogL: -5896973.821
+Performing RELL-BP test...
+Performing KH and SH test...
+Computing pairwise logl difference variance ...
+Performing WKH and WSH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+3 MB required for AU test
+Generating 10 x 10000 multiscale bootstrap replicates... 362.754 seconds
+TreeID	AU	RSS	d	c
+1	0.523	6.123	-0.040	0.016
+2	0.000	1.317	3.560	0.036
+3	0.486	6.028	0.031	-0.005
+4	0.000	0.642	4.116	0.322
+Time for AU test: 362.755 seconds
+Time for evaluating all trees: 384.997 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/au.iqtree
+  Maximum-likelihood tree:       results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/au.treefile
+  Evaluated user trees:          results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/au.trees
+  Screen log file:               results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/au.log
+
+Date and Time: Wed Sep 23 18:27:47 2026

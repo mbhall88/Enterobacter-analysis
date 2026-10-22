@@ -1,0 +1,16 @@
+{
+ "hypotheses": [
+  "verticall",
+  "marker",
+  "third"
+ ],
+ "references": [
+  "ml",
+  "marker",
+  "third",
+  "verticall"
+ ],
+ "loci": 69,
+ "gene_trees_checked_against_partition_order": 69,
+ "seed": 20260923
+}

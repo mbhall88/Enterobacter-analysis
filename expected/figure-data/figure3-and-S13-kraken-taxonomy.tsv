@@ -1,0 +1,336 @@
+study_assignment	kraken_name	bases	study_group_bases	percent_study_group_bases
+Enterobacter adelaidei	Citrobacter freundii	3030	19933512	0.015200532650744133
+Enterobacter adelaidei	Enterobacter adelaidei	14262981	19933512	71.5527750453608
+Enterobacter adelaidei	Enterobacter cloacae complex	4935	19933512	0.02475730317868723
+Enterobacter adelaidei	Enterobacter cloacae subsp. cloacae	4792737	19933512	24.0436155956863
+Enterobacter adelaidei	Enterobacter kobei	245973	19933512	1.2339672005615467
+Enterobacter adelaidei	Enterobacterales	5357	19933512	0.02687434105941793
+Enterobacter adelaidei	Escherichia coli	602387	19933512	3.0219812745491113
+Enterobacter adelaidei	Gammaproteobacteria	5281	19933512	0.026493073573788703
+Enterobacter adelaidei	Klebsiella pneumoniae	10831	19933512	0.054335633379607166
+Enterobacter asburiae	Citrobacter freundii	158095	447041429	0.03536473126297205
+Enterobacter asburiae	Edwardsiella tarda	4820	447041429	0.0010781998462160427
+Enterobacter asburiae	Enterobacter asburiae	393547951	447041429	88.03388801801634
+Enterobacter asburiae	Enterobacter cloacae complex	96588	447041429	0.021606051192181563
+Enterobacter asburiae	Enterobacter cloacae complex sp. ECL352	9535800	447041429	2.1330908907773733
+Enterobacter asburiae	Enterobacter cloacae complex sp. ECL405	10422052	447041429	2.3313391833310377
+Enterobacter asburiae	Enterobacter cloacae complex sp. ECNIH7	5388828	447041429	1.2054426391876982
+Enterobacter asburiae	Enterobacter hormaechei	493702	447041429	0.11043763910301924
+Enterobacter asburiae	Enterobacter hormaechei subsp. hoffmannii	310156	447041429	0.06937969948194667
+Enterobacter asburiae	Enterobacter hormaechei subsp. xiangfangensis	325460	447041429	0.07280309584013968
+Enterobacter asburiae	Enterobacter kobei	7143	447041429	0.0015978384857927787
+Enterobacter asburiae	Enterobacter roggenkampii	32997	447041429	0.007381195088296839
+Enterobacter asburiae	Enterobacter sp. Crenshaw	9264277	447041429	2.0723531196478886
+Enterobacter asburiae	Enterobacter sp. DNB-S2	4728166	447041429	1.0576572311377432
+Enterobacter asburiae	Enterobacter sp. E20	4763114	447041429	1.065474851101552
+Enterobacter asburiae	Enterobacter sp. ECC-019	86605	447041429	0.0193729248301951
+Enterobacter asburiae	Enterobacter sp. HK169	4551186	447041429	1.0180680591909972
+Enterobacter asburiae	Enterobacteriaceae	31869	447041429	0.007128869481132586
+Enterobacter asburiae	Escherichia coli	2124183	447041429	0.47516468546363744
+Enterobacter asburiae	Klebsiella	4165	447041429	0.0009316809874460204
+Enterobacter asburiae	Klebsiella aerogenes	42731	447041429	0.009558621914659279
+Enterobacter asburiae	Klebsiella oxytoca	2746	447041429	0.0006142607422633306
+Enterobacter asburiae	Klebsiella pneumoniae	530279	447041429	0.11861965482398276
+Enterobacter asburiae	Klebsiella pneumoniae complex	23128	447041429	0.005173569718523783
+Enterobacter asburiae	Klebsiella pneumoniae subsp. pneumoniae	516712	447041429	0.115584813057673
+Enterobacter asburiae	Klebsiella quasipneumoniae	13995	447041429	0.00313058233356712
+Enterobacter asburiae	Klebsiella sp. XY-1	11675	447041429	0.002611614772732842
+Enterobacter asburiae	Pseudomonas aeruginosa	11175	447041429	0.002499768315656489
+Enterobacter asburiae	Salmonella enterica subsp. enterica	8608	447041429	0.001925548605026493
+Enterobacter asburiae	Serratia sp. UGAL515B_01	3223	447041429	0.0007209622623141714
+Enterobacter bugandensis	Enterobacter	4305	126250065	0.0034098992345073247
+Enterobacter bugandensis	Enterobacter bugandensis	120127953	126250065	95.15080487285293
+Enterobacter bugandensis	Enterobacter sp. E12	4918985	126250065	3.89622373659768
+Enterobacter bugandensis	Escherichia coli	1195952	126250065	0.9472882251585375
+Enterobacter bugandensis	Homo sapiens	2870	126250065	0.0022732661563382166
+Enterobacter cancerogenus	Enterobacter cancerogenus	29732899	29732899	100.0
+Enterobacter chengduensis subsp. chengduensis	Enterobacter chengduensis	15827341	15917074	99.43624688809011
+Enterobacter chengduensis subsp. chengduensis	Klebsiella pneumoniae	89733	15917074	0.56375311190989
+Enterobacter chengduensis subsp. rongchengensis	Enterobacter chengduensis	4967054	4967054	100.0
+Enterobacter chuandaensis	Enterobacter chuandaensis	14743817	14882869	99.0656908960228
+Enterobacter chuandaensis	Enterobacter kobei	2495	14882869	0.01676424081942803
+Enterobacter chuandaensis	Enterobacteriaceae	4921	14882869	0.03306486135166546
+Enterobacter chuandaensis	Escherichia coli	4099	14882869	0.027541732712960114
+Enterobacter chuandaensis	Klebsiella ornithinolytica	127537	14882869	0.8569382690931433
+Enterobacter cloacae subsp. cloacae	Citrobacter freundii	6238	212093743	0.0029411522998111263
+Enterobacter cloacae subsp. cloacae	Citrobacter sp. MGH105	4744	212093743	0.00223674679549599
+Enterobacter cloacae subsp. cloacae	Enterobacter cloacae	4324979	212093743	2.0391827400584845
+Enterobacter cloacae subsp. cloacae	Enterobacter cloacae complex sp. ECL404	2054	212093743	0.0009684396960262991
+Enterobacter cloacae subsp. cloacae	Enterobacter cloacae subsp. cloacae	201317956	212093743	94.91932819536312
+Enterobacter cloacae subsp. cloacae	Enterobacter cloacae subsp. dissolvens	4854386	212093743	2.2887926495785402
+Enterobacter cloacae subsp. cloacae	Enterobacter hormaechei subsp. hoffmannii	163703	212093743	0.0771842665815936
+Enterobacter cloacae subsp. cloacae	Enterobacteriaceae	1334	212093743	0.0006289671638262332
+Enterobacter cloacae subsp. cloacae	Escherichia coli	771891	212093743	0.3639386004895015
+Enterobacter cloacae subsp. cloacae	Klebsiella oxytoca	4307	212093743	0.002030705828035672
+Enterobacter cloacae subsp. cloacae	Klebsiella pneumoniae	490826	212093743	0.23141936818004102
+Enterobacter cloacae subsp. cloacae	Klebsiella pneumoniae subsp. pneumoniae	151325	212093743	0.07134816796552079
+Enterobacter cloacae subsp. dissolvens	Enterobacter cloacae complex sp. R_G8	4952526	20179785	24.542015685499127
+Enterobacter cloacae subsp. dissolvens	Enterobacter cloacae subsp. dissolvens	15227259	20179785	75.45798431450088
+Enterobacter hormaechei	Citrobacter freundii	43621	64793546	0.067323063318683
+Enterobacter hormaechei	Enterobacter cloacae	108838	64793546	0.1679766068058692
+Enterobacter hormaechei	Enterobacter cloacae complex	19124	64793546	0.029515285364996074
+Enterobacter hormaechei	Enterobacter hormaechei	815647	64793546	1.2588398850712692
+Enterobacter hormaechei	Enterobacter hormaechei subsp. hoffmannii	1259473	64793546	1.943824775387351
+Enterobacter hormaechei	Enterobacter hormaechei subsp. hormaechei	61317438	64793546	94.6351014651984
+Enterobacter hormaechei	Enterobacter hormaechei subsp. xiangfangensis	111400	64793546	0.171930704332805
+Enterobacter hormaechei	Enterobacter kobei	14970	64793546	0.023104152996966703
+Enterobacter hormaechei	Enterobacteriaceae	1506	64793546	0.002324305572039536
+Enterobacter hormaechei	Escherichia coli	784525	64793546	1.2108073233096395
+Enterobacter hormaechei	Klebsiella pneumoniae	245538	64793546	0.3789544100580635
+Enterobacter hormaechei	Klebsiella pneumoniae subsp. pneumoniae	66546	64793546	0.10270467370314938
+Enterobacter hormaechei	Salmonella enterica subsp. enterica	1697	64793546	0.0026190880184270206
+Enterobacter hormaechei	Serratia sp. UGAL515B_01	3223	64793546	0.0049742608623395915
+Enterobacter huaxiensis	Enterobacter huaxiensis	5037746	5037746	100.0
+Enterobacter kobei	Citrobacter freundii	52060	292243449	0.017813915137581064
+Enterobacter kobei	Enterobacter	4666	292243449	0.0015966140613129706
+Enterobacter kobei	Enterobacter cloacae	363302	292243449	0.12431484820041253
+Enterobacter kobei	Enterobacter cloacae complex	98864	292243449	0.033829329738029476
+Enterobacter kobei	Enterobacter cloacae complex sp. ECL414	4838024	292243449	1.655477314052641
+Enterobacter kobei	Enterobacter cloacae subsp. cloacae	5194790	292243449	1.7775556707175324
+Enterobacter kobei	Enterobacter hormaechei	54700	292243449	0.018717271571757284
+Enterobacter kobei	Enterobacter hormaechei subsp. xiangfangensis	1293	292243449	0.0004424393444658532
+Enterobacter kobei	Enterobacter kobei	255396063	292243449	87.39154423269895
+Enterobacter kobei	Enterobacter ludwigii	10437	292243449	0.003571337539203488
+Enterobacter kobei	Enterobacter roggenkampii	55236	292243449	0.018900680302332457
+Enterobacter kobei	Enterobacter sp. BNK-14	4679171	292243449	1.6011209202502945
+Enterobacter kobei	Enterobacter sp. HNDS-6	4655462	292243449	1.5930081635465505
+Enterobacter kobei	Enterobacter sp. HNGD-822	4981300	292243449	1.7045035627128806
+Enterobacter kobei	Enterobacter sp. ODB01	4534036	292243449	1.5514585581009892
+Enterobacter kobei	Enterobacter sp. T2	4875820	292243449	1.6684103670019306
+Enterobacter kobei	Enterobacterales	1336	292243449	0.00045715310456796585
+Enterobacter kobei	Enterobacteriaceae	22124	292243449	0.0075704006627707165
+Enterobacter kobei	Escherichia coli	1834518	292243449	0.6277362268606405
+Enterobacter kobei	Gammaproteobacteria	575	292243449	0.00019675376880732063
+Enterobacter kobei	Klebsiella pneumoniae	425607	292243449	0.14563440222743881
+Enterobacter kobei	Klebsiella pneumoniae subsp. pneumoniae	158228	292243449	0.054142531010164745
+Enterobacter kobei	Klebsiella quasipneumoniae	3484	292243449	0.0011921567487386175
+Enterobacter kobei	Klebsiella quasipneumoniae subsp. quasipneumoniae	2353	292243449	0.0008051506400063051
+Enterobacter ludwigii	Enterobacter	3875	280452558	0.0013816953668149463
+Enterobacter ludwigii	Enterobacter cloacae complex	3771	280452558	0.0013446124460023644
+Enterobacter ludwigii	Enterobacter cloacae complex sp. FDA-CDC-AR_0132	4971441	280452558	1.7726495473790616
+Enterobacter ludwigii	Enterobacter cloacae complex sp. FDA-CDC-AR_0164	4849791	280452558	1.729273227024729
+Enterobacter ludwigii	Enterobacter kobei	2495	280452558	0.000889633532955688
+Enterobacter ludwigii	Enterobacter ludwigii	245367927	280452558	87.48999429700335
+Enterobacter ludwigii	Enterobacter sp. BNK-18	4675326	280452558	1.6670648445288918
+Enterobacter ludwigii	Enterobacter sp. R-25	4773300	280452558	1.7019990953336215
+Enterobacter ludwigii	Enterobacter sp. RHBSTW-00422	5230289	280452558	1.8649460847492074
+Enterobacter ludwigii	Enterobacter sp. RHBSTW-00593	5018130	280452558	1.7892972828580869
+Enterobacter ludwigii	Enterobacter sp. RHBSTW-00975	4979018	280452558	1.775351252100186
+Enterobacter ludwigii	Enterobacteriaceae	4426	280452558	0.0015781635338123748
+Enterobacter ludwigii	Escherichia coli	324671	280452558	0.11576681714559366
+Enterobacter ludwigii	Klebsiella oxytoca	4307	280452558	0.0015357321148056706
+Enterobacter ludwigii	Klebsiella pneumoniae	102958	280452558	0.036711378471363416
+Enterobacter ludwigii	Klebsiella pneumoniae subsp. pneumoniae	129863	280452558	0.04630480139888758
+Enterobacter ludwigii	Klebsiella quasipneumoniae	4665	280452558	0.001663382938372058
+Enterobacter ludwigii	Lelliottia amnigena	6305	280452558	0.0022481520742627706
+Enterobacter mori	Aeromonas caviae	4898	79438002	0.006165814694080549
+Enterobacter mori	Aeromonas media	38355	79438002	0.04828293642128612
+Enterobacter mori	Aeromonas veronii	46974	79438002	0.05913290719472023
+Enterobacter mori	Enterobacter hormaechei	213376	79438002	0.2686069571588671
+Enterobacter mori	Enterobacter mori	73730426	79438002	92.81505594765588
+Enterobacter mori	Enterobacter roggenkampii	4450	79438002	0.005601852876410462
+Enterobacter mori	Enterobacter sp. HNGD-822	128763	79438002	0.16209244537645848
+Enterobacter mori	Enterobacter sp. IBGEEm25P6	132349	79438002	0.16660665760450521
+Enterobacter mori	Enterobacter sp. JS8-1	5125057	79438002	6.451643887015185
+Enterobacter mori	Escherichia coli	13354	79438002	0.01681059400260344
+Enterobacter oligotrophicus	Enterobacter oligotrophicus	9119057	9119057	100.0
+Enterobacter pasteurii	Enterobacter pasteurii	5061623	5061623	100.0
+Enterobacter pseudoroggenkampii	Enterobacter pseudoroggenkampii	19351103	19351103	100.0
+Enterobacter quasihormaechei	Enterobacter cloacae complex sp.	14004350	14368554	97.46527033965978
+Enterobacter quasihormaechei	Escherichia coli	299117	14368554	2.0817474047840863
+Enterobacter quasihormaechei	Klebsiella pneumoniae	65087	14368554	0.45298225555612626
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter cloacae complex sp. Mu1197	4704681	24441773	19.248525874125416
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter quasiroggenkampii	9439210	24441773	38.61917054871592
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter sp. JBIWA003	5471029	24441773	22.383928530880308
+Enterobacter roggenkampii subsp. quasiroggenkampii	Enterobacter sp. SGAir0187	4826853	24441773	19.748375046278355
+Enterobacter roggenkampii subsp. roggenkampii	Citrobacter freundii	339447	405477557	0.08371536084794948
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter	13470	405477557	0.0033220087690328075
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter cloacae	4509	405477557	0.0011120220890548573
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter cloacae complex	266113	405477557	0.06562952632172439
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter cloacae complex sp. ECL404	3001	405477557	0.0007401149454986975
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei	52363	405477557	0.012913908327606896
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei subsp. hoffmannii	119757	405477557	0.029534803574837558
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter hormaechei subsp. xiangfangensis	465882	405477557	0.11489711130917167
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter kobei	16977	405477557	0.004186914838297697
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter ludwigii	5410	405477557	0.0013342292086464356
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter roggenkampii	400162400	405477557	98.68916123513095
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter sp. fkY84-1	60531	405477557	0.014928323147611349
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacter sp. fkY84-4	168806	405477557	0.041631404028608175
+Enterobacter roggenkampii subsp. roggenkampii	Enterobacteriaceae	41879	405477557	0.010328315162459164
+Enterobacter roggenkampii subsp. roggenkampii	Escherichia coli	2308610	405477557	0.5693558028416354
+Enterobacter roggenkampii subsp. roggenkampii	Klebsiella ornithinolytica	46539	405477557	0.011477577290424486
+Enterobacter roggenkampii subsp. roggenkampii	Klebsiella planticola	2867	405477557	0.0007070674937503385
+Enterobacter roggenkampii subsp. roggenkampii	Klebsiella pneumoniae	630900	405477557	0.1555943082689531
+Enterobacter roggenkampii subsp. roggenkampii	Klebsiella pneumoniae subsp. pneumoniae	581691	405477557	0.14345824817130384
+Enterobacter roggenkampii subsp. roggenkampii	Klebsiella quasipneumoniae	8878	405477557	0.0021895169897159067
+Enterobacter roggenkampii subsp. roggenkampii	Klebsiella quasipneumoniae subsp. quasipneumoniae	160729	405477557	0.03963943188105969
+Enterobacter roggenkampii subsp. roggenkampii	Leclercia adecarboxylata	3906	405477557	0.0009633085561872417
+Enterobacter roggenkampii subsp. roggenkampii	Serratia sp. UGAL515B_01	12892	405477557	0.003179460805521229
+Enterobacter sichuanensis	Citrobacter amalonaticus	4514	24835957	0.018175260973434606
+Enterobacter sichuanensis	Citrobacter sp. RHBSTW-00821	28119	24835957	0.1132189107913176
+Enterobacter sichuanensis	Enterobacter sichuanensis	24729544	24835957	99.57153654276338
+Enterobacter sichuanensis	Enterobacteriaceae	6607	24835957	0.026602558540425883
+Enterobacter sichuanensis	Klebsiella pneumoniae	67173	24835957	0.2704667269314406
+Enterobacter soli	Enterobacter	105360	20455374	0.5150724694645036
+Enterobacter soli	Enterobacter soli	15458695	20455374	75.57278102077234
+Enterobacter soli	Enterobacter sp. CP102	4891319	20455374	23.912146509763154
+Enterobacter sp.	Enterobacter	4305	34456286	0.012494091789231143
+Enterobacter sp.	Enterobacter cloacae	206338	34456286	0.598839933009611
+Enterobacter sp.	Enterobacter cloacae subsp. cloacae	4866809	34456286	14.124589632208185
+Enterobacter sp.	Enterobacter hormaechei	111340	34456286	0.32313407196585264
+Enterobacter sp.	Enterobacter kobei	9296	34456286	0.026979112026177168
+Enterobacter sp.	Enterobacter sp. 155105	4844980	34456286	14.061236895932428
+Enterobacter sp.	Enterobacter sp. ECC-175	4603544	34456286	13.360534562546874
+Enterobacter sp.	Enterobacter sp. ECC-219	5027913	34456286	14.592150181247044
+Enterobacter sp.	Enterobacter sp. ECC-249	4762192	34456286	13.820967239475548
+Enterobacter sp.	Enterobacter sp. JBIWA008	5075449	34456286	14.730110494207066
+Enterobacter sp.	Enterobacter sp. RHBSTW-00994	4888717	34456286	14.188171644500512
+Enterobacter sp.	Klebsiella pneumoniae	55403	34456286	0.16079214109146878
+Enterobacter vonholyi	Enterobacter sp. 18A13	4811855	28188428	17.07032048754191
+Enterobacter vonholyi	Enterobacter sp. IBGEEm25P6	4590029	28188428	16.283380541830855
+Enterobacter vonholyi	Enterobacter sp. JBIWA005	5019735	28188428	17.807786230576603
+Enterobacter vonholyi	Enterobacter sp. N18-03635	4687155	28188428	16.62794037326239
+Enterobacter vonholyi	Enterobacter sp. S-33	4611399	28188428	16.3591917931713
+Enterobacter vonholyi	Enterobacter vonholyi	4468255	28188428	15.851380573616947
+Enterobacter wuhouensis	Enterobacter wuhouensis	9753838	9753838	100.0
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. hoffmannii	209857	4911077	4.273136014768247
+Enterobacter xiangfangensis	Enterobacter hormaechei subsp. xiangfangensis	4701220	4911077	95.72686398523176
+Enterobacter xiangfangensis subsp. hoffmannii	Bacteria	82	873031225	9.392562104522664e-06
+Enterobacter xiangfangensis subsp. hoffmannii	Citrobacter freundii	51949	873031225	0.005950417180095706
+Enterobacter xiangfangensis subsp. hoffmannii	Citrobacter sp. Y3	217397	873031225	0.02490140029069407
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter	247469	873031225	0.02834595062736731
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter cloacae complex	23158	873031225	0.0026525969904455595
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter cloacae complex sp. ECL404	5098972	873031225	0.5840537948685627
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter cloacae complex sp. ECL411	5144944	873031225	0.589319585905991
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hoffmannii subsp. nototheniae	4886614	873031225	0.5597295789735356
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei	12709568	873031225	1.455797643434804
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. hoffmannii	97878157	873031225	11.211300832911217
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. hormaechei	4772538	873031225	0.5466629214779803
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. steigerwaltii	196573	873031225	0.02251614768990651
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter hormaechei subsp. xiangfangensis	718799797	873031225	82.3338016346437
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter intestinihominis	5396182	873031225	0.6180972507598453
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter kobei	77342	873031225	0.008859018759609658
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter ludwigii	229030	873031225	0.026233884131693
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter roggenkampii	103280	873031225	0.011830046514086595
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter sp. DSM 30060	4810361	873031225	0.5509952980204116
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacter sp. JH25	16432	873031225	0.0018821778109941027
+Enterobacter xiangfangensis subsp. hoffmannii	Enterobacteriaceae	68568	873031225	0.007854014614425732
+Enterobacter xiangfangensis subsp. hoffmannii	Escherichia coli	7816125	873031225	0.895285847307466
+Enterobacter xiangfangensis subsp. hoffmannii	Klebsiella michiganensis	99483	873031225	0.011395125071271077
+Enterobacter xiangfangensis subsp. hoffmannii	Klebsiella oxytoca	15571	873031225	0.0017835559088966147
+Enterobacter xiangfangensis subsp. hoffmannii	Klebsiella pasteurii	157412	873031225	0.01803051202435514
+Enterobacter xiangfangensis subsp. hoffmannii	Klebsiella pneumoniae	3554861	873031225	0.40718600872494565
+Enterobacter xiangfangensis subsp. hoffmannii	Klebsiella pneumoniae subsp. pneumoniae	298983	873031225	0.034246541410932925
+Enterobacter xiangfangensis subsp. hoffmannii	Klebsiella quasipneumoniae	4665	873031225	0.0005343451489951004
+Enterobacter xiangfangensis subsp. hoffmannii	Klebsiella quasipneumoniae subsp. quasipneumoniae	4696	873031225	0.0005378959956443711
+Enterobacter xiangfangensis subsp. hoffmannii	Leclercia sp. W17	190697	873031225	0.02184309043470925
+Enterobacter xiangfangensis subsp. hoffmannii	Salmonella enterica subsp. enterica	4096	873031225	0.000469169931464937
+Enterobacter xiangfangensis subsp. hoffmannii	Serratia sp. UGAL515B_01	16115	873031225	0.0018458675404193017
+Enterobacter xiangfangensis subsp. hoffmannii	Xanthomonas oryzae	49381	873031225	0.0056562696254077284
+Enterobacter xiangfangensis subsp. hoffmannii	Yersinia aleksiciae	89940	873031225	0.010302037020497177
+Enterobacter xiangfangensis subsp. hoffmannii	root	787	873031225	9.014568751535777e-05
+Enterobacter xiangfangensis subsp. oharae	Enterobacter cloacae complex sp. EB5	206000	88166146	0.23364977300924553
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei	619828	88166146	0.7030226772076439
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. hoffmannii	1491029	88166146	1.6911581912631182
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. oharae	9451130	88166146	10.719681452334324
+Enterobacter xiangfangensis subsp. oharae	Enterobacter hormaechei subsp. xiangfangensis	75652228	88166146	85.80643640700819
+Enterobacter xiangfangensis subsp. oharae	Enterobacter kobei	14978	88166146	0.016988380097730484
+Enterobacter xiangfangensis subsp. oharae	Enterobacteriaceae	22281	88166146	0.025271604817567957
+Enterobacter xiangfangensis subsp. oharae	Escherichia coli	287999	88166146	0.326654859111115
+Enterobacter xiangfangensis subsp. oharae	Klebsiella	3885	88166146	0.004406453243402519
+Enterobacter xiangfangensis subsp. oharae	Klebsiella pneumoniae	416788	88166146	0.4727302019076574
+Enterobacter xiangfangensis subsp. steigerwaltii	Citrobacter freundii	576884	1309148978	0.044065573108517525
+Enterobacter xiangfangensis subsp. steigerwaltii	Citrobacter koseri	118167	1309148978	0.009026245445382764
+Enterobacter xiangfangensis subsp. steigerwaltii	Citrobacter portucalensis	16620	1309148978	0.001269527019406954
+Enterobacter xiangfangensis subsp. steigerwaltii	Citrobacter sp. Y3	94196	1309148978	0.0071952086113151285
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter cloacae	248031	1309148978	0.018945972090886054
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter cloacae complex	41045	1309148978	0.003135242870731554
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter cloacae complex sp.	169923	1309148978	0.012979653412676765
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter cloacae complex sp. ECL72	4851460	1309148978	0.3705812005759363
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei	16042521	1309148978	1.2254159969255998
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. hoffmannii	24858005	1309148978	1.8987911549971817
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. steigerwaltii	70004913	1309148978	5.347360321584424
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter hormaechei subsp. xiangfangensis	1159915138	1309148978	88.60069843021334
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter kobei	73315	1309148978	0.00560020297399644
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter ludwigii	5410	1309148978	0.0004132455580620711
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter roggenkampii	304567	1309148978	0.023264502750885544
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter sp. AN-K1	4656683	1309148978	0.3557030619321921
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter sp. DTU_2021_1002640_1_SI_PRY_ASU_LCPMC_013	4895951	1309148978	0.3739796678816183
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacter sp. LU1	4636526	1309148978	0.3541633593972832
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacterales	7276	1309148978	0.0005557809021182309
+Enterobacter xiangfangensis subsp. steigerwaltii	Enterobacteriaceae	412118	1309148978	0.03147983972225963
+Enterobacter xiangfangensis subsp. steigerwaltii	Escherichia coli	9455501	1309148978	0.7222631769873329
+Enterobacter xiangfangensis subsp. steigerwaltii	Gammaproteobacteria	10356	1309148978	0.0007910482438615172
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella aerogenes	199999	1309148978	0.015277023727699844
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella grimontii	3497	1309148978	0.00026712009547930917
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella michiganensis	214702	1309148978	0.01640011974252177
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella ornithinolytica	84525	1309148978	0.006456484435341323
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella oxytoca	14971	1309148978	0.0011435673289736166
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella pneumoniae	5593050	1309148978	0.42722792394067777
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella pneumoniae subsp. pneumoniae	1458155	1309148978	0.11138189957781872
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella quasipneumoniae	18660	1309148978	0.0014253534405615981
+Enterobacter xiangfangensis subsp. steigerwaltii	Klebsiella variicola	87597	1309148978	0.006691140693080081
+Enterobacter xiangfangensis subsp. steigerwaltii	Proteus mirabilis	26817	1309148978	0.002048429968678477
+Enterobacter xiangfangensis subsp. steigerwaltii	Salmonella enterica subsp. enterica	1697	1309148978	0.00012962619446050546
+Enterobacter xiangfangensis subsp. steigerwaltii	Serratia sp. SSNIH1	34587	1309148978	0.002641945308076313
+Enterobacter xiangfangensis subsp. steigerwaltii	Serratia sp. UGAL515B_01	16115	1309148978	0.0012309523416211229
+Enterobacter xiangfangensis subsp. xiangfangensis	Acinetobacter baumannii	5281	816683252	0.0006466399288913053
+Enterobacter xiangfangensis subsp. xiangfangensis	Citrobacter freundii	373868	816683252	0.04577882539949527
+Enterobacter xiangfangensis subsp. xiangfangensis	Citrobacter portucalensis	30505	816683252	0.0037352302652583352
+Enterobacter xiangfangensis subsp. xiangfangensis	Citrobacter sp. MGH105	4036	816683252	0.0004941940452575853
+Enterobacter xiangfangensis subsp. xiangfangensis	Citrobacter sp. Y3	41269	816683252	0.005053244314602401
+Enterobacter xiangfangensis subsp. xiangfangensis	Citrobacter werkmanii	10607	816683252	0.0012987899499621426
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter	99302	816683252	0.012159181635819808
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter asburiae	78374	816683252	0.00959662143285877
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter cloacae	163083	816683252	0.019968941398102773
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter cloacae complex	53122	816683252	0.006504602594691143
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter cloacae complex sp. ECL112	4727601	816683252	0.5788781621788419
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei	3817042	816683252	0.467383406069897
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. hoffmannii	9181313	816683252	1.124219576869687
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. steigerwaltii	677604	816683252	0.0829702333604363
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter hormaechei subsp. xiangfangensis	760666685	816683252	93.14096782775705
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter kobei	90713	816683252	0.011107488708486457
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter ludwigii	10822	816683252	0.0013251159459310182
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter roggenkampii	76268	816683252	0.00933874911885667
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter sp. BWH 37	5252915	816683252	0.643201019138813
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter sp. JBIWA003	164736	816683252	0.020171345450830918
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter sp. JJBC	5143310	816683252	0.6297802712868661
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter sp. MGH 14	5266889	816683252	0.644912086430297
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacter sp. MGH 3	5215965	816683252	0.6386766212269528
+Enterobacter xiangfangensis subsp. xiangfangensis	Enterobacteriaceae	123325	816683252	0.015100713734239771
+Enterobacter xiangfangensis subsp. xiangfangensis	Escherichia coli	8118783	816683252	0.9941165047915052
+Enterobacter xiangfangensis subsp. xiangfangensis	Klebsiella pneumoniae	4907915	816683252	0.600956979095734
+Enterobacter xiangfangensis subsp. xiangfangensis	Klebsiella pneumoniae subsp. pneumoniae	2025162	816683252	0.24797398441078844
+Enterobacter xiangfangensis subsp. xiangfangensis	Klebsiella quasipneumoniae	2581	816683252	0.00031603439811938254
+Enterobacter xiangfangensis subsp. xiangfangensis	Klebsiella quasipneumoniae subsp. quasipneumoniae	2348	816683252	0.00028750436527869434
+Enterobacter xiangfangensis subsp. xiangfangensis	Klebsiella variicola	46176	816683252	0.005654089255157151
+Enterobacter xiangfangensis subsp. xiangfangensis	Salmonella enterica subsp. enterica	79317	816683252	0.009712088475643185
+Enterobacter xiangfangensis subsp. xiangfangensis	Serratia sp. UGAL515B_01	9669	816683252	0.0011839351396421192
+Enterobacter xiangfangensis subsp. xiangfangensis	Yersinia rochesterensis	2495	816683252	0.00030550399973183236
+Enterobacter xiangfangensis subsp. xiangfangensis	unclassified Enterobacter cloacae complex	214171	816683252	0.026224487826279067
+Lelliottia nimipressuralis	Enterobacter ludwigii	154491	4684154	3.2981622722053974
+Lelliottia nimipressuralis	Lelliottia sp. AC1	4529663	4684154	96.7018377277946
+Species unassigned	Atlantibacter hermannii	76914	77897390	0.0987375828638161
+Species unassigned	Atlantibacter subterraneus	4919347	77897390	6.315162805839837
+Species unassigned	Cedecea neteri	4811582	77897390	6.176820558429493
+Species unassigned	Citrobacter sp. RHBSTW-00570	49849	77897390	0.06399315817898392
+Species unassigned	Citrobacter sp. Y3	148871	77897390	0.19111166625736756
+Species unassigned	Enterobacter cloacae subsp. dissolvens	9330336	77897390	11.977726082991998
+Species unassigned	Enterobacter hormaechei	3811	77897390	0.004892333363158894
+Species unassigned	Enterobacter kobei	9518536	77897390	12.219325962012334
+Species unassigned	Enterobacter sp. 638	4676461	77897390	6.003360317977277
+Species unassigned	Enterobacter sp. C2	4258836	77897390	5.467238376022611
+Species unassigned	Enterobacter sp. R4-368	5155034	77897390	6.617723649020847
+Species unassigned	Enterobacter sp. SA187	8859577	77897390	11.37339389676599
+Species unassigned	Enterobacter sp. SA197	5015652	77897390	6.438793392179122
+Species unassigned	Escherichia coli	5532807	77897390	7.102685982161918
+Species unassigned	Escherichia fergusonii	1552	77897390	0.0019923645708797176
+Species unassigned	Klebsiella ornithinolytica	4826	77897390	0.006195329522593761
+Species unassigned	Klebsiella planticola	2644	77897390	0.0033942087148234362
+Species unassigned	Klebsiella pneumoniae	100317	77897390	0.1287809514542143
+Species unassigned	Klebsiella quasipneumoniae	74230	77897390	0.09529202454665041
+Species unassigned	Kosakonia oryzendophytica	5132601	77897390	6.588925508287248
+Species unassigned	Kosakonia sp. ML.JS2a	5145523	77897390	6.605513997323915
+Species unassigned	Lelliottia amnigena	2324	77897390	0.00298341189608535
+Species unassigned	Pantoea sp. BRR-3P	4928870	77897390	6.32738786241747
+Species unassigned	Pantoea sp. SS70	146890	77897390	0.18856857720136708

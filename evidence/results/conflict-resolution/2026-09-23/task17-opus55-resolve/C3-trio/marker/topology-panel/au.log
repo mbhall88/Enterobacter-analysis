@@ -1,0 +1,147 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    bun143 (AVX512, FMA3, 1510 GB RAM)
+Command: ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/iqtree3 -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/alignment-panel/alignment.faa -st AA -T 8 --seed 20260923 --keep-ident -m Q.PLANT+F+I+R3 -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/ml.treefile --tree-fix --trees results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/candidates.nwk --test 10000 --test-au --test-weight --prefix results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/au
+Seed:    20260923 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 23 14:51:54 2026
+Kernel:  AVX+FMA - 8 threads (8 CPU cores detected)
+
+Reading alignment file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/alignment-panel/alignment.faa ... Fasta format detected
+Reading fasta file: done in 0.022379 secs using 88.98% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0448517 secs using 134.9% CPU
+Alignment has 53 sequences with 39714 columns, 905 distinct patterns
+344 parsimony-informative, 422 singleton sites, 38948 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.8791e-05 secs using 79.92% CPU
+   1  GCA_001729705.1    0.00%    passed    100.00%
+   2  GCA_001729725.1    0.00%    passed    100.00%
+   3  GCA_001729745.1    0.00%    passed    100.00%
+   4  GCA_001729785.1    0.01%    passed    100.00%
+   5  GCA_003051945.2    0.00%    passed    100.00%
+   6  GCA_004331385.1    0.00%    passed    100.00%
+   7  GCA_009738085.1    0.00%    passed    100.00%
+   8  GCA_012974405.1    0.09%    passed    100.00%
+   9  GCA_013375955.1    0.00%    passed    100.00%
+  10  GCA_013625435.1    0.00%    passed    100.00%
+  11  GCA_013629455.1    0.00%    passed    100.00%
+  12  GCA_013635255.1    0.00%    passed    100.00%
+  13  GCA_013635495.1    0.00%    passed    100.00%
+  14  GCA_013736395.1    0.00%    passed    100.00%
+  15  GCA_013739595.1    0.00%    passed    100.00%
+  16  GCA_013740655.1    0.00%    passed    100.00%
+  17  GCA_013873515.1    0.00%    passed    100.00%
+  18  GCA_016745355.1    0.00%    passed    100.00%
+  19  GCA_019048245.1   11.98%    passed     99.99%
+  20  GCA_019048625.1    0.00%    passed    100.00%
+  21  GCA_021869625.1    0.00%    passed    100.00%
+  22  GCA_023734995.1    0.01%    passed    100.00%
+  23  GCA_023735015.1    0.01%    passed    100.00%
+  24  GCA_027595125.1    0.00%    passed    100.00%
+  25  GCA_029721335.1    0.00%    passed    100.00%
+  26  GCA_029962545.1    5.91%    passed    100.00%
+  27  GCA_030848025.1    0.00%    passed    100.00%
+  28  GCA_031165635.1    0.00%    passed    100.00%
+  29  GCA_035323065.1    0.15%    passed    100.00%
+  30  GCA_035323845.1    0.00%    passed    100.00%
+  31  GCA_036687415.1    0.00%    passed    100.00%
+  32  GCA_038627045.2    0.00%    passed    100.00%
+  33  GCA_038627095.2    1.44%    passed    100.00%
+  34  GCA_040096145.1    0.00%    passed    100.00%
+  35  GCA_041004125.1    0.00%    passed    100.00%
+  36  GCA_041004465.1    0.00%    passed    100.00%
+  37  GCA_044792965.1    0.01%    passed    100.00%
+  38  GCA_050165125.1    0.44%    passed    100.00%
+  39  GCA_050165795.1    0.18%    passed    100.00%
+  40  GCA_050166045.1    0.05%    passed    100.00%
+  41  GCA_050186865.1    0.00%    passed    100.00%
+  42  GCA_050239815.1    0.00%    passed    100.00%
+  43  GCA_050245235.1    0.00%    passed    100.00%
+  44  GCA_050260315.1    0.00%    passed    100.00%
+  45  GCA_050871245.1    0.00%    passed    100.00%
+  46  GCA_051093565.1    0.00%    passed    100.00%
+  47  GCA_052569335.1    0.01%    passed    100.00%
+  48  GCA_052921675.1    0.00%    passed    100.00%
+  49  GCA_052922205.1    0.00%    passed    100.00%
+  50  GCA_053691715.1    0.00%    passed    100.00%
+  51  GCA_900635705.1    0.00%    passed    100.00%
+  52  GCA_905331365.2    0.81%    passed    100.00%
+  53  GCA_905338035.2    0.00%    passed    100.00%
+****  TOTAL              0.40%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/ml.treefile ...
+
+NOTE: 22 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -123872.788
+2. Current log-likelihood: -123739.342
+3. Current log-likelihood: -123700.182
+4. Current log-likelihood: -123662.863
+5. Current log-likelihood: -123622.207
+6. Current log-likelihood: -123578.300
+7. Current log-likelihood: -123531.779
+8. Current log-likelihood: -123484.391
+9. Current log-likelihood: -123439.623
+10. Current log-likelihood: -123402.330
+11. Current log-likelihood: -123376.482
+12. Current log-likelihood: -123361.960
+13. Current log-likelihood: -123352.905
+14. Current log-likelihood: -123343.611
+15. Current log-likelihood: -123333.357
+16. Current log-likelihood: -123322.624
+17. Current log-likelihood: -123312.579
+18. Current log-likelihood: -123304.659
+19. Current log-likelihood: -123299.740
+20. Current log-likelihood: -123297.427
+21. Current log-likelihood: -123296.569
+22. Current log-likelihood: -123296.302
+23. Current log-likelihood: -123296.223
+24. Current log-likelihood: -123296.198
+Optimal log-likelihood: -123296.188
+Proportion of invariable sites: 0.607
+Site proportion and rates:  (0.196,1.145) (0.191,1.233) (0.007,74.358)
+Parameters optimization took 24 rounds (5.106 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -123296.188
+Total tree length: 0.030
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 40.611 sec (0h:0m:40s)
+Total wall-clock time used: 5.120 sec (0h:0m:5s)
+Reading trees in results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/candidates.nwk ...
+
+4 trees detected
+Note: 35.016 MB of RAM required!
+Creating 10000 bootstrap replicates...
+done
+Tree 1 / LogL: -123296.645
+Tree 2 / LogL: -123290.211
+Tree 3 / LogL: -123293.653
+Tree 4 / LogL: -123297.124
+Performing RELL-BP test...
+Performing KH and SH test...
+Computing pairwise logl difference variance ...
+Performing WKH and WSH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+3 MB required for AU test
+Generating 10 x 10000 multiscale bootstrap replicates... 6.662 seconds
+TreeID	AU	RSS	d	c
+1	0.444	12.288	0.364	0.224
+2	0.575	12.034	0.141	0.331
+3	0.473	6.579	0.276	0.209
+4	0.368	9.695	0.817	0.480
+Time for AU test: 6.663 seconds
+Time for evaluating all trees: 7.341 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/au.iqtree
+  Maximum-likelihood tree:       results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/au.treefile
+  Evaluated user trees:          results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/au.trees
+  Screen log file:               results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/topology-panel/au.log
+
+Date and Time: Wed Sep 23 14:52:06 2026

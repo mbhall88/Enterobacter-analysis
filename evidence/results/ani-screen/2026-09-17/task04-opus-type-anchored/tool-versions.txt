@@ -1,0 +1,9 @@
+# Tool versions recorded 17 September 2026, Australia/Brisbane
+host: bun152
+slurm_job: 27989640; allocated CPUs: 8
+python: Python 3.12.11
+skani: skani 0.3.1 (path ${USER_HOME}/sw/miniforge3/envs/LRE/bin/skani)
+ncbi datasets: datasets version: 18.25.1 (path ${USER_HOME}/sw/miniforge3/envs/Cstriatum/bin/datasets)
+csvtk: csvtk v0.36.0
+seqkit: seqkit v2.11.0
+git commit at run time: 34b235d9094db9dc5262b7fdb43fa309373a75dd

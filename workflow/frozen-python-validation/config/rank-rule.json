@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0-development-rank-proposal",
+  "rule_id": "species96-af80_subspecies98-af80-margin1_qualifying-witness",
+  "production_enabled": false,
+  "input_kind": "assembly",
+  "species_ani_percent": "96",
+  "species_both_af_percent": "80",
+  "subspecies_ani_percent": "98",
+  "subspecies_both_af_percent": "80",
+  "subspecies_margin_percentage_points": "1",
+  "require_within_parent_competitor": true,
+  "margin_witness": "same_reference_meets_ANI_AF_and_margin",
+  "competitors": "all_raw_other_groups_including_foreign_parents",
+  "scope_QC_eligibility": "separate_not_established_here"
+}

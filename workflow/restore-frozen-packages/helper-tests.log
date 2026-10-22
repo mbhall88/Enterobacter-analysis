@@ -1,0 +1,16 @@
+test_absolute_tar_header_rejected (test_restore_packages.RestoreTests.test_absolute_tar_header_rejected) ... ok
+test_corrupt_archive_rejected_before_writing (test_restore_packages.RestoreTests.test_corrupt_archive_rejected_before_writing) ... ok
+test_duplicate_target_rejected (test_restore_packages.RestoreTests.test_duplicate_target_rejected) ... ok
+test_exact_restoration_and_receipt (test_restore_packages.RestoreTests.test_exact_restoration_and_receipt) ... ok
+test_existing_output_is_preserved (test_restore_packages.RestoreTests.test_existing_output_is_preserved) ... ok
+test_member_checksum_and_incomplete_marker (test_restore_packages.RestoreTests.test_member_checksum_and_incomplete_marker) ... ok
+test_missing_member_rejected (test_restore_packages.RestoreTests.test_missing_member_rejected) ... ok
+test_original_manifest_identity_checked (test_restore_packages.RestoreTests.test_original_manifest_identity_checked) ... ok
+test_symlink_member_rejected (test_restore_packages.RestoreTests.test_symlink_member_rejected) ... ok
+test_tar_traversal_rejected (test_restore_packages.RestoreTests.test_tar_traversal_rejected) ... ok
+test_target_traversal_rejected_before_writing (test_restore_packages.RestoreTests.test_target_traversal_rejected_before_writing) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.024s
+
+OK

@@ -1,0 +1,15 @@
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+host: bun130
+slurm_job_id: 28874093
+threads: 16
+alignment: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/alignment.fna 890ac308b9be655da25171786f471692abb202d7317751b337c7baccc12049bc
+loci: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/loci.nex 929e968ba4ec6dc079e74c81233e5c969cefd9d65e1abb3496e2063acb5343f0 (3236 loci)
+sCF model: partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/partition-codon3.nex
+sCF quartets: 100
+sCF seeds: 20260923 20260924 20260925
+reference: ml=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/ml.treefile 7392316faa4b1804002d81489e95068d644e7fdb0509cc357497e26b4ef9308a
+reference: distance=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-distance.treefile 3d686c21ff6587be61f2955345cb28eed9ce230c9c3666bcf7b713d5d1d0ba45
+reference: marker_outside=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_outside.treefile 4ca22d4b1fab0430a43028074e848a5bf237599d9c64f2c2d9cf638ad7dfe5a4
+reference: marker_sister=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_sister.treefile aadb60502cbc11a2aeda5db8e9e978c27484a63d1f6ceae35b5f85f03e29201d
+started: 2026-09-23T18:32:05+10:00
+finished: 2026-09-24T10:47:43+10:00

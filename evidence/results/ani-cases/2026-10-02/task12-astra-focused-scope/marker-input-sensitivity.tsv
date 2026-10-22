@@ -1,0 +1,5 @@
+accession	alignment	sites	historical_control_identical	changed_columns	gaps_restored	new_gaps	aa_substitutions
+GCA_001750725.1	primary_fixed_occupancy	39714	True	0	0	0	0
+GCA_001750725.1	canonical	5010	True	0	0	0	0
+GCA_013731155.1	primary_fixed_occupancy	39714	True	3037	3037	0	0
+GCA_013731155.1	canonical	5010	True	472	418	54	0

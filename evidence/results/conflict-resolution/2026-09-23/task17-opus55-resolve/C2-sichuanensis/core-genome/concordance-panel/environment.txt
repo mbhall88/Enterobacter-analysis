@@ -1,0 +1,15 @@
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+host: bun130
+slurm_job_id: 28874094
+threads: 16
+alignment: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/alignment.fna dc6fabc9eb29a5d28fffd41cf92d11b3ffee12c42077e9b4d1dbaa07ce94439b
+loci: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/loci.nex 306c80d5648bd0372426aef351babee6f21abc0ecdca147cb59ea3028825d201 (3197 loci)
+sCF model: partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/partition-codon3.nex
+sCF quartets: 100
+sCF seeds: 20260923 20260924 20260925
+reference: ml=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-pos12/ml.treefile 2ee4a1d49d8a5599eb6d61b3366a20a45dd13c924f0219349678f9459ccc879d
+reference: distance=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-pos12/con-distance.treefile 0fcd07c739d111da108bc6af7815917840bc9e4258dff4431c6bda7f9f226b2f
+reference: marker_chinensis=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-pos12/con-marker_chinensis.treefile 415179f3289c10f9649459f036494028a9a3698c4e14dc4c59de80f57808f556
+reference: marker_sister=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-pos12/con-marker_sister.treefile ba1e0c1101bc6ab429458ca8dc325c187540d7161923e013797a4950d216d7df
+started: 2026-09-23T18:32:05+10:00
+finished: 2026-09-24T10:36:46+10:00

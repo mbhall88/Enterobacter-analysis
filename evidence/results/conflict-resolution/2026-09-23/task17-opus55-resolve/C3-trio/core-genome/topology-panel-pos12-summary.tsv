@@ -1,0 +1,5 @@
+candidate	constrained_to	carries_hypotheses	logL	deltaL	bp-RELL	p-KH	p-SH	p-WKH	p-WSH	c-ELW	p-AU	rejected_by_AU_at_0.05	rejected_by_SH_at_0.05	model	scope
+ml		marker	-4450996.394	0	0.543	0.592	1	0.592	0.804	0.543	1	False	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/partition-pos12.nex	panel
+marker	marker	marker	-4451356.263	359.87	0.0783	0.127	0.177	0.127	0.258	0.0783	0.145	False	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/partition-pos12.nex	panel
+third	third	third	-4451432.937	436.54	0.0124	0.0686	0.102	0.0686	0.168	0.0124	0.0579	False	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/partition-pos12.nex	panel
+verticall	verticall	verticall	-4451043.012	46.618	0.366	0.408	0.652	0.408	0.635	0.366	0.491	False	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/ledger-panel/partition-pos12.nex	panel

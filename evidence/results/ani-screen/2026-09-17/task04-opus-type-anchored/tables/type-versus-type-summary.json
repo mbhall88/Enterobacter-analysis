@@ -1,0 +1,10 @@
+{
+  "type_anchors": 33,
+  "expected_unordered_pairs": 528,
+  "measured_pairs": 528,
+  "unmeasured_pairs": 0,
+  "pairs_at_or_above_95_ani": 21,
+  "pairs_at_or_above_95_ani_and_80_af": 20,
+  "max_ani_between_differently_named_types": 99.12,
+  "note": "every pair joins two distinct validly published names or ranks; none is a self comparison"
+}

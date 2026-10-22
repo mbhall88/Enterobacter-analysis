@@ -1,0 +1,194 @@
+[
+  {
+    "path": "workflow/frozen-python-validation/config/eligibility-config.json",
+    "sha256": "3188518eb7bdaad287e7f335ffb18cadfbb41b46308f018f5b69ff33cab7c626",
+    "bytes": 678,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/config/mlst-config.json",
+    "sha256": "1fce9a33cf423967e0c089830ee3e6549930b5d45761ab95ac662ccd1430a937",
+    "bytes": 3412,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/config/portable.json",
+    "sha256": "12aa0705b774de8ea262869fdc4c85d513c3aa97d39c674f08e85d1c9055b88f",
+    "bytes": 16006,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/config/rank-rule.json",
+    "sha256": "5849c5db6649678963215ca9363a5dfae2ef2b0282d96946aa843814fafa4188",
+    "bytes": 607,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/freeze-hashes.tsv",
+    "sha256": "60e10c5fd87fc41a1a0ab2ed2989ea81b1cfa12ac5ddfc5cdbbf6f1c8fb799aa",
+    "bytes": 8271,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/package-source.tsv",
+    "sha256": "69cb22f0bc89000c27492d9b30b6e36573a551cda75cbc688101f7853c8b4516",
+    "bytes": 2153,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/__init__.py",
+    "sha256": "c5dd80af45a5beb341d8e842b0601c7155149ec4e18e6f1708d92d9a9519308f",
+    "bytes": 131,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/__main__.py",
+    "sha256": "b24974254c47c3c9a73800a1e1c1676578f6be5a5dbaf5330df1493f7952b27d",
+    "bytes": 1494,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/core.py",
+    "sha256": "34b74fee2c71b29b57b7cba516ea240f94f107df9fa60608894be5fdf7be5ee9",
+    "bytes": 4650,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/eligibility.py",
+    "sha256": "9352ed1bccb6e9401407d488afbdd5588373b36e650bfa9f4887c5ed11c62fbf",
+    "bytes": 37472,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/evidence.py",
+    "sha256": "5b40228ee8f320473e90f61a10e9540724b8bebfd688794235356d2093cf5ee6",
+    "bytes": 12885,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/genomovar.py",
+    "sha256": "56741f9f757a5d741408d63f17d85786e7a1a9d673581a78c921cb44ab843767",
+    "bytes": 10272,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/legacy_cli.py",
+    "sha256": "621920f22e8fd312f2cbe727d7a145b89eccfda1776de1546a4134ba9459578c",
+    "bytes": 5766,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/mlst.py",
+    "sha256": "9513e1db0d4a4e3c138b299a2ea2b41dc24363b7b1de9285776c2002a5f2b1ad",
+    "bytes": 23352,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/mlst_runner.py",
+    "sha256": "0637c4c3d271c41418849c437e1594f1a1fe8c4a8e093c62dbcb9a9b1017ce02",
+    "bytes": 12317,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/package_runtime.py",
+    "sha256": "9e5d26c032ad0e62d8f943039023832827c1c4a95316b2e235cbbf767f0cc200",
+    "bytes": 1714,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/portable_reference.py",
+    "sha256": "1ecafd226e4bbd596c22473af2a0b5b51fd0d8b6ee9fa6b00d1c40ecee4745a2",
+    "bytes": 20666,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/quality.py",
+    "sha256": "28f22d357e38f921ed9013772dae624d319dd3cb52d64e1e578c190d3d898b99",
+    "bytes": 5645,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/quality_evidence.py",
+    "sha256": "52e2b56c3cea251201cd25e3275738a27ef9eab732fb2172fa5e80dda9301100",
+    "bytes": 12345,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/quality_runner.py",
+    "sha256": "61ebc3aeeead4718565937772d1502b0281e30a6230b92b0a5d72f7ecdefbc65",
+    "bytes": 17448,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/rank.py",
+    "sha256": "6dcf158e810792834583894e5b802b1100cf90213bc46056d45eaa27354312e7",
+    "bytes": 18843,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/reference_package.py",
+    "sha256": "0455b57743f14acc2e472b0546023528f1fdac63967000d9f403b88a8150a34b",
+    "bytes": 26180,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/reporting.py",
+    "sha256": "9431e0034adf5fe343a5854b10e385986a6df84101531f15d0c69a2ee8b29818",
+    "bytes": 35359,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/scope.py",
+    "sha256": "2d0d13db50b769143bf82a99d65d4674f0b862de23fefa3679f23eb31a08d3fa",
+    "bytes": 7045,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-python-validation/src/enterobacter_classifier/workflow.py",
+    "sha256": "26f06d41647b43b6528e8abe32d6721025d18027fa0d47565e6322a8e2d05304",
+    "bytes": 25972,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-rust-evaluation/Cargo.lock",
+    "sha256": "615f68e78f415d58572c8e76bc982e835c904e6179153d862d488290573dc8ef",
+    "bytes": 51709,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-rust-evaluation/Cargo.toml",
+    "sha256": "aeb43eb65603913e5b0256ae01ee889d4794ce8dd2676d668982c39b75ad2b4b",
+    "bytes": 1884,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-rust-evaluation/LICENSE",
+    "sha256": "a032f9f79e9a5322f4b9520f2a6afd8ea4ed9a93f0ffffa7f383244498fce493",
+    "bytes": 1069,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-rust-evaluation/THIRD-PARTY-LICENSES.md",
+    "sha256": "10b9553141aa3feec328736048782c42105b6138573e75a1f5d6e1dd6289198d",
+    "bytes": 2773,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-rust-evaluation/THIRDPARTY.json",
+    "sha256": "72299079bceb322b65e66fe54358bb4b7a0a98a88d053ecf9675c70f7c11d89a",
+    "bytes": 2096180,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-rust-evaluation/build.rs",
+    "sha256": "8fddacd82ad5de2b5e654643cc908591b010dc614e5f685fe85290a307028ff3",
+    "bytes": 3983,
+    "status": "byte-identical frozen implementation or configuration"
+  },
+  {
+    "path": "workflow/frozen-rust-evaluation/p4b-bindings.json",
+    "sha256": "9eecd3a6c7ca7b0842b2ca9280a183d295ccc63901b6d2686f121984be3cb8d6",
+    "bytes": 25940,
+    "status": "byte-identical frozen implementation or configuration"
+  }
+]

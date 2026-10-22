@@ -1,0 +1,5 @@
+candidate	constrained_to	carries_hypotheses	logL	deltaL	bp-RELL	p-KH	p-SH	p-WKH	p-WSH	c-ELW	p-AU	rejected_by_AU_at_0.05	rejected_by_SH_at_0.05	model	scope
+ml		none_of_the_named	-18091071.81	0	0.726	0.727	1	0.727	0.954	0.726	1	False	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/partition-codon3.nex	panel
+distance	distance	distance	-18091263.36	191.54	0.0014	0.006	0.378	0.006	0.0166	0.00139	0.00559	True	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/partition-codon3.nex	panel
+marker_outside	marker_outside	marker_outside	-18091118.2	46.39	0.273	0.273	0.689	0.273	0.574	0.273	0.274	False	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/partition-codon3.nex	panel
+marker_sister	marker_sister	marker_sister;marker_outside	-18128834.39	37763	0	0	0	0	0	0	2.64e-90	True	True	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/ledger-panel/partition-codon3.nex	panel

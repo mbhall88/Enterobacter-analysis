@@ -1,0 +1,4 @@
+comparison	pairs	min	median	max	ani_ge95	passes_95_80
+boundary-to-A	173	94.87	95.01	95.22	113	109
+boundary-to-B	437	95.7	96.51	96.81	437	432
+boundary-to-H	13	94.31	94.44	94.55	0	0

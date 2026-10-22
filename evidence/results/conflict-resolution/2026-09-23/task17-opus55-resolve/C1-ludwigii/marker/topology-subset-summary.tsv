@@ -1,0 +1,5 @@
+candidate	constrained_to	carries_hypotheses	logL	deltaL	bp-RELL	p-KH	p-SH	p-WKH	p-WSH	c-ELW	p-AU	rejected_by_AU_at_0.05	rejected_by_SH_at_0.05	model	scope
+ml		none_of_the_named	-179355.2157	0	0.735	0.847	1	0.847	0.984	0.734	1	False	False	Q.PLANT+F+R4	subset
+distance	distance	distance	-179443.6976	88.482	0.031	0.0528	0.242	0.0528	0.127	0.0304	0.0784	False	False	Q.PLANT+F+R4	subset
+marker_outside	marker_outside	marker_outside	-179428.7923	73.577	0.116	0.153	0.332	0.153	0.307	0.117	0.214	False	False	Q.PLANT+F+R4	subset
+marker_sister	marker_sister	marker_sister	-179446.9311	91.715	0.118	0.14	0.257	0.14	0.238	0.118	0.194	False	False	Q.PLANT+F+R4	subset

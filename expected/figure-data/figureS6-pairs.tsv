@@ -1,0 +1,11 @@
+figure	display_a	display_b	type_a_accession_version	type_a_taxon	type_b_accession_version	type_b_taxon	ani_percent	af_a_percent	af_b_percent	af_min_percent	type_a_scope_status	type_b_scope_status	at_or_above_95_ani	at_or_above_95_ani_and_80_af
+S6	T12	T04	GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_001729805.1	Enterobacter roggenkampii	95.7000	86.2800	87.3300	86.2800	chromosome_assigned_draft_contigs	assembled_chromosome	True	True
+S6	T12	T30	GCA_001729805.1	Enterobacter roggenkampii	GCA_026420145.1	Enterobacter pseudoroggenkampii	94.0500	83.2000	81.2000	81.2000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S6	T12	T21	GCA_001729805.1	Enterobacter roggenkampii	GCA_008364555.1	Enterobacter vonholyi	94.1800	83.1400	86.0000	83.1400	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S6	T12	T25	GCA_001729805.1	Enterobacter roggenkampii	GCA_019046905.1	Enterobacter bugandensis	91.8200	78.4400	78.8500	78.4400	assembled_chromosome	assembled_chromosome	False	False
+S6	T04	T30	GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_026420145.1	Enterobacter pseudoroggenkampii	94.8500	85.3800	84.3500	84.3500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S6	T04	T21	GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_008364555.1	Enterobacter vonholyi	94.3500	82.0400	85.9000	82.0400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S6	T04	T25	GCA_001039365.2	Enterobacter quasiroggenkampii	GCA_019046905.1	Enterobacter bugandensis	91.6000	75.6600	76.9800	75.6600	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+S6	T30	T21	GCA_008364555.1	Enterobacter vonholyi	GCA_026420145.1	Enterobacter pseudoroggenkampii	94.1800	85.8300	80.9900	80.9900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S6	T30	T25	GCA_019046905.1	Enterobacter bugandensis	GCA_026420145.1	Enterobacter pseudoroggenkampii	91.6500	77.0400	74.8000	74.8000	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S6	T21	T25	GCA_008364555.1	Enterobacter vonholyi	GCA_019046905.1	Enterobacter bugandensis	91.7700	77.5600	75.3700	75.3700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False

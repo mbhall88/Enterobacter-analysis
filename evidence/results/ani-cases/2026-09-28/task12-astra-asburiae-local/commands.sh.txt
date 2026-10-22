@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Executed commands and submitted pipeline. Not a rerun script; preserve all existing outputs.
+# RUN=results/ani-cases/2026-09-28/task12-astra-asburiae-local
+# python scripts/fetch_github_decisions.py --id DEC-004 --output "$RUN/github-start"
+# python "$RUN/scripts/prepare.py" > "$RUN/logs/prepare.stdout"
+# OPENBLAS_NUM_THREADS=1 ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/python "$RUN/scripts/preflight.py" > "$RUN/logs/preflight.stdout" 2> "$RUN/logs/preflight.stderr"
+# OPENBLAS_NUM_THREADS=1 ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/python "$RUN/scripts/prepare_tests.py" > "$RUN/logs/prepare-tests.stdout"
+# OPENBLAS_NUM_THREADS=1 ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/python "$RUN/scripts/test_result_helpers.py" > "$RUN/logs/result-helper-tests.stdout"
+# scripts/submit.py records dry-run and actual submission argv separately under logs/jobs/.
+# Two jobs: bash scripts/local_tree.sh REF (4 CPUs / 16G / 8h).
+# Two dependent jobs: bash scripts/local_tests.sh REF (4 CPUs / 16G / 8h).
+# One after-both job: bash scripts/collect.sh (1 CPU / 16G / 30m).
+# Exact commands, dependency IDs, resources and stdout/stderr paths: logs/jobs/*/argv.json.
+# Per-alignment/tool commands, status and timing: local/REF/logs/ and local/REF/tests/logs/.
+# sacct -j 29025102,29025103,29025286,29025287 --format=JobID,State,Elapsed,AllocCPUS,MaxRSS -P > "$RUN/logs/sacct-initial.txt"

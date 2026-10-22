@@ -1,0 +1,11 @@
+figure	display_a	display_b	type_a_accession_version	type_a_taxon	type_b_accession_version	type_b_taxon	ani_percent	af_a_percent	af_b_percent	af_min_percent	type_a_scope_status	type_b_scope_status	at_or_above_95_ani	at_or_above_95_ani_and_80_af
+S5	T14	T32	GCA_001984825.2	Enterobacter chengduensis	GCA_034008275.1	Enterobacter rongchengensis	95.5500	77.0500	79.6300	77.0500	assembled_chromosome	chromosome_assigned_draft_contigs	True	False
+S5	T14	T25	GCA_001984825.2	Enterobacter chengduensis	GCA_019046905.1	Enterobacter bugandensis	91.6000	69.5900	75.3000	69.5900	assembled_chromosome	assembled_chromosome	False	False
+S5	T14	T29	GCA_001984825.2	Enterobacter chengduensis	GCA_026344075.1	Enterobacter nematophilus	91.4800	68.9900	74.9000	68.9900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S5	T14	T06	GCA_001654845.1	Enterobacter soli	GCA_001984825.2	Enterobacter chengduensis	86.6800	42.6400	41.3700	41.3700	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+S5	T32	T25	GCA_019046905.1	Enterobacter bugandensis	GCA_034008275.1	Enterobacter rongchengensis	91.3300	74.0100	70.6800	70.6800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S5	T32	T29	GCA_026344075.1	Enterobacter nematophilus	GCA_034008275.1	Enterobacter rongchengensis	91.1300	72.9900	69.4800	69.4800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S5	T32	T06	GCA_001654845.1	Enterobacter soli	GCA_034008275.1	Enterobacter rongchengensis	86.9600	43.3500	43.4500	43.3500	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S5	T25	T29	GCA_019046905.1	Enterobacter bugandensis	GCA_026344075.1	Enterobacter nematophilus	95.4600	86.8400	87.1300	86.8400	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+S5	T25	T06	GCA_001654845.1	Enterobacter soli	GCA_019046905.1	Enterobacter bugandensis	87.1400	44.8500	47.0800	44.8500	chromosome_assigned_draft_contigs	assembled_chromosome	False	False
+S5	T29	T06	GCA_001654845.1	Enterobacter soli	GCA_026344075.1	Enterobacter nematophilus	86.7800	43.5400	45.8500	43.5400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False

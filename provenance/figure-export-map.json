@@ -1,0 +1,1178 @@
+[
+  {
+    "source_id": "results/manuscript/2026-10-16/issue29-methods-revision-codex-860c235c/figures.py",
+    "source_sha256": "7aa3e4bdfd2d91f56573685f27ce3c3d6e6293c7a2d1a6e06ae38ad8e3c168ce",
+    "export_path": "workflow/figures/legacy_figures.py",
+    "export_sha256": "4b58c2410320bca60812c1019a917304a2e98e7a9605a9afc19e1237894cdd1f",
+    "bytes": 11606,
+    "transformation": "portable path adapter; dataset-flow receipt skips non-computational documentary files; computation unchanged"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-16/issue29-methods-revision-codex-860c235c/flow_figure.py",
+    "source_sha256": "96582b1763bda0867ad7022bad21187ec380b83dcb496318d1679e605f5c3137",
+    "export_path": "workflow/figures/flow_figure.py",
+    "export_sha256": "96582b1763bda0867ad7022bad21187ec380b83dcb496318d1679e605f5c3137",
+    "bytes": 4747,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-review-v7-codex-0184949d/dataset_flow.py",
+    "source_sha256": "cd66112ea54ad1b71c0db09092d07c11dd28f9c8401b75a2a134060bf8d695d7",
+    "export_path": "workflow/figures/dataset_flow.py",
+    "export_sha256": "2c738afcd8f24f3aca8e78a58a5d51c4f0e542de05932e49698620a05bf5c55e",
+    "bytes": 5969,
+    "transformation": "portable path adapter; dataset-flow receipt skips non-computational documentary files; computation unchanged"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-16/issue29-methods-revision-codex-860c235c/supplement_figures.py",
+    "source_sha256": "be7ee9dd37a92b64c4987896f251edeb31ed1d9d7eeefc6ec03d4e3922f918e9",
+    "export_path": "workflow/figures/supplement_figures.py",
+    "export_sha256": "be7ee9dd37a92b64c4987896f251edeb31ed1d9d7eeefc6ec03d4e3922f918e9",
+    "bytes": 13808,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-16/issue29-results-v5-codex-101ac0c7/v5_figures.py",
+    "source_sha256": "a1ca0aa9e6ec47352c6d2a64f4651a977844a5b147d49f773ddf38da8747689d",
+    "export_path": "workflow/figures/v5_figures.py",
+    "export_sha256": "03f583fb76b293933414e75a2333c4eeeeb8bbdccc282d604a3806d8b8a3ad15",
+    "bytes": 15007,
+    "transformation": "remove documentary-only private contribution hash; computational tree input unchanged"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-review-v7-codex-0184949d/v6_data.py",
+    "source_sha256": "b8b473cb8b60f0efa080052c1ff6c039dd94f9ab7af9f123ac9a0d5d4de0d6ac",
+    "export_path": "workflow/figures/v6_data.py",
+    "export_sha256": "b8b473cb8b60f0efa080052c1ff6c039dd94f9ab7af9f123ac9a0d5d4de0d6ac",
+    "bytes": 3191,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-review-v7-codex-0184949d/v6_figures.py",
+    "source_sha256": "087c6cf9a1cdde44134f7956498066363c41ff701f9448288642b6c5eafa99a3",
+    "export_path": "workflow/figures/v6_figures.py",
+    "export_sha256": "087c6cf9a1cdde44134f7956498066363c41ff701f9448288642b6c5eafa99a3",
+    "bytes": 11390,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-review-v7-codex-0184949d/v7_figure4.py",
+    "source_sha256": "167a6a496002795e702dea5b63cfe977d9f26f480694dbe82430ebd0b6ab442e",
+    "export_path": "workflow/figures/v7_figure4.py",
+    "export_sha256": "167a6a496002795e702dea5b63cfe977d9f26f480694dbe82430ebd0b6ab442e",
+    "bytes": 8828,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-review-v7-codex-0184949d/v7_treefigure.py",
+    "source_sha256": "91ae78d09a6d25d7fda044eff78932194a41f6cfdb8442a773f09ac090ad3bee",
+    "export_path": "workflow/figures/v7_treefigure.py",
+    "export_sha256": "b8af7e940c8bc9bf2f0d960e9b511f9b6791d432d3612634c57989d46bea646f",
+    "bytes": 9797,
+    "transformation": "remove documentary-only private contribution hash; computational tree input unchanged"
+  },
+  {
+    "source_id": "results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv",
+    "source_sha256": "440fcd0c24c9d369900876812196100cd3a7cc9e2744c6a6183f89dd9c5bd3d6",
+    "export_path": "evidence/results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv",
+    "export_sha256": "983d9f12bc10c06b2229ab88363c9130a7671b7779b267e7b837692e7aa25af0",
+    "bytes": 1437876,
+    "transformation": "workspace path prefixes replaced by documented placeholders"
+  },
+  {
+    "source_id": "results/cohort/2026-09-16/task01-final-manifests-opus/count-transitions.tsv",
+    "source_sha256": "44429b57da7755caa8496b46b13f6fb0a2be8358a6a6a3fb132228bb6607b6f1",
+    "export_path": "evidence/results/cohort/2026-09-16/task01-final-manifests-opus/count-transitions.tsv",
+    "export_sha256": "44429b57da7755caa8496b46b13f6fb0a2be8358a6a6a3fb132228bb6607b6f1",
+    "bytes": 9201,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-04/balanced-marker-discovery-astra/design-v2/discovery-panel.tsv",
+    "source_sha256": "6ce753a8f57cb90eb4525fb7784a7a5d0d49c980cbb986ba7359f04e21007d9f",
+    "export_path": "evidence/results/tool-planning/2026-10-04/balanced-marker-discovery-astra/design-v2/discovery-panel.tsv",
+    "export_sha256": "09d7c6a4e90e32520d8b352e15ffe151fa72ea38a2dca37c2994dfacb05e9098",
+    "bytes": 61695,
+    "transformation": "workspace path prefixes replaced by documented placeholders"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-04/balanced-marker-discovery-astra/design-v2/split-manifest.tsv",
+    "source_sha256": "97dc8164d739cf2ce2a63d966a47e8c56f266a8495c704b6beda1ef0ad3780c0",
+    "export_path": "evidence/results/tool-planning/2026-10-04/balanced-marker-discovery-astra/design-v2/split-manifest.tsv",
+    "export_sha256": "d0f65059e841008a7a20a08f96dffd7bfebd9afbaf02bbb2b04430412fa9c37f",
+    "bytes": 487294,
+    "transformation": "workspace path prefixes replaced by documented placeholders"
+  },
+  {
+    "source_id": "results/ani-cases/2026-10-02/task12-astra-genomovars-reporting/outputs/memberships.tsv",
+    "source_sha256": "b70da1c1dc0b4044025d2b012ed8e201363d1e192e2932675c86d00bc246b9c3",
+    "export_path": "evidence/results/ani-cases/2026-10-02/task12-astra-genomovars-reporting/outputs/memberships.tsv",
+    "export_sha256": "b70da1c1dc0b4044025d2b012ed8e201363d1e192e2932675c86d00bc246b9c3",
+    "bytes": 53497,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-06/conservative-boundary-validation-astra/later-pool-lossless/later-validation-metadata-pool-lossless.tsv",
+    "source_sha256": "8b9f934be2234c4e508b385e02874fe8d815dc5f6f39bc64900f7ce6d30341da",
+    "export_path": "evidence/results/tool-planning/2026-10-06/conservative-boundary-validation-astra/later-pool-lossless/later-validation-metadata-pool-lossless.tsv",
+    "export_sha256": "8b9f934be2234c4e508b385e02874fe8d815dc5f6f39bc64900f7ce6d30341da",
+    "bytes": 6580529,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-06/evaluation-freeze-design-astra/reserve-protected-alternative/outputs/confirmation-manifest.tsv",
+    "source_sha256": "c3463ea60027bec1ae599ef69128edf112bd8f9070fcf4970aebaf615be2b1ae",
+    "export_path": "evidence/results/tool-planning/2026-10-06/evaluation-freeze-design-astra/reserve-protected-alternative/outputs/confirmation-manifest.tsv",
+    "export_sha256": "c3463ea60027bec1ae599ef69128edf112bd8f9070fcf4970aebaf615be2b1ae",
+    "bytes": 129254,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-06/evaluation-freeze-design-astra/reserve-protected-alternative/outputs/confirmation-linked-hold.tsv",
+    "source_sha256": "5354fdf2d2e1003a1c65178d369fc9119ce114b6d1d3221e6d66c750ce8e0f81",
+    "export_path": "evidence/results/tool-planning/2026-10-06/evaluation-freeze-design-astra/reserve-protected-alternative/outputs/confirmation-linked-hold.tsv",
+    "export_sha256": "5354fdf2d2e1003a1c65178d369fc9119ce114b6d1d3221e6d66c750ce8e0f81",
+    "bytes": 1601681,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-06/evaluation-freeze-design-astra/reserve-protected-alternative/outputs/remaining-reserve-metadata.tsv",
+    "source_sha256": "f70d35ff981cf2f67b0acd6dd145660a193bf3fc07ee1332f7b1df7e3dcd0255",
+    "export_path": "evidence/results/tool-planning/2026-10-06/evaluation-freeze-design-astra/reserve-protected-alternative/outputs/remaining-reserve-metadata.tsv",
+    "export_sha256": "f70d35ff981cf2f67b0acd6dd145660a193bf3fc07ee1332f7b1df7e3dcd0255",
+    "bytes": 5164142,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-07/validation-runs-astra/inputs/execution-manifest.tsv",
+    "source_sha256": "a63aa9098ccf470d1e3ee580cc188c05453c005663a3331dcf58fa5cc799ae46",
+    "export_path": "evidence/results/tool-planning/2026-10-07/validation-runs-astra/inputs/execution-manifest.tsv",
+    "export_sha256": "7c2e5dbbf9d4ab0b23ea87a7bf25990d232f2fd04fdbaf75e89b131ea4bb74e1",
+    "bytes": 1500007,
+    "transformation": "workspace path prefixes replaced by documented placeholders"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer1-truth.tsv",
+    "source_sha256": "2a7a5c1d51c5703541ee329f58f75f38bfdbcfe8c663477d40086a5cd2c67338",
+    "export_path": "evidence/results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer1-truth.tsv",
+    "export_sha256": "2a7a5c1d51c5703541ee329f58f75f38bfdbcfe8c663477d40086a5cd2c67338",
+    "bytes": 276796,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer3-truth.tsv",
+    "source_sha256": "21c47d9957f0f40d58fca6637f5a0f3c1aa5f9a9334fc5ea2bc851f986a31ce2",
+    "export_path": "evidence/results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer3-truth.tsv",
+    "export_sha256": "21c47d9957f0f40d58fca6637f5a0f3c1aa5f9a9334fc5ea2bc851f986a31ce2",
+    "bytes": 1322808,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer3-held-truth.tsv",
+    "source_sha256": "dcadb624a7c39868cef89b216761d6997dbffd39dc817f204124c25a93b0f0c5",
+    "export_path": "evidence/results/tool-planning/2026-10-07/validation-runs-astra/inputs/layer3-held-truth.tsv",
+    "export_sha256": "dcadb624a7c39868cef89b216761d6997dbffd39dc817f204124c25a93b0f0c5",
+    "bytes": 9651,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-07/validation-runs-astra/inputs/preparation.json",
+    "source_sha256": "59fe90b8f3356a16e44dda8c11d70352b8b1c86abf5c01d0b4c9da25ad0e3297",
+    "export_path": "evidence/results/tool-planning/2026-10-07/validation-runs-astra/inputs/preparation.json",
+    "export_sha256": "59fe90b8f3356a16e44dda8c11d70352b8b1c86abf5c01d0b4c9da25ad0e3297",
+    "bytes": 421,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/standard-kraken/2026-10-05/task14-astra-scientific-review/tables/observed-taxonomy-audit.tsv",
+    "source_sha256": "42783ff5f0439252b2ab1bce1932e43b0551b7fe6d2bf6edd510c0fe4538060b",
+    "export_path": "evidence/results/standard-kraken/2026-10-05/task14-astra-scientific-review/tables/observed-taxonomy-audit.tsv",
+    "export_sha256": "42783ff5f0439252b2ab1bce1932e43b0551b7fe6d2bf6edd510c0fe4538060b",
+    "bytes": 669160,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/standard-kraken/2026-10-05/task14-astra-scientific-review/tables/taxon-project-pairs.tsv",
+    "source_sha256": "5bb0431293eeedce42e723bc0e91dd5ef2953be005c451b54844db8a34daaf1d",
+    "export_path": "evidence/results/standard-kraken/2026-10-05/task14-astra-scientific-review/tables/taxon-project-pairs.tsv",
+    "export_sha256": "5bb0431293eeedce42e723bc0e91dd5ef2953be005c451b54844db8a34daaf1d",
+    "bytes": 1862223,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/standard-kraken/2026-10-08/issue26-kraken-brief-codex-061402/tables/metrics.tsv",
+    "source_sha256": "d190750cc144161e7c4dbfa1008601e6fe626fc1a91c8107e07061d806b77ba0",
+    "export_path": "evidence/results/standard-kraken/2026-10-08/issue26-kraken-brief-codex-061402/tables/metrics.tsv",
+    "export_sha256": "d190750cc144161e7c4dbfa1008601e6fe626fc1a91c8107e07061d806b77ba0",
+    "bytes": 6658,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-07/validation-runs-astra/outputs/scoring/layer1/scored-genomes.tsv",
+    "source_sha256": "a9a7188a9647d89cbafa5f5246b2244db141a79d8c76be9562a2813254e88181",
+    "export_path": "evidence/results/tool-planning/2026-10-07/validation-runs-astra/outputs/scoring/layer1/scored-genomes.tsv",
+    "export_sha256": "a9a7188a9647d89cbafa5f5246b2244db141a79d8c76be9562a2813254e88181",
+    "bytes": 249662,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/tool-planning/2026-10-07/validation-runs-astra/outputs/scoring/layer3/scored-genomes.tsv",
+    "source_sha256": "d15b69e325b2b60acfe6c42d6f419d705c9fa055288ad86d9cb5c3616c5cb4dc",
+    "export_path": "evidence/results/tool-planning/2026-10-07/validation-runs-astra/outputs/scoring/layer3/scored-genomes.tsv",
+    "export_sha256": "d15b69e325b2b60acfe6c42d6f419d705c9fa055288ad86d9cb5c3616c5cb4dc",
+    "bytes": 1003181,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/ani-screen/2026-09-17/task04-opus-type-anchored/tables/type-versus-type-ani.tsv",
+    "source_sha256": "e90ef7ea42991282a6f52d84a15bb0a5aed210c158a3491f8e2d0182cefb076e",
+    "export_path": "evidence/results/ani-screen/2026-09-17/task04-opus-type-anchored/tables/type-versus-type-ani.tsv",
+    "export_sha256": "e90ef7ea42991282a6f52d84a15bb0a5aed210c158a3491f8e2d0182cefb076e",
+    "bytes": 101072,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/ani-cases/2026-09-28/task12-astra-ab-review/outputs-v2/summary.json",
+    "source_sha256": "4d5b8746ba5bfd484b115db94542f0c68bc160927316a4d4491a2c3f018a8ad1",
+    "export_path": "evidence/results/ani-cases/2026-09-28/task12-astra-ab-review/outputs-v2/summary.json",
+    "export_sha256": "4d5b8746ba5bfd484b115db94542f0c68bc160927316a4d4491a2c3f018a8ad1",
+    "bytes": 8240,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/ani-cases/2026-09-28/task12-astra-ab-review/outputs-v2/genomes.tsv",
+    "source_sha256": "3be465c5a8d1990baeba4ba59a9f407c9ef5cd47226d2729f1056c18e339325c",
+    "export_path": "evidence/results/ani-cases/2026-09-28/task12-astra-ab-review/outputs-v2/genomes.tsv",
+    "export_sha256": "3be465c5a8d1990baeba4ba59a9f407c9ef5cd47226d2729f1056c18e339325c",
+    "bytes": 112944,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/ani-cases/2026-10-02/task12-astra-group-a-populations/inputs/pairs.tsv",
+    "source_sha256": "ba952a048c0f43ec253dbbcb3c040077f7de6908451d4568c2ec37bffc9306cc",
+    "export_path": "evidence/results/ani-cases/2026-10-02/task12-astra-group-a-populations/inputs/pairs.tsv",
+    "export_sha256": "ba952a048c0f43ec253dbbcb3c040077f7de6908451d4568c2ec37bffc9306cc",
+    "bytes": 2540585,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/ani-cases/2026-09-29/task12-astra-kobei-xiangfangensis-review/outputs/subgroup-pairs.tsv",
+    "source_sha256": "39ffc1ecf8b83fd70511d7086617fa24b57aee58718c769e0e88c9a783f70298",
+    "export_path": "evidence/results/ani-cases/2026-09-29/task12-astra-kobei-xiangfangensis-review/outputs/subgroup-pairs.tsv",
+    "export_sha256": "39ffc1ecf8b83fd70511d7086617fa24b57aee58718c769e0e88c9a783f70298",
+    "bytes": 868,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/type-anchor-projection-35/trees/bac120_fasttree.nwk",
+    "source_sha256": "a9bc0abab028e8a265090ce79189036f11b5fb893b715f817dae9a0bb7d18bb8",
+    "export_path": "evidence/results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/type-anchor-projection-35/trees/bac120_fasttree.nwk",
+    "export_sha256": "a9bc0abab028e8a265090ce79189036f11b5fb893b715f817dae9a0bb7d18bb8",
+    "bytes": 1401,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/type-anchor-projection-35/trees/verticall_fastme.nwk",
+    "source_sha256": "eb142140f48d8a67b0e5e2cb4deb1c4ccdf89165fba88348d53d0087dcd4b511",
+    "export_path": "evidence/results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/type-anchor-projection-35/trees/verticall_fastme.nwk",
+    "export_sha256": "eb142140f48d8a67b0e5e2cb4deb1c4ccdf89165fba88348d53d0087dcd4b511",
+    "bytes": 1236,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/type-anchor-projection-35/trees/mashtree_consensus.nwk",
+    "source_sha256": "ac00c38cff595b7825ac2fc646bd1e59571b817024b44a0987136ca151ee7aeb",
+    "export_path": "evidence/results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/type-anchor-projection-35/trees/mashtree_consensus.nwk",
+    "export_sha256": "ac00c38cff595b7825ac2fc646bd1e59571b817024b44a0987136ca151ee7aeb",
+    "bytes": 1314,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S02-type-display-map.tsv",
+    "source_sha256": "93cf76e4de8b06afb1fbf5f8a08c0586b63c2ca7cda8970bf07ef244a20987d5",
+    "export_path": "data/figure-seeds/tables/S02-type-display-map.tsv",
+    "export_sha256": "93cf76e4de8b06afb1fbf5f8a08c0586b63c2ca7cda8970bf07ef244a20987d5",
+    "bytes": 7711,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S08-genomovar-category-counts.json",
+    "source_sha256": "dd054364fc9d83802e2997d60cb3a463348cee5b8d4a8db58a3441a5e0386a95",
+    "export_path": "data/figure-seeds/tables/S08-genomovar-category-counts.json",
+    "export_sha256": "dd054364fc9d83802e2997d60cb3a463348cee5b8d4a8db58a3441a5e0386a95",
+    "bytes": 933,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S08-RS9-method-crossing-veto-catalogue.tsv",
+    "source_sha256": "a934c15c1b8de5502ffc1443c634694648d7f6274a63c683c965592b76d6ff1a",
+    "export_path": "data/figure-seeds/tables/S08-RS9-method-crossing-veto-catalogue.tsv",
+    "export_sha256": "a934c15c1b8de5502ffc1443c634694648d7f6274a63c683c965592b76d6ff1a",
+    "bytes": 1582825,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S09-Kraken-metrics.tsv",
+    "source_sha256": "d190750cc144161e7c4dbfa1008601e6fe626fc1a91c8107e07061d806b77ba0",
+    "export_path": "data/figure-seeds/tables/S09-Kraken-metrics.tsv",
+    "export_sha256": "d190750cc144161e7c4dbfa1008601e6fe626fc1a91c8107e07061d806b77ba0",
+    "bytes": 6658,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S02-type-display-map.tsv",
+    "source_sha256": "93cf76e4de8b06afb1fbf5f8a08c0586b63c2ca7cda8970bf07ef244a20987d5",
+    "export_path": "data/figure-seeds/tables/S02-type-display-map.tsv",
+    "export_sha256": "93cf76e4de8b06afb1fbf5f8a08c0586b63c2ca7cda8970bf07ef244a20987d5",
+    "bytes": 7711,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S08-dataset-setting-summary.json",
+    "source_sha256": "52a2641265161a90ade6d2fabce63e3950b317459bddef8e4c2ae7a2851996d2",
+    "export_path": "data/figure-seeds/tables/S08-dataset-setting-summary.json",
+    "export_sha256": "52a2641265161a90ade6d2fabce63e3950b317459bddef8e4c2ae7a2851996d2",
+    "bytes": 31883,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S08-genomovar-category-counts.json",
+    "source_sha256": "dd054364fc9d83802e2997d60cb3a463348cee5b8d4a8db58a3441a5e0386a95",
+    "export_path": "data/figure-seeds/tables/S08-genomovar-category-counts.json",
+    "export_sha256": "dd054364fc9d83802e2997d60cb3a463348cee5b8d4a8db58a3441a5e0386a95",
+    "bytes": 933,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S09-Kraken-metrics.tsv",
+    "source_sha256": "d190750cc144161e7c4dbfa1008601e6fe626fc1a91c8107e07061d806b77ba0",
+    "export_path": "data/figure-seeds/tables/S09-Kraken-metrics.tsv",
+    "export_sha256": "d190750cc144161e7c4dbfa1008601e6fe626fc1a91c8107e07061d806b77ba0",
+    "bytes": 6658,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figure2-strain-labels.tsv",
+    "source_sha256": "ed5b52d52c389912a6acac64571296505bc72b74c3a67ea9d04476bcaae8254e",
+    "export_path": "data/figure-seeds/source-data/figure2-strain-labels.tsv",
+    "export_sha256": "be554a1e6ed95bfe109f3d752c641cdecec5ac223c50280d8ead5d2de5fd29c5",
+    "bytes": 6851,
+    "transformation": "workspace path prefixes replaced by documented placeholders"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure1.png",
+    "source_sha256": "6bf4adce80a2e10aeaad6a3f570de037ed4280a8f7f3e0656346ec324221377b",
+    "export_path": "expected/figures/figure1.png",
+    "export_sha256": "6bf4adce80a2e10aeaad6a3f570de037ed4280a8f7f3e0656346ec324221377b",
+    "bytes": 450614,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure1.svg",
+    "source_sha256": "71432c8abd1a3e2d754601261b2e74a6726fab013b73379ba5fa39598189937a",
+    "export_path": "expected/figures/figure1.svg",
+    "export_sha256": "71432c8abd1a3e2d754601261b2e74a6726fab013b73379ba5fa39598189937a",
+    "bytes": 17616,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure1.pdf",
+    "source_sha256": "a261b2aa5c8bb0092b9ed605d8fae90994b7ab13ed4227bd7b01fe418695d3c1",
+    "export_path": "expected/figures/figure1.pdf",
+    "export_sha256": "a261b2aa5c8bb0092b9ed605d8fae90994b7ab13ed4227bd7b01fe418695d3c1",
+    "bytes": 40459,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure2.png",
+    "source_sha256": "63946d45d2f2bcc988a4f8fb90314d8ee24d14316e06ac476b2059976d4d77f0",
+    "export_path": "expected/figures/figure2.png",
+    "export_sha256": "63946d45d2f2bcc988a4f8fb90314d8ee24d14316e06ac476b2059976d4d77f0",
+    "bytes": 709753,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure2.svg",
+    "source_sha256": "0405e7c89f5c906e908c6188d431a90ede65727b94689b163bc811811d1b9e15",
+    "export_path": "expected/figures/figure2.svg",
+    "export_sha256": "0405e7c89f5c906e908c6188d431a90ede65727b94689b163bc811811d1b9e15",
+    "bytes": 250723,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure2.pdf",
+    "source_sha256": "f1d5c439c5c62f612a01e29cd59719c6ccdf6fc4dc3149e5c1dde6391ca97ab9",
+    "export_path": "expected/figures/figure2.pdf",
+    "export_sha256": "f1d5c439c5c62f612a01e29cd59719c6ccdf6fc4dc3149e5c1dde6391ca97ab9",
+    "bytes": 41892,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure3.png",
+    "source_sha256": "3993ed69847f3de00839467bfa56ddcc3ab8d089b9289e8dea03f0408c039d1c",
+    "export_path": "expected/figures/figure3.png",
+    "export_sha256": "3993ed69847f3de00839467bfa56ddcc3ab8d089b9289e8dea03f0408c039d1c",
+    "bytes": 275847,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure3.svg",
+    "source_sha256": "1f3739247d92f6baf4983e0f26b76ee878b2bcb6b4b08db9f66ea91319762cb7",
+    "export_path": "expected/figures/figure3.svg",
+    "export_sha256": "1f3739247d92f6baf4983e0f26b76ee878b2bcb6b4b08db9f66ea91319762cb7",
+    "bytes": 24252,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure3.pdf",
+    "source_sha256": "5512fe135f35b8c655167433866a6c5302a55d3d6b820c96b17bf83c3cc609be",
+    "export_path": "expected/figures/figure3.pdf",
+    "export_sha256": "5512fe135f35b8c655167433866a6c5302a55d3d6b820c96b17bf83c3cc609be",
+    "bytes": 21662,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure4.png",
+    "source_sha256": "c50879a58a863f817a7f94a28a5f7cd2df763a2fb4cee99efad3b8f7e5210f28",
+    "export_path": "expected/figures/figure4.png",
+    "export_sha256": "c50879a58a863f817a7f94a28a5f7cd2df763a2fb4cee99efad3b8f7e5210f28",
+    "bytes": 183458,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure4.svg",
+    "source_sha256": "cb49daf309fea13100758fa01021497d443c1ca93724f75a9594f5d8e34989b8",
+    "export_path": "expected/figures/figure4.svg",
+    "export_sha256": "cb49daf309fea13100758fa01021497d443c1ca93724f75a9594f5d8e34989b8",
+    "bytes": 15218,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figure4.pdf",
+    "source_sha256": "aff2583c81f48cbf31a7ed525be75d358c851d09b139ebcbd2d3c685390ce993",
+    "export_path": "expected/figures/figure4.pdf",
+    "export_sha256": "aff2583c81f48cbf31a7ed525be75d358c851d09b139ebcbd2d3c685390ce993",
+    "bytes": 25599,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS1.png",
+    "source_sha256": "c58e8f75b29863174f50ace5fd7f623a301e8c0180a213010d68625cbc1f3e9d",
+    "export_path": "expected/figures/figureS1.png",
+    "export_sha256": "c58e8f75b29863174f50ace5fd7f623a301e8c0180a213010d68625cbc1f3e9d",
+    "bytes": 471679,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS1.svg",
+    "source_sha256": "01a4479fe47f8c86b8cc9e0d92f216e0930a20687f7e44ea74d061ace4d3c1ae",
+    "export_path": "expected/figures/figureS1.svg",
+    "export_sha256": "01a4479fe47f8c86b8cc9e0d92f216e0930a20687f7e44ea74d061ace4d3c1ae",
+    "bytes": 100396,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS1.pdf",
+    "source_sha256": "d05d33a1875a63504895f276e49db047cfc70bc6c9cfa0532a4488371a8f1e9e",
+    "export_path": "expected/figures/figureS1.pdf",
+    "export_sha256": "d05d33a1875a63504895f276e49db047cfc70bc6c9cfa0532a4488371a8f1e9e",
+    "bytes": 36527,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS2.png",
+    "source_sha256": "060b0556fdd728a98d813f92942da4d1a41b46638448f0db3f4eff5d145fddf1",
+    "export_path": "expected/figures/figureS2.png",
+    "export_sha256": "060b0556fdd728a98d813f92942da4d1a41b46638448f0db3f4eff5d145fddf1",
+    "bytes": 85953,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS2.svg",
+    "source_sha256": "8e828830daf9c078bafd9cdcc9551c1b579b0cf97c4d9fa1ffef120b642ff412",
+    "export_path": "expected/figures/figureS2.svg",
+    "export_sha256": "8e828830daf9c078bafd9cdcc9551c1b579b0cf97c4d9fa1ffef120b642ff412",
+    "bytes": 17904,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS2.pdf",
+    "source_sha256": "915ec7bfa1613e8567fc7ad26b0581b78caa89e79b0f4e1e3f1a5fe08c8354ac",
+    "export_path": "expected/figures/figureS2.pdf",
+    "export_sha256": "915ec7bfa1613e8567fc7ad26b0581b78caa89e79b0f4e1e3f1a5fe08c8354ac",
+    "bytes": 13807,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS3.png",
+    "source_sha256": "7b1302ce4c4da4c39ac99c32fa894e0aee09f5c0e4a6aa6effa697700e736f4a",
+    "export_path": "expected/figures/figureS3.png",
+    "export_sha256": "7b1302ce4c4da4c39ac99c32fa894e0aee09f5c0e4a6aa6effa697700e736f4a",
+    "bytes": 111664,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS3.svg",
+    "source_sha256": "82849f3cf17e45979bcfea8686c7f473a1d72c9b3973340b9980f538ad5c96ac",
+    "export_path": "expected/figures/figureS3.svg",
+    "export_sha256": "82849f3cf17e45979bcfea8686c7f473a1d72c9b3973340b9980f538ad5c96ac",
+    "bytes": 15644,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS3.pdf",
+    "source_sha256": "571574207eb8b84f18fbea9fa6bad3227d4a28279d0b8ec3241bbf3b5de32c24",
+    "export_path": "expected/figures/figureS3.pdf",
+    "export_sha256": "571574207eb8b84f18fbea9fa6bad3227d4a28279d0b8ec3241bbf3b5de32c24",
+    "bytes": 15490,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS4.png",
+    "source_sha256": "8b743bfa5697320682c5f49b5c50a2f5fc48ff3bb38aa7c6c0ec859655bddd34",
+    "export_path": "expected/figures/figureS4.png",
+    "export_sha256": "8b743bfa5697320682c5f49b5c50a2f5fc48ff3bb38aa7c6c0ec859655bddd34",
+    "bytes": 255088,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS4.svg",
+    "source_sha256": "904abc38e6cae74a263f1da46bd72a43c3eae7e89782b6565fb1cefb21736bbd",
+    "export_path": "expected/figures/figureS4.svg",
+    "export_sha256": "904abc38e6cae74a263f1da46bd72a43c3eae7e89782b6565fb1cefb21736bbd",
+    "bytes": 59877,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS4.pdf",
+    "source_sha256": "a5ded18fa17aa87e4311a6718300f7db6d901dc6cf5e8bbdd1153df6c06b0ea8",
+    "export_path": "expected/figures/figureS4.pdf",
+    "export_sha256": "a5ded18fa17aa87e4311a6718300f7db6d901dc6cf5e8bbdd1153df6c06b0ea8",
+    "bytes": 29123,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS5.png",
+    "source_sha256": "278c563154e722c6333fc21436d2e7afdeaa39165e7a13a1f3db4b67bd15a7a7",
+    "export_path": "expected/figures/figureS5.png",
+    "export_sha256": "278c563154e722c6333fc21436d2e7afdeaa39165e7a13a1f3db4b67bd15a7a7",
+    "bytes": 257697,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS5.svg",
+    "source_sha256": "09d47c56d719df3036bcecb0bf34181bc53dd71bab8321fe2429284d642a2cb3",
+    "export_path": "expected/figures/figureS5.svg",
+    "export_sha256": "09d47c56d719df3036bcecb0bf34181bc53dd71bab8321fe2429284d642a2cb3",
+    "bytes": 59590,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS5.pdf",
+    "source_sha256": "a067d3c6989b3649491a48ca62602a23ab3364f33881babdb596435408660ca9",
+    "export_path": "expected/figures/figureS5.pdf",
+    "export_sha256": "a067d3c6989b3649491a48ca62602a23ab3364f33881babdb596435408660ca9",
+    "bytes": 29314,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS6.png",
+    "source_sha256": "7c2752fbc28e43ef2833c4fcf6c6e6e507510f85e0f229205c393d8a340c2ce8",
+    "export_path": "expected/figures/figureS6.png",
+    "export_sha256": "7c2752fbc28e43ef2833c4fcf6c6e6e507510f85e0f229205c393d8a340c2ce8",
+    "bytes": 259773,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS6.svg",
+    "source_sha256": "5f74fab99e1e7ee074d9da739b9d3831ccbd50f2e94770fb2d4d79a127b6e8d6",
+    "export_path": "expected/figures/figureS6.svg",
+    "export_sha256": "5f74fab99e1e7ee074d9da739b9d3831ccbd50f2e94770fb2d4d79a127b6e8d6",
+    "bytes": 59670,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS6.pdf",
+    "source_sha256": "533de5a0b4421b8cc005b0a598cc200ad175c5a8f2bf13cc14884a179e136115",
+    "export_path": "expected/figures/figureS6.pdf",
+    "export_sha256": "533de5a0b4421b8cc005b0a598cc200ad175c5a8f2bf13cc14884a179e136115",
+    "bytes": 28266,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS7.png",
+    "source_sha256": "d649027ebafaec41c9bc66c24f23946cf881559de7faf82abcdf8b08052b2f0d",
+    "export_path": "expected/figures/figureS7.png",
+    "export_sha256": "d649027ebafaec41c9bc66c24f23946cf881559de7faf82abcdf8b08052b2f0d",
+    "bytes": 270991,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS7.svg",
+    "source_sha256": "f18aac074a3eead2749c773abcd06177e8dd0feb8285043796e63639aca473d8",
+    "export_path": "expected/figures/figureS7.svg",
+    "export_sha256": "f18aac074a3eead2749c773abcd06177e8dd0feb8285043796e63639aca473d8",
+    "bytes": 59172,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS7.pdf",
+    "source_sha256": "3a8b3f1d1bb46effa97e2b58d48a875adec41c64211b693ce0c2fb96ad68df95",
+    "export_path": "expected/figures/figureS7.pdf",
+    "export_sha256": "3a8b3f1d1bb46effa97e2b58d48a875adec41c64211b693ce0c2fb96ad68df95",
+    "bytes": 28835,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS8.png",
+    "source_sha256": "816f331f008507f4d824014516e04d4425bce9d88d73d26773d3e5aa19dc9b00",
+    "export_path": "expected/figures/figureS8.png",
+    "export_sha256": "816f331f008507f4d824014516e04d4425bce9d88d73d26773d3e5aa19dc9b00",
+    "bytes": 257618,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS8.svg",
+    "source_sha256": "b17a3d2f2fb1a2353528d31588ad3414b82acb292a13e3e48389e187f53110c6",
+    "export_path": "expected/figures/figureS8.svg",
+    "export_sha256": "b17a3d2f2fb1a2353528d31588ad3414b82acb292a13e3e48389e187f53110c6",
+    "bytes": 60159,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS8.pdf",
+    "source_sha256": "0b555515068ffa12c25f028bde55a69e016dc6fb22cfc286bda8a3e0fffc2832",
+    "export_path": "expected/figures/figureS8.pdf",
+    "export_sha256": "0b555515068ffa12c25f028bde55a69e016dc6fb22cfc286bda8a3e0fffc2832",
+    "bytes": 28235,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS9.png",
+    "source_sha256": "a02852b0d4a846706d16cc8544342371e9de00430c93904bc8a11ba34d57cec5",
+    "export_path": "expected/figures/figureS9.png",
+    "export_sha256": "a02852b0d4a846706d16cc8544342371e9de00430c93904bc8a11ba34d57cec5",
+    "bytes": 258846,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS9.svg",
+    "source_sha256": "868403cce65b24d81bf05a150d07798d3c58006dd4e13dcd53f933153447a69c",
+    "export_path": "expected/figures/figureS9.svg",
+    "export_sha256": "868403cce65b24d81bf05a150d07798d3c58006dd4e13dcd53f933153447a69c",
+    "bytes": 59943,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS9.pdf",
+    "source_sha256": "cf6a2c87191d51eaa5347947f1fe0e69cb35b6693c1a89df33392939f761d599",
+    "export_path": "expected/figures/figureS9.pdf",
+    "export_sha256": "cf6a2c87191d51eaa5347947f1fe0e69cb35b6693c1a89df33392939f761d599",
+    "bytes": 28698,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS10.png",
+    "source_sha256": "b8ca2e97bcd4b66cc8983decb651ac1fc9c7ad16a3f780dc5c6d7326a4f20c2d",
+    "export_path": "expected/figures/figureS10.png",
+    "export_sha256": "b8ca2e97bcd4b66cc8983decb651ac1fc9c7ad16a3f780dc5c6d7326a4f20c2d",
+    "bytes": 277074,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS10.svg",
+    "source_sha256": "1b99a9f35824628a12c2e3640942503c32c19862b089664a383b8806b13be997",
+    "export_path": "expected/figures/figureS10.svg",
+    "export_sha256": "1b99a9f35824628a12c2e3640942503c32c19862b089664a383b8806b13be997",
+    "bytes": 137231,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS10.pdf",
+    "source_sha256": "ef2ab5676774a24fbdea85c7fcb37dc8a88525cca1631fbc96f6b4b956be455d",
+    "export_path": "expected/figures/figureS10.pdf",
+    "export_sha256": "ef2ab5676774a24fbdea85c7fcb37dc8a88525cca1631fbc96f6b4b956be455d",
+    "bytes": 64426,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS11.png",
+    "source_sha256": "206b60ee9f387c481eaa0177bedd0e6350e1683f6aca555bfaae43f3102adfae",
+    "export_path": "expected/figures/figureS11.png",
+    "export_sha256": "206b60ee9f387c481eaa0177bedd0e6350e1683f6aca555bfaae43f3102adfae",
+    "bytes": 214768,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS11.svg",
+    "source_sha256": "46205ffabe940619fa4e39bc589b7e799ac18fd9188444ef1f8587062625d0a7",
+    "export_path": "expected/figures/figureS11.svg",
+    "export_sha256": "46205ffabe940619fa4e39bc589b7e799ac18fd9188444ef1f8587062625d0a7",
+    "bytes": 94627,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS11.pdf",
+    "source_sha256": "01fd203f9259eb13d2516a5ee25ed8e8978211122306a88e6b509ebb1b7f152b",
+    "export_path": "expected/figures/figureS11.pdf",
+    "export_sha256": "01fd203f9259eb13d2516a5ee25ed8e8978211122306a88e6b509ebb1b7f152b",
+    "bytes": 42665,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS12.png",
+    "source_sha256": "676e2806765c5e54deceb73160d2db6138f847a747352a54175db35bd9c38937",
+    "export_path": "expected/figures/figureS12.png",
+    "export_sha256": "676e2806765c5e54deceb73160d2db6138f847a747352a54175db35bd9c38937",
+    "bytes": 125177,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS12.svg",
+    "source_sha256": "f668a0e7ec2059587d9f8c77d4584c522e3bf35bb9691161e059d9750f1eb361",
+    "export_path": "expected/figures/figureS12.svg",
+    "export_sha256": "f668a0e7ec2059587d9f8c77d4584c522e3bf35bb9691161e059d9750f1eb361",
+    "bytes": 7842,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS12.pdf",
+    "source_sha256": "c04f88a59f05699e38b9e90c57ad2cc01d4e8e8c722ff72b5683195f7d671521",
+    "export_path": "expected/figures/figureS12.pdf",
+    "export_sha256": "c04f88a59f05699e38b9e90c57ad2cc01d4e8e8c722ff72b5683195f7d671521",
+    "bytes": 20184,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS13.png",
+    "source_sha256": "8efd33c9a7f224cbbb17b2904bec9bee72af95395c49906e06fa687e62a2e646",
+    "export_path": "expected/figures/figureS13.png",
+    "export_sha256": "8efd33c9a7f224cbbb17b2904bec9bee72af95395c49906e06fa687e62a2e646",
+    "bytes": 560439,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS13.svg",
+    "source_sha256": "5d3ae574527c4231c620cb6e956172c6876646c986be4f1e54c14e6907a21f4a",
+    "export_path": "expected/figures/figureS13.svg",
+    "export_sha256": "5d3ae574527c4231c620cb6e956172c6876646c986be4f1e54c14e6907a21f4a",
+    "bytes": 67684,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS13.pdf",
+    "source_sha256": "4303379df2ec0eedc9650292601c85e006c2e5c7e1f43ba071c6c3f66c13903f",
+    "export_path": "expected/figures/figureS13.pdf",
+    "export_sha256": "4303379df2ec0eedc9650292601c85e006c2e5c7e1f43ba071c6c3f66c13903f",
+    "bytes": 26134,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS14.png",
+    "source_sha256": "ea8ee9f92ca290f6236c88f30d978825325599204e6192053a181a7e6bfe7f94",
+    "export_path": "expected/figures/figureS14.png",
+    "export_sha256": "ea8ee9f92ca290f6236c88f30d978825325599204e6192053a181a7e6bfe7f94",
+    "bytes": 155209,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS14.svg",
+    "source_sha256": "cc82330b0e409957dddf1ef45bbb6aff24f4743751cab4589471cc95b7cc45fd",
+    "export_path": "expected/figures/figureS14.svg",
+    "export_sha256": "cc82330b0e409957dddf1ef45bbb6aff24f4743751cab4589471cc95b7cc45fd",
+    "bytes": 85103,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/figureS14.pdf",
+    "source_sha256": "3dcfd851b6627354050481c7ece69891bf49c84d3b10ba7af1d4c161572b40a4",
+    "export_path": "expected/figures/figureS14.pdf",
+    "export_sha256": "3dcfd851b6627354050481c7ece69891bf49c84d3b10ba7af1d4c161572b40a4",
+    "bytes": 43496,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S01-dataset-flow.tsv",
+    "source_sha256": "b716e49ae3efb64e082fa36b9a3bc7201cafecf2055ad5d616bb26139cb8ce0e",
+    "export_path": "expected/tables/S01-dataset-flow.tsv",
+    "export_sha256": "b716e49ae3efb64e082fa36b9a3bc7201cafecf2055ad5d616bb26139cb8ce0e",
+    "bytes": 589,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/tables/S08-primary-references.tsv",
+    "source_sha256": "1c13a7f8a4707154929a4ef848921b9ecaff2db7b7ed1fad0356589f3e25af5f",
+    "export_path": "expected/tables/S08-primary-references.tsv",
+    "export_sha256": "1c13a7f8a4707154929a4ef848921b9ecaff2db7b7ed1fad0356589f3e25af5f",
+    "bytes": 23664,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figure2-strain-labels.tsv",
+    "source_sha256": "ed5b52d52c389912a6acac64571296505bc72b74c3a67ea9d04476bcaae8254e",
+    "export_path": "expected/figure-data/figure2-strain-labels.tsv",
+    "export_sha256": "fd9217ec01533f218b03597202e24392a99d808189f8808d48073afb49510f42",
+    "bytes": 6887,
+    "transformation": "workspace path prefixes replaced by documented placeholders"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figure3-and-S13-kraken-taxonomy.tsv",
+    "source_sha256": "9cdb4a51dd9679d337738f7567d1e0120fa20be24386fa4c5bfdac14dfc23c0e",
+    "export_path": "expected/figure-data/figure3-and-S13-kraken-taxonomy.tsv",
+    "export_sha256": "9cdb4a51dd9679d337738f7567d1e0120fa20be24386fa4c5bfdac14dfc23c0e",
+    "bytes": 32079,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figure3-and-S13-taxonomy-transformation.tsv",
+    "source_sha256": "48d33f1c8428177962d59264b66b0e9cae6299551a369b1abacfb1feb7867df4",
+    "export_path": "expected/figure-data/figure3-and-S13-taxonomy-transformation.tsv",
+    "export_sha256": "48d33f1c8428177962d59264b66b0e9cae6299551a369b1abacfb1feb7867df4",
+    "bytes": 83320,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figure3-displayed-cells.tsv",
+    "source_sha256": "7190f72e7a08bb89492a9552a29c276d6cae108a3556748e2ba8c56f6475aaab",
+    "export_path": "expected/figure-data/figure3-displayed-cells.tsv",
+    "export_sha256": "7190f72e7a08bb89492a9552a29c276d6cae108a3556748e2ba8c56f6475aaab",
+    "bytes": 4532,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figure4-classification-agreement.tsv",
+    "source_sha256": "be506ec3f1f9c309553fef5c47751217afa27079800aa3f1a08a30bfad554477",
+    "export_path": "expected/figure-data/figure4-classification-agreement.tsv",
+    "export_sha256": "be506ec3f1f9c309553fef5c47751217afa27079800aa3f1a08a30bfad554477",
+    "bytes": 280,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS1-bac120_fasttree.nwk",
+    "source_sha256": "516e640c29cc6bfeca7cd86401c78e2a6c3ad3d7afb57141719b59ce10de3c01",
+    "export_path": "expected/figure-data/figureS1-bac120_fasttree.nwk",
+    "export_sha256": "516e640c29cc6bfeca7cd86401c78e2a6c3ad3d7afb57141719b59ce10de3c01",
+    "bytes": 334,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS1-mashtree_consensus.nwk",
+    "source_sha256": "ab4acab2343e6bceffe0bfe70b517e5cdacdaf74ddd8823bedf8a87efc242ddb",
+    "export_path": "expected/figure-data/figureS1-mashtree_consensus.nwk",
+    "export_sha256": "ab4acab2343e6bceffe0bfe70b517e5cdacdaf74ddd8823bedf8a87efc242ddb",
+    "bytes": 326,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS1-pairs.tsv",
+    "source_sha256": "6f68550635e08707b8dadb84d3a83d7c8b9c37a5a30dc6e0d741c6e63036fe31",
+    "export_path": "expected/figure-data/figureS1-pairs.tsv",
+    "export_sha256": "6f68550635e08707b8dadb84d3a83d7c8b9c37a5a30dc6e0d741c6e63036fe31",
+    "bytes": 7823,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS1-tree-geometry.json",
+    "source_sha256": "2d6ce53c55b7b1dbff78fccb66a668b2fce46cc94bb09f9479a2d3aebfe59dca",
+    "export_path": "expected/figure-data/figureS1-tree-geometry.json",
+    "export_sha256": "2d6ce53c55b7b1dbff78fccb66a668b2fce46cc94bb09f9479a2d3aebfe59dca",
+    "bytes": 11449,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS1-verticall_fastme.nwk",
+    "source_sha256": "c7663a93c43f3a5ab2e189ea733e7f9d2c377ddb355c0eb71ca9810eb452e0e4",
+    "export_path": "expected/figure-data/figureS1-verticall_fastme.nwk",
+    "export_sha256": "c7663a93c43f3a5ab2e189ea733e7f9d2c377ddb355c0eb71ca9810eb452e0e4",
+    "bytes": 312,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS10-subspecies-ranges.tsv",
+    "source_sha256": "d13849c9b94987e6192ed214fbc8113cc69b80fb699b6335442b8aff561e3e28",
+    "export_path": "expected/figure-data/figureS10-subspecies-ranges.tsv",
+    "export_sha256": "d13849c9b94987e6192ed214fbc8113cc69b80fb699b6335442b8aff561e3e28",
+    "bytes": 519,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS13-displayed-cells.tsv",
+    "source_sha256": "9d106572468d56ec5effc117be7740758dbe2f0df61ab236fc37ddce9dca9324",
+    "export_path": "expected/figure-data/figureS13-displayed-cells.tsv",
+    "export_sha256": "9d106572468d56ec5effc117be7740758dbe2f0df61ab236fc37ddce9dca9324",
+    "bytes": 68453,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS2-bac120_fasttree.nwk",
+    "source_sha256": "107a01fb46933733377e315f677893f5018c615e33fd172c06fcbd5cb7cfb545",
+    "export_path": "expected/figure-data/figureS2-bac120_fasttree.nwk",
+    "export_sha256": "107a01fb46933733377e315f677893f5018c615e33fd172c06fcbd5cb7cfb545",
+    "bytes": 174,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS2-mashtree_consensus.nwk",
+    "source_sha256": "e4840899886ac2d8a1c0b620a7bf04be1cb8e28ce9f5ac17b2491d3660c65cf2",
+    "export_path": "expected/figure-data/figureS2-mashtree_consensus.nwk",
+    "export_sha256": "e4840899886ac2d8a1c0b620a7bf04be1cb8e28ce9f5ac17b2491d3660c65cf2",
+    "bytes": 183,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS2-pairs.tsv",
+    "source_sha256": "ef9240bba187164db2ca4c5eec08104bb41f22cb95e7cfd3225597781036061a",
+    "export_path": "expected/figure-data/figureS2-pairs.tsv",
+    "export_sha256": "ef9240bba187164db2ca4c5eec08104bb41f22cb95e7cfd3225597781036061a",
+    "bytes": 2375,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS2-tree-geometry.json",
+    "source_sha256": "9b6959231d9b1b24f96916361df041f8a8e9e34694531ae389ca823885731436",
+    "export_path": "expected/figure-data/figureS2-tree-geometry.json",
+    "export_sha256": "9b6959231d9b1b24f96916361df041f8a8e9e34694531ae389ca823885731436",
+    "bytes": 5851,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS2-verticall_fastme.nwk",
+    "source_sha256": "94290062912d97c81493adc06eeeb486f4c4b3ed522eaae9da4cf8b03a46ad8a",
+    "export_path": "expected/figure-data/figureS2-verticall_fastme.nwk",
+    "export_sha256": "94290062912d97c81493adc06eeeb486f4c4b3ed522eaae9da4cf8b03a46ad8a",
+    "bytes": 170,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS3-bac120_fasttree.nwk",
+    "source_sha256": "3ebe23cbd284500a80664bd87a634b8341ec7bd40f20a52b3b2cd960a4dc05e4",
+    "export_path": "expected/figure-data/figureS3-bac120_fasttree.nwk",
+    "export_sha256": "3ebe23cbd284500a80664bd87a634b8341ec7bd40f20a52b3b2cd960a4dc05e4",
+    "bytes": 185,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS3-mashtree_consensus.nwk",
+    "source_sha256": "1101af728d7e2ce01ec497697eb58d2fe06ba68648fb4515aea21273ab711894",
+    "export_path": "expected/figure-data/figureS3-mashtree_consensus.nwk",
+    "export_sha256": "1101af728d7e2ce01ec497697eb58d2fe06ba68648fb4515aea21273ab711894",
+    "bytes": 185,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS3-pairs.tsv",
+    "source_sha256": "9ce4d3001e8b3b916bf007b79e822e1308eba126c8a0105ffb851a26530a918e",
+    "export_path": "expected/figure-data/figureS3-pairs.tsv",
+    "export_sha256": "9ce4d3001e8b3b916bf007b79e822e1308eba126c8a0105ffb851a26530a918e",
+    "bytes": 1983,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS3-tree-geometry.json",
+    "source_sha256": "6c8518467e478c17b290d9520aa076033e61a6577cee95e88dba96adfa58d565",
+    "export_path": "expected/figure-data/figureS3-tree-geometry.json",
+    "export_sha256": "6c8518467e478c17b290d9520aa076033e61a6577cee95e88dba96adfa58d565",
+    "bytes": 6011,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS3-verticall_fastme.nwk",
+    "source_sha256": "5fe6702a6dcdcfb981a029f7e13fc0981b70ef705bd5233a48cf1767305c8d9e",
+    "export_path": "expected/figure-data/figureS3-verticall_fastme.nwk",
+    "export_sha256": "5fe6702a6dcdcfb981a029f7e13fc0981b70ef705bd5233a48cf1767305c8d9e",
+    "bytes": 168,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS4-bac120_fasttree.nwk",
+    "source_sha256": "d55c6fd0e968b1b5827635b9eebd48886eed26c35393e12674d15c506c47acb5",
+    "export_path": "expected/figure-data/figureS4-bac120_fasttree.nwk",
+    "export_sha256": "d55c6fd0e968b1b5827635b9eebd48886eed26c35393e12674d15c506c47acb5",
+    "bytes": 178,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS4-mashtree_consensus.nwk",
+    "source_sha256": "d737dd6226fc941bfec89953269b1c22eb61e97a8ac7f5c323deb9aef5b44a46",
+    "export_path": "expected/figure-data/figureS4-mashtree_consensus.nwk",
+    "export_sha256": "d737dd6226fc941bfec89953269b1c22eb61e97a8ac7f5c323deb9aef5b44a46",
+    "bytes": 180,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS4-pairs.tsv",
+    "source_sha256": "5307ebef782e8475c32ff24ecec8e54c416e71a9bc01e25ea9555cd762293467",
+    "export_path": "expected/figure-data/figureS4-pairs.tsv",
+    "export_sha256": "5307ebef782e8475c32ff24ecec8e54c416e71a9bc01e25ea9555cd762293467",
+    "bytes": 2170,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS4-tree-geometry.json",
+    "source_sha256": "c64150c8129facadfa659d7ab032e8de325149b9e60a0425a93daec0d5c34bbf",
+    "export_path": "expected/figure-data/figureS4-tree-geometry.json",
+    "export_sha256": "c64150c8129facadfa659d7ab032e8de325149b9e60a0425a93daec0d5c34bbf",
+    "bytes": 5767,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS4-verticall_fastme.nwk",
+    "source_sha256": "acf9d14b50cdc325b2b679dbede93a428f238b3d4424fdc976d498f08d14746e",
+    "export_path": "expected/figure-data/figureS4-verticall_fastme.nwk",
+    "export_sha256": "acf9d14b50cdc325b2b679dbede93a428f238b3d4424fdc976d498f08d14746e",
+    "bytes": 169,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS5-bac120_fasttree.nwk",
+    "source_sha256": "856b237da31153f2737f56666cb3f4e0dac7833e94ba918a82905d3fc0e600c2",
+    "export_path": "expected/figure-data/figureS5-bac120_fasttree.nwk",
+    "export_sha256": "856b237da31153f2737f56666cb3f4e0dac7833e94ba918a82905d3fc0e600c2",
+    "bytes": 182,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS5-mashtree_consensus.nwk",
+    "source_sha256": "0b4d6e5c88564c720b235ebfa3c0154585824f3d29f26103dadd2fc294b50b71",
+    "export_path": "expected/figure-data/figureS5-mashtree_consensus.nwk",
+    "export_sha256": "0b4d6e5c88564c720b235ebfa3c0154585824f3d29f26103dadd2fc294b50b71",
+    "bytes": 182,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS5-pairs.tsv",
+    "source_sha256": "fd9f4022ced493bcea9b2e2701cb929850b9d6160c091a5a7ad59e6a76a9604b",
+    "export_path": "expected/figure-data/figureS5-pairs.tsv",
+    "export_sha256": "fd9f4022ced493bcea9b2e2701cb929850b9d6160c091a5a7ad59e6a76a9604b",
+    "bytes": 2190,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS5-tree-geometry.json",
+    "source_sha256": "012c7882db4e3b52efe44e5cad2f88a027db6fb7fdac57e1a6dced4f5ada1409",
+    "export_path": "expected/figure-data/figureS5-tree-geometry.json",
+    "export_sha256": "012c7882db4e3b52efe44e5cad2f88a027db6fb7fdac57e1a6dced4f5ada1409",
+    "bytes": 5883,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS5-verticall_fastme.nwk",
+    "source_sha256": "f6aad4df8fe4d141b088f9e6e3375cbec547594e8104ffee60dd29a5ffa5223e",
+    "export_path": "expected/figure-data/figureS5-verticall_fastme.nwk",
+    "export_sha256": "f6aad4df8fe4d141b088f9e6e3375cbec547594e8104ffee60dd29a5ffa5223e",
+    "bytes": 168,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS6-bac120_fasttree.nwk",
+    "source_sha256": "e6a8f8993a9f03d9fd294fd855c0d21c39f4fb81b68dc1901d886068ac4edac8",
+    "export_path": "expected/figure-data/figureS6-bac120_fasttree.nwk",
+    "export_sha256": "e6a8f8993a9f03d9fd294fd855c0d21c39f4fb81b68dc1901d886068ac4edac8",
+    "bytes": 181,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS6-mashtree_consensus.nwk",
+    "source_sha256": "1d5983bb6328a3e997a26571ee03b9229ac7488481b3f269053941ca7c5ea5d0",
+    "export_path": "expected/figure-data/figureS6-mashtree_consensus.nwk",
+    "export_sha256": "1d5983bb6328a3e997a26571ee03b9229ac7488481b3f269053941ca7c5ea5d0",
+    "bytes": 189,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS6-pairs.tsv",
+    "source_sha256": "3375ebfe417438b8b82610429596d0a95a3f1f351aeff179825de1f75c480c23",
+    "export_path": "expected/figure-data/figureS6-pairs.tsv",
+    "export_sha256": "3375ebfe417438b8b82610429596d0a95a3f1f351aeff179825de1f75c480c23",
+    "bytes": 2243,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS6-tree-geometry.json",
+    "source_sha256": "3eeb8e897c73009ac6a057df26437ee4446205861d0848faad97508a5e762329",
+    "export_path": "expected/figure-data/figureS6-tree-geometry.json",
+    "export_sha256": "3eeb8e897c73009ac6a057df26437ee4446205861d0848faad97508a5e762329",
+    "bytes": 5936,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS6-verticall_fastme.nwk",
+    "source_sha256": "4679c51e5020dd234f0c8bf8a59dc94152f407352a5fdbf9033f5b98288be023",
+    "export_path": "expected/figure-data/figureS6-verticall_fastme.nwk",
+    "export_sha256": "4679c51e5020dd234f0c8bf8a59dc94152f407352a5fdbf9033f5b98288be023",
+    "bytes": 170,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS7-bac120_fasttree.nwk",
+    "source_sha256": "1b6072f483cd466f6d79fcf4aaebd8eb63a0c36cc783d6406edf35f5f8795a7b",
+    "export_path": "expected/figure-data/figureS7-bac120_fasttree.nwk",
+    "export_sha256": "1b6072f483cd466f6d79fcf4aaebd8eb63a0c36cc783d6406edf35f5f8795a7b",
+    "bytes": 182,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS7-mashtree_consensus.nwk",
+    "source_sha256": "a63bba30a05582648a3627300da9efba33a656501a928ca4bc54f804e9475b03",
+    "export_path": "expected/figure-data/figureS7-mashtree_consensus.nwk",
+    "export_sha256": "a63bba30a05582648a3627300da9efba33a656501a928ca4bc54f804e9475b03",
+    "bytes": 184,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS7-pairs.tsv",
+    "source_sha256": "63731f3de9c3eec7aa3ffac48a896cad7f2cf6b41e286fdae04dc2df4fd73c6c",
+    "export_path": "expected/figure-data/figureS7-pairs.tsv",
+    "export_sha256": "63731f3de9c3eec7aa3ffac48a896cad7f2cf6b41e286fdae04dc2df4fd73c6c",
+    "bytes": 2267,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS7-tree-geometry.json",
+    "source_sha256": "45f581de9e2f9d65138f69c0e829e662b047f4bd9bef4417f0d70a74c5de0409",
+    "export_path": "expected/figure-data/figureS7-tree-geometry.json",
+    "export_sha256": "45f581de9e2f9d65138f69c0e829e662b047f4bd9bef4417f0d70a74c5de0409",
+    "bytes": 5786,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS7-verticall_fastme.nwk",
+    "source_sha256": "e7d3cd0d693ef704306f94a27238837390e1b41aaf05caa8d5e54079de40bdf9",
+    "export_path": "expected/figure-data/figureS7-verticall_fastme.nwk",
+    "export_sha256": "e7d3cd0d693ef704306f94a27238837390e1b41aaf05caa8d5e54079de40bdf9",
+    "bytes": 170,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS8-summary.tsv",
+    "source_sha256": "ab44d4d3557259af30670cef068638fb03cca00e24d029688273d04da87a8d56",
+    "export_path": "expected/figure-data/figureS8-summary.tsv",
+    "export_sha256": "ab44d4d3557259af30670cef068638fb03cca00e24d029688273d04da87a8d56",
+    "bytes": 611,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS9-above-threshold-cross-group.tsv",
+    "source_sha256": "073c268277a0581ea903835bfd8cd14a64a8963102fe652ca8e8491f523180ae",
+    "export_path": "expected/figure-data/figureS9-above-threshold-cross-group.tsv",
+    "export_sha256": "073c268277a0581ea903835bfd8cd14a64a8963102fe652ca8e8491f523180ae",
+    "bytes": 570,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS9-genome-order.tsv",
+    "source_sha256": "2424fa5a3e6741ab52c95be6f4ef0e2b92a5c7a1b0dae51ce952b41284d7a654",
+    "export_path": "expected/figure-data/figureS9-genome-order.tsv",
+    "export_sha256": "2424fa5a3e6741ab52c95be6f4ef0e2b92a5c7a1b0dae51ce952b41284d7a654",
+    "bytes": 54268,
+    "transformation": "byte-identical"
+  },
+  {
+    "source_id": "results/manuscript/2026-10-22/issue29-final-editorial-codex-ec31e4be/outputs/figures/source-data/figureS9-pairs.tsv",
+    "source_sha256": "ba952a048c0f43ec253dbbcb3c040077f7de6908451d4568c2ec37bffc9306cc",
+    "export_path": "expected/figure-data/figureS9-pairs.tsv",
+    "export_sha256": "ba952a048c0f43ec253dbbcb3c040077f7de6908451d4568c2ec37bffc9306cc",
+    "bytes": 2540585,
+    "transformation": "byte-identical"
+  }
+]

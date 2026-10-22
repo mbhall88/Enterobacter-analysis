@@ -1,0 +1,8 @@
+database_sequence_id	database_taxid	database_name	source_accession_match
+kraken:taxid|158836|NZ_CP011662.1	158836	Enterobacter hormaechei	NZ_wrapper
+kraken:taxid|1915310|NZ_CP017990.1	1915310	Enterobacter cloacae complex sp. ECNIH7	NZ_wrapper
+kraken:taxid|550|NZ_CP035738.1	550	Enterobacter cloacae	NZ_wrapper
+kraken:taxid|550|NZ_AP022126.1	550	Enterobacter cloacae	NZ_wrapper
+kraken:taxid|301105|NZ_CP098486.1	301105	Enterobacter hormaechei subsp. hormaechei	NZ_wrapper
+kraken:taxid|550|NZ_CP134674.1	550	Enterobacter cloacae	NZ_wrapper
+kraken:taxid|2494701|NZ_CM132266.1	2494701	Enterobacter chengduensis	NZ_wrapper

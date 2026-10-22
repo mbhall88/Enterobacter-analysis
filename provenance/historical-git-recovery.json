@@ -1,0 +1,60 @@
+[
+  {
+    "ledger": "results/full-cohort/2026-09-22/task11-opus-full/inputs.sha256",
+    "source_path": "${PROJECT_ROOT}/manifests/full.tsv",
+    "historical_sha256": "8498b1c81cf38271ee36895b01d105c6cace18afc668d19656460e7e965c88ac",
+    "current_sha256": "5588b905daae3745a26db9a45b75bac690fae9a4bec06b8d1a3bea983f152315",
+    "matches": false,
+    "historical_matching_commits": [
+      "ec18cbefcf5f75205b62fa49bdad0686830a55e2"
+    ]
+  },
+  {
+    "ledger": "results/full-cohort/2026-09-22/task11-opus-full/inputs.sha256",
+    "source_path": "${PROJECT_ROOT}/manifests/full.list",
+    "historical_sha256": "00a7d3a4b8dce2a75c8f63b4f46aac1eb84175aedcd6c44ec73ac9426e85fd42",
+    "current_sha256": "c08b7269ae0974e985a3d3049e9b492a5f2efa7fc126fb7839099ec8efc9c1f1",
+    "matches": false,
+    "historical_matching_commits": [
+      "ec18cbefcf5f75205b62fa49bdad0686830a55e2"
+    ]
+  },
+  {
+    "ledger": "results/full-cohort/2026-09-22/task11-opus-full/inputs.sha256",
+    "source_path": "${PROJECT_ROOT}/manifests/full.batch.tsv",
+    "historical_sha256": "ff52bf71c59c055ca82427a8f7e920f0c01f09505c158f5ae8bbafd262f00319",
+    "current_sha256": "b74a02040c6c7ee8cf04fc39cf9d33d9fba87968dc974ea0d76fe79a382b690c",
+    "matches": false,
+    "historical_matching_commits": [
+      "ec18cbefcf5f75205b62fa49bdad0686830a55e2"
+    ]
+  },
+  {
+    "ledger": "results/full-cohort/2026-09-22/task11-opus-full/inputs.sha256",
+    "source_path": "${PROJECT_ROOT}/manifests/full.ids.txt",
+    "historical_sha256": "796f3cad0bbf09f7c3061e3a0bd97e6edb4b4b9633637d79ad8461db75a0484e",
+    "current_sha256": "9f5144bad4f1f1d068a2220f5395c6be20b47ac3ec334571ba737aeacccfb943",
+    "matches": false,
+    "historical_matching_commits": [
+      "ec18cbefcf5f75205b62fa49bdad0686830a55e2"
+    ]
+  },
+  {
+    "ledger": "results/full-cohort/2026-09-22/task11-opus-full/inputs.sha256",
+    "source_path": "${PROJECT_ROOT}/scripts/build_full_cohort_inputs.py",
+    "historical_sha256": "d241874c93f534064d591b10f5b80338d035df86f78465624c86633b93c7ca31",
+    "current_sha256": "c2172fb533d8357b1b29f55b9c55e30cefd797f22fcc778c1dfa23764be48a4d",
+    "matches": false,
+    "historical_matching_commits": [
+      "ec18cbefcf5f75205b62fa49bdad0686830a55e2"
+    ]
+  },
+  {
+    "ledger": "results/full-cohort/2026-09-22/task11-opus-full/inputs.sha256",
+    "source_path": "${PROJECT_ROOT}/scripts/run_mashtree_seeds.sh",
+    "historical_sha256": "f98fa15f81b2cd128d9d90ca87466432937fd7e5264fc16bdbb4d21ec08feef4",
+    "current_sha256": "e9e609d9b69ec023e04861d9aac2d16f005938f9f419833cc5c04ded905e7a8e",
+    "matches": false,
+    "historical_matching_commits": []
+  }
+]

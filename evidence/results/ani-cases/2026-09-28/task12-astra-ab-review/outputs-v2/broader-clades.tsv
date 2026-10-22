@@ -1,0 +1,10 @@
+method	group	tips	pure_clade	branch_length	support_label	support_convention
+bac120_fasttree	A	173	True	0.002353	1.000	sh_like_local
+bac120_fasttree	B	438	True	0.000675	1.000	sh_like_local
+bac120_fasttree	H	13	True	0.001448	1.000	sh_like_local
+verticall_fastme	A	173	True	0.018136		none
+verticall_fastme	B	438	True	0.003432		none
+verticall_fastme	H	13	True	0.021571		none
+mashtree_consensus	A	173	True	0.014423	1	seed_stability
+mashtree_consensus	B	438	True	0.003689	1	seed_stability
+mashtree_consensus	H	13	True	0.01669	1	seed_stability

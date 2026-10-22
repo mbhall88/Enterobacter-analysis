@@ -1,0 +1,8 @@
+candidate	constrained_to	carries_hypotheses	logL	deltaL	bp-RELL	p-KH	p-SH	p-WKH	p-WSH	c-ELW	p-AU	rejected_by_AU_at_0.05	rejected_by_SH_at_0.05	model	scope
+ml		none_of_the_named	-190588.4916	0	0.58	0.669	1	0.669	0.993	0.579	1	False	False	Q.INSECT+F+R5	panel
+C1_distance	C1_distance	C1_distance	-190649.5239	61.032	0.0137	0.021	0.364	0.021	0.0741	0.0138	0.0296	True	False	Q.INSECT+F+R5	panel
+C1_marker_outside	C1_marker_outside	C1_marker_outside	-190644.7599	56.268	0.0008	0.0028	0.379	0.0028	0.0089	0.000773	0.00399	True	False	Q.INSECT+F+R5	panel
+C1_marker_sister	C1_marker_sister	C1_marker_sister;C2_marker_sister	-190697.4534	108.96	0.0482	0.106	0.191	0.106	0.275	0.0497	0.12	False	False	Q.INSECT+F+R5	panel
+C2_distance	C2_distance	C2_distance	-190761.7246	173.23	0.0001	0.0007	0.0266	0.0007	0.0019	9.97e-05	0.000843	True	True	Q.INSECT+F+R5	panel
+C2_marker_chinensis	C2_marker_chinensis	C2_marker_chinensis	-190600.2908	11.799	0.306	0.331	0.757	0.331	0.681	0.307	0.408	False	False	Q.INSECT+F+R5	panel
+C2_marker_sister	C2_marker_sister	C1_marker_sister;C2_marker_sister	-190697.4534	108.96	0.0509	0.106	0.191	0.106	0.269	0.0497	0.12	False	False	Q.INSECT+F+R5	panel

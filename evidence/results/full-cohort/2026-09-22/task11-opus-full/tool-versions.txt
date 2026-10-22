@@ -1,0 +1,9 @@
+verticall: Verticall v0.4.2
+minimap2: 2.30-r1287
+fastme: FastME 2.1.6.3
+mashtree: Mashtree 1.4.6
+mash: 2.3
+quicktree: quicktree 2.5
+veryfasttree: VeryFastTree Version 4.0.5 (OpenMP, AVX2) with SSE3
+python: Python 3.12.11
+gtdb-tk module: gtdb-tk/2.7.2+232, GTDBTK_DATA_PATH=/scratch/opendata/genomics/GTDB/releases/release232/

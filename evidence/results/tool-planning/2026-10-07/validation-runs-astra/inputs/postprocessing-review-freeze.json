@@ -1,0 +1,13 @@
+{
+  "layer2_pins_sha256": "c2abfe44e2e81d85dda6f84b647dc3888475ade0f319298f920beba830473c23",
+  "note": "No Layer2 evaluation or scoring executed before this seal.",
+  "postprocessing_driver_pins_sha256": "de18b785fc8bd6963adc1a2632a822ff22d9300893d211185dc7fee221aead31",
+  "spec_review": "results/tool-planning/2026-10-07/validation-execution-spec-review-astra/layer2-scoring-findings.md",
+  "standard_review": "results/tool-planning/2026-10-07/validation-execution-standards-review-astra/layer2-scoring-review-attempt02/README.md",
+  "tests": 24,
+  "verification": {
+    "changed": 0,
+    "object_pins": 5,
+    "package_source_files": 19
+  }
+}

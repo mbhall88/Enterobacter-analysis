@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "hypothesis": "unconstrained",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/local/GCA_019046905.1/tree/primary.treefile"
+  },
+  {
+    "index": 2,
+    "hypothesis": "boundary_with_nematophilus",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/local/GCA_019046905.1/tests/topology-primary/boundary_with_nematophilus.treefile"
+  },
+  {
+    "index": 3,
+    "hypothesis": "boundary_with_bugandensis",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/local/GCA_019046905.1/tests/topology-primary/boundary_with_bugandensis.treefile"
+  },
+  {
+    "index": 4,
+    "hypothesis": "boundary_outside_both",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded/local/GCA_019046905.1/tests/topology-primary/boundary_outside_both.treefile"
+  }
+]

@@ -1,0 +1,10 @@
+linkage	cutoff	groups	singleton_groups	largest_group	same_partition_as_primary	within_pairs_below_99_5
+complete	99.495	25	15	92	True	0
+complete	99.5	25	15	92	True	0
+complete	99.505	25	15	92	True	0
+average	99.495	25	15	92	True	0
+average	99.5	25	15	92	True	0
+average	99.505	25	15	92	True	0
+single	99.495	23	13	92	False	21
+single	99.5	23	13	92	False	21
+single	99.505	23	13	92	False	21

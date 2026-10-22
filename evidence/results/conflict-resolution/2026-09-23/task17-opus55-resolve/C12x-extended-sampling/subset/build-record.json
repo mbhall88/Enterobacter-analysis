@@ -1,0 +1,63 @@
+{
+ "conflict": "C12x",
+ "title": "Sensitivity shared by C1 and C2: the C1 and C2 subsets together, with every in-genus lineage outside the 402-tip clade represented by its type anchor",
+ "config": "config/conflict-resolution.json",
+ "config_sha256": "87e5c1435b6808424e0bb7826151bc43f2c7d8d15620fbd7a5d52c87c3b1300e",
+ "manifest": "manifests/full.tsv",
+ "manifest_sha256": "5588b905daae3745a26db9a45b75bac690fae9a4bec06b8d1a3bea983f152315",
+ "trees": {
+  "bac120_fasttree": {
+   "path": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/bac120_fasttree.both_set12_outgroups.rooted.nwk",
+   "sha256": "95f5fdca098139271ed8dec9252800fefd10d8cc8150ccdc170e27ece2a7149d"
+  },
+  "verticall_fastme": {
+   "path": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/verticall_fastme.both_set12_outgroups.rooted.nwk",
+   "sha256": "be98d49b7e38a99f7dfee4173536bbf166672ae0fb53431573553515d82d3c49"
+  },
+  "mashtree_consensus": {
+   "path": "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/mashtree_consensus.both_set12_outgroups.rooted.nwk",
+   "sha256": "b82431146ad7964f8d0e41a1a642c96d5e99992fffb69665ec2dc0366d1341c6"
+  }
+ },
+ "subset_tips": 234,
+ "panel_tips": 50,
+ "lineage_units": 32,
+ "shared_units_of_two_or_more": 5,
+ "outgroups": [
+  "GCA_019048125.1",
+  "GCA_000982825.1"
+ ],
+ "outgroup_check": {
+  "bac120_fasttree": {
+   "ingroup_mrca_tips": 1071,
+   "outgroups_inside": []
+  },
+  "verticall_fastme": {
+   "ingroup_mrca_tips": 1071,
+   "outgroups_inside": []
+  },
+  "mashtree_consensus": {
+   "ingroup_mrca_tips": 1072,
+   "outgroups_inside": []
+  }
+ },
+ "free_in_constraints": [
+  "GCA_025002605.1"
+ ],
+ "competing_clade_sizes": {
+  "bac120_fasttree:cloacae_pair": 52,
+  "verticall_fastme:cloacae_pair": 104,
+  "mashtree_consensus:cloacae_pair": 104,
+  "bac120_fasttree:sichuanensis": 52,
+  "verticall_fastme:sichuanensis": 7,
+  "mashtree_consensus:sichuanensis": 7,
+  "bac120_fasttree:chinensis": 91,
+  "verticall_fastme:chinensis": 7,
+  "mashtree_consensus:chinensis": 7
+ },
+ "thinning": {
+  "seed": 20260923,
+  "max_per_unit": 4,
+  "rule": "Lineage units are the maximal clades recovered with identical membership by all three rooted trees inside the subset's ingroup. A unit keeps its type anchors and is topped up to max_per_unit by a seeded random draw from its other members; units at or below max_per_unit keep everyone. Genomes no shared clade contains are kept individually. Neighbours, outgroups and extra genomes are always kept. Seeded random rather than distance-chosen, so no method's distances pick the panel."
+ }
+}

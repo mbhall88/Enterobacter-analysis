@@ -1,0 +1,61 @@
+--- results/manuscript/2026-10-16/issue29-methods-revision-codex-860c235c/figures.py
++++ workflow/figures/legacy_figures.py
+@@ -1,8 +1,7 @@
+ """Render saved results. No inference, alignment, sequence input or source edits."""
+ import csv, json, os
+ from pathlib import Path
+-RUN=Path(__file__).resolve().parent
+-ROOT=Path('/scratch/user/uqmhal11/Enterobacter')
++from prepare import RUN, ROOT
+ os.environ['MPLCONFIGDIR']=str(RUN/'outputs/mpl-cache')
+ import matplotlib
+ matplotlib.use('Agg')
+--- results/manuscript/2026-10-22/issue29-review-v7-codex-0184949d/dataset_flow.py
++++ workflow/figures/dataset_flow.py
+@@ -61,7 +61,7 @@
+     transition=rows(PATHS['initial_transitions'])
+     assert int(next(x['count'] for x in transition if x['rule']=='public_discovery:entities'))==1079
+     out=RUN/'outputs';tab=out/'tables'
+-    receipt={'counts':counts,'sources':{k:{'path':str(p),'sha256':sha(p)} for k,p in PATHS.items()},
++    receipt={'counts':counts,'sources':{k:{'path':str(p),'sha256':sha(p)} for k,p in PATHS.items() if p.is_file()},
+              'interpretation':'Saved accession/role accounting; no independent-cohort sum across overlapping analyses',
+              'quality_exclusions':sorted(restricted),'study_reference_intersection':sorted(study & refset)}
+     (out/'dataset-flow.json').write_text(json.dumps(receipt,indent=2)+'\n')
+--- results/manuscript/2026-10-16/issue29-results-v5-codex-101ac0c7/v5_figures.py
++++ workflow/figures/v5_figures.py
+@@ -18,7 +18,6 @@
+  'genomovar_pairs':ROOT/'results/ani-cases/2026-10-02/task12-astra-group-a-populations/inputs/pairs.tsv',
+  'genomovar_memberships':ROOT/'results/ani-cases/2026-10-02/task12-astra-genomovars-reporting/outputs/memberships.tsv',
+  'subspecies_ranges':ROOT/'results/ani-cases/2026-09-29/task12-astra-kobei-xiangfangensis-review/outputs/subgroup-pairs.tsv',
+- 'rooting_scope':ROOT/'results/full-cohort/2026-09-22/task11-opus-full/manuscript-contribution.md',
+ }
+ def rows(p):
+     with p.open() as f:return list(csv.DictReader(f,delimiter='\t'))
+@@ -202,7 +201,7 @@
+     save(fig,'figure2','Existing 35-tip projections displayed with the same outgroup orientation',
+          ['Place display root halfway along the existing edge separating the two outgroups',
+           'Retain every unrooted split, path length and edge support; original Newick files unchanged',
+-          'This 35-tip display does not infer a root for all 1,089 tips'],names+['rooting_scope'])
++          'This 35-tip display does not infer a root for all 1,089 tips'],names)
+     return reports
+ 
+ def main():
+--- results/manuscript/2026-10-22/issue29-review-v7-codex-0184949d/v7_treefigure.py
++++ workflow/figures/v7_treefigure.py
+@@ -18,7 +18,6 @@
+  'genomovar_pairs':ROOT/'results/ani-cases/2026-10-02/task12-astra-group-a-populations/inputs/pairs.tsv',
+  'genomovar_memberships':ROOT/'results/ani-cases/2026-10-02/task12-astra-genomovars-reporting/outputs/memberships.tsv',
+  'subspecies_ranges':ROOT/'results/ani-cases/2026-09-29/task12-astra-kobei-xiangfangensis-review/outputs/subgroup-pairs.tsv',
+- 'rooting_scope':ROOT/'results/full-cohort/2026-09-22/task11-opus-full/manuscript-contribution.md',
+ }
+ def rows(p):
+     with p.open() as f:return list(csv.DictReader(f,delimiter='\t'))
+@@ -133,7 +132,7 @@
+     save(fig,'figure2','Existing 35-tip projections displayed with the same outgroup orientation',
+          ['Place display root halfway along the existing edge separating the two outgroups',
+           'Retain every unrooted split, path length and edge support; original Newick files unchanged',
+-          'This 35-tip display does not infer a root for all 1,089 tips'],names+['rooting_scope'])
++          'This 35-tip display does not infer a root for all 1,089 tips'],names)
+     return reports
+ 
+ 

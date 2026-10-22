@@ -1,0 +1,77 @@
+{
+ "verticall": {
+  "source": "Verticall/FastME: hoffmannii + intestinihominis closer, nototheniae outside.",
+  "kind": "quartet",
+  "free_in_constraint": [],
+  "subset": {
+   "side_a": [
+    "GCA_001729745.1",
+    "GCA_040096145.1"
+   ],
+   "side_b_named": [
+    "GCA_052922205.1"
+   ],
+   "kind": "quartet"
+  },
+  "panel": {
+   "side_a": [
+    "GCA_001729745.1",
+    "GCA_040096145.1"
+   ],
+   "side_b_named": [
+    "GCA_052922205.1"
+   ],
+   "kind": "quartet"
+  }
+ },
+ "marker": {
+  "source": "BAC120/FastTree: intestinihominis + nototheniae closer, hoffmannii outside (SH-like 0.961 on the 167-tip split).",
+  "kind": "quartet",
+  "free_in_constraint": [],
+  "subset": {
+   "side_a": [
+    "GCA_040096145.1",
+    "GCA_052922205.1"
+   ],
+   "side_b_named": [
+    "GCA_001729745.1"
+   ],
+   "kind": "quartet"
+  },
+  "panel": {
+   "side_a": [
+    "GCA_040096145.1",
+    "GCA_052922205.1"
+   ],
+   "side_b_named": [
+    "GCA_001729745.1"
+   ],
+   "kind": "quartet"
+  }
+ },
+ "third": {
+  "source": "The remaining resolution: hoffmannii + nototheniae closer. Mashtree's pilot seed-42 choice (0 of 20 seeds); the 1,000-replicate consensus leaves the trio a polytomy at the type level.",
+  "kind": "quartet",
+  "free_in_constraint": [],
+  "subset": {
+   "side_a": [
+    "GCA_001729745.1",
+    "GCA_052922205.1"
+   ],
+   "side_b_named": [
+    "GCA_040096145.1"
+   ],
+   "kind": "quartet"
+  },
+  "panel": {
+   "side_a": [
+    "GCA_001729745.1",
+    "GCA_052922205.1"
+   ],
+   "side_b_named": [
+    "GCA_040096145.1"
+   ],
+   "kind": "quartet"
+  }
+ }
+}

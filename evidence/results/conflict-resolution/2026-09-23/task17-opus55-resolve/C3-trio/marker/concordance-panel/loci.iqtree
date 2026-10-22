@@ -1,0 +1,314 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Partition file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/ledger-panel/loci.nex
+Input file name: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/alignment-panel/alignment.faa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 20260923
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 53 taxa with 69 partitions and 29341 total sites (0.418887% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	AA	53	79	23	6	72	72	PF03726_15
+   2	AA	53	357	25	3	352	352	TIGR00019
+   3	AA	53	290	24	1	286	286	TIGR00020
+   4	AA	53	414	34	8	400	400	TIGR00054
+   5	AA	52	272	26	4	265	265	TIGR00064
+   6	AA	53	287	31	6	275	275	TIGR00083
+   7	AA	53	189	24	2	184	184	TIGR00084
+   8	AA	53	362	21	1	361	361	TIGR00092
+   9	AA	53	189	26	3	183	183	TIGR00095
+  10	AA	53	399	40	2	396	396	TIGR00115
+  11	AA	53	282	23	2	278	278	TIGR00116
+  12	AA	52	178	37	3	160	160	TIGR00138
+  13	AA	53	112	19	1	111	111	TIGR00168
+  14	AA	53	238	30	7	228	228	TIGR00186
+  15	AA	52	569	83	7	551	551	TIGR00194
+  16	AA	53	524	23	1	521	521	TIGR00337
+  17	AA	53	828	33	7	814	814	TIGR00344
+  18	AA	52	436	22	1	434	434	TIGR00362
+  19	AA	53	817	51	15	786	786	TIGR00392
+  20	AA	52	834	36	2	818	818	TIGR00396
+  21	AA	53	522	33	6	509	509	TIGR00398
+  22	AA	53	453	35	3	442	442	TIGR00416
+  23	AA	53	348	30	5	338	338	TIGR00420
+  24	AA	53	208	27	5	200	200	TIGR00431
+  25	AA	53	456	37	10	439	439	TIGR00435
+  26	AA	53	270	25	3	264	264	TIGR00436
+  27	AA	53	564	51	16	535	535	TIGR00456
+  28	AA	53	582	38	7	564	564	TIGR00459
+  29	AA	53	306	49	16	277	277	TIGR00460
+  30	AA	53	288	27	6	281	281	TIGR00468
+  31	AA	53	789	56	20	751	751	TIGR00472
+  32	AA	53	584	21	1	583	583	TIGR00487
+  33	AA	53	361	41	11	340	340	TIGR00539
+  34	AA	53	912	56	10	888	888	TIGR00580
+  35	AA	52	868	67	16	820	820	TIGR00593
+  36	AA	53	657	25	1	651	651	TIGR00631
+  37	AA	53	552	35	7	537	537	TIGR00634
+  38	AA	53	303	21	1	301	301	TIGR00635
+  39	AA	52	623	41	14	602	602	TIGR00643
+  40	AA	51	365	22	1	363	363	TIGR00663
+  41	AA	53	248	21	1	246	246	TIGR00755
+  42	AA	53	424	52	6	411	411	TIGR00928
+  43	AA	53	772	26	2	766	766	TIGR00963
+  44	AA	53	224	21	1	223	223	TIGR01011
+  45	AA	52	458	22	1	456	456	TIGR01039
+  46	AA	52	620	29	6	614	614	TIGR01059
+  47	AA	53	798	22	1	796	796	TIGR01063
+  48	AA	53	142	19	1	141	141	TIGR01071
+  49	AA	53	443	29	5	434	434	TIGR01082
+  50	AA	53	424	50	9	395	395	TIGR01087
+  51	AA	53	311	39	14	292	292	TIGR01128
+  52	AA	53	125	20	1	124	124	TIGR01164
+  53	AA	53	593	23	1	590	590	TIGR01393
+  54	AA	52	594	21	1	593	593	TIGR01394
+  55	AA	52	153	29	3	143	143	TIGR01510
+  56	AA	53	1232	22	2	1230	1230	TIGR02013
+  57	AA	53	232	43	1	227	227	TIGR02075
+  58	AA	53	212	22	2	210	210	TIGR02191
+  59	AA	53	164	25	4	159	159	TIGR02273
+  60	AA	53	1143	51	7	1132	1132	TIGR02386
+  61	AA	53	354	30	1	344	344	TIGR02397
+  62	AA	53	179	42	10	156	156	TIGR02432
+  63	AA	53	327	24	1	323	323	TIGR02729
+  64	AA	52	179	20	1	178	178	TIGR03263
+  65	AA	53	424	41	3	419	419	TIGR03594
+  66	AA	53	202	23	2	198	198	TIGR03625
+  67	AA	53	175	21	1	174	174	TIGR03654
+  68	AA	53	311	31	5	301	301	TIGR03723
+  69	AA	53	211	40	10	191	191	TIGR03725
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: Q.PFAM:PF03726_15,Q.PFAM:TIGR00019,Q.PFAM:TIGR00020,JTT:TIGR00054,Q.PLANT:TIGR00064,JTT:TIGR00083,LG:TIGR00084,LG:TIGR00092,JTT+G4:TIGR00095,LG:TIGR00115,Q.PLANT:TIGR00116,Q.PLANT:TIGR00138,Q.INSECT:TIGR00168,JTT:TIGR00186,JTT:TIGR00194,LG:TIGR00337,Q.PFAM:TIGR00344,Q.PFAM:TIGR00362,WAG+G4:TIGR00392,LG:TIGR00396,JTT:TIGR00398,JTT:TIGR00416,WAG:TIGR00420,Q.PLANT:TIGR00431,JTT+G4:TIGR00435,LG:TIGR00436,Q.PLANT+G4:TIGR00456,Q.PFAM:TIGR00459,JTT:TIGR00460,LG:TIGR00468,Q.PLANT+I+G4:TIGR00472,LG:TIGR00487,JTT+G4:TIGR00539,Q.PFAM+G4:TIGR00580,Q.PFAM+G4:TIGR00593,LG:TIGR00631,Q.PFAM:TIGR00634,Q.PFAM:TIGR00635,JTT+I+G4:TIGR00643,JTT:TIGR00663,LG:TIGR00755,Q.PLANT:TIGR00928,LG:TIGR00963,Q.PFAM:TIGR01011,LG:TIGR01039,Q.PFAM:TIGR01059,LG:TIGR01063,WAG:TIGR01071,Q.PFAM:TIGR01082,JTT:TIGR01087,Q.PLANT:TIGR01128,Q.PFAM:TIGR01164,LG:TIGR01393,LG:TIGR01394,Q.PLANT:TIGR01510,LG:TIGR02013,JTT:TIGR02075,Q.PFAM:TIGR02191,Q.PLANT:TIGR02273,LG:TIGR02386,Q.PFAM:TIGR02397,Q.PLANT+G4:TIGR02432,WAG:TIGR02729,Q.PFAM:TIGR03263,Q.PFAM:TIGR03594,WAG:TIGR03625,WAG:TIGR03654,WAG:TIGR03723,JTT+G4:TIGR03725
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  Q.PFAM             -257.446     720.891 + 6.95e-310   22144.891 + 6.95e-310     964.944 + 6.95e-310
+   2  Q.PFAM            -1072.196    2350.391 + 6.95e-310    2435.071 + 6.95e-310    2749.798 + 6.95e-310
+   3  Q.PFAM             -865.099    1936.199 + 6.95e-310    2051.382 + 6.95e-310    2314.197 + 6.95e-310
+   4  JTT               -1317.052    2840.105 + 6.95e-310    2909.214 + 6.95e-310    3254.769 + 6.95e-310
+   5  Q.PLANT            -823.997    1849.995 + 6.95e-310    1971.195 + 6.95e-310    2214.181 + 6.95e-310
+   6  JTT                -915.686    2037.371 + 6.95e-310    2154.442 + 6.95e-310    2414.298 + 6.95e-310
+   7  LG                 -568.581    1343.161 + 6.95e-310    1595.209 + 6.95e-310    1677.061 + 6.95e-310
+   8  LG                -1042.057    2290.114 + 6.95e-310    2373.153 + 6.95e-310    2690.954 + 6.95e-310
+   9  JTT+G4             -609.466    1426.931 + 6.95e-310    1686.931 + 6.95e-310    1764.073 + 6.95e-310
+  10  LG                -1153.058    2512.116 + 6.95e-310    2584.739 + 6.95e-310    2922.979 + 6.95e-310
+  11  Q.PLANT            -829.471    1864.942 + 6.95e-310    1985.302 + 6.95e-310    2240.059 + 6.95e-310
+  12  Q.PLANT            -635.326    1472.651 + 6.95e-310    1743.757 + 6.95e-310    1794.011 + 6.95e-310
+  13  Q.INSECT           -326.082     858.165 + 6.95e-310    3536.165 + 6.95e-310    1138.170 + 6.95e-310
+  14  JTT                -764.959    1735.919 + 6.95e-310    1895.799 + 6.95e-310    2093.563 + 6.95e-310
+  15  JTT               -1809.084    3820.168 + 6.95e-310    3864.288 + 6.95e-310    4258.900 + 6.95e-310
+  16  LG                -1537.008    3280.015 + 6.95e-310    3331.025 + 6.95e-310    3718.949 + 6.95e-310
+  17  Q.PFAM            -2509.421    5224.842 + 6.95e-310    5254.434 + 6.95e-310    5710.901 + 6.95e-310
+  18  Q.PFAM            -1277.127    2756.255 + 6.95e-310    2817.943 + 6.95e-310    3168.096 + 6.95e-310
+  19  WAG+G4            -2698.577    5605.155 + 6.95e-310    5635.829 + 6.95e-310    6094.541 + 6.95e-310
+  20  LG                -2587.857    5377.714 + 6.95e-310    5405.862 + 6.95e-310    5855.064 + 6.95e-310
+  21  JTT               -1674.183    3554.367 + 6.95e-310    3605.621 + 6.95e-310    3992.907 + 6.95e-310
+  22  JTT               -1405.436    3016.871 + 6.95e-310    3078.258 + 6.95e-310    3440.808 + 6.95e-310
+  23  WAG               -1089.275    2384.550 + 6.95e-310    2472.353 + 6.95e-310    2781.327 + 6.95e-310
+  24  Q.PLANT            -661.268    1528.535 + 6.95e-310    1734.535 + 6.95e-310    1872.302 + 6.95e-310
+  25  JTT+G4            -1530.748    3269.497 + 6.95e-310    3331.719 + 6.95e-310    3698.236 + 6.95e-310
+  26  LG                 -836.166    1878.333 + 6.95e-310    2007.393 + 6.95e-310    2248.970 + 6.95e-310
+  27  Q.PLANT+G4        -1898.991    4005.983 + 6.95e-310    4053.564 + 6.95e-310    4456.828 + 6.95e-310
+  28  Q.PFAM            -1847.127    3900.254 + 6.95e-310    3945.074 + 6.95e-310    4350.000 + 6.95e-310
+  29  JTT               -1132.000    2470.001 + 6.95e-310    2576.060 + 6.95e-310    2853.530 + 6.95e-310
+  30  LG                 -896.751    1999.503 + 6.95e-310    2115.938 + 6.95e-310    2376.788 + 6.95e-310
+  31  Q.PLANT+I+G4      -2645.293    5500.586 + 6.95e-310    5533.178 + 6.95e-310    5991.017 + 6.95e-310
+  32  LG                -1666.852    3539.704 + 6.95e-310    3584.337 + 6.95e-310    3989.803 + 6.95e-310
+  33  JTT+G4            -1262.615    2733.231 + 6.95e-310    2818.543 + 6.95e-310    3137.674 + 6.95e-310
+  34  Q.PFAM+G4         -2884.055    5976.110 + 6.95e-310    6003.173 + 6.95e-310    6476.937 + 6.95e-310
+  35  Q.PFAM+G4         -2942.305    6088.609 + 6.95e-310    6116.076 + 6.95e-310    6574.761 + 6.95e-310
+  36  LG                -1944.930    4095.860 + 6.95e-310    4134.602 + 6.95e-310    4558.092 + 6.95e-310
+  37  Q.PFAM            -1726.246    3658.491 + 6.95e-310    3706.312 + 6.95e-310    4102.786 + 6.95e-310
+  38  Q.PFAM             -877.312    1960.625 + 6.95e-310    2068.283 + 6.95e-310    2343.139 + 6.95e-310
+  39  JTT+I+G4          -2020.558    4247.116 + 6.95e-310    4288.395 + 6.95e-310    4703.874 + 6.95e-310
+  40  JTT               -1064.919    2327.839 + 6.95e-310    2402.556 + 6.95e-310    2713.928 + 6.95e-310
+  41  LG                 -734.059    1674.119 + 6.95e-310    1822.896 + 6.95e-310    2036.002 + 6.95e-310
+  42  Q.PLANT           -1349.238    2904.475 + 6.95e-310    2971.425 + 6.95e-310    3321.598 + 6.95e-310
+  43  LG                -2276.320    4758.640 + 6.95e-310    4790.712 + 6.95e-310    5237.486 + 6.95e-310
+  44  Q.PFAM             -654.014    1514.028 + 6.95e-310    1692.562 + 6.95e-310    1865.428 + 6.95e-310
+  45  LG                -1322.400    2846.801 + 6.95e-310    2904.677 + 6.95e-310    3263.614 + 6.95e-310
+  46  Q.PFAM            -1845.264    3892.528 + 6.95e-310    3932.304 + 6.95e-310    4339.930 + 6.95e-310
+  47  LG                -2301.036    4808.073 + 6.95e-310    4838.943 + 6.95e-310    5290.330 + 6.95e-310
+  48  WAG                -400.717    1007.434 + 6.95e-310    1571.224 + 6.95e-310    1311.884 + 6.95e-310
+  49  Q.PFAM            -1358.064    2922.128 + 6.95e-310    2985.326 + 6.95e-310    3343.766 + 6.95e-310
+  50  JTT               -1470.748    3147.496 + 6.95e-310    3214.446 + 6.95e-310    3564.618 + 6.95e-310
+  51  Q.PLANT           -1055.757    2317.513 + 6.95e-310    2421.011 + 6.95e-310    2702.712 + 6.95e-310
+  52  Q.PFAM             -365.372     936.744 + 6.95e-310    1956.935 + 6.95e-310    1228.061 + 6.95e-310
+  53  LG                -1727.551    3661.103 + 6.95e-310    3704.915 + 6.95e-310    4112.778 + 6.95e-310
+  54  LG                -1715.096    3632.193 + 6.95e-310    3674.071 + 6.95e-310    4075.268 + 6.95e-310
+  55  Q.PLANT            -524.975    1251.950 + 6.95e-310    1655.950 + 6.95e-310    1558.024 + 6.95e-310
+  56  LG                -3551.375    7308.751 + 6.95e-310    7327.743 + 6.95e-310    7835.739 + 6.95e-310
+  57  JTT                -701.411    1608.822 + 6.95e-310    1776.197 + 6.95e-310    1963.836 + 6.95e-310
+  58  Q.PFAM             -623.116    1452.232 + 6.95e-310    1650.602 + 6.95e-310    1797.960 + 6.95e-310
+  59  Q.PLANT            -527.284    1260.569 + 6.95e-310    1617.635 + 6.95e-310    1579.855 + 6.95e-310
+  60  LG                -3387.418    6980.836 + 6.95e-310    7001.456 + 6.95e-310    7500.101 + 6.95e-310
+  61  Q.PFAM            -1104.172    2414.343 + 6.95e-310    2500.039 + 6.95e-310    2812.881 + 6.95e-310
+  62  Q.PLANT+G4         -725.477    1658.954 + 6.95e-310    1954.089 + 6.95e-310    1990.442 + 6.95e-310
+  63  WAG                -968.732    2143.463 + 6.95e-310    2239.535 + 6.95e-310    2533.829 + 6.95e-310
+  64  Q.PFAM             -524.040    1250.081 + 6.95e-310    1517.665 + 6.95e-310    1572.007 + 6.95e-310
+  65  Q.PFAM            -1253.323    2712.647 + 6.95e-310    2779.597 + 6.95e-310    3129.769 + 6.95e-310
+  66  WAG                -598.445    1402.890 + 6.95e-310    1621.502 + 6.95e-310    1743.642 + 6.95e-310
+  67  WAG                -500.150    1206.300 + 6.95e-310    1508.046 + 6.95e-310    1532.273 + 6.95e-310
+  68  WAG                -970.206    2146.412 + 6.95e-310    2249.910 + 6.95e-310    2531.611 + 6.95e-310
+  69  JTT+G4             -787.619    1783.238 + 6.95e-310    1989.275 + 6.95e-310    2131.831 + 6.95e-310
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Topology-unlinked partition model with separate substitution models and separate rates across sites
+
+  ID  Model         TreeLen  Parameters
+   1  Q.PFAM         0.0902  Q.PFAM
+   2  Q.PFAM         0.0140  Q.PFAM
+   3  Q.PFAM         0.0138  Q.PFAM
+   4  JTT            0.0391  JTT
+   5  Q.PLANT        0.0255  Q.PLANT
+   6  JTT            0.0428  JTT
+   7  LG             0.0272  LG
+   8  LG             0.0029  LG
+   9  JTT+G4         0.0525  JTT+G4{0.0200368}
+  10  LG             0.0077  LG
+  11  Q.PLANT        0.0140  Q.PLANT
+  12  Q.PLANT        0.1259  Q.PLANT
+  13  Q.INSECT       0.0094  Q.INSECT
+  14  JTT            0.0412  JTT
+  15  JTT            0.0375  JTT
+  16  LG             0.0059  LG
+  17  Q.PFAM         0.0194  Q.PFAM
+  18  Q.PFAM         0.0070  Q.PFAM
+  19  WAG+G4         0.0486  WAG+G4{0.0200396}
+  20  LG             0.0196  LG
+  21  JTT            0.0272  JTT
+  22  JTT            0.0288  JTT
+  23  WAG            0.0294  WAG
+  24  Q.PLANT        0.0446  Q.PLANT
+  25  JTT+G4         0.0500  JTT+G4{0.020021}
+  26  LG             0.0257  LG
+  27  Q.PLANT+G4     0.0615  Q.PLANT+G4{0.0200308}
+  28  Q.PFAM         0.0348  Q.PFAM
+  29  JTT            0.1019  JTT
+  30  LG             0.0251  LG
+  31  Q.PLANT+I+G4   0.0656  Q.PLANT+I{0.830161}+G4{1.1829}
+  32  LG             0.0018  LG
+  33  JTT+G4         0.0849  JTT+G4{0.0200209}
+  34  Q.PFAM+G4      0.0323  Q.PFAM+G4{0.0200204}
+  35  Q.PFAM+G4      0.0676  Q.PFAM+G4{0.0200301}
+  36  LG             0.0109  LG
+  37  Q.PFAM         0.0288  Q.PFAM
+  38  Q.PFAM         0.0068  Q.PFAM
+  39  JTT+I+G4       0.0461  JTT+I{0.667037}+G4{0.0200216}
+  40  JTT            0.0055  JTT
+  41  LG             0.0081  LG
+  42  Q.PLANT        0.0331  Q.PLANT
+  43  LG             0.0078  LG
+  44  Q.PFAM         0.0045  Q.PFAM
+  45  LG             0.0045  LG
+  46  Q.PFAM         0.0114  Q.PFAM
+  47  LG             0.0038  LG
+  48  WAG            0.0074  WAG
+  49  Q.PFAM         0.0224  Q.PFAM
+  50  JTT            0.0757  JTT
+  51  Q.PLANT        0.0657  Q.PLANT
+  52  Q.PFAM         0.0086  Q.PFAM
+  53  LG             0.0052  LG
+  54  LG             0.0018  LG
+  55  Q.PLANT        0.0692  Q.PLANT
+  56  LG             0.0017  LG
+  57  JTT            0.0261  JTT
+  58  Q.PFAM         0.0097  Q.PFAM
+  59  Q.PLANT        0.0374  Q.PLANT
+  60  LG             0.0103  LG
+  61  Q.PFAM         0.0310  Q.PFAM
+  62  Q.PLANT+G4     0.1868  Q.PLANT+G4{0.184741}
+  63  WAG            0.0126  WAG
+  64  Q.PFAM         0.0057  Q.PFAM
+  65  Q.PFAM         0.0121  Q.PFAM
+  66  WAG            0.0198  WAG
+  67  WAG            0.0059  WAG
+  68  WAG            0.0330  WAG
+  69  JTT+G4         0.1311  JTT+G4{0.0200327}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -90881.0699 (s.e. 240.1394)
+Unconstrained log-likelihood (without tree): -87863.9505
+Number of free parameters (#branches + #model parameters): 7092
+Akaike information criterion (AIC) score: 195946.1398
+Corrected Akaike information criterion (AICc) score: 200468.2142
+Bayesian information criterion (BIC) score: 254715.7079
+
+Total tree length (sum of branch lengths): 2.2759
+Sum of internal branch lengths: 0.6879 (30.2269% of tree length)
+
+Tree topologies are unlinked across partitions, thus no drawing will be displayed here
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/concordance-panel/loci.treefile
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/alignment-panel/alignment.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/marker/alignment-panel/alignment.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep 23 15:07:49 2026
+Total CPU time used: 667.4 seconds (0h:11m:7s)
+Total wall-clock time used: 99.17 seconds (0h:1m:39s)
+

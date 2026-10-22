@@ -1,0 +1,11 @@
+figure	display_a	display_b	type_a_accession_version	type_a_taxon	type_b_accession_version	type_b_taxon	ani_percent	af_a_percent	af_b_percent	af_min_percent	type_a_scope_status	type_b_scope_status	at_or_above_95_ani	at_or_above_95_ani_and_80_af
+S3	T05	T22	GCA_001521715.1	Enterobacter asburiae	GCA_008364625.2	Enterobacter dykesii	96.1200	82.2900	85.1600	82.2900	assembled_chromosome	assembled_chromosome	True	True
+S3	T05	T10	GCA_001521715.1	Enterobacter asburiae	GCA_001729765.1	Enterobacter kobei	91.0600	70.1600	67.7700	67.7700	assembled_chromosome	assembled_chromosome	False	False
+S3	T05	T12	GCA_001521715.1	Enterobacter asburiae	GCA_001729805.1	Enterobacter roggenkampii	93.2600	80.2700	79.6900	79.6900	assembled_chromosome	assembled_chromosome	False	False
+S3	T05	T13	GCA_001521715.1	Enterobacter asburiae	GCA_001750725.1	Enterobacter ludwigii	89.2300	60.9500	59.1500	59.1500	assembled_chromosome	assembled_chromosome	False	False
+S3	T22	T10	GCA_001729765.1	Enterobacter kobei	GCA_008364625.2	Enterobacter dykesii	91.0200	68.4300	73.3100	68.4300	assembled_chromosome	assembled_chromosome	False	False
+S3	T22	T12	GCA_001729805.1	Enterobacter roggenkampii	GCA_008364625.2	Enterobacter dykesii	93.3800	80.5200	83.9400	80.5200	assembled_chromosome	assembled_chromosome	False	False
+S3	T22	T13	GCA_001750725.1	Enterobacter ludwigii	GCA_008364625.2	Enterobacter dykesii	89.2600	59.7600	63.7300	59.7600	assembled_chromosome	assembled_chromosome	False	False
+S3	T10	T12	GCA_001729765.1	Enterobacter kobei	GCA_001729805.1	Enterobacter roggenkampii	90.9600	68.8700	70.7800	68.8700	assembled_chromosome	assembled_chromosome	False	False
+S3	T10	T13	GCA_001729765.1	Enterobacter kobei	GCA_001750725.1	Enterobacter ludwigii	88.7000	56.6500	56.9200	56.6500	assembled_chromosome	assembled_chromosome	False	False
+S3	T12	T13	GCA_001729805.1	Enterobacter roggenkampii	GCA_001750725.1	Enterobacter ludwigii	88.8600	61.1700	59.7900	59.7900	assembled_chromosome	assembled_chromosome	False	False

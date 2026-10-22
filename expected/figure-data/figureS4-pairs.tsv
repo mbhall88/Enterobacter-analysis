@@ -1,0 +1,11 @@
+figure	display_a	display_b	type_a_accession_version	type_a_taxon	type_b_accession_version	type_b_taxon	ani_percent	af_a_percent	af_b_percent	af_min_percent	type_a_scope_status	type_b_scope_status	at_or_above_95_ani	at_or_above_95_ani_and_80_af
+S4	T25	T29	GCA_019046905.1	Enterobacter bugandensis	GCA_026344075.1	Enterobacter nematophilus	95.4600	86.8400	87.1300	86.8400	assembled_chromosome	chromosome_assigned_draft_contigs	True	True
+S4	T25	T14	GCA_001984825.2	Enterobacter chengduensis	GCA_019046905.1	Enterobacter bugandensis	91.6000	69.5900	75.3000	69.5900	assembled_chromosome	assembled_chromosome	False	False
+S4	T25	T32	GCA_019046905.1	Enterobacter bugandensis	GCA_034008275.1	Enterobacter rongchengensis	91.3300	74.0100	70.6800	70.6800	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S4	T25	T12	GCA_001729805.1	Enterobacter roggenkampii	GCA_019046905.1	Enterobacter bugandensis	91.8200	78.4400	78.8500	78.4400	assembled_chromosome	assembled_chromosome	False	False
+S4	T29	T14	GCA_001984825.2	Enterobacter chengduensis	GCA_026344075.1	Enterobacter nematophilus	91.4800	68.9900	74.9000	68.9900	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S4	T29	T32	GCA_026344075.1	Enterobacter nematophilus	GCA_034008275.1	Enterobacter rongchengensis	91.1300	72.9900	69.4800	69.4800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S4	T29	T12	GCA_001729805.1	Enterobacter roggenkampii	GCA_026344075.1	Enterobacter nematophilus	91.6000	74.9600	75.6000	74.9600	assembled_chromosome	chromosome_assigned_draft_contigs	False	False
+S4	T14	T32	GCA_001984825.2	Enterobacter chengduensis	GCA_034008275.1	Enterobacter rongchengensis	95.5500	77.0500	79.6300	77.0500	assembled_chromosome	chromosome_assigned_draft_contigs	True	False
+S4	T14	T12	GCA_001729805.1	Enterobacter roggenkampii	GCA_001984825.2	Enterobacter chengduensis	92.8600	80.1500	74.4600	74.4600	assembled_chromosome	assembled_chromosome	False	False
+S4	T32	T12	GCA_001729805.1	Enterobacter roggenkampii	GCA_034008275.1	Enterobacter rongchengensis	93.0200	79.7100	76.5200	76.5200	assembled_chromosome	chromosome_assigned_draft_contigs	False	False

@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# Ordered execution record. Do not rerun into existing output directories.
+set -euo pipefail
+cd ${PROJECT_ROOT}
+RUN=results/ani-cases/2026-09-27/task12-astra-nematophilus-expanded
+# 1. Read current issue/scheduler state; copied issue2-start.json. Download + scope:
+# python scripts/download_ncbi_genome_package.py --datasets ${USER_HOME}/sw/miniforge3/envs/Cstriatum/bin/datasets --accessions "$RUN/inputs/download-accessions.txt" --output "$RUN/download"
+# python scripts/build_type_reference_sets.py --datasets-dir "$RUN/download/package/ncbi_dataset/data" --accessions "$RUN/inputs/download-accessions.txt" --output "$RUN/sequences"
+# python "$RUN/scripts/prepare.py"
+# 2. Submit scripts/stage1.sh via scripts/submit.py: marker QC then reciprocal skani.
+# Exact ssubmit argv, dry-run/submit responses and Slurm logs: logs/jobs/t12-nem-stage1/.
+# python "$RUN/scripts/summarize_stage1.py" (initial marker guard failed; explicit flags/sensitivities added)
+# 3. python "$RUN/scripts/prepare_anim.py": 18 distinct one-worker jobs, afterok chained.
+# 4. scripts/ani_gate.sh: raw ANIm audit and scripts/finish_ani.py.
+# 5. scripts/local_tree.sh REFERENCE: 40 projected assemblies -> 38-tip strict local ML.
+# Two reference jobs, four CPUs/12 GB each; wait for ANI gate. Exact submission argv in logs/jobs/.
+# 6. scripts/local_tests.sh REFERENCE: quantitative tests and sensitivities after local ML.
+# Exact per-command argv, times, exit codes and stderr in local/REFERENCE/tests/logs/.
+# 7. scripts/plot_ani.py; final summaries/figures/validation and reviewed GitHub export.
+# Conda environment: failed gubbins=3.4.3 python=3.11 solve; successful python=3.10.
+# All reference/sequence/model hashes and pinned software code are retained in this run.
+
+# Collection job 29000013: scripts/collect_results.sh, afterok:28999981:28999982; 1 CPU / 4 GB / 20 min.
+# Progress package published with scripts/publish_progress.py; exact blobs and commit in logs/progress-export*.json.
+# Masking fixture reproduced with scripts/validate_masked_fixture.py (no alignment rerun).
+
+# Recovery: scripts/recover_final_au.py, job 29002166 (4 CPU / 8 GB / 2h); rerun interrupted AU only.
+# Cancelled unsatisfiable collection 29000013; replacement 29002167 afterok:29002166.
+# Plot primary/masked using snippy-ng Python (BioPython 1.87, Matplotlib 3.10.9); Verticall env import failure preserved.
+
+# Final review (no inference rerun):
+# OPENBLAS_NUM_THREADS=1 ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/python "$RUN/scripts/review_evidence.py"
+# OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MPLCONFIGDIR=/tmp/nem-final-review-mpl ${USER_HOME}/sw/miniforge3/envs/snippy-ng/bin/python "$RUN/scripts/plot_review_distances.py"
+# python "$RUN/scripts/publish_final.py": explicit public-only package, remote blob readback; local history not pushed.

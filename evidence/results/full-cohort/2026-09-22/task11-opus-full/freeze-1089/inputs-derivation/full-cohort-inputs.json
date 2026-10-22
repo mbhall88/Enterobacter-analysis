@@ -1,0 +1,97 @@
+{
+  "ingroup_genus": "Enterobacter",
+  "study_candidates": 1074,
+  "membership_rule": "SET-17 full coverage at the frozen comparison denominator: every study candidate is a full-cohort member, no representative cap, no sampling rule. Michael, DEC-009 Decision 1, 22 September 2026.",
+  "carried_dispositions_applied": 4,
+  "carried_dispositions_not_in_this_manifest": [
+    "GCA_042434945.1"
+  ],
+  "excluded": [
+    "GCA_002356475.1",
+    "GCA_006385655.1",
+    "GCA_041890495.1"
+  ],
+  "declared_out_of_genus": [
+    "GCA_000410515.1",
+    "GCA_001582075.1",
+    "GCA_001888805.2",
+    "GCA_002886105.1",
+    "GCA_008931465.1",
+    "GCA_013743505.1",
+    "GCA_018323985.1",
+    "GCA_019880405.1",
+    "GCA_032248775.1",
+    "GCA_050847315.1",
+    "GCA_051302795.1",
+    "GCA_052432455.1",
+    "GCA_054131575.1"
+  ],
+  "counts_by_rule": {
+    "absent_from_gtdb_and_below_every_in_genus_best_type_ani": 1,
+    "absent_from_gtdb_but_at_or_above_the_in_genus_minimum": 103,
+    "gtdb_genus_outside_the_ingroup_genus": 13,
+    "gtdb_places_it_in_the_ingroup_genus": 957
+  },
+  "counts_by_disposition": {
+    "exclude": 3,
+    "retain_declared_out_of_genus_context": 13,
+    "retain_restricted_context": 1
+  },
+  "boundary": {
+    "ingroup_genus": "Enterobacter",
+    "in_genus_minimum_best_type_ani_percent": 84.61,
+    "in_genus_minimum_set_by": "GCA_000016325.1",
+    "declared_out_of_genus_maximum_best_type_ani_percent": 83.78,
+    "gap_percent_points": 0.83,
+    "rule_is_sharp_on_this_cohort": true
+  },
+  "comparison_with_the_pilot": {
+    "pilot_declared_out_of_genus": [
+      "GCA_000410515.1",
+      "GCA_001582075.1",
+      "GCA_001888805.2",
+      "GCA_002886105.1",
+      "GCA_008931465.1",
+      "GCA_013743505.1",
+      "GCA_018323985.1",
+      "GCA_019880405.1",
+      "GCA_032248775.1",
+      "GCA_050847315.1",
+      "GCA_051302795.1",
+      "GCA_052432455.1",
+      "GCA_054131575.1"
+    ],
+    "recomputed_declared_out_of_genus": [
+      "GCA_000410515.1",
+      "GCA_001582075.1",
+      "GCA_001888805.2",
+      "GCA_002886105.1",
+      "GCA_008931465.1",
+      "GCA_013743505.1",
+      "GCA_018323985.1",
+      "GCA_019880405.1",
+      "GCA_032248775.1",
+      "GCA_050847315.1",
+      "GCA_051302795.1",
+      "GCA_052432455.1",
+      "GCA_054131575.1"
+    ],
+    "in_both": [
+      "GCA_000410515.1",
+      "GCA_001582075.1",
+      "GCA_001888805.2",
+      "GCA_002886105.1",
+      "GCA_008931465.1",
+      "GCA_013743505.1",
+      "GCA_018323985.1",
+      "GCA_019880405.1",
+      "GCA_032248775.1",
+      "GCA_050847315.1",
+      "GCA_051302795.1",
+      "GCA_052432455.1",
+      "GCA_054131575.1"
+    ],
+    "new_at_full_scale": [],
+    "in_the_pilot_but_not_recomputed": []
+  }
+}

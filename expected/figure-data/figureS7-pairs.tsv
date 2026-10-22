@@ -1,0 +1,11 @@
+figure	display_a	display_b	type_a_accession_version	type_a_taxon	type_b_accession_version	type_b_taxon	ani_percent	af_a_percent	af_b_percent	af_min_percent	type_a_scope_status	type_b_scope_status	at_or_above_95_ani	at_or_above_95_ani_and_80_af
+S7	T02	T18	GCA_000211415.1	Enterobacter mori	GCA_003964905.1	Enterobacter quasimori	96.2300	80.5900	84.9000	80.5900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	True	True
+S7	T02	T15	GCA_000211415.1	Enterobacter mori	GCA_002939185.1	Enterobacter sichuanensis	89.3900	59.1900	60.0400	59.1900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S7	T02	T33	GCA_000211415.1	Enterobacter mori	GCA_034008295.1	Enterobacter chinensis	90.0300	63.8400	65.3400	63.8400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S7	T02	T16	GCA_000211415.1	Enterobacter mori	GCA_003594915.1	Enterobacter chuandaensis	90.2100	59.4900	63.6800	59.4900	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S7	T18	T15	GCA_002939185.1	Enterobacter sichuanensis	GCA_003964905.1	Enterobacter quasimori	89.8200	61.2400	63.6000	61.2400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S7	T18	T33	GCA_003964905.1	Enterobacter quasimori	GCA_034008295.1	Enterobacter chinensis	90.1600	66.6600	64.7700	64.7700	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S7	T18	T16	GCA_003594915.1	Enterobacter chuandaensis	GCA_003964905.1	Enterobacter quasimori	90.5800	68.9600	67.8600	67.8600	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S7	T15	T33	GCA_002939185.1	Enterobacter sichuanensis	GCA_034008295.1	Enterobacter chinensis	92.3900	76.7400	77.4400	76.7400	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S7	T15	T16	GCA_002939185.1	Enterobacter sichuanensis	GCA_003594915.1	Enterobacter chuandaensis	90.4700	66.5300	70.2000	66.5300	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False
+S7	T33	T16	GCA_003594915.1	Enterobacter chuandaensis	GCA_034008295.1	Enterobacter chinensis	91.0900	73.3900	70.1800	70.1800	chromosome_assigned_draft_contigs	chromosome_assigned_draft_contigs	False	False

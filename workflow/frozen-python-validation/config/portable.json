@@ -1,0 +1,389 @@
+{
+  "assets": [
+    {
+      "bytes": 26304,
+      "path": "databases/genomovar_chromosome/index.db",
+      "roles": [
+        "database:genomovar_chromosome:index.db"
+      ],
+      "sha256": "e5d5db47ae03df94cb8e68985a307e09a90ffa2b062b853a94906dfd126867ca",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/chromosome-skani-db/index.db"
+    },
+    {
+      "bytes": 6537015,
+      "path": "databases/genomovar_chromosome/markers.bin",
+      "roles": [
+        "database:genomovar_chromosome:markers.bin"
+      ],
+      "sha256": "3ef32343ac48103b1a6118c291201d9f5efd1d74f834e4f45d752b56f02d61b9",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/chromosome-skani-db/markers.bin"
+    },
+    {
+      "bytes": 88231007,
+      "path": "databases/genomovar_chromosome/sketches.db",
+      "roles": [
+        "database:genomovar_chromosome:sketches.db"
+      ],
+      "sha256": "4698a61877cf0b09580eecd09471def7539fbeb27bb4f7ba0c339c149ad028ff",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/chromosome-skani-db/sketches.db"
+    },
+    {
+      "bytes": 22681,
+      "path": "databases/primary_whole/index.db",
+      "roles": [
+        "database:primary_whole:index.db"
+      ],
+      "sha256": "79a1edae1ca3f249907b30177b458baaf0847a1d2b8378bf35a9acd8fb7898a5",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-05/marker-validation-placement-astra/skani-db/index.db"
+    },
+    {
+      "bytes": 5572881,
+      "path": "databases/primary_whole/markers.bin",
+      "roles": [
+        "database:primary_whole:markers.bin"
+      ],
+      "sha256": "3f1bd0788bba7cb3ea7a57cd96a2e1b16c35b1701b3d246e3f1cb7532527d352",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-05/marker-validation-placement-astra/skani-db/markers.bin"
+    },
+    {
+      "bytes": 73476355,
+      "path": "databases/primary_whole/sketches.db",
+      "roles": [
+        "database:primary_whole:sketches.db"
+      ],
+      "sha256": "44d3dc342a85d1ce6a03684fe7c51d0dd399ea67240fd0f86d7ac7d1ba1910cc",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-05/marker-validation-placement-astra/skani-db/sketches.db"
+    },
+    {
+      "bytes": 9201,
+      "path": "metadata/build/genomovar_chromosome/000.artifact",
+      "roles": [
+        "build:genomovar_chromosome:0"
+      ],
+      "sha256": "0606fe1a87d30ef1689867345d921b910d555a4f3723f9a01e41c563c2a298fb",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/commands.json"
+    },
+    {
+      "bytes": 12,
+      "path": "metadata/build/genomovar_chromosome/001.artifact",
+      "roles": [
+        "build:genomovar_chromosome:1"
+      ],
+      "sha256": "bfff17ce9354b372251e0fcdbba1f0daf81ff94ccac67eb9349d2cff2724c60d",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/logs/skani-version.stdout"
+    },
+    {
+      "bytes": 0,
+      "path": "metadata/build/genomovar_chromosome/002.artifact",
+      "roles": [
+        "build:genomovar_chromosome:2"
+      ],
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/logs/chromosome-sketch.stdout"
+    },
+    {
+      "bytes": 533,
+      "path": "metadata/build/genomovar_chromosome/003.artifact",
+      "roles": [
+        "build:genomovar_chromosome:3"
+      ],
+      "sha256": "539ea6be754ef47b95ecbec50fedfec29b835f2d29369752b914bb19714fd8ed",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/logs/chromosome-sketch.stderr"
+    },
+    {
+      "bytes": 752,
+      "path": "metadata/build/primary_whole/000.artifact",
+      "roles": [
+        "build:primary_whole:0"
+      ],
+      "sha256": "08bc6bae7f4763b601933b4a0e548158f1e29a39d4bc1f9c8f09aeaacca80b20",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-05/marker-validation-placement-astra/run-query-prep.sh"
+    },
+    {
+      "bytes": 12,
+      "path": "metadata/build/primary_whole/001.artifact",
+      "roles": [
+        "build:primary_whole:1"
+      ],
+      "sha256": "bfff17ce9354b372251e0fcdbba1f0daf81ff94ccac67eb9349d2cff2724c60d",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-05/marker-validation-placement-astra/skani-version.txt"
+    },
+    {
+      "bytes": 2,
+      "path": "metadata/build/primary_whole/002.artifact",
+      "roles": [
+        "build:primary_whole:2"
+      ],
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-05/marker-validation-placement-astra/query-prep-exit-status.txt"
+    },
+    {
+      "bytes": 1052,
+      "path": "metadata/build/primary_whole/003.artifact",
+      "roles": [
+        "build:primary_whole:3"
+      ],
+      "sha256": "fe12845b3fdb0c5e0a0dbad13e2451675fa4557afbe787f2b772255fc47a035d",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-05/marker-validation-placement-astra/skani-sketch.time"
+    },
+    {
+      "bytes": 22317,
+      "path": "metadata/lists/genomovar_chromosome.txt",
+      "roles": [
+        "source_list:genomovar_chromosome"
+      ],
+      "sha256": "91dc2abc87b2c1da47a08f61ef2186fdc8e7bd97db54295626880f988f03c252",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/inputs/chromosome.list"
+    },
+    {
+      "bytes": 19453,
+      "path": "metadata/lists/primary_whole.txt",
+      "roles": [
+        "source_list:primary_whole"
+      ],
+      "sha256": "a0771b852d3eb7129d8cd6e951f1b4e81b39c714fad11e459deca423a5dc0209",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-05/marker-validation-placement-astra/inputs/reference.paths.txt"
+    },
+    {
+      "bytes": 13530,
+      "path": "metadata/provenance/000.artifact",
+      "roles": [
+        "provenance:0"
+      ],
+      "sha256": "1486a7f6ab6e23d0fbdc604c291d54506c3cd0402bde885b1c24dde6c1b62c9f",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/README.md"
+    },
+    {
+      "bytes": 476,
+      "path": "metadata/provenance/001.artifact",
+      "roles": [
+        "provenance:1"
+      ],
+      "sha256": "7adf6588879f7dd010d183e88f1930af7c9c6b3f6d042a3725045dba117f239c",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/validation.json"
+    },
+    {
+      "bytes": 1791,
+      "path": "metadata/provenance/002.artifact",
+      "roles": [
+        "provenance:2"
+      ],
+      "sha256": "2fcf58a24dbef364e002db861babfaf8bec8e2883481422a98deb34e96d6a0ea",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/summary.json"
+    },
+    {
+      "bytes": 12830,
+      "path": "metadata/provenance/003.artifact",
+      "roles": [
+        "provenance:3"
+      ],
+      "sha256": "1843b78a14428d78d369214eabf02cd7ab8491c3566226eb04bb69d9025304fa",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/inputs/decision-handover/DEC-005.json"
+    },
+    {
+      "bytes": 13904,
+      "path": "metadata/provenance/004.artifact",
+      "roles": [
+        "provenance:4"
+      ],
+      "sha256": "99887de747a643e0a081713ba7d0ba29502cde0691bd462935862b5297726134",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/README.md"
+    },
+    {
+      "bytes": 297,
+      "path": "metadata/provenance/005.artifact",
+      "roles": [
+        "provenance:5"
+      ],
+      "sha256": "c0ea7e42e9fd29b5aff877cbfcb62112a9c8d69710a7ec7febfe3079e08f8060",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/validation.json"
+    },
+    {
+      "bytes": 512,
+      "path": "metadata/provenance/006.artifact",
+      "roles": [
+        "provenance:6"
+      ],
+      "sha256": "913af22375dfcebbeb7a8e2ccdd633ac8186ecfabc6ee606feae2e4b1c49298d",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/versions.json"
+    },
+    {
+      "bytes": 269,
+      "path": "metadata/provenance/007.artifact",
+      "roles": [
+        "provenance:7"
+      ],
+      "sha256": "78435334efd4e24e967e840650c171ec878575557c173d41738924f9275b1d8d",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/chromosome-database-hashes.tsv"
+    },
+    {
+      "bytes": 78249,
+      "path": "metadata/provenance/008.artifact",
+      "roles": [
+        "provenance:8"
+      ],
+      "sha256": "e73692222e162fdc94c9d4e7e37687ceab451ba51de5cabfb0209e4d234e6623",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/sequence-input-hashes.tsv"
+    },
+    {
+      "bytes": 13688,
+      "path": "metadata/provenance/009.artifact",
+      "roles": [
+        "provenance:9"
+      ],
+      "sha256": "e410a71ece4c3edee95befd1e88864f3cff00fb3d031f477a89058b7a7cfa572",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/reference-panel-spec-astra/README.md"
+    },
+    {
+      "bytes": 864,
+      "path": "metadata/provenance/010.artifact",
+      "roles": [
+        "provenance:10"
+      ],
+      "sha256": "6e157c6f21a010d0c2fef3fa1ad40b0513667145d32dbf141cc684827ec51d9c",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/reference-panel-spec-astra/package-storage.tsv"
+    },
+    {
+      "bytes": 27042,
+      "path": "metadata/provenance/011.artifact",
+      "roles": [
+        "provenance:11"
+      ],
+      "sha256": "ae0025cbdf494284ec60bc37e8ce58dddbae2592fb4332c330bfbf0c1bddba39",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/manifests/types.tsv"
+    },
+    {
+      "bytes": 332,
+      "path": "metadata/provenance/012.artifact",
+      "roles": [
+        "provenance:12"
+      ],
+      "sha256": "83ca70cb9408054f4942a8ecf5e942da4f4ba4727cebbc95a7b4f9c7c2d3e03c",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/manifests/missing-type-assemblies.tsv"
+    },
+    {
+      "bytes": 5528,
+      "path": "metadata/provenance/013.artifact",
+      "roles": [
+        "provenance:13"
+      ],
+      "sha256": "f2450918bf646054ef411bd4b43cb475788692af4c6b44d720d335b293dc7b37",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/reference-registry-build-astra/inputs/skani-v0.3.2-sketch_db.rs"
+    },
+    {
+      "bytes": 1480776,
+      "path": "metadata/tables/assignments.tsv",
+      "roles": [
+        "table:assignments"
+      ],
+      "sha256": "440fcd0c24c9d369900876812196100cd3a7cc9e2744c6a6183f89dd9c5bd3d6",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/ani-cases/2026-10-03/task12-astra-cp102-approved-final-reconciliation/accession-assignments.tsv"
+    },
+    {
+      "bytes": 204356,
+      "path": "metadata/tables/cohort_coverage.tsv",
+      "roles": [
+        "table:cohort_coverage"
+      ],
+      "sha256": "58e69b9e864e7f12b86709e95b34ac923c07c0425978071a8bedfacc6b93233e",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/eligible-cohort-reference-coverage.tsv"
+    },
+    {
+      "bytes": 1317,
+      "path": "metadata/tables/definition_groups.tsv",
+      "roles": [
+        "table:definition_groups"
+      ],
+      "sha256": "3046d294dc3a40d734661dbd4b3c3b1af0a1043ec12a5298aef9cfb9f7a174ce",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/inputs/genomovars.tsv"
+    },
+    {
+      "bytes": 53497,
+      "path": "metadata/tables/definition_memberships.tsv",
+      "roles": [
+        "table:definition_memberships"
+      ],
+      "sha256": "b70da1c1dc0b4044025d2b012ed8e201363d1e192e2932675c86d00bc246b9c3",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/inputs/memberships.tsv"
+    },
+    {
+      "bytes": 120799,
+      "path": "metadata/tables/definition_references.tsv",
+      "roles": [
+        "table:definition_references"
+      ],
+      "sha256": "0e307f23a5cc79fc0fe6188f004174eaf95c2ed0ac491fd0281232dad295be91",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/genomovar-scope-astra/inputs/manifest.tsv"
+    },
+    {
+      "bytes": 10756,
+      "path": "metadata/tables/development_context.tsv",
+      "roles": [
+        "table:development_context"
+      ],
+      "sha256": "399e484be09aa3bb5b7aeb451d5726ed40e2cfa16101f4a03ed1f9c7ec337a16",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/development-context20-audit.tsv"
+    },
+    {
+      "bytes": 4544,
+      "path": "metadata/tables/genomovar_crosswalk.tsv",
+      "roles": [
+        "table:genomovar_crosswalk"
+      ],
+      "sha256": "1784ef1dc1a6aee3da1e84650506381e6066a85de9decc3ad8603d256b49c667",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/genomovar-definition-coverage.tsv"
+    },
+    {
+      "bytes": 19953,
+      "path": "metadata/tables/historical_types.tsv",
+      "roles": [
+        "table:historical_types"
+      ],
+      "sha256": "fe72de60f0e7c5dbbd7db43a11435ba027a29c6b06e3c0f23b92f05519fdedd2",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/historical-type-name-crosswalk.tsv"
+    },
+    {
+      "bytes": 3232,
+      "path": "metadata/tables/lineage_registry.tsv",
+      "roles": [
+        "table:lineage_registry"
+      ],
+      "sha256": "53eeebc129523ed0d5a8bc5f649395109b6aa71352c00ed870dc8af1cbd25066",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/unnamed-lineage-registry-proposal.tsv"
+    },
+    {
+      "bytes": 24494,
+      "path": "metadata/tables/named_registry.tsv",
+      "roles": [
+        "table:named_registry"
+      ],
+      "sha256": "3cd722c7bce619165b5ef634c45a5fea5542a42e3d8704c4f0c6090707c3b5ef",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/supported-taxa-audit-astra/named-rank-registry-proposal.tsv"
+    },
+    {
+      "bytes": 64495,
+      "path": "metadata/tables/primary_references.tsv",
+      "roles": [
+        "table:primary_references"
+      ],
+      "sha256": "6ce753a8f57cb90eb4525fb7784a7a5d0d49c980cbb986ba7359f04e21007d9f",
+      "source_path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/reference-panel-spec-astra/inputs/frozen140.tsv"
+    }
+  ],
+  "export_validation": {
+    "bytes": 1415,
+    "path": "metadata/export-validation.json",
+    "sha256": "2855f31a6c3fe4ea9641b35d19e45f02505a0416d6bebd2cfe7dfb4e8c36446e"
+  },
+  "package_id": "enterobacter-reference-development",
+  "package_version": "2026-10-06.proposal1",
+  "positive_calling_policy_enabled": false,
+  "release_state": "development_proposal_not_distributable",
+  "schema_version": "1.0.0-dev-portable-reference-package",
+  "source_manifest": {
+    "bytes": 793809,
+    "path": "metadata/source-manifest.json",
+    "sha256": "1828946e89432820677031e82c304b4c26a8ae6f183245154630a42fee6a635a"
+  },
+  "trust_basis": "expected_package_digest_and_export_attestation_not_authenticated_release"
+}

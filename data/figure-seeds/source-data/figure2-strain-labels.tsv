@@ -1,0 +1,36 @@
+display_id	accession	deposited_strain_label	source	source_sha256
+T01	GCA_000025565.1	ATCC 13047	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T02	GCA_000211415.1	LMG 25706	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T03	GCA_000982825.1	ATCC 29544	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T04	GCA_001039365.2	WCHECL1060	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T05	GCA_001521715.1	ATCC 35953	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T06	GCA_001654845.1	ATCC BAA-2102	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T07	GCA_001729705.1	DSM 16687	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T08	GCA_001729725.1	DSM 16691	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T09	GCA_001729745.1	DSM 14563	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T10	GCA_001729765.1	DSM 13645	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T11	GCA_001729785.1	LMG27195	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T12	GCA_001729805.1	DSM 16690	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T13	GCA_001750725.1	EN-119	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T14	GCA_001984825.2	WCHECl-C4 = WCHECh050004	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T15	GCA_002939185.1	WCHECL1597	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T16	GCA_003594915.1	090028	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T17	GCA_003594935.2	090008	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T18	GCA_003964905.1	090044	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T19	GCA_004331265.1	WCHEW120002	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T20	GCA_004331385.1	WCHEQ120003	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T21	GCA_008364555.1	E13	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T22	GCA_008364625.2	E1	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T23	GCA_009176645.1	CCA6	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T24	GCA_009660455.1	ATCC 23373	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T25	GCA_019046905.1	FDAARGOS 1427	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T26	GCA_019047785.1	FDAARGOS 1428	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T27	GCA_019048125.1	FDAARGOS 1442	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T28	GCA_019048245.1	FDAARGOS 1433	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T29	GCA_026344075.1	E-TC7	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T30	GCA_026420145.1	155092	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T31	GCA_028890245.1	A-8	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T32	GCA_034008275.1	170250	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T33	GCA_034008295.1	170198	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T34	GCA_040096145.1	CLA-AC-H004	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320
+T35	GCA_052922205.1	CCM_8629	${PROJECT_ROOT}/results/reference-panel/2026-09-16/task02-genus-census-sol/assembly-candidates.tsv	8c806a304565e758a56c8479a24165091d7ff4cb54c104e04dbfa6956bc3b320

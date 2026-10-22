@@ -1,0 +1,56 @@
+[
+  {
+    "tree": "primary-full80-fasttree.nwk",
+    "tips": 94,
+    "distance_checks": 4371,
+    "overview_rows": 55,
+    "full_rows": 94,
+    "named_Enterobacter_type_tips": 27,
+    "named_type_MRCA_size": 53
+  },
+  {
+    "tree": "canonical-masked-fasttree.nwk",
+    "tips": 94,
+    "distance_checks": 4371,
+    "overview_rows": 66,
+    "full_rows": 94,
+    "named_Enterobacter_type_tips": 27,
+    "named_type_MRCA_size": 53
+  },
+  {
+    "tree": "candidates-masked-fasttree.nwk",
+    "tips": 97,
+    "distance_checks": 4656,
+    "overview_rows": 71,
+    "full_rows": 97,
+    "named_Enterobacter_type_tips": 27,
+    "named_type_MRCA_size": 57
+  },
+  {
+    "tree": "primary-full80-no-composition-outlier-fasttree.nwk",
+    "tips": 93,
+    "distance_checks": 4278,
+    "overview_rows": 54,
+    "full_rows": 93,
+    "named_Enterobacter_type_tips": 27,
+    "named_type_MRCA_size": 52
+  },
+  {
+    "tree": "primary-full80-iqtree.treefile",
+    "tips": 94,
+    "distance_checks": 4371,
+    "overview_rows": 57,
+    "full_rows": 94,
+    "named_Enterobacter_type_tips": 27,
+    "named_type_MRCA_size": 53
+  },
+  {
+    "tree": "canonical-masked-iqtree.treefile",
+    "tips": 94,
+    "distance_checks": 4371,
+    "overview_rows": 69,
+    "full_rows": 94,
+    "named_Enterobacter_type_tips": 27,
+    "named_type_MRCA_size": 68
+  }
+]

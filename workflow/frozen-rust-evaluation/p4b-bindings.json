@@ -1,0 +1,428 @@
+{
+  "revision": "P4b-binding-r19",
+  "worker": "Codex Sol",
+  "model": "gpt-6.1-sol",
+  "recorded_utc": "2026-10-12T00:11:29.491731+00:00",
+  "source_commit": "834f4c288e9c163f316f3668f0219004d0adc6da",
+  "source_tree": "2d961be59038e2fb4bafcf663414a65caf6aebc1",
+  "binaries": {
+    "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/tero": "8f8ea3d9c0c3df68b7392aab34187942cc4e31b82605f7326e27764b256dadc5",
+    "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter": "f063d70ac94e0b7854ceeb31027ffc96314f24a931f92476284fb9ba9b4960f3",
+    "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter-dev": "84a7658063d4c023fb69e591ec25d5917bf03821d230c21b9a36f83d5e3042e7"
+  },
+  "reference_package": {
+    "path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private",
+    "manifest_sha256": "5743c25bcd706242ff8a28863fd6af2bf60e76f4c6af8b50d3f77deaf2e01dae",
+    "file_hashes_receipt_sha256": "7960d8a924e18c6774200e982a5e4ac516c95dff36d3594f11312d4f173106fe"
+  },
+  "mlst_package": {
+    "path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-historical-package-astra/package",
+    "manifest_sha256": "0f0a4bd051e7a29d97f530a38982026df10ca223805e7b0147b19796763978dd"
+  },
+  "mlst_configuration_sha256": "1fce9a33cf423967e0c089830ee3e6549930b5d45761ab95ac662ccd1430a937",
+  "skani_profile": "skani-0.3.2-avx2-compatible-dna-v1",
+  "anim_profile": "reciprocal-mummer4-4.0.1-preserve-n-mum-1-span-v1",
+  "anim_amendment": "P1-ANIM-MUMMER4-r1",
+  "reason_vocabulary": {
+    "path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/source/docs/contracts/reason-vocabulary.tsv",
+    "sha256": "b988ab4f895741cd57dcaac765707d38fd7187c49f3401deb0b28e66f67431d1"
+  },
+  "scorer_fields": {
+    "path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/source/docs/contracts/scorer-fields.tsv",
+    "sha256": "2f738d2cba149cf08d1c1c7b16966e73708f2279518185b9ec73f3936d5c611e"
+  },
+  "policies": {
+    "conservative-assembly-v1": "f871e6ac72e8d67ab1ddc407881d015e032f101a3002f72aa1c37fd0fc89b404",
+    "conservative-assembly-anim-v2": "4bf50abd9600250d5c66a3d0ddb94a70a4c88326a95a386c72a2a947dc053705",
+    "p3a-genomovar-contract-r1": "2be813fc55756bd819aff0626a59063b4842f3fa86ec9a4cd9e80e276dc80185"
+  },
+  "argv": {
+    "R1-v1": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/tero",
+      "--reference-package",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private",
+      "--expected-sha256",
+      "5743c25bcd706242ff8a28863fd6af2bf60e76f4c6af8b50d3f77deaf2e01dae",
+      "--policy",
+      "conservative-assembly-v1",
+      "--mlst-package",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-historical-package-astra/package",
+      "--mlst-expected-sha256",
+      "0f0a4bd051e7a29d97f530a38982026df10ca223805e7b0147b19796763978dd",
+      "--threads",
+      "2",
+      "--report-dir",
+      "{fresh_report_dir}",
+      "{query_fasta}"
+    ],
+    "R1-v2-plan-only": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/tero",
+      "--reference-package",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private",
+      "--expected-sha256",
+      "5743c25bcd706242ff8a28863fd6af2bf60e76f4c6af8b50d3f77deaf2e01dae",
+      "--policy",
+      "conservative-assembly-anim-v2",
+      "--mlst-package",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-historical-package-astra/package",
+      "--mlst-expected-sha256",
+      "0f0a4bd051e7a29d97f530a38982026df10ca223805e7b0147b19796763978dd",
+      "--threads",
+      "2",
+      "--report-dir",
+      "{fresh_report_dir}",
+      "{query_fasta}"
+    ],
+    "R2": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter-dev",
+      "saved-evidence",
+      "{evidence_json}",
+      "--reference-package",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private",
+      "--expected-sha256",
+      "5743c25bcd706242ff8a28863fd6af2bf60e76f4c6af8b50d3f77deaf2e01dae",
+      "--policy",
+      "conservative-assembly-anim-v2",
+      "--exclude-references",
+      "{reference_mask}",
+      "--anim-records",
+      "{bound_anim_records}",
+      "--anim-method-profile",
+      "reciprocal-mummer4-4.0.1-preserve-n-mum-1-span-v1"
+    ],
+    "R3": [
+      "/usr/bin/python3",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/scripts/anim_pair_adapter.py",
+      "{query_fasta}",
+      "{reference_fasta}",
+      "{query_sha256}",
+      "{reference_sha256}",
+      "{outdir}"
+    ],
+    "R4": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter-dev",
+      "rescue-plan",
+      "{evidence_json}",
+      "--reference-package",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private",
+      "--expected-sha256",
+      "5743c25bcd706242ff8a28863fd6af2bf60e76f4c6af8b50d3f77deaf2e01dae",
+      "--exclude-references",
+      "{reference_mask}"
+    ],
+    "R5": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter-dev",
+      "genomovar-diagnostic",
+      "--report",
+      "{report_json}",
+      "--expected-report-sha256",
+      "{report_sha256}",
+      "--reference-package",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private",
+      "--expected-sha256",
+      "5743c25bcd706242ff8a28863fd6af2bf60e76f4c6af8b50d3f77deaf2e01dae",
+      "--mask-member",
+      "{member_id}",
+      "--setting",
+      "{setting}",
+      "--exclude-references",
+      "{reference_mask}",
+      "--exclude-references-sha256",
+      "{mask_sha256}"
+    ],
+    "R6": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter-dev",
+      "saved-evidence",
+      "{evidence_json}",
+      "--reference-package",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private",
+      "--expected-sha256",
+      "5743c25bcd706242ff8a28863fd6af2bf60e76f4c6af8b50d3f77deaf2e01dae"
+    ],
+    "EN1": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter-dev",
+      "skani-search",
+      "--database",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private/databases/primary_whole",
+      "--query",
+      "{query_fasta}",
+      "--threads",
+      "2"
+    ],
+    "EN2": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter-dev",
+      "skani-search",
+      "--database",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private/databases/genomovar_chromosome",
+      "--query",
+      "{query_fasta}",
+      "--genomovar",
+      "--threads",
+      "2"
+    ],
+    "EN4": [
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/build/bin/terobacter-dev",
+      "anim-parse",
+      "--filtered-delta",
+      "{fixture}",
+      "--reference-lengths",
+      "{reference_lengths_json}",
+      "--query-lengths",
+      "{query_lengths_json}"
+    ]
+  },
+  "RP3_pending_binding": [],
+  "version_lock": "No production source, policy, reference, label or scorer change after evaluation outcomes.",
+  "R3_adapter_sha256": "5940d7b3c71c66952c3d6634980990db57bb18924a10cd1a5e2bd916db5d2f3c",
+  "anim_reference_component": {
+    "path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/inputs/anim-reference",
+    "manifest_sha256": "f7e3036126060502b5231e2aac7cfc3904c3c95d7ebd3ca30ce413822e1264d3",
+    "references": 140
+  },
+  "R3_parameters": {
+    "query_id": "query_sha256",
+    "reference_component": "primary_whole",
+    "reference_id": "unique authenticated primary reference with reference_sha256",
+    "reference_concept_ids": "all authenticated species/subspecies concepts",
+    "timeout_seconds": 120,
+    "memory_mib": 1024
+  },
+  "RP3": {
+    "interface": "R1 public tero",
+    "authoritative_binding": "docs/contracts/evaluation-handoff.md:51",
+    "faults": [
+      "absent_executable",
+      "corrupt_filter",
+      "missing_reference",
+      "SIGTERM",
+      "stale_record"
+    ],
+    "literal_stale_record": "newly completed on-disk result.json query.sha256 altered before R1 verify_pair read; exact parent-consumed bytes captured",
+    "cache_used": false,
+    "query_inputs_mutated": false,
+    "production_source_changed": false,
+    "files": {
+      "scripts/rp3_io_hook.c": "2785138fb1fb5e7e3c661c118845063b8c303defeec9fb35c1e216ce872426cf",
+      "scripts/rp3_mutate.py": "81145c08115d3d9061ab00c52ec8a5c61a419159e75635dc1bfe1dec7cab9e9f",
+      "scripts/rp3_r1.py": "67aba028980a34974d5c052fe51ef5c9bb55309f205f33b2a2b9b92bf22ba12a",
+      "build/rp3-io-hook.so": "fbcfffb88084eb1fd9480287e8313a7cf5c7307e1de63caf4f16ec834c8ba4f7"
+    },
+    "pilot01": "Candidate consumed altered result.json and reported stale-input verification failure/incomplete; harness validator errored on null assignment and did not retain its exit code. Preserved as harness diagnostic, not accepted gate. Repeat justified only to validate corrected receipt writer.",
+    "gate_summary_sha256": "ca8a92cdd868ac33d67250ce9ac6725354878114e485aa1298b3316b0d157d9e",
+    "accepted_gates": 15
+  },
+  "engine_parity": {
+    "query_rows": 6837,
+    "native_rows": 5803,
+    "development_rows": 1034,
+    "development_saved_pairs": 143504,
+    "development_no_estimate_queries": 7,
+    "input_sha256": {
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-07/validation-runs-astra/inputs/execution-manifest.tsv": "a63aa9098ccf470d1e3ee580cc188c05453c005663a3331dcf58fa5cc799ae46",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/rank-calibration-astra/inputs/queries.tsv": "c93888e29f1b976f933bb1d2af1a8ccaa57560113efd012d1f5d38af4de57544",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/rank-calibration-astra/inputs/references.tsv": "6ce753a8f57cb90eb4525fb7784a7a5d0d49c980cbb986ba7359f04e21007d9f",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-07/validation-runs-astra/outputs/layer2-replay/scored-development.tsv": "e17e089653c0a42ffcc275a461d191f85b53e78a3929c06d6c64ddaeb9c92d4a",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/approved-scope-followthrough-astra/development-baseline/hits.tsv": "8f003c266a85d09ad8814718391890cbed41674b4a4bd2a723568f0d6cc590ba",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private/metadata/source-manifest.json": "1828946e89432820677031e82c304b4c26a8ae6f183245154630a42fee6a635a",
+      "/sw/local/rocky9/noarch/rcc/software/gtdb-tk/gtdbtk_2.7.2/bin/skani": "b3000043feb4ce8a5200b3716bae155f34f73e2a123b8b055d574a7897a14151"
+    },
+    "output_sha256": {
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/inputs/engine-parity-manifest.tsv": "280b1926c6c76dec0b2507f220305d6abb9460bda3733a29b9dc552a2ce7dd97",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/inputs/engine-reference-aliases.json": "cc8e942b12bd5c814b35be350646c5c8f5bc9ff52e961cd1b71d4dfbc0f22603",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/inputs/development-primary-rows.json": "625c5f480bd44d106662bb15aca6710873a30dd346f50af6883580a92e83dd0d"
+    },
+    "native_skani": "/sw/local/rocky9/noarch/rcc/software/gtdb-tk/gtdbtk_2.7.2/bin/skani",
+    "task_queries": 20,
+    "task_concurrency": 32,
+    "native_gv_argv": [
+      "/sw/local/rocky9/noarch/rcc/software/gtdb-tk/gtdbtk_2.7.2/bin/skani",
+      "search",
+      "-q",
+      "{query_fasta}",
+      "-d",
+      "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-09/terobacter-issue4-r1-correction-opus/outputs/frozen-v2-private/databases/genomovar_chromosome",
+      "-o",
+      "{fresh_tsv}",
+      "--min-af",
+      "0",
+      "-s",
+      "80",
+      "-t",
+      "2"
+    ],
+    "files": {
+      "scripts/prepare_parity_inputs.py": "d1da8d7667c2637d45a320c8086de3ca5f860cc98ed91131b04a01f81c526342",
+      "scripts/run_engine_parity.py": "d025f059026a6ff84c603c6acb7a361cf5be53060eebfb6e05be7ae0e045e3bd"
+    },
+    "recovery": {
+      "reason": "Resolve accepted quota-recovery paths through frozen collection results; no candidate or numerical comparator change.",
+      "corrected_native_paths": 758,
+      "reuse_completed_queries": 4733,
+      "files": {
+        "scripts/bind_engine_baselines.py": "095fd9e3131de2019a119f41d96e4ac86b5428e34a9ef4952c3523ef31c3ec98",
+        "scripts/recover_engine_parity.py": "bf011191e50e5dea345f2665787f487e47ecfcabd9f0aba4c10f33ac6c7250af",
+        "inputs/engine-parity-manifest-r7.tsv": "2e5778b5ce1c4e400e13bbfbbf7fcb7a99179141c1aab028c5c34a855e3d5391",
+        "inputs/engine-baseline-bindings-r7.json": "175c80f4ab7370aae42fce1b44b6c808ac193e17bc37b3223ad5fd51ec284b27",
+        "checks/engine-baseline-recovery.json": "ad03e381218b739e6fc7e7302cf8652840f0f09226322c303a00220c67c0384a"
+      },
+      "previous_gate_stop": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/outputs/engine-parity/gate-stop.json"
+    }
+  },
+  "regression": {
+    "native": 5803,
+    "layer2": 9306,
+    "replay131": 131,
+    "per_task": 20,
+    "native_concurrency": 32,
+    "R1_v2_plan_only": "No ANIm component and no pairs executed. Nonzero when ANIm pairs requested or original rank-required evidence incomplete; zero for completed evidence needing no ANIm. Missing competitor incompleteness is preserved.",
+    "replay131_diagnostics": 2,
+    "files": {
+      "scripts/run_regression.py": "ad4aa342bb0f519960ff8c7e398d8aadc3f14c3642a614f0a613bd5e587f0366",
+      "scripts/prepare_regression_inputs.py": "d04deea43cf1a97ec11e99960ae0c1da5bdb8592a464e14f5ed211f074881908",
+      "scripts/prepare_replay131_inputs.py": "2554feca4cbde6a93586f09a22db2cc8635a874c83a09ee2227f27bc7fbc3115",
+      "inputs/native-regression-baseline.json": "e1a1c9e848b1a61796446aba924d152ec4195633e04179f2eed4835a700148a5",
+      "inputs/layer2-regression-baseline.json": "a08e5ff9525117a6c0b0d84ebefea055f96b966c89bc12ca7de94f40bcfe9fb5",
+      "inputs/layer2-reference-masks.json": "564939fcd34c3f1382715ae50cffd45529c752de4acd8632b12c2df51b8b7030",
+      "inputs/development-evidence-manifest.json": "99f204a652f82b86ddf2894c467a117c78cca386728b91a7cf59cef1041b99a5",
+      "inputs/replay131-regression-manifest.json": "275b0dfcabd58e25c1b4bc11e6c05c5768d4d51401834b7122220ed18d802056",
+      "inputs/original-primary-inventory.json": "b687fdef8319f13fbe31920fe37876d57335eeafff6c46e2e456bb27bae7ab72",
+      "checks/regression-input-preparation-stage.json": "c0d0111be08da0cb222d887e9adc9ceb4a300e3d65ffca9281ca452998e6969e",
+      "checks/replay131-input-preparation-stage.json": "b5a401e87b980509f5a71f8e412de1c5ba5bf13b754a81e4ad9ef5d5745c812a",
+      "checks/engine-parity-summary.json": "1629e838b673b43bfca49340b4d1dca75e6377d0a40b8fa305c6e636b10c99e8",
+      "scripts/run_regression_recovery01.py": "d6f51e8a8555eef6eaf6e4ac01c129d246ed1892b8793cd43559e562e61ab9d5",
+      "scripts/run_regression_recovery02.py": "6309c4d38b1c11ea1dff7785fe8bd0cd675323a9d8c1f0065af1a4961ba5569e",
+      "scripts/run_regression_production.py": "d442f0dd73afc7b9cd6d8c89b01cf0f38e787028907595855b0bf6609a3913db",
+      "scripts/prepare_production_development_evidence.py": "2ab2bff1c67160fb1a4ce54065d442988670a9737a3a169c9f74a8ec47feddc0",
+      "inputs/development-production-evidence-manifest.json": "38b56d8e72cbdff97d004cbeebe8777beb82484a6988884a92d98deb57a5ee91",
+      "checks/development-production-evidence-stage.json": "6449e37d17a6dd92cc8650a6deafadc0b37ed2b619e1372a57d1c7a282d463df",
+      "scripts/run_regression_recovery03.py": "0d9a341a02a9b400c8dbdb4457dfea5568b924dd0a2308fda1dfedf26857afc8",
+      "scripts/prepare_replay131_v020.py": "74457a67ad1d23cfb01cdc9ca92bac653027a37033e83846f1aedaf34a1bfd10",
+      "inputs/replay131-regression-manifest-v020.json": "714d7dc69d62ac13eb4e76b6c47788b0b25655f23254e730f3d0b6d09a1a7b19",
+      "checks/replay131-v020-baseline-stage.json": "78ba1416eca549abb464423bd1400d344f4649cfb35783fb4b2f071b0f08e5c5",
+      "scripts/run_regression_recovery04.py": "a7935812e591e656fc4e297cbd232750843705e3e713242c3ff160d019bfa69c"
+    },
+    "active_driver": "scripts/run_regression_recovery04.py",
+    "mechanical_mapping_corrections": {
+      "R1.execution.status": "complete (eligibility evaluation_status remains completed)",
+      "MLST.submission_cutoff": "mlst.database.submission_cutoff",
+      "old_pilot": "Native R1 exited zero; adapter asserted wrong spelling before any baseline comparison. Its successful output is preserved and reused.",
+      "candidate_changed": false,
+      "expected_scientific_values_changed": false,
+      "R4.max_ani": "Exact Decimal value comparison; 100.0 and 100.00 are numerically equal. Missing values remain distinct from present values. No thresholds or expected numeric values changed."
+    },
+    "R4_production_origin": "Native: exact evidence object in actual public R1 output. Layer2: fresh audited EN1 rows, authenticated reference ID join and unchanged 0.2.0 evidence collector, under frozen masks. Old matched-row R4 pilot outputs retained as diagnostics; repeat R4 only because its input provenance changes, reuse all successful R1 measurements.",
+    "replay131_baseline_correction": "Original Oct6 shadow comparator was superseded before 0.2.0. Bind exact accepted 0.2.0 source and re-evaluate same frozen inputs without new measurement. All 131 decision fields independently match reviewed final frozen replay; now compare actual 0.2.0 near-boundary note too. Earlier adapter stop, archives and cancelled/pending denominators retained. Candidate and frozen design unchanged.",
+    "full_gate": {
+      "native": 5803,
+      "layer2": 9306,
+      "replay131": 131,
+      "R4": 15109,
+      "audit_sha256": "cc93770a97977a3572c4d2ba46d7def6bde6a86bd5c093a0a4c28cad2e2d6111",
+      "trigger_manifest_sha256": "d76ae790373554953dddace1663e8fe5b0a03784c31e45e4d8dd9036be8387dc",
+      "audit_job": "29634380",
+      "audit_exit_status": 0
+    }
+  },
+  "normal_ANIm": {
+    "profile": "reciprocal-mummer4-4.0.1-preserve-n-mum-1-span-v1",
+    "amendment": "P1-ANIM-MUMMER4-r1",
+    "exclude_RS7_before_seal": "Every matching query SHA256, across all records/settings",
+    "driver_adaptations": "Owned copy retains frozen submission shapes; reads installed ssubmit JSON .submission.job_id and records per-wave rquota. Original wrapper/collector and planner remain unchanged.",
+    "files": {
+      "scripts/audit_regression.py": "cc5d02d0a8c4d1e5ae2883a53dd5f5b0ee83b3bd4dd0cf5c0c2a9470c0ed717d",
+      "scripts/prepare_witness_pairs.py": "08ad8e444e9b460492c8f7c96c33311905b50ce8aec24aae588228408772d390",
+      "scripts/submit_anim_waves.sh": "4212e72ec069d8bf739bf15d71b75339904ae5c4e0823632a33e2cf87e7f0243"
+    },
+    "witness_results": {
+      "pairs": 2381,
+      "orientations": 4762,
+      "failed": 0,
+      "missing": 0,
+      "integer_summary_sha256": "329a5e017198ef986208cebeca8e8183e721ec558ad463faa34bd69ebd689484",
+      "reference_parser_snapshot_sha256": "92f95c578dfe5931a2b8b44b4b3cc803b0d1161e3c125428729d66a3b850fceb",
+      "reference_parser_loading": "Unchanged AST parse_delta function; archived FASTA lengths independently checked with pinned Seqkit."
+    }
+  },
+  "GV4_input_preparation": {
+    "records": 322,
+    "estimator_executed": false,
+    "files": {
+      "scripts/prepare_gv_derivatives.py": "9dbaf7a44cb0f1aa0caeaf6598b03de78afe25cc4e1e83c3fab3476a59372b4a",
+      "inputs/gv4-derivative-manifest.json": "16891d2b40e4fe276ab20302430d3a9f826c24368554dba9a4ea41844b91fdbe",
+      "checks/gv-derivative-preparation.json": "38810b87410e9e139eaee38a4f852a89ffb170649e8ad350e211411bf363e3bc"
+    }
+  },
+  "second_R4": {
+    "bound_contexts": 1652,
+    "unchanged_contexts_reused": 13446,
+    "unsealed_RS7_contexts_pending": 11,
+    "profile": "reciprocal-mummer4-4.0.1-preserve-n-mum-1-span-v1",
+    "scope": "Only witness records requested by the context initial R4; exact primary mask retained. Passing witness requires full assessed reference panel.",
+    "files": {
+      "scripts/extract_anim_records.py": "8028ec0a6372ea68f44bf317fb598bf5f652fdf950428ac6bcd233add958ee39",
+      "scripts/prepare_second_r4.py": "f248b4f9dd455ce974bedf78c8ec3a9dc8a942475b725919aad6ff256c0bddd3",
+      "scripts/run_second_r4.py": "f8d743ecf520017b54632e5fd202225f02314df0a9ba27383a3f1ef6972d36c4",
+      "inputs/second-r4-manifest.json": "8d8f3fdd5143693165a2a82c47fbe870e53e03a26c1148b5e34855a43a0b7d49",
+      "checks/second-r4-preparation.json": "92b760a52018a1da29251d8a047c25e25ab754743d8f5e7343a33d8cc563588b"
+    },
+    "completed_summary": {
+      "contexts": 1652,
+      "passing_witness_contexts": 178,
+      "panel_request_rows": 22309,
+      "unique_content_pairs": 10402,
+      "reused_witness_pairs": 1026,
+      "new_content_pairs": 9376,
+      "gate_pass": true
+    }
+  },
+  "panel_wave_execution": {
+    "profile": "reciprocal-mummer4-4.0.1-preserve-n-mum-1-span-v1",
+    "max_uncollected_waves": 2,
+    "max_running_per_wave": 250,
+    "max_queued_plus_running_user_jobs": 4000,
+    "hashes": {
+      "scripts/prepare_panel_pairs.py": "53f4bba65f522b8ff2e546a0ea9fb1498426b8f5730c81ff96be69861ddda4d1",
+      "scripts/submit_panel_waves.sh": "267c716cfbf4045cbf5b57b2821e4627a83dff87d224280aeff75e3c57be15bf",
+      "checks/second-r4-summary.json": "501b83457f53e411c5c7256bd6536d639fcac4285552ec394e4f2596c0ba139d",
+      "anim/panel-pairs.tsv": "88afb7d03e347e078ce9f99d144b9fe6aa248ae017a635c78ccb375ee8bbe2cb",
+      "anim/witness-completed-keys.txt": "a2979f179648ad0b3f52bc2fecda475a890fdcc94ca846775babf2874d9c70f7"
+    }
+  },
+  "GV1a": {
+    "query_protocol": "Literal historical chromosome records as query FASTA, self member and matching primary alias masked, actual R1 parent retained",
+    "comparison": "Per-record compatible and incomplete group sets and all group states against P3a saved-audit-02; no substitution of whole-query ANI or constructed parent",
+    "hashes": {
+      "scripts/run_gv1a.py": "56503301028f6be89a3fb9ac2f18ff4d8c9cbac3ce0cbdde176b2a3c45fe31f8",
+      "inputs/gv1a-query-manifest.json": "a08f7eb757f7f79dcc5b891c6467d2546050945e6ead312c1250cf266d12a1e1"
+    }
+  },
+  "bounded_failure_diagnosis": {
+    "scope": "Read-only first failed GV1a record, saved input/model predicates, preserved ANIm integers/archive integrity, corrected protected-package audit",
+    "no_new_measurements": true,
+    "no_biological_scoring": true,
+    "no_gate_relaxation": true,
+    "GV1a_frozen_gate_pass": false,
+    "namespace_v2_saved_not_executed": true,
+    "hashes": {
+      "scripts/audit_held_checkpoint_v2.py": "472f2750c7b4c5f97e34fece14ce486dce76065d1a32bbc16c22dd24bd7365b8",
+      "scripts/run_gv1a_v2.py": "1609ca8dc8b8b552e0b61c0f994d5e648bc1ec8137df91992fd1675b39cd6375",
+      "scripts/diagnose_gv1a_scope.py": "5e142677a67781c4ab1224ad2d8dd7bfde70c684c00bfc9d39f5aef9a1f23066",
+      "checks/held-checkpoint-protection-v2.json": "e211cb14f4bf9ab3142b60205c295c34d8bac239b6358d328e91527d9d097dd9",
+      "checks/gv1a-first-record-scope-diagnosis.json": "28ef34fc9d51e6887d7f798461cbe19986e6e423214e5c82fa4d7254637ab0f4",
+      "checks/preserved-anim-evidence-summary.json": "75cec562ecd7de6deb62e7a60508c217894c89c6c4976ffeceebb5e2027eb31d",
+      "checks/v2-context-preparation.json": "c6a8d22f089cada0f2969b927bb88e5b158b92917a35507a49f2f88fcc0ab121",
+      "checks/gv-whole-preparation.json": "04ea58fb98c05e5a143e790b1a33fdb2a66a5687595cc746d38fb62a76b1a3fa",
+      "inputs/genomovar-id-crosswalk.json": "5887e3895c4f8a9949f14cd984cf6415a39d647f771dc9b843da0889e6d38d92"
+    }
+  },
+  "amended_GV1a": {
+    "accepted_amendment": "P4b-GV1A-SCOPE-r1",
+    "path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-11/issue25-frozen-evaluation-sol61-ab252002/amended-gates/2026-10-12-gv1a-scope-r1-sol61-523e25a9",
+    "comparator_publication_sha256": "0d3ebab8a8b89f2a1d2624e01253715eac881807708c020511ed5247cd8b7311",
+    "harness_sha256": "9a3993e3a89c89343b29f495038a89c474a534ef4ec5348bfcf620ff79a24dbb",
+    "both_records": 173,
+    "panels_restart_authorised": false,
+    "scoring_authorised": false,
+    "RS7_authorised": false
+  }
+}

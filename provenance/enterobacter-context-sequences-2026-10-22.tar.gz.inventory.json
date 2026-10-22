@@ -1,0 +1,44 @@
+{
+  "archive": "enterobacter-context-sequences-2026-10-22.tar.gz",
+  "bytes": 10986450,
+  "sha256": "09fbaa9c84e73a1a1f700598aa9399764483a9b3d1c92d2b27f0ffdfccc42ad5",
+  "input_manifest_sha256": "795d9d24df1acd982282e1e9893daaa46c139608ea637aa382ae26e9a8d78873",
+  "files": [
+    {
+      "path": "context-sequences/1c4821e72f356221c5e240e636f1a8616aa2b5ee8ab8f17061d981bcacdbb723.fna",
+      "bytes": 4800152,
+      "sha256": "1c4821e72f356221c5e240e636f1a8616aa2b5ee8ab8f17061d981bcacdbb723"
+    },
+    {
+      "path": "context-sequences/1ff0bc7153a1fd8ef91559f92092fb8bcce114f1a3ff90b211e4cdcba10adc4b.fna",
+      "bytes": 4861183,
+      "sha256": "1ff0bc7153a1fd8ef91559f92092fb8bcce114f1a3ff90b211e4cdcba10adc4b"
+    },
+    {
+      "path": "context-sequences/4cb91cc534258620a03d6491e5dd0de962f69cf7045ff42a6068016120b80629.fna",
+      "bytes": 4906299,
+      "sha256": "4cb91cc534258620a03d6491e5dd0de962f69cf7045ff42a6068016120b80629"
+    },
+    {
+      "path": "context-sequences/7e109ad5d1601093637577128e7aeb8825e1339d3ee9d76679875729669d2f99.fna",
+      "bytes": 4981734,
+      "sha256": "7e109ad5d1601093637577128e7aeb8825e1339d3ee9d76679875729669d2f99"
+    },
+    {
+      "path": "context-sequences/86c0e988caf8c953a5420185a5aab518b03029a9b70658c80d4e52b9ef1ffd26.fna",
+      "bytes": 5190175,
+      "sha256": "86c0e988caf8c953a5420185a5aab518b03029a9b70658c80d4e52b9ef1ffd26"
+    },
+    {
+      "path": "context-sequences/a2b7271ee4b05a5b934c75ff1fa0730fe32e3f3ef46055a34805d2b808a57f8f.fna",
+      "bytes": 5057199,
+      "sha256": "a2b7271ee4b05a5b934c75ff1fa0730fe32e3f3ef46055a34805d2b808a57f8f"
+    },
+    {
+      "path": "context-sequences/b263a520a8ff3d85c8c736f397268fad8944a3dcbca6a0e11d301374b7081522.fna",
+      "bytes": 4913024,
+      "sha256": "b263a520a8ff3d85c8c736f397268fad8944a3dcbca6a0e11d301374b7081522"
+    }
+  ],
+  "archive_readback_pending": true
+}

@@ -1,0 +1,4 @@
+${PROJECT_ROOT}/results/ani-screen/2026-09-17/task04-opus-type-anchored/inputs/type-sequences/chromosome/GCA_001750725.1_chromosome_scope.fna	GCA_001750725.1_original
+${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-focused-scope/inputs/GCA_001750725.1_plus_CP017280.1.fna	GCA_001750725.1_plus
+${PROJECT_ROOT}/MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/GCA_013731155.1_ASM1373115v1_parsed.fna	GCA_013731155.1_original
+${PROJECT_ROOT}/results/ani-cases/2026-10-02/task12-astra-focused-scope/inputs/GCA_013731155.1_plus_CP056156.1.fna	GCA_013731155.1_plus

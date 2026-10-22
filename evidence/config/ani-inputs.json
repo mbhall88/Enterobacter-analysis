@@ -1,0 +1,263 @@
+{
+  "config_version": "1.0.0",
+  "created": "2026-09-16",
+  "created_by": "Task 12 bounded ANI/Galah provenance audit (Claude Opus 5, claude-opus-5[1m])",
+  "purpose": "Declare every archived table that could support a manuscript ANI/Galah number, with the schema and units actually observed in the file. Provenance that is not recorded in the archive is declared 'unknown'; it is never inferred from a filename or a directory name.",
+  "archive_root": "MoniqueC_ECC_Study",
+  "notes": [
+    "method_declared is the method the AUDIT is willing to assert from recoverable evidence, not the method suggested by the path.",
+    "'unknown' means the archived file carries no software, version or command record.",
+    "key_style 'path' means the file/query fields carry a directory prefix; 'basename' means they do not."
+  ],
+  "sources": [
+    {"id": "skani.all_ani.edit", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/edit/All_ANI.txt",
+     "schema": "skani_af7", "has_header": true, "method_declared": "skani", "method_evidence": "report methods state skani 0.3.1 all-vs-all on chromosome-only FASTA; column set matches skani dist/triangle output (ANI plus two aligned fractions plus contig names)",
+     "software_version_in_file": "unknown", "scope_declared": "all-vs-all over the chromosome-only set", "filter_declared": "none",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "directed_both"},
+
+    {"id": "skani.all_ani.fixing", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/All_ANI.txt",
+     "schema": "skani_af7", "has_header": true, "method_declared": "skani", "method_evidence": "byte-identical copy of skani.all_ani.edit",
+     "software_version_in_file": "unknown", "scope_declared": "all-vs-all over the chromosome-only set", "filter_declared": "none",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "directed_both"},
+
+    {"id": "skani.all_ani_no_entero", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/All_ANI_no_entero.txt",
+     "schema": "skani_af7", "has_header": true, "method_declared": "skani", "method_evidence": "same column set and row count as skani.all_ani.edit",
+     "software_version_in_file": "unknown", "scope_declared": "unknown; filename suggests a genus exclusion that the audit must test", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "directed_both"},
+
+    {"id": "skani.all_ani_no_entero_with_newspecies", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/All_ANI_no_entero_with_newspecies.tsv",
+     "schema": "skani_af9_newspecies", "has_header": true, "method_declared": "skani", "method_evidence": "skani column set with two appended label columns",
+     "software_version_in_file": "unknown", "scope_declared": "unknown", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "directed_both"},
+
+    {"id": "skani.all_ani_clean_with_species", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/All_ANI_clean_with_species.txt",
+     "schema": "pair_ani6_species_cmp", "has_header": true, "method_declared": "skani", "method_evidence": "row count matches the unfiltered skani table; aligned fractions dropped",
+     "software_version_in_file": "unknown", "scope_declared": "unknown", "filter_declared": "none",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "skani.ani_filtered", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/Skani_Filtered/ANI_Filtered.tsv",
+     "schema": "pair_ani3_header", "has_header": true, "method_declared": "skani", "method_evidence": "values are a subset of skani.all_ani.edit",
+     "software_version_in_file": "unknown", "scope_declared": "chromosome-only set after the declared 80% reciprocal aligned-fraction filter", "filter_declared": "aligned fraction >= 80% for both ref and query (report methods); boundary behaviour to be measured",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "skani.final_results_with_species", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/Skani_Filtered/final_results_with_species.tsv",
+     "schema": "pair_ani6_species_cmp", "has_header": true, "method_declared": "skani", "method_evidence": "same row count and key set as skani.ani_filtered",
+     "software_version_in_file": "unknown", "scope_declared": "filtered set with GTDB-style labels", "filter_declared": "inherited from skani.ani_filtered",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "skani.final_results_with_species_cleaned", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/Skani_Filtered/final_results_with_species_cleaned.tsv",
+     "schema": "pair_ani6_species_cmp", "has_header": true, "method_declared": "skani", "method_evidence": "same shape as skani.final_results_with_species",
+     "software_version_in_file": "unknown", "scope_declared": "unknown; 'cleaned' is undocumented", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "skani.edit_final", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/edit/final.tsv",
+     "schema": "pair_ani5_species", "has_header": true, "method_declared": "skani", "method_evidence": "same key set as skani.ani_filtered",
+     "software_version_in_file": "unknown", "scope_declared": "filtered set with GTDB-style labels", "filter_declared": "inherited",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "skani.edit_final_clean", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/edit/final_clean.tsv",
+     "schema": "pair_ani5_species", "has_header": true, "method_declared": "skani", "method_evidence": "same shape as skani.edit_final with directory prefixes removed",
+     "software_version_in_file": "unknown", "scope_declared": "unknown", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "skani.edit_final_results_with_species", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/edit/final_results_with_species.tsv",
+     "schema": "pair_ani6_species_cmp", "has_header": true, "method_declared": "skani", "method_evidence": "byte-identical copy of skani.final_results_with_species",
+     "software_version_in_file": "unknown", "scope_declared": "filtered set with GTDB-style labels", "filter_declared": "inherited",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "skani.80_ani_new_species", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/80_ANI_New_Species.txt",
+     "schema": "skani_af10_species", "has_header": true, "method_declared": "skani", "method_evidence": "skani column set retained including both aligned fractions",
+     "software_version_in_file": "unknown", "scope_declared": "aligned-fraction-filtered set, deduplicated to one row per unordered pair, self pairs removed, revised labels attached", "filter_declared": "aligned fraction >= 80% for both ref and query; boundary behaviour to be measured",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.80_ani_new_species_species2", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/80_ANI_New_Species_species2.tsv",
+     "schema": "skani_af10_species", "has_header": true, "method_declared": "skani", "method_evidence": "same shape and row count as skani.80_ani_new_species with a second label revision",
+     "software_version_in_file": "unknown", "scope_declared": "as skani.80_ani_new_species with revised labels", "filter_declared": "inherited",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.different_species_above95_specieslevel", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/Different_species_above95ANI_specieslevel.tsv",
+     "schema": "skani_af10_species", "has_header": true, "method_declared": "skani", "method_evidence": "subset of skani.80_ani_new_species columns and values",
+     "software_version_in_file": "unknown", "scope_declared": "pairs labelled Different Species with ANI >= 95", "filter_declared": "label and threshold subset; exact operator undocumented",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.different_species_95", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/Different_species_95ANI.tsv",
+     "schema": "pair_ani6_cmp", "has_header": true, "method_declared": "skani", "method_evidence": "values match skani tables",
+     "software_version_in_file": "unknown", "scope_declared": "Different Species pairs at/above 95 ANI", "filter_declared": "threshold subset; exact operator undocumented",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.different_species_96", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/Different_species_96ANI.tsv",
+     "schema": "pair_ani6_cmp", "has_header": true, "method_declared": "skani", "method_evidence": "values match skani tables",
+     "software_version_in_file": "unknown", "scope_declared": "Different Species pairs at/above 96 ANI", "filter_declared": "threshold subset; exact operator undocumented",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.different_species_97", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/Different_species_97ANI.tsv",
+     "schema": "pair_ani6_cmp", "has_header": true, "method_declared": "skani", "method_evidence": "values match skani tables",
+     "software_version_in_file": "unknown", "scope_declared": "Different Species pairs at/above 97 ANI", "filter_declared": "threshold subset; exact operator undocumented",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.ani97_different_species", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/Defined_ANI/DifferentSpecies_97/ANI_97_DifferentSpecies.tsv",
+     "schema": "pair_ani_rounded6", "has_header": true, "method_declared": "skani", "method_evidence": "derived from the skani tables; ANI column is explicitly rounded",
+     "software_version_in_file": "unknown", "scope_declared": "Different Species pairs at rounded ANI 97", "filter_declared": "rounded-value subset",
+     "ani_unit_declared": "percent_floor_rounded_integer", "af_unit_declared": "absent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.ani_below97_same_species", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/Defined_ANI/SameSpecies_96/ANI_below_97_SameSpecies.tsv",
+     "schema": "pair_ani_rounded6", "has_header": true, "method_declared": "skani", "method_evidence": "derived from the skani tables; ANI column is explicitly rounded",
+     "software_version_in_file": "unknown", "scope_declared": "Same Species pairs at rounded ANI below 97", "filter_declared": "rounded-value subset",
+     "ani_unit_declared": "percent_floor_rounded_integer", "af_unit_declared": "absent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.asburiae_vs_dysekki", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/asburiae_vs_dysekki.tsv",
+     "schema": "skani_af10_species", "has_header": true, "method_declared": "skani", "method_evidence": "skani column set retained",
+     "software_version_in_file": "unknown", "scope_declared": "asburiae versus dysekki label block", "filter_declared": "label subset of the aligned-fraction-filtered set",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.asburiae_vs_dysekki_below95", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/asburiae_vs_dysekki_below95.tsv",
+     "schema": "skani_af10_species", "has_header": true, "method_declared": "skani", "method_evidence": "subset of skani.asburiae_vs_dysekki",
+     "software_version_in_file": "unknown", "scope_declared": "asburiae versus dysekki pairs below 95 ANI", "filter_declared": "ANI < 95 subset",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.cloacae_vs_dissolvens", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/cloacae_vs_dissolvens.tsv",
+     "schema": "skani_af10_species", "has_header": true, "method_declared": "skani", "method_evidence": "skani column set retained",
+     "software_version_in_file": "unknown", "scope_declared": "cloacae versus dissolvens label block", "filter_declared": "label subset of the aligned-fraction-filtered set",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.cloacae_vs_dissolvens_dedup", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/cloacae_vs_dissolvens_dedup.tsv",
+     "schema": "skani_af10_species", "has_header": true, "method_declared": "skani", "method_evidence": "byte-identical copy of skani.cloacae_vs_dissolvens",
+     "software_version_in_file": "unknown", "scope_declared": "filename asserts deduplication; the audit must test whether any row was removed", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.cloacae_vs_dissolvens_below95", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/cloacae_vs_dissolvens_below95.tsv",
+     "schema": "skani_af10_species", "has_header": true, "method_declared": "skani", "method_evidence": "subset of skani.cloacae_vs_dissolvens",
+     "software_version_in_file": "unknown", "scope_declared": "cloacae versus dissolvens pairs below 95 ANI", "filter_declared": "ANI < 95 subset",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.cloacae_vs_dissolvens_newspecies_below95", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/cloacae_vs_dissolvens_with_newspecies_below95.tsv",
+     "schema": "skani_af9_newspecies", "has_header": true, "method_declared": "skani", "method_evidence": "skani column set with revised labels",
+     "software_version_in_file": "unknown", "scope_declared": "cloacae versus dissolvens below 95 under revised labels", "filter_declared": "ANI < 95 subset",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.cloacae_vs_dissolvens_newspecies_below95_no_novel3", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/cloacae_vs_dissolvens_with_newspecies_below95_no_novel3.tsv",
+     "schema": "skani_af9_newspecies", "has_header": true, "method_declared": "skani", "method_evidence": "subset of the previous source",
+     "software_version_in_file": "unknown", "scope_declared": "as above with the 'Novel Species 3' label removed", "filter_declared": "label exclusion",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.cloacae_vs_dissolvens_newspecies_below95_no_novel3_dedup", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/cloacae_vs_dissolvens_with_newspecies_below95_no_novel3_dedup.tsv",
+     "schema": "skani_af9_newspecies", "has_header": true, "method_declared": "skani", "method_evidence": "subset of the previous source",
+     "software_version_in_file": "unknown", "scope_declared": "filename asserts deduplication", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "undirected_single"},
+
+    {"id": "skani.cloacae_vs_dissolvens_all_ani_no_entero", "kind": "ani_table", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/cloacae_vs_dissolvens_All_ANI_no_entero.tsv",
+     "schema": "skani_af7", "has_header": true, "method_declared": "skani", "method_evidence": "header only; no data rows",
+     "software_version_in_file": "unknown", "scope_declared": "unknown", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "percent", "expected_direction": "unknown"},
+
+    {"id": "unknown_method.anim_dir_all_ani_clean", "kind": "ani_table", "path": "MoniqueC_ECC_Study/ANIm/All_ANI_clean.tsv",
+     "schema": "pair_ani3_noheader", "has_header": false, "method_declared": "unknown",
+     "method_evidence": "the only provenance is the parent directory name 'ANIm'; the file carries no header, no software stamp, no aligned fractions and no run log. Directory names are not accepted as method evidence. The audit must test the values against the skani and targeted-ANIm tables before any method is asserted.",
+     "software_version_in_file": "unknown", "scope_declared": "unknown", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "anim.hormaechei1", "kind": "ani_table", "path": "MoniqueC_ECC_Study/ANIm/hormaechei1_anim.tsv",
+     "schema": "anim_pair10_trailing", "has_header": false, "method_declared": "anim",
+     "method_evidence": "report methods state pyANI-plus 1.0.0 ANIm on selected groups; the E. hormaechei group is one of the named groups and this is the only archived hormaechei table. No pyANI-plus run directory, matrix, database, log or version stamp is archived, so the method attribution rests on the report text alone.",
+     "software_version_in_file": "unknown", "scope_declared": "E. hormaechei group; genome list not archived", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "undirected_single"},
+
+    {"id": "anim.asburiae", "kind": "ani_table", "path": "MoniqueC_ECC_Study/ANIm/asburiae_anim.tsv",
+     "schema": "anim_pair10_trailing", "has_header": false, "method_declared": "anim",
+     "method_evidence": "report methods name E. asburiae versus E. dysekkii as an ANIm group; no run directory, log or version stamp is archived",
+     "software_version_in_file": "unknown", "scope_declared": "asburiae versus dysekki pairs; selection rule not archived", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "anim.cloacae", "kind": "ani_table", "path": "MoniqueC_ECC_Study/ANIm/cloacae_anim.tsv",
+     "schema": "anim_pair10_trailing", "has_header": false, "method_declared": "anim",
+     "method_evidence": "report methods name E. cloacae versus E. dissolvens as an ANIm group; no run directory, log or version stamp is archived",
+     "software_version_in_file": "unknown", "scope_declared": "cloacae versus dissolvens pairs; selection rule not archived", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "anim.roggenkampii", "kind": "ani_table", "path": "MoniqueC_ECC_Study/ANIm/roggenkampii_anim.tsv",
+     "schema": "anim_pair10_trailing", "has_header": false, "method_declared": "anim",
+     "method_evidence": "report methods name E. roggenkampii versus E. quasiroggenkampii as an ANIm group; no run directory, log or version stamp is archived",
+     "software_version_in_file": "unknown", "scope_declared": "roggenkampii versus quasiroggenkampii pairs; selection rule not archived", "filter_declared": "unknown",
+     "ani_unit_declared": "percent", "af_unit_declared": "absent", "expected_direction": "directed_both"},
+
+    {"id": "pairlist.asburiae_vs_dysekki_below95", "kind": "pair_list", "path": "MoniqueC_ECC_Study/all_assemblies/Skani_results/fixing/asburiae_vs_dysekki_below95_pairs.tsv",
+     "schema": "pairlist2", "has_header": false, "method_declared": "not_applicable", "method_evidence": "two-column genome pair list with no ANI value",
+     "software_version_in_file": "unknown", "scope_declared": "input selection for the targeted asburiae ANIm run", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "undirected_single"},
+
+    {"id": "pairlist.roggenkampii_vs_quasiroggenkampii_below95", "kind": "pair_list", "path": "MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/roggenkampii_vs_quasiroggenkampii_below95_pairs.tsv",
+     "schema": "pairlist2", "has_header": false, "method_declared": "not_applicable", "method_evidence": "two-column genome pair list with no ANI value",
+     "software_version_in_file": "unknown", "scope_declared": "input selection for the targeted roggenkampii ANIm run", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "undirected_single"},
+
+    {"id": "galah.95_cluster_definition", "kind": "cluster_table", "path": "MoniqueC_ECC_Study/galah_clusters/galah_95.tsv",
+     "schema": "galah_pairmap2", "has_header": false, "method_declared": "galah",
+     "method_evidence": "galah 0.4.2 --output-cluster-definition; the exact command, genome list and backend are recorded in MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/galah95.err",
+     "software_version_in_file": "unknown", "scope_declared": "1068-genome chromosome-only list at 95% ANI", "filter_declared": "galah default preclustering",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "galah.95_cluster_definition_workdir", "kind": "cluster_table", "path": "MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/galah_95.tsv",
+     "schema": "galah_pairmap2", "has_header": false, "method_declared": "galah",
+     "method_evidence": "written in the same working directory as galah95.err",
+     "software_version_in_file": "unknown", "scope_declared": "1068-genome chromosome-only list at 95% ANI", "filter_declared": "galah default preclustering",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "galah.98_cluster_definition", "kind": "cluster_table", "path": "MoniqueC_ECC_Study/galah_clusters/galah_98.tsv",
+     "schema": "galah_pairmap2", "has_header": false, "method_declared": "galah",
+     "method_evidence": "report methods state galah 0.4.2 at 98% ANI; no log for this threshold is archived",
+     "software_version_in_file": "unknown", "scope_declared": "chromosome-only list at 98% ANI", "filter_declared": "unknown",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "galah.95_cluster_ids", "kind": "cluster_table", "path": "MoniqueC_ECC_Study/galah_clusters/galah_95_clusters.tsv",
+     "schema": "galah_assign2", "has_header": false, "method_declared": "galah_derived",
+     "method_evidence": "derived cluster-id assignment; the deriving script is not archived",
+     "software_version_in_file": "unknown", "scope_declared": "one row per genome", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "galah.98_cluster_ids", "kind": "cluster_table", "path": "MoniqueC_ECC_Study/galah_clusters/galah_98_clusters.tsv",
+     "schema": "galah_assign2", "has_header": false, "method_declared": "galah_derived",
+     "method_evidence": "derived cluster-id assignment; the deriving script is not archived",
+     "software_version_in_file": "unknown", "scope_declared": "one row per genome", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "labels.species_txt_curated", "kind": "label_table", "path": "MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/species.txt",
+     "schema": "label2_header", "has_header": true, "method_declared": "manual_curation", "method_evidence": "no deriving script archived",
+     "software_version_in_file": "unknown", "scope_declared": "curated working labels for the 1068-genome galah input", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "labels.anim_dir_final_species", "kind": "label_table", "path": "MoniqueC_ECC_Study/ANIm/final_species.tsv",
+     "schema": "label2_noheader", "has_header": false, "method_declared": "manual_curation", "method_evidence": "no deriving script archived",
+     "software_version_in_file": "unknown", "scope_declared": "revised labels after the intestinihominis rename", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "labels.final_species", "kind": "label_table", "path": "MoniqueC_ECC_Study/final_species.tsv",
+     "schema": "label3_header", "has_header": true, "method_declared": "manual_curation", "method_evidence": "no deriving script archived",
+     "software_version_in_file": "unknown", "scope_declared": "final revised species and subspecies", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "labels.kraken2_mlst_summary", "kind": "label_table", "path": "MoniqueC_ECC_Study/all_assemblies/Kraken2_MLST_Summary.txt",
+     "schema": "kraken_summary5", "has_header": true, "method_declared": "kraken2_gtdb_plus_ncbi", "method_evidence": "report methods describe Kraken2 against a GTDB-derived database for chromosome-only and whole-genome input; database build, version and snapshot date are not archived",
+     "software_version_in_file": "unknown", "scope_declared": "one row per accession", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "inputs.galah_genome_list", "kind": "genome_list", "path": "MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/genomes.txt",
+     "schema": "genomelist1", "has_header": false, "method_declared": "not_applicable", "method_evidence": "input list named in galah95.err",
+     "software_version_in_file": "unknown", "scope_declared": "galah input genome list", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "inputs.galah_genome_list2", "kind": "genome_list", "path": "MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/genomes2.txt",
+     "schema": "genomelist1", "has_header": false, "method_declared": "not_applicable", "method_evidence": "the list actually passed to galah in galah95.err",
+     "software_version_in_file": "unknown", "scope_declared": "galah input genome list", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "provenance.galah95_log", "kind": "provenance_log", "path": "MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/galah95.err",
+     "schema": "freetext", "has_header": false, "method_declared": "galah", "method_evidence": "self-describing run log: exact command line, galah 0.4.2, fastANI 1.34 detected, skani used for both preclustering and clustering, 1068 genomes, 29 preclusters, 34 clusters",
+     "software_version_in_file": "galah 0.4.2", "scope_declared": "the 95% galah run", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"},
+
+    {"id": "provenance.pyani_slurm_profile", "kind": "provenance_log", "path": "MoniqueC_ECC_Study/all_assemblies/Enterobacter_Chr_Clean/pyani_slurm_profile/config.yaml",
+     "schema": "freetext", "has_header": false, "method_declared": "pyani_plus_scheduler_profile", "method_evidence": "a Snakemake/Slurm executor profile only: it records scheduler resources, not the ANIm method, version, genome list or parameters",
+     "software_version_in_file": "unknown", "scope_declared": "scheduler configuration for a pyANI-plus run", "filter_declared": "not_applicable",
+     "ani_unit_declared": "absent", "af_unit_declared": "absent", "expected_direction": "not_applicable"}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0-dev-mlst-runner",
+  "package": {
+    "path": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-historical-package-astra/package/manifest.json",
+    "sha256": "0f0a4bd051e7a29d97f530a38982026df10ca223805e7b0147b19796763978dd"
+  },
+  "runtime": {
+    "executables": {
+      "mlst": {
+        "path": "/home/uqmhal11/sw/miniforge3/envs/mlst/bin/mlst",
+        "sha256": "6b30de9564e850c478792afdc97f16d2ac18a907388b92647e05e10e06bfb23c",
+        "version": "2.32.2"
+      },
+      "blastn": {
+        "path": "/home/uqmhal11/sw/miniforge3/envs/mlst/bin/blastn",
+        "sha256": "f5ab1ce57010ef91a51bf95337dcc42a6f03d09071b508b71c5f69d9af65bb2a",
+        "version": "2.16.0+"
+      },
+      "any2fasta": {
+        "path": "/home/uqmhal11/sw/miniforge3/envs/mlst/bin/any2fasta",
+        "sha256": "ab6b7af07fee242d4f01753271b20551d50bb7d7c82889c3112e2cfa46427b96"
+      }
+    },
+    "database": {
+      "prefix": "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa",
+      "sha256": {
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa": "050ee91efd0547193b37440a41ef3e384a3a98603d4c3af1837517853665e735",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.ndb": "480250e2d8239c59fc6d93e26a6b65a970ffac7d2f5c61d7669e5be35f691750",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.nhr": "1e9dc9f252028ff33786308b3bdbb535f8083b1d23afa5c08c1b4c00dc23182f",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.nin": "41ea1e60be0df858f1a51b83703b3811146eade04d542f2e4a7e9e51717bc5ec",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.njs": "005e3b0df3822e8054892e2d80ac5a1d352712438c7734e07c843532284c223d",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.nog": "3a3b985a9a8c53efad48172d7285071e3e268628dbd0d426c9bebfb5b93ff4ed",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.nos": "4ceeeaba1dc6ae2ae48b1f91ee42b43c1aa37a82faf8c059e55e521cfdd841e5",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.not": "182a3a09f1432785e3619e0869d5a5007a12c61ceb3adcbf5ac3dfa72a0a75ce",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.nsq": "2e7423f39813925a72067ffb0afa8d553c75b5937a6ad37f9ef0f2959c98be17",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.ntf": "67982e4d7b1490b09cce06e7c29175c6bd011cd542cfacb1a1c310084a50821a",
+        "/scratch/user/uqmhal11/Enterobacter/results/tool-planning/2026-10-06/mlst-assembly-validation-astra/build/ecloacae.fa.nto": "b9e398d0663491517d3d7cd6e7478b7f73faba7524ee8d72bbb62b21b5252020"
+      }
+    }
+  },
+  "matcher": {
+    "min_identity_percent": 95,
+    "min_coverage_percent": 50
+  }
+}

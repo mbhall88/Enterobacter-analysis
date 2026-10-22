@@ -1,0 +1,101 @@
+coded_id	layer	truth_kind	label_source	structural	subspecies_structural	result_outside_passing	species_outcome	subspecies_outcome	note_outcome	result_species_id	result_subspecies_id	reasons	note_species_id	qc_stratum	near_clone	subspecies_label_source
+EXP-05FCF56C	expert	named	michael	True	False	False	correct	correct		ECTX-SP008	ECTX-SS003			unreported_quality_stress	False	michael
+EXP-06EF1CF6	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP012				moderate_quality_stress	False	
+EXP-0724F393	expert	outside_genus	michael	False	False	False	correct_withheld	not_applicable	absent			nearest_below_species_ANI		unreported_quality_stress	False	
+EXP-076C4A60	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP012				high_quality	False	
+EXP-09D63E0F	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP007				unreported_quality_stress	False	
+EXP-0CF4DBB5	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP013				high_quality	False	
+EXP-0EFD4CA9	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS009			moderate_quality_stress	False	automatic
+EXP-1292689E	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			moderate_quality_stress	True	automatic
+EXP-15A72884	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP015				unreported_quality_stress	False	
+EXP-15B88F64	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP002				high_quality	False	
+EXP-16C7A139	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP002				high_quality	False	
+EXP-1745B8F0	expert	named	auto_single_species	True	False	False	withheld	withheld_at_species	absent			species_coverage_not_met		moderate_quality_stress	False	automatic
+EXP-1ACB2473	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP019	ECTX-SS006			high_quality	False	automatic
+EXP-1B9B8F4D	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP012				high_quality	False	
+EXP-1E24DC90	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP011				high_quality	False	
+EXP-21A60520	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP008	ECTX-SS003			high_quality	False	automatic
+EXP-25B954E4	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			fragmented_high_quality	False	automatic
+EXP-25C5A595	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP013				high_quality	False	
+EXP-2B7A9809	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP002				high_quality	False	
+EXP-2DD7C07B	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS010			moderate_quality_stress	False	automatic
+EXP-35C8EDA2	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			high_quality	True	automatic
+EXP-3641A2BB	expert	named	auto_tree_resolved	False	False	False	correct	not_applicable		ECTX-SP009				moderate_quality_stress	False	
+EXP-3737A412	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP019	ECTX-SS006			moderate_quality_stress	False	automatic
+EXP-39B79D94	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			high_quality	False	automatic
+EXP-41F6F43F	expert	named	auto_tree_resolved	False	False	False	correct	correct		ECTX-SP025	ECTX-SS009			high_quality	False	automatic
+EXP-42F99861	expert	named	auto_tree_resolved	False	False	False	correct	correct		ECTX-SP025	ECTX-SS009			high_quality	False	automatic
+EXP-46CB3ACE	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP024				high_quality	False	
+EXP-4963B297	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP011				high_quality	False	
+EXP-50EFD946	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP019	ECTX-SS006			high_quality	False	automatic
+EXP-521226D6	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP025	ECTX-SS010			high_quality	False	automatic
+EXP-5497F61E	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS010			high_quality	False	automatic
+EXP-5503E770	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP017				high_quality	False	
+EXP-57CD9BC0	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP011				unreported_quality_stress	False	
+EXP-5C86C407	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP002				moderate_quality_stress	False	
+EXP-5CCD79CF	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP008	ECTX-SS003			unreported_quality_stress	False	automatic
+EXP-5D1139DB	expert	outside_genus	michael	False	False	False	correct_withheld	not_applicable	absent			nearest_below_species_ANI		unreported_quality_stress	False	
+EXP-5D934C2B	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP025	ECTX-SS010			high_quality	True	automatic
+EXP-5E4B6017	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP011				high_quality	True	
+EXP-6002741C	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP012				high_quality	False	
+EXP-614FEFC8	expert	named	auto_tree_resolved	False	False	False	correct	not_applicable		ECTX-SP003				high_quality	False	
+EXP-65173445	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			moderate_quality_stress	False	automatic
+EXP-6CBC2517	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP008	ECTX-SS004			high_quality	False	automatic
+EXP-6D0A737D	expert	named	auto_tree_resolved	False	False	False	correct	not_applicable		ECTX-SP003				high_quality	False	
+EXP-6DEE7F90	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			moderate_quality_stress	False	automatic
+EXP-6EA4D0C3	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS009			high_quality	False	automatic
+EXP-705CF8DB	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP005	ECTX-SS002			high_quality	False	automatic
+EXP-7116D65A	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			moderate_quality_stress	False	automatic
+EXP-740CBB8F	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP011				high_quality	False	
+EXP-7BDDDA6C	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS009			moderate_quality_stress	False	automatic
+EXP-7CCAB0EE	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP012				high_quality	False	
+EXP-7DB31B65	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP005	ECTX-SS002			high_quality	False	automatic
+EXP-7E7AAEF4	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS009			moderate_quality_stress	False	automatic
+EXP-8101F0EC	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP010				high_quality	False	
+EXP-84EC30F7	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP003				unreported_quality_stress	False	
+EXP-852DC49F	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			moderate_quality_stress	False	automatic
+EXP-853C7E0A	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP008	ECTX-SS003			moderate_quality_stress	False	automatic
+EXP-8CFE5C0C	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS008			high_quality	False	automatic
+EXP-9366FA08	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			high_quality	False	automatic
+EXP-937F7C6D	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP019	ECTX-SS006			moderate_quality_stress	False	automatic
+EXP-94E70B6B	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			unreported_quality_stress	False	automatic
+EXP-958FFE59	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP005	ECTX-SS001			high_quality	True	automatic
+EXP-965EB7B6	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			high_quality	True	automatic
+EXP-9BED392E	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP013				unreported_quality_stress	False	
+EXP-9FC93741	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP002				high_quality	False	
+EXP-A09E0ED5	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP019	ECTX-SS006			high_quality	False	automatic
+EXP-A166A2D9	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS010			moderate_quality_stress	False	automatic
+EXP-A29D6C31	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP008	ECTX-SS004			high_quality	False	automatic
+EXP-A552ED81	expert	named	michael	False	False	False	withheld	truth_undetermined	absent			species_coverage_not_met		unreported_quality_stress	False	michael
+EXP-A5982943	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP025	ECTX-SS007			moderate_quality_stress	False	automatic
+EXP-B8325831	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP011				fragmented_high_quality	False	
+EXP-B912D9FE	expert	no_reference	michael	False	False	False	correct_withheld	not_applicable	absent			nearest_below_species_ANI		high_quality	False	
+EXP-B9160EE7	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP008	ECTX-SS003			high_quality	False	automatic
+EXP-B978E794	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS009			moderate_quality_stress	False	automatic
+EXP-C0ADF05B	expert	named	auto_tree_resolved	False	False	False	correct	not_applicable		ECTX-SP003				moderate_quality_stress	False	
+EXP-C54B6E86	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP013				high_quality	False	
+EXP-C75084CD	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP004				high_quality	False	
+EXP-C8548DD6	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP019	ECTX-SS006			high_quality	False	automatic
+EXP-CDBE7B27	expert	named	auto_single_species	True	False	False	correct	species_only		ECTX-SP025				moderate_quality_stress	False	automatic
+EXP-CED284D3	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP008	ECTX-SS003			moderate_quality_stress	False	automatic
+EXP-D1547E6F	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP002				high_quality	False	
+EXP-D543E395	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP002				high_quality	False	
+EXP-D5733D1F	expert	named	auto_single_species	True	False	False	withheld	withheld_at_species	absent			species_coverage_not_met		high_quality	False	automatic
+EXP-D63B6A0D	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP018				high_quality	False	
+EXP-D6A9B3B6	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP011				high_quality	False	
+EXP-DF5AA307	expert	named	auto_single_species	True	False	False	withheld	not_applicable	absent			species_coverage_not_met		moderate_quality_stress	False	
+EXP-E41BE19C	expert	outside_genus	michael	False	False	False	correct_withheld	not_applicable	absent			nearest_below_species_ANI		moderate_quality_stress	False	
+EXP-E61E1F8A	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP025	ECTX-SS007			high_quality	False	automatic
+EXP-E666C5B1	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP021				high_quality	False	
+EXP-E680087C	expert	outside_genus	michael	False	False	False	correct_withheld	not_applicable	absent			nearest_below_species_ANI		moderate_quality_stress	False	
+EXP-E861808B	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP019	ECTX-SS005			unreported_quality_stress	False	automatic
+EXP-E9F5B5CB	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP008	ECTX-SS003			high_quality	False	automatic
+EXP-EB50617E	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS007			high_quality	False	automatic
+EXP-F0123627	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP002				moderate_quality_stress	False	
+EXP-F24383E3	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS010			moderate_quality_stress	False	automatic
+EXP-F275953E	expert	named	michael	True	False	False	withheld	not_applicable	absent			species_coverage_not_met		moderate_quality_stress	False	
+EXP-F35C4719	expert	named	auto_tree_resolved	False	False	False	correct	species_only		ECTX-SP025				fragmented_high_quality	False	automatic
+EXP-F57FDCC7	expert	named	michael	True	False	False	correct	not_applicable		ECTX-SP012				high_quality	False	
+EXP-F833C6E2	expert	named	auto_single_species	True	False	False	correct	not_applicable		ECTX-SP011				moderate_quality_stress	False	
+EXP-FECE6698	expert	named	auto_single_species	True	False	False	correct	correct		ECTX-SP025	ECTX-SS010			high_quality	False	automatic
+EXP-FF88F942	expert	named	auto_single_species	True	True	False	correct	correct		ECTX-SP005	ECTX-SS002			high_quality	False	automatic

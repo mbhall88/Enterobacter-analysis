@@ -1,0 +1,13 @@
+reference	hypothesis	kind	branch_in_reference	branch_id	branch_length	collapsed_gCF	collapsed_gCF_N	collapsed_gDF1	collapsed_gDF1_N	collapsed_gDF2	collapsed_gDF2_N	collapsed_gDFP	collapsed_gDFP_N	collapsed_gN	raw_gCF	raw_gCF_N	raw_gDF1	raw_gDF1_N	raw_gDF2	raw_gDF2_N	raw_gDFP	raw_gDFP_N	raw_gN	sCF_seed_20260923	sCF_seed_20260924	sCF_seed_20260925	sCF_mean	sCF_range	sDF1_mean	sDF1_range	sDF2_mean	sDF2_range	sN_mean	sN_range
+ml	distance	clade	False																															
+ml	marker_sister	clade	False																															
+ml	marker_chinensis	clade	True	49	0.0018471241	0.92	1	0	0	1.83	2	97.25	106	109	2.75	3	0	0	3.67	4	93.58	102	109	71.1	71.03	71.01	71.05	0.09	15.2	0.14	13.75	0.06	93.83	0.14
+distance	distance	clade	True	49	0.0004040966	0.92	1	0	0	1.83	2	97.25	106	109	1.83	2	0	0	1.83	2	96.33	105	109	20.87	20.87	20.95	20.9	0.08	42.65	0.09	36.46	0.17	135.55	0.73
+distance	marker_sister	clade	False																															
+distance	marker_chinensis	clade	False																															
+marker_chinensis	distance	clade	False																															
+marker_chinensis	marker_sister	clade	False																															
+marker_chinensis	marker_chinensis	clade	True	49	0.0018377609	0.92	1	0	0	1.83	2	97.25	106	109	2.75	3	0	0	3.67	4	93.58	102	109	71.13	71.15	71.06	71.11	0.09	15.16	0.09	13.73	0.02	93.73	0.23
+marker_sister	distance	clade	False																															
+marker_sister	marker_sister	clade	True	35	0.0008357422	3.7	4	0.93	1	11.11	12	84.26	91	108	4.63	5	1.85	2	14.81	16	78.7	85	108	30.26	30.27	30.12	30.22	0.15	26.79	0.32	42.99	0.2	164.0	2.69
+marker_sister	marker_chinensis	clade	True	45	0.0017689462	0.92	1	0	0	1.83	2	97.25	106	109	2.75	3	0	0	3.67	4	93.58	102	109	71	70.93	70.93	70.95	0.07	16.56	0.05	12.48	0.05	90.51	0.24

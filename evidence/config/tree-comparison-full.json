@@ -1,0 +1,553 @@
+{
+  "schema_version": "1.0",
+  "run_label": "task11-opus-full-1089",
+  "prepared": "2026-09-23 by Opus 5.5 (claude-opus-5-5) for the Task 11 follow-up (SET-20, SET-21); derived from the Task 10 configuration by results/full-cohort/2026-09-22/task11-opus-full/commands/make_full_comparison_config.py",
+  "purpose": "Compare the BAC120 marker ML, Verticall/FastME and Mashtree trees on the full frozen cohort (N = 1089) on exactly matched tip sets, on each method's own terms, without merging their support statistics and without ranking the methods. SET-17 (full coverage), SET-18 (the conflict-reporting convention) and SET-19 (the Mashtree comparator is a majority-rule consensus of the seed replicates) apply throughout.",
+  "manifests": {
+    "tip_ids": "manifests/full.ids.txt",
+    "panel": "manifests/full.tsv",
+    "types": "manifests/types.tsv"
+  },
+  "outgroups": {
+    "both_set12_outgroups": [
+      "GCA_019048125.1",
+      "GCA_000982825.1"
+    ],
+    "klebsiella_aerogenes_only": [
+      "GCA_019048125.1"
+    ],
+    "cronobacter_sakazakii_only": [
+      "GCA_000982825.1"
+    ]
+  },
+  "outgroup_basis": "SET-12 (DEC-006, 18 September 2026): root with Klebsiella aerogenes and Cronobacter sakazakii, two genera. Task 06 selected the assemblies; manifests/outgroups.tsv records the basis. The three rootings are run separately so stability is shown rather than assumed.",
+  "backbone_min_smaller_side_tips": 10,
+  "trees": {
+    "bac120_fasttree": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/marker/fasttree-wag.nwk",
+      "role": "primary_comparator",
+      "method": "BAC120 marker ML, FastTree 2.2.0 WAG+gamma via gtdbtk infer, on the untrimmed occupancy-filtered alignment (39714 columns)",
+      "inference_class": "marker_protein_ml",
+      "distance_units": "expected amino-acid substitutions per site",
+      "provenance": "Task 11 full cohort, SET-15 (method) and SET-16 (alignment form). Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "sh_like_local",
+        "statistic": "Shimodaira-Hasegawa-like LOCAL support from resampling site likelihoods (FastTree 2.2.0), on 0-1",
+        "retain_at": 0.95,
+        "scale_max": 1.0,
+        "note": "A local support, not a bootstrap, and the more liberal of the statistics in this project: on this same alignment it calls 58.4% of backbone branches supported where IQ-TREE's ultrafast bootstrap calls 39.4%. Never compared with, added to or averaged with another convention."
+      },
+      "near_zero_branch_length": 2.5180037e-05,
+      "near_zero_basis": "1/39714: a branch shorter than this is fewer than one expected amino-acid substitution across the whole occupancy-filtered alignment. Recomputed at full scale."
+    },
+    "verticall_fastme": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/verticall/median-first.nwk",
+      "role": "primary_comparator",
+      "method": "Verticall 0.4.2 pairwise vertical-window distances computed in 100 --part jobs, FastME 2.1.6.3 (primary: median, first mode)",
+      "inference_class": "whole_genome_distance",
+      "distance_units": "Verticall vertical-window genomic distance",
+      "provenance": "Task 11 full cohort: 1184832 directed comparisons over 592416 unordered pairs, merged with a header check and passed through scripts/qc_verticall.py before any matrix was built. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "none",
+        "statistic": "none: FastME produced no bootstrap and none was generated",
+        "note": "Task 08's stability statement is its --multi sensitivities, not a support value: primary, low and high are topologically identical, and the asymmetrical sensitivity shares 349 of 385 splits (raw RF 72, normalised 0.0935). That is a parameter sensitivity and must never be read as a bootstrap-like support."
+      },
+      "near_zero_branch_length": 2.0915e-07,
+      "near_zero_basis": "1/4,781,248.0: a branch shorter than this is fewer than one differing base across the median cohort chromosome. Recomputed at full scale (the pilot's median was 4,763,472.5)."
+    },
+    "mashtree_primary_seed42": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/mashtree/primary-seed-42.nwk",
+      "role": "retained_single_draw",
+      "method": "Mashtree 1.4.6, k=21, sketch 10,000, seed 42, neighbour joining - one draw",
+      "inference_class": "whole_genome_distance",
+      "distance_units": "Mash distance from 21-mer sketches",
+      "provenance": "Task 11 full cohort. Retained under SET-19 so already-circulated figures stay traceable. It is NOT the comparator: a single draw is about half seed. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "none",
+        "statistic": "none: Mashtree carries no branch support and none was generated",
+        "note": "Mashtree's bootstrap/jackknife scripts estimate sketch stability, not marker support, and were deliberately not run. Changing only the Mash seed already moves 22.3% of splits, which is the baseline any Mashtree topological distance must be read against."
+      },
+      "near_zero_branch_length": 2.381e-06,
+      "near_zero_basis": "One differing hash in the 10,000-hash sketch at the identity limit: dd = (1/k)(1/(j(1+j)))dj with k=21, dj=1e-4 and j->1 gives 2.381e-06. Mashtree writes branch lengths to five decimal places, so this collapses exactly the branches printed as 0.00000."
+    },
+    "verticall_fastme_asymmetrical": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/verticall/asymmetrical.nwk",
+      "role": "baseline_parameter",
+      "method": "Verticall/FastME with the asymmetrical distance sensitivity instead of the prespecified median-first primary",
+      "inference_class": "whole_genome_distance",
+      "distance_units": "Verticall vertical-window genomic distance",
+      "provenance": "Task 11 full cohort; the same merged pairwise table, one parameter changed. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "none",
+        "statistic": "none"
+      },
+      "near_zero_branch_length": 2.0915e-07,
+      "near_zero_basis": "As for the primary Verticall/FastME tree, recomputed at full scale."
+    },
+    "bac120_fasttree_lg": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/marker/fasttree-lg.nwk",
+      "role": "baseline_model_choice",
+      "method": "FastTree 2.2.0 LG+gamma via gtdbtk infer on the identical alignment",
+      "inference_class": "marker_protein_ml",
+      "distance_units": "expected amino-acid substitutions per site",
+      "provenance": "Task 11 within-method baseline: one model changed, alignment, program and algorithm held. The analogue of Verticall's distance mode and Mashtree's seed. WAG is kept as primary for GTDB comparability (Task 07). Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "sh_like_local",
+        "statistic": "Shimodaira-Hasegawa-like LOCAL support from resampling site likelihoods (FastTree 2.2.0), on 0-1",
+        "retain_at": 0.95,
+        "scale_max": 1.0,
+        "note": "A local support, not a bootstrap, and the more liberal of the statistics in this project: on this same alignment it calls 58.4% of backbone branches supported where IQ-TREE's ultrafast bootstrap calls 39.4%. Never compared with, added to or averaged with another convention."
+      },
+      "near_zero_branch_length": 2.5180037e-05,
+      "near_zero_basis": "Same alignment as the primary FastTree tree."
+    },
+    "bac120_fasttree_jtt": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/marker/fasttree-jtt.nwk",
+      "role": "baseline_model_choice",
+      "method": "FastTree 2.2.0 JTT+gamma via gtdbtk infer on the identical alignment",
+      "inference_class": "marker_protein_ml",
+      "distance_units": "expected amino-acid substitutions per site",
+      "provenance": "Task 11 within-method baseline: one model changed, alignment, program and algorithm held. The analogue of Verticall's distance mode and Mashtree's seed. WAG is kept as primary for GTDB comparability (Task 07). Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "sh_like_local",
+        "statistic": "Shimodaira-Hasegawa-like LOCAL support from resampling site likelihoods (FastTree 2.2.0), on 0-1",
+        "retain_at": 0.95,
+        "scale_max": 1.0,
+        "note": "A local support, not a bootstrap, and the more liberal of the statistics in this project: on this same alignment it calls 58.4% of backbone branches supported where IQ-TREE's ultrafast bootstrap calls 39.4%. Never compared with, added to or averaged with another convention."
+      },
+      "near_zero_branch_length": 2.5180037e-05,
+      "near_zero_basis": "Same alignment as the primary FastTree tree."
+    },
+    "bac120_veryfasttree": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/marker/veryfasttree-wag.nwk",
+      "role": "baseline_program_choice",
+      "method": "VeryFastTree 4.0.5 -double-precision, WAG+gamma, SH-like local support, on the identical alignment",
+      "inference_class": "marker_protein_ml",
+      "distance_units": "expected amino-acid substitutions per site",
+      "provenance": "Task 11 within-method baseline replacing the pilot's FastTree-against-IQ-TREE comparison: SET-15 removed IQ-TREE from the method, so the full-scale program-choice baseline is the same algorithm in a different implementation. -double-precision is required to match the GTDB-Tk FastTree build on an alignment this full of near-zero branches. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "sh_like_local",
+        "statistic": "Shimodaira-Hasegawa-like LOCAL support from resampling site likelihoods (FastTree 2.2.0), on 0-1",
+        "retain_at": 0.95,
+        "scale_max": 1.0,
+        "note": "A local support, not a bootstrap, and the more liberal of the statistics in this project: on this same alignment it calls 58.4% of backbone branches supported where IQ-TREE's ultrafast bootstrap calls 39.4%. Never compared with, added to or averaged with another convention."
+      },
+      "near_zero_branch_length": 2.5180037e-05,
+      "near_zero_basis": "Same alignment as the primary FastTree tree."
+    },
+    "mashtree_seed1001": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/mashtree/seed-1001.nwk",
+      "role": "baseline_seed",
+      "method": "Mashtree 1.4.6, identical parameters and inputs, seed 1001",
+      "inference_class": "whole_genome_distance",
+      "distance_units": "Mash distance from 21-mer sketches",
+      "provenance": "Task 11 full cohort. Paired with mashtree_primary_seed42 this is the single-seed-change baseline; the whole 20-seed distribution is summarised separately and is the figure SET-18 rule 3 asks to be quoted. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "none",
+        "statistic": "none"
+      },
+      "near_zero_branch_length": 2.381e-06,
+      "near_zero_basis": "As for the primary Mashtree."
+    },
+    "mashtree_seed_stable": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/mashtree/seed-stability-annotated.nwk",
+      "role": "superseded_comparator",
+      "method": "Mashtree 1.4.6 primary topology, filtered to the splits that survive re-seeding (20 independent Mash seeds, same inputs and parameters)",
+      "inference_class": "whole_genome_distance",
+      "distance_units": "topology only: this tree's internal labels are seed frequencies, and its branch lengths are the primary run's Mash distances",
+      "provenance": "Task 11 full cohort, rebuilt with scripts/summarize_seed_stability.py only so the comparator SET-19 replaced can be measured against the one it chose. It is NOT a comparator here: it keeps the seed-42 topology and deletes splits below the threshold, so it can only remove. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "seed_stability",
+        "statistic": "fraction of 20 independent Mash sketch seeds whose tree contains the split, on 0-1",
+        "retain_at": 0.95,
+        "scale_max": 1.0,
+        "note": "NOT branch support. This is reproducibility under the method's own randomness, not evidence for the split. It must never be compared with, merged into or tabulated on the same scale as FastTree's SH-like local support or IQ-TREE's ultrafast bootstrap. The tool carries is_branch_support=false on this convention for exactly that reason."
+      },
+      "near_zero_branch_length": 2.381e-06,
+      "near_zero_basis": "As for the primary Mashtree: its branch lengths are unchanged by the annotation."
+    },
+    "mashtree_sketch5000_consensus": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/mashtree/consensus-20-sketch5000.nwk",
+      "role": "sketch_size_sensitivity",
+      "method": "Mashtree 1.4.6, k=21, **sketch 5,000**, neighbour joining; majority-rule consensus of the same 20 recorded seeds (1001-1020)",
+      "inference_class": "whole_genome_distance",
+      "distance_units": "Mash distance from 21-mer sketches",
+      "provenance": "Task 11 sketch-size sensitivity. Half the hashes per genome, twenty independent hash seeds, the same consensus construction. It answers the question mashtree_jackknife.pl was proposed for -- does halving the k-mer evidence change the tree -- reproducibly and without a guide tree. It is not a jackknife and must not be called one. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred.",
+      "support": {
+        "kind": "seed_stability",
+        "statistic": "fraction of the 20 independent Mash sketch seeds whose 5,000-hash tree contains the split, on 0-1. SKETCH STABILITY AT HALF THE SKETCH SIZE, NOT BRANCH SUPPORT.",
+        "retain_at": 0.5,
+        "scale_max": 1.0,
+        "note": "0.5 imposes no further filter: every split in a majority-rule consensus already exceeds half the replicates. The threshold is present so the statistic is carried and correctly labelled, not so it removes anything."
+      },
+      "near_zero_branch_length": 2.381e-06,
+      "near_zero_basis": "One differing hash in the 10,000-hash sketch at the identity limit: dd = (1/k)(1/(j(1+j)))dj with k=21, dj=1e-4 and j->1 gives 2.381e-06. Mashtree writes branch lengths to five decimal places, so this collapses exactly the branches printed as 0.00000."
+    },
+    "mashtree_consensus": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/mashtree/consensus-1000.nwk",
+      "role": "primary_comparator",
+      "method": "Mashtree 1.4.6, k=21, sketch 10,000, neighbour joining; majority-rule consensus of **1,000** recorded seeds (1001-2000)",
+      "inference_class": "whole_genome_distance",
+      "distance_units": "Mash distance from 21-mer sketches",
+      "provenance": "Task 11, run after Michael asked on 22 September whether 20 seeds was too few. SET-19 as written says 'the 20 seed trees', so the 20-seed consensus remains the primary comparator until that is confirmed; this one is reported beside it so the choice is measured rather than argued. See decisions/mash-seed-count.md. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred. Adopted as the Mashtree comparator by SET-21 (Michael, 23 September 2026), amending SET-19's '20 seed trees'.",
+      "support": {
+        "kind": "seed_stability",
+        "statistic": "fraction of the 1,000 independent Mash sketch seeds whose tree contains the split, on 0-1. SKETCH STABILITY, NOT BRANCH SUPPORT -- more replicates make the measurement more precise, they do not turn it into evidence for a clade.",
+        "retain_at": 0.5,
+        "scale_max": 1.0,
+        "note": "0.5 imposes no further filter: every split in a majority-rule consensus already exceeds half the replicates. The threshold is present so the statistic is carried and correctly labelled, not so it removes anything."
+      },
+      "near_zero_branch_length": 2.381e-06,
+      "near_zero_basis": "One differing hash in the 10,000-hash sketch at the identity limit: dd = (1/k)(1/(j(1+j)))dj with k=21, dj=1e-4 and j->1 gives 2.381e-06. Mashtree writes branch lengths to five decimal places, so this collapses exactly the branches printed as 0.00000."
+    },
+    "mashtree_consensus_20": {
+      "path": "results/full-cohort/2026-09-22/task11-opus-full/pruned-1089/mashtree/consensus-20.nwk",
+      "role": "replicate_count_sensitivity",
+      "method": "Mashtree 1.4.6 (mash 2.3, quicktree 2.5), k=21, sketch 10,000, neighbour joining; majority-rule consensus of 20 recorded seeds (1001-1020)",
+      "inference_class": "whole_genome_distance",
+      "distance_units": "Mash distance from 21-mer sketches",
+      "provenance": "Task 11 full cohort under SET-19. Built by scripts/majority_rule_consensus.py from the 20 replicate trees; compatibility of the majority splits and the reconstruction are both verified rather than assumed. Pruned to the 1,089-tip set after SET-20 excluded GCA_006385655.1; not re-inferred. Superseded as comparator by SET-21; kept as the consensus's baseline.",
+      "support": {
+        "kind": "seed_stability",
+        "statistic": "fraction of the 20 independent Mash sketch seeds whose tree contains the split, on 0-1. SKETCH STABILITY, NOT BRANCH SUPPORT: it measures reproducibility under mash's own sketch draw, not evidence for the split, and SET-18 rules 2 and 6 forbid putting it in a column with or on the scale of the marker tree's SH-like support.",
+        "retain_at": 0.5,
+        "scale_max": 1.0,
+        "note": "0.5 imposes no further filter: every split in a majority-rule consensus already exceeds half the replicates. The threshold is present so the statistic is carried and correctly labelled, not so it removes anything."
+      },
+      "near_zero_branch_length": 2.381e-06,
+      "near_zero_basis": "One differing hash in the 10,000-hash sketch at the identity limit: dd = (1/k)(1/(j(1+j)))dj with k=21, dj=1e-4 and j->1 gives 2.381e-06. Mashtree writes branch lengths to five decimal places, so this collapses exactly the branches printed as 0.00000."
+    }
+  },
+  "balanced_panel": {
+    "group_column": "gtdb_species",
+    "max_per_group": 3,
+    "replicates": 20,
+    "seed": 20260922
+  },
+  "collapse_sensitivity": {
+    "near_zero_multipliers": [
+      0,
+      1,
+      4,
+      20
+    ],
+    "support_threshold_overrides": [
+      null,
+      0.8,
+      0.99
+    ],
+    "note": "Overrides are fractions of each convention's own scale, so one grid covers a 0-1 local support and a 0-100 bootstrap without ever putting the two on one scale."
+  },
+  "comparison_sets": [
+    {
+      "name": "full-1089",
+      "required": true,
+      "description": "The primary comparison: all 1089 frozen full-cohort tips, unrooted, all three methods.",
+      "trees": [
+        "bac120_fasttree",
+        "verticall_fastme",
+        "mashtree_consensus"
+      ],
+      "patristic": true,
+      "balanced_panel_sensitivity": true,
+      "figures": {
+        "row_height": 1.6,
+        "label_tips": false,
+        "tanglegram_pairs": [
+          [
+            "bac120_fasttree",
+            "verticall_fastme"
+          ],
+          [
+            "bac120_fasttree",
+            "mashtree_consensus"
+          ],
+          [
+            "verticall_fastme",
+            "mashtree_consensus"
+          ]
+        ],
+        "annotated_trees": [
+          "bac120_fasttree",
+          "verticall_fastme",
+          "mashtree_consensus"
+        ]
+      },
+      "root": {
+        "outgroup_sets": [
+          "both_set12_outgroups",
+          "klebsiella_aerogenes_only",
+          "cronobacter_sakazakii_only"
+        ],
+        "type_anchor_reading_on": "both_set12_outgroups"
+      },
+      "root_note": "Attempted, and expected to fail on the joint outgroup rooting: Task 07 found the two outgroups are not a clade with the 13 out-of-genus tips present. Recorded rather than skipped, so the failure is confirmed for all three methods rather than assumed from one."
+    },
+    {
+      "name": "pruned-1088",
+      "required": true,
+      "description": "Required sensitivity: the same comparison with the incomplete 3.02-Mb GCA_050242595.1 pruned. All three methods flagged it independently (58 BAC120 markers; every one of Task 08's 149 low-coverage ingroup pairs; Mash rank 3 of 372). Task 09 established that pruning the 388-tip tree and rerunning on 1088 inputs agree to 382/384 splits with identical backbones, so all three trees are pruned rather than rerun.",
+      "trees": [
+        "bac120_fasttree",
+        "verticall_fastme",
+        "mashtree_consensus"
+      ],
+      "drop_tips": [
+        "GCA_050242595.1"
+      ],
+      "patristic": true,
+      "balanced_panel_sensitivity": false
+    },
+    {
+      "name": "ingroup-1076",
+      "required": true,
+      "description": "Required scope: the 13 declared_out_of_genus_context tips pruned before any rooting question is asked, leaving 1076. The count is recomputed from manifests/full.tsv, not carried over from the pilot's 375. Task 07 showed the root is uninterpretable with them in; unrooted forms are kept alongside the rooted ones.",
+      "trees": [
+        "bac120_fasttree",
+        "verticall_fastme",
+        "mashtree_consensus"
+      ],
+      "drop_where": [
+        {
+          "column": "ingroup_status",
+          "values": [
+            "declared_out_of_genus_context"
+          ]
+        }
+      ],
+      "root": {
+        "outgroup_sets": [
+          "both_set12_outgroups",
+          "klebsiella_aerogenes_only",
+          "cronobacter_sakazakii_only"
+        ]
+      },
+      "patristic": true,
+      "balanced_panel_sensitivity": true
+    },
+    {
+      "name": "baseline-program-choice-1089",
+      "required": false,
+      "description": "Baseline 1, recomputed at full scale: how much the marker answer moves with the implementation alone. VeryFastTree 4.0.5 -double-precision against FastTree 2.2.0 on the identical alignment and tips. The pilot's FastTree-against-IQ-TREE figure (5.7%) is a pilot-scale figure and is not recomputed: SET-15 removed IQ-TREE from the method.",
+      "trees": [
+        "bac120_fasttree",
+        "bac120_veryfasttree"
+      ],
+      "patristic": false
+    },
+    {
+      "name": "baseline-mash-seed-1089",
+      "required": false,
+      "description": "Baseline 2, recomputed at full scale: the Mash seed alone, with identical inputs and parameters. The 20-seed distribution is the fuller statement and is reported beside it.",
+      "trees": [
+        "mashtree_primary_seed42",
+        "mashtree_seed1001"
+      ],
+      "patristic": false
+    },
+    {
+      "name": "baseline-verticall-parameter-1089",
+      "required": false,
+      "description": "Baseline 3: the only Verticall/FastME parameter sensitivity that moves the topology - the asymmetrical distance against the prespecified median-first primary. The low and high variants are topologically identical to the primary.",
+      "trees": [
+        "verticall_fastme",
+        "verticall_fastme_asymmetrical"
+      ],
+      "patristic": false
+    },
+    {
+      "name": "type-anchor-projection-35",
+      "required": false,
+      "description": "A descriptive projection onto the 33 nomenclatural type anchors (carrying 35 type names) plus the two SET-12 outgroups, so the contested regions can be read nomenclaturally and drawn legibly. A projection is not one of the three required comparison sets: a split of 35 tips is a much weaker statement than a split of 1089, and the support values were computed on the full tree.",
+      "trees": [
+        "bac120_fasttree",
+        "verticall_fastme",
+        "mashtree_consensus"
+      ],
+      "keep_where": [
+        {
+          "column": "panel_roles",
+          "contains": [
+            "type_anchor",
+            "outgroup"
+          ]
+        }
+      ],
+      "root": {
+        "outgroup_sets": [
+          "both_set12_outgroups",
+          "klebsiella_aerogenes_only",
+          "cronobacter_sakazakii_only"
+        ]
+      },
+      "patristic": true,
+      "figures": {
+        "row_height": 20.0,
+        "label_tips": true,
+        "tanglegram_pairs": [
+          [
+            "bac120_fasttree",
+            "verticall_fastme"
+          ],
+          [
+            "bac120_fasttree",
+            "mashtree_consensus"
+          ],
+          [
+            "verticall_fastme",
+            "mashtree_consensus"
+          ]
+        ],
+        "annotated_trees": [
+          "bac120_fasttree",
+          "verticall_fastme",
+          "mashtree_consensus"
+        ]
+      }
+    },
+    {
+      "name": "single-draw-mashtree-1089",
+      "required": false,
+      "description": "The same tips with the SET-19 majority-rule consensus replaced by the retained single seed-42 draw. Reported alongside, never instead of, the primary comparison: it shows how much of an apparent Mashtree difference is one arbitrary sketch draw, which at pilot scale was about half of it.",
+      "trees": [
+        "bac120_fasttree",
+        "verticall_fastme",
+        "mashtree_primary_seed42"
+      ],
+      "patristic": false,
+      "balanced_panel_sensitivity": false
+    },
+    {
+      "name": "pruned-low-marker-1086",
+      "required": true,
+      "description": "Sensitivity: the three remaining tips below 100 unique BAC120 markers pruned. The fourth, GCA_006385655.1, is excluded outright under SET-20.",
+      "trees": [
+        "bac120_fasttree",
+        "verticall_fastme",
+        "mashtree_consensus"
+      ],
+      "drop_tips": [
+        "GCA_002886105.1",
+        "GCA_050242595.1",
+        "GCA_000211415.1"
+      ],
+      "patristic": true,
+      "balanced_panel_sensitivity": false
+    },
+    {
+      "name": "baseline-marker-model-choice-1089",
+      "required": false,
+      "description": "Baseline 4, new at full scale: the marker model alone. WAG against LG and JTT via gtdbtk infer on the identical alignment. This is the exact analogue of Verticall's distance-mode baseline and Mashtree's seed baseline -- one parameter moved, everything else held -- and it is what makes the marker arm comparable to the other two under SET-18 rule 3.",
+      "trees": [
+        "bac120_fasttree",
+        "bac120_fasttree_lg",
+        "bac120_fasttree_jtt"
+      ],
+      "patristic": false
+    },
+    {
+      "name": "mashtree-comparator-choice-1089",
+      "required": false,
+      "description": "The three candidate Mashtree comparators against each other on the same tips: the SET-19 majority-rule consensus of 20 recorded seeds, the retained single seed-42 draw, and the filter-the-draw 'seed-stable' form Task 10 used. This is the direct evidence for SET-19's own rationale -- a filter applied to one draw can only remove splits, while a consensus can contain a split that draw happened to miss -- measured at full scale rather than carried over from the pilot.",
+      "trees": [
+        "mashtree_consensus",
+        "mashtree_primary_seed42",
+        "mashtree_seed_stable"
+      ],
+      "patristic": false
+    },
+    {
+      "name": "baseline-mashtree-sketch-size-1089",
+      "required": false,
+      "description": "Sketch-size stability, and the consensus's within-method baseline: the same 20 recorded seeds at --sketch-size 5000 instead of 10,000, carried through the same majority-rule consensus, against the 10,000-hash consensus. This answers 'does halving the k-mer evidence change the tree', reproducibly and without a guide tree. It is NOT a jackknife, is never labelled one, and is reported separately from seed stability and from any branch support (SET-18 rules 2 and 6). See decisions/mashtree-jackknife-decision.md.",
+      "trees": [
+        "mashtree_consensus_20",
+        "mashtree_sketch5000_consensus"
+      ],
+      "patristic": false
+    },
+    {
+      "name": "baseline-mashtree-replicate-count-1089",
+      "required": false,
+      "description": "The comparator's within-method baseline under SET-21: the 1,000-replicate consensus against the 20-replicate one, same sketch size and construction; one parameter moved.",
+      "trees": [
+        "mashtree_consensus",
+        "mashtree_consensus_20"
+      ],
+      "patristic": false
+    },
+    {
+      "name": "full-with-20-seed-consensus-1089",
+      "required": false,
+      "description": "The primary comparison repeated with the 20-replicate consensus SET-19 originally named, so the change SET-21 made is measured.",
+      "trees": [
+        "bac120_fasttree",
+        "verticall_fastme",
+        "mashtree_consensus_20"
+      ],
+      "patristic": false
+    }
+  ],
+  "named_type_groups": {
+    "hoffmannii + intestinihominis + nototheniae types": [
+      "Enterobacter hormaechei subsp. hoffmannii",
+      "Enterobacter intestinihominis",
+      "Enterobacter hoffmannii subsp. nototheniae"
+    ],
+    "cloacae + dissolvens types": [
+      "Enterobacter cloacae subsp. cloacae",
+      "Enterobacter cloacae subsp. dissolvens"
+    ],
+    "roggenkampii + quasiroggenkampii types": [
+      "Enterobacter roggenkampii",
+      "Enterobacter quasiroggenkampii"
+    ],
+    "roggenkampii + quasiroggenkampii + pseudoroggenkampii types": [
+      "Enterobacter roggenkampii",
+      "Enterobacter quasiroggenkampii",
+      "Enterobacter pseudoroggenkampii"
+    ],
+    "asburiae + dykesii types": [
+      "Enterobacter asburiae",
+      "Enterobacter dykesii"
+    ],
+    "the five hormaechei subspecies types": [
+      "Enterobacter hormaechei subsp. hormaechei",
+      "Enterobacter hormaechei subsp. hoffmannii",
+      "Enterobacter hormaechei subsp. oharae",
+      "Enterobacter hormaechei subsp. steigerwaltii",
+      "Enterobacter hormaechei subsp. xiangfangensis"
+    ],
+    "oharae + steigerwaltii + xiangfangensis types": [
+      "Enterobacter hormaechei subsp. oharae",
+      "Enterobacter hormaechei subsp. steigerwaltii",
+      "Enterobacter hormaechei subsp. xiangfangensis"
+    ],
+    "the hormaechei subspecies types plus intestinihominis and nototheniae": [
+      "Enterobacter hormaechei subsp. hormaechei",
+      "Enterobacter hormaechei subsp. hoffmannii",
+      "Enterobacter hormaechei subsp. oharae",
+      "Enterobacter hormaechei subsp. steigerwaltii",
+      "Enterobacter hormaechei subsp. xiangfangensis",
+      "Enterobacter intestinihominis",
+      "Enterobacter hoffmannii subsp. nototheniae"
+    ],
+    "hormaechei subspecies types plus quasihormaechei": [
+      "Enterobacter hormaechei subsp. hormaechei",
+      "Enterobacter hormaechei subsp. hoffmannii",
+      "Enterobacter hormaechei subsp. oharae",
+      "Enterobacter hormaechei subsp. steigerwaltii",
+      "Enterobacter hormaechei subsp. xiangfangensis",
+      "Enterobacter quasihormaechei"
+    ]
+  },
+  "named_type_groups_basis": "The four disputed groups named in DEC-004, plus the hormaechei subspecies structure Task 04's ANI and Task 07's tree both bear on. Resolved from taxon names in manifests/types.tsv rather than transcribed accessions. Nothing here proposes a name or a rank; the test is only whether a method's MRCA clade for the group admits another named type.",
+  "panel_facts": {
+    "tips": 1089,
+    "declared_out_of_genus_context": 13,
+    "ingroup_rooting_scope": 1076,
+    "median_source_chromosome_bp": 4781248,
+    "occupancy_filtered_alignment_columns": 39714,
+    "note": "Recomputed from manifests/full.tsv at full scale. The pilot's 388/375 and its near-zero thresholds are not carried over."
+  }
+}

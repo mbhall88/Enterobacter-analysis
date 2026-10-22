@@ -1,0 +1,6 @@
+started: 2026-09-23T23:36:10+10:00
+host: bun157
+slurm_job: 28881189
+model: fixed at results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.best_model.nex (highest-likelihood search: third)
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+finished: 2026-09-23T23:45:51+10:00

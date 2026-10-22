@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "raw_pairs_checked": 194376,
+  "expected_pairs": 194376,
+  "memberships_reproduced_from_original_trees": true,
+  "union_partition_tips": 624,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3"
+  },
+  "input_sha256": {
+    "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/tree-comparison.json": "f19153399e22db2c4daa50919f5f756a17d6799839844e0fdcfa0a5a68bacbcf",
+    "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-ab-review/scripts/review.py": "264e5464ec4c7efbae93b6c01d5567861bf7c027b43a18b496ad7031305c06a4",
+    "scripts/gtdb_context.py": "82a37cae4d8e6d4746e5180a9819ea9ec65218224986207013b278241b601d1e",
+    "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/bac120_fasttree.both_set12_outgroups.rooted.nwk": "95f5fdca098139271ed8dec9252800fefd10d8cc8150ccdc170e27ece2a7149d",
+    "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/verticall_fastme.both_set12_outgroups.rooted.nwk": "be98d49b7e38a99f7dfee4173536bbf166672ae0fb53431573553515d82d3c49",
+    "results/full-cohort/2026-09-22/task11-opus-full/comparison-1089/ingroup-1076/rooted/mashtree_consensus.both_set12_outgroups.rooted.nwk": "b82431146ad7964f8d0e41a1a642c96d5e99992fffb69665ec2dc0366d1341c6",
+    "results/ani-cases/2026-09-23/task12-astra-evidence/case-register/v2-complete/tree-group-membership.tsv": "dcb36e391df6ee0ad17e26e28e17ab948baede4da9c6dcafe0165924acae218d",
+    "results/ani-cases/2026-09-23/task12-astra-evidence/skani/pairs-complete.tsv": "5dcf3bbba6a812b31eac9301bc838bf33b50b059fbe7ed179dbd5bb192273409",
+    "results/ani-cases/2026-09-23/task12-astra-evidence/skani/allpairs.tsv": "6ba9c7b25964e010e083e5c7cc39e0e15c1e91a2fd757e9a34d47498e0aab511",
+    "results/ani-cases/2026-09-23/task12-astra-evidence/case-register/enriched-v3-complete/cases.tsv": "8900e90210e6ae9e6ef37be6f165eb163f47c60c13778c7d23e7acb189c126cd",
+    "results/ani-cases/2026-09-23/task12-astra-evidence/sensitivity-final-v2/anim-vs-skani.tsv": "59cd3b64c744715e1a3d808a0edfcee14d07893024ba7690d69c2be6d3051823"
+  }
+}

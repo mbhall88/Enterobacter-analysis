@@ -1,0 +1,5 @@
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+alignment: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/alignment.fna 63d50df29e854746eb74cb7a377bb70a11fdbf6b42e3dc48cabeb1f410f80629
+model: partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/ledger-panel/partition-pos12.nex
+candidates: 7
+finished: 2026-09-23T21:42:21+10:00

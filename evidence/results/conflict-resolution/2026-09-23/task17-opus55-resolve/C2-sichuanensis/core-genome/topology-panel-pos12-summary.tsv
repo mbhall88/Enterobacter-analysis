@@ -1,0 +1,5 @@
+candidate	constrained_to	carries_hypotheses	logL	deltaL	bp-RELL	p-KH	p-SH	p-WKH	p-WSH	c-ELW	p-AU	rejected_by_AU_at_0.05	rejected_by_SH_at_0.05	model	scope
+ml		distance	-5921706.092	0.025542	0.493	0.432	0.849	0.432	0.808	0.494	0.424	False	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/partition-pos12.nex	panel
+distance	distance	distance	-5921706.066	0	0.507	0.568	1	0.568	0.912	0.506	1	False	False	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/partition-pos12.nex	panel
+marker_chinensis	marker_chinensis	marker_chinensis	-5930325.898	8619.8	0	0	0	0	0	0	1.92e-111	True	True	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/partition-pos12.nex	panel
+marker_sister	marker_sister	marker_sister	-5932483.565	10777	0	0	0	0	0	0	1.71e-07	True	True	partition results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/ledger-panel/partition-pos12.nex	panel

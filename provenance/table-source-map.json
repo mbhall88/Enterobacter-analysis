@@ -1,0 +1,2561 @@
+[
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/ml.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 2,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/ml.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/ml.treefile",
+    "source_exists": true,
+    "source_sha256": "fa931cd8b498ad962f89ecab37f8aaa414a86f7f65986b820409a156983976b1",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/ml.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 2,
+        "set": "C12x core pos12 (panel 50)",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "0.013364",
+        "p_AU": "0.498"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/ml.treefile",
+    "integrated_sha256": "fa931cd8b498ad962f89ecab37f8aaa414a86f7f65986b820409a156983976b1"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 3,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_distance.treefile",
+    "source_exists": true,
+    "source_sha256": "da09bc8175e732ad43d27cf6498825786302f8431764e54d9f7644808f01e1be",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 3,
+        "set": "C12x core pos12 (panel 50)",
+        "candidate": "C1_distance",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_distance.treefile",
+    "integrated_sha256": "da09bc8175e732ad43d27cf6498825786302f8431764e54d9f7644808f01e1be"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_outside.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 4,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_outside.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_outside.treefile",
+    "source_exists": true,
+    "source_sha256": "c5fba1159773c9ae90186eef69671ceabd67786a527533c8dc066e98cb106cdc",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_outside.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 4,
+        "set": "C12x core pos12 (panel 50)",
+        "candidate": "C1_marker_outside",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "1444.8",
+        "p_AU": "0.000149"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_outside.treefile",
+    "integrated_sha256": "c5fba1159773c9ae90186eef69671ceabd67786a527533c8dc066e98cb106cdc"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 5,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "9bd4d9e7145f1671fe6bd105a7b8610fdf30a61eb390ca5478cd46acb754530c",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 5,
+        "set": "C12x core pos12 (panel 50)",
+        "candidate": "C1_marker_sister",
+        "carries_actual_marker_placement": "True",
+        "deltaL": "15136.0",
+        "p_AU": "9.43e-26"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C1_marker_sister.treefile",
+    "integrated_sha256": "9bd4d9e7145f1671fe6bd105a7b8610fdf30a61eb390ca5478cd46acb754530c"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 6,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_distance.treefile",
+    "source_exists": true,
+    "source_sha256": "641303f64f32205796fb53bb3c3dc422f01804bf1e2dafcd9114337d960223c9",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 6,
+        "set": "C12x core pos12 (panel 50)",
+        "candidate": "C2_distance",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "0.0099894",
+        "p_AU": "0.468"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_distance.treefile",
+    "integrated_sha256": "641303f64f32205796fb53bb3c3dc422f01804bf1e2dafcd9114337d960223c9"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_chinensis.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 7,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_chinensis.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_chinensis.treefile",
+    "source_exists": true,
+    "source_sha256": "63471907688e77bba6aeab88e9235a99e177df8214ee99695bb3b9748f325420",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_chinensis.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 7,
+        "set": "C12x core pos12 (panel 50)",
+        "candidate": "C2_marker_chinensis",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "10511.0",
+        "p_AU": "4.08e-42"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_chinensis.treefile",
+    "integrated_sha256": "63471907688e77bba6aeab88e9235a99e177df8214ee99695bb3b9748f325420"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 8,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "027f99d059d5a50592e8ce0234ccdadfe1ab1bcbf247992ada84f030540a740a",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 8,
+        "set": "C12x core pos12 (panel 50)",
+        "candidate": "C2_marker_sister",
+        "carries_actual_marker_placement": "True",
+        "deltaL": "15136.0",
+        "p_AU": "1.18e-25"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/core-genome/topology-panel-pos12/con-C2_marker_sister.treefile",
+    "integrated_sha256": "027f99d059d5a50592e8ce0234ccdadfe1ab1bcbf247992ada84f030540a740a"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/ml.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 9,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/ml.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/ml.treefile",
+    "source_exists": true,
+    "source_sha256": "ad250dfefb596adc34fc13b81c561c6f0ae098d8c5958417d346f5f103f2c2b9",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/ml.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 9,
+        "set": "C12x marker panel (50)",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/ml.treefile",
+    "integrated_sha256": "ad250dfefb596adc34fc13b81c561c6f0ae098d8c5958417d346f5f103f2c2b9"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 10,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_distance.treefile",
+    "source_exists": true,
+    "source_sha256": "e8c5d2cbabb7ab7bb797d42dfe3978069db5911e5574b116064d263c53eb4b39",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 10,
+        "set": "C12x marker panel (50)",
+        "candidate": "C1_distance",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "61.032",
+        "p_AU": "0.0296"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_distance.treefile",
+    "integrated_sha256": "e8c5d2cbabb7ab7bb797d42dfe3978069db5911e5574b116064d263c53eb4b39"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_outside.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 11,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_outside.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_outside.treefile",
+    "source_exists": true,
+    "source_sha256": "6639e6c8bfa8bb1d3cb77198c980b4819d51635e64a9fdf37b5333c0b175d874",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_outside.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 11,
+        "set": "C12x marker panel (50)",
+        "candidate": "C1_marker_outside",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "56.268",
+        "p_AU": "0.00399"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_outside.treefile",
+    "integrated_sha256": "6639e6c8bfa8bb1d3cb77198c980b4819d51635e64a9fdf37b5333c0b175d874"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 12,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "455d0e748f70627ca47049c0855e546c7fd54695c775a0c35ecdf52a62b1101f",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 12,
+        "set": "C12x marker panel (50)",
+        "candidate": "C1_marker_sister",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "108.96",
+        "p_AU": "0.12"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C1_marker_sister.treefile",
+    "integrated_sha256": "455d0e748f70627ca47049c0855e546c7fd54695c775a0c35ecdf52a62b1101f"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 13,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_distance.treefile",
+    "source_exists": true,
+    "source_sha256": "04727a320a8cb0c230a651bd2f1ea71c48a270839813c5d34c82b7507719c3cc",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 13,
+        "set": "C12x marker panel (50)",
+        "candidate": "C2_distance",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "173.23",
+        "p_AU": "0.000843"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_distance.treefile",
+    "integrated_sha256": "04727a320a8cb0c230a651bd2f1ea71c48a270839813c5d34c82b7507719c3cc"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_chinensis.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 14,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_chinensis.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_chinensis.treefile",
+    "source_exists": true,
+    "source_sha256": "3ea83505108650e27e5eb90d0dfa138ecfd708405eb797dcdc55d8ff89eb55c9",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_chinensis.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 14,
+        "set": "C12x marker panel (50)",
+        "candidate": "C2_marker_chinensis",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "11.799",
+        "p_AU": "0.408"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_chinensis.treefile",
+    "integrated_sha256": "3ea83505108650e27e5eb90d0dfa138ecfd708405eb797dcdc55d8ff89eb55c9"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 15,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "27ce4d0dd965f445b84311d5cb68c5322afab13c127c0c17ecdb40775137f9c7",
+    "source_bytes": 2158,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 50,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 15,
+        "set": "C12x marker panel (50)",
+        "candidate": "C2_marker_sister",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "108.96",
+        "p_AU": "0.12"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-panel/con-C2_marker_sister.treefile",
+    "integrated_sha256": "27ce4d0dd965f445b84311d5cb68c5322afab13c127c0c17ecdb40775137f9c7"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/ml.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 16,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/ml.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/ml.treefile",
+    "source_exists": true,
+    "source_sha256": "9d9a3bb50b879c31cda153ddd08d2568494cd3f2245539c921e90a8af160e0b2",
+    "source_bytes": 10254,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/ml.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 234,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 16,
+        "set": "C12x marker subset (234)",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "10.694",
+        "p_AU": "0.621"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/ml.treefile",
+    "integrated_sha256": "9d9a3bb50b879c31cda153ddd08d2568494cd3f2245539c921e90a8af160e0b2"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 17,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_distance.treefile",
+    "source_exists": true,
+    "source_sha256": "7f5e9d15386a8738b294929c2c419fbeabbc34d800525a64265eb80d4cbcbbe3",
+    "source_bytes": 10254,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 234,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 17,
+        "set": "C12x marker subset (234)",
+        "candidate": "C1_distance",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "75.259",
+        "p_AU": "0.262"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_distance.treefile",
+    "integrated_sha256": "7f5e9d15386a8738b294929c2c419fbeabbc34d800525a64265eb80d4cbcbbe3"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_outside.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 18,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_outside.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_outside.treefile",
+    "source_exists": true,
+    "source_sha256": "9f1dac0f5d366031944a0b7c1c6b5ff942fd86a534a3522e226f0bf207909ee7",
+    "source_bytes": 10254,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_outside.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 234,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 18,
+        "set": "C12x marker subset (234)",
+        "candidate": "C1_marker_outside",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "81.642",
+        "p_AU": "0.147"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_outside.treefile",
+    "integrated_sha256": "9f1dac0f5d366031944a0b7c1c6b5ff942fd86a534a3522e226f0bf207909ee7"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 19,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "16f5f9ea9d020665933d941e4673202461fa994df6fc607bce691198460f439a",
+    "source_bytes": 10254,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 234,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 19,
+        "set": "C12x marker subset (234)",
+        "candidate": "C1_marker_sister",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "126.51",
+        "p_AU": "0.187"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C1_marker_sister.treefile",
+    "integrated_sha256": "16f5f9ea9d020665933d941e4673202461fa994df6fc607bce691198460f439a"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 20,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_distance.treefile",
+    "source_exists": true,
+    "source_sha256": "905ca5fb1e8a8022dd0a03c431377b549da9bbd25494cc45c5d19002706c73f6",
+    "source_bytes": 10254,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 234,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 20,
+        "set": "C12x marker subset (234)",
+        "candidate": "C2_distance",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "187.64",
+        "p_AU": "0.02"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_distance.treefile",
+    "integrated_sha256": "905ca5fb1e8a8022dd0a03c431377b549da9bbd25494cc45c5d19002706c73f6"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_chinensis.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 21,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_chinensis.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_chinensis.treefile",
+    "source_exists": true,
+    "source_sha256": "7aec2493ce136600c14c0e7941d749d627abdac6a1a5f61f22cec2bac43b1a93",
+    "source_bytes": 10254,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_chinensis.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 234,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 21,
+        "set": "C12x marker subset (234)",
+        "candidate": "C2_marker_chinensis",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_chinensis.treefile",
+    "integrated_sha256": "7aec2493ce136600c14c0e7941d749d627abdac6a1a5f61f22cec2bac43b1a93"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 22,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "c1b21d7b0f47d6f763e7ab4e853a0c58ff034298b1bb023f5ecdc7a9da475f41",
+    "source_bytes": 10254,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 234,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 22,
+        "set": "C12x marker subset (234)",
+        "candidate": "C2_marker_sister",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "123.85",
+        "p_AU": "0.193"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C12x-extended-sampling/marker/topology-subset/con-C2_marker_sister.treefile",
+    "integrated_sha256": "c1b21d7b0f47d6f763e7ab4e853a0c58ff034298b1bb023f5ecdc7a9da475f41"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/ml.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 23,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/ml.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/ml.treefile",
+    "source_exists": true,
+    "source_sha256": "7392316faa4b1804002d81489e95068d644e7fdb0509cc357497e26b4ef9308a",
+    "source_bytes": 1366,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/ml.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 32,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 23,
+        "set": "C1 core pos12 (panel 32)",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "True",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/ml.treefile",
+    "integrated_sha256": "7392316faa4b1804002d81489e95068d644e7fdb0509cc357497e26b4ef9308a"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 24,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-distance.treefile",
+    "source_exists": true,
+    "source_sha256": "3d686c21ff6587be61f2955345cb28eed9ce230c9c3666bcf7b713d5d1d0ba45",
+    "source_bytes": 1366,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 32,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 24,
+        "set": "C1 core pos12 (panel 32)",
+        "candidate": "distance",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "154.02",
+        "p_AU": "0.000213"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-distance.treefile",
+    "integrated_sha256": "3d686c21ff6587be61f2955345cb28eed9ce230c9c3666bcf7b713d5d1d0ba45"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_outside.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 25,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_outside.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_outside.treefile",
+    "source_exists": true,
+    "source_sha256": "4ca22d4b1fab0430a43028074e848a5bf237599d9c64f2c2d9cf638ad7dfe5a4",
+    "source_bytes": 1366,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_outside.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 32,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 25,
+        "set": "C1 core pos12 (panel 32)",
+        "candidate": "marker_outside",
+        "carries_actual_marker_placement": "True",
+        "deltaL": "0.0051737",
+        "p_AU": "0.486"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_outside.treefile",
+    "integrated_sha256": "4ca22d4b1fab0430a43028074e848a5bf237599d9c64f2c2d9cf638ad7dfe5a4"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 26,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "aadb60502cbc11a2aeda5db8e9e978c27484a63d1f6ceae35b5f85f03e29201d",
+    "source_bytes": 1366,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 32,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 26,
+        "set": "C1 core pos12 (panel 32)",
+        "candidate": "marker_sister",
+        "carries_actual_marker_placement": "True",
+        "deltaL": "10823.0",
+        "p_AU": "7.41e-05"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-pos12/con-marker_sister.treefile",
+    "integrated_sha256": "aadb60502cbc11a2aeda5db8e9e978c27484a63d1f6ceae35b5f85f03e29201d"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/ml.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 27,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/ml.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/ml.treefile",
+    "source_exists": true,
+    "source_sha256": "f0309a04e1b5ce4e8b8bb3e275fdf5a41f6055381b7b2834f619e186cad9d3f9",
+    "source_bytes": 1366,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/ml.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 32,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 27,
+        "set": "C1 core codon3 (panel 32)",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/ml.treefile",
+    "integrated_sha256": "f0309a04e1b5ce4e8b8bb3e275fdf5a41f6055381b7b2834f619e186cad9d3f9"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 28,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-distance.treefile",
+    "source_exists": true,
+    "source_sha256": "a3c94f147b57874fbf4feedaa45e6a269a985373e7fd835ff0b80c326f34a451",
+    "source_bytes": 1366,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 32,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 28,
+        "set": "C1 core codon3 (panel 32)",
+        "candidate": "distance",
+        "carries_actual_marker_placement": "False",
+        "deltaL": "191.54",
+        "p_AU": "0.00559"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-distance.treefile",
+    "integrated_sha256": "a3c94f147b57874fbf4feedaa45e6a269a985373e7fd835ff0b80c326f34a451"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_outside.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 29,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_outside.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_outside.treefile",
+    "source_exists": true,
+    "source_sha256": "65dcca696d652fd5acf05048fa418ff739095fb8249bba05d4e1a05e4c97e2dd",
+    "source_bytes": 1366,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_outside.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 32,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 29,
+        "set": "C1 core codon3 (panel 32)",
+        "candidate": "marker_outside",
+        "carries_actual_marker_placement": "True",
+        "deltaL": "46.39",
+        "p_AU": "0.274"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_outside.treefile",
+    "integrated_sha256": "65dcca696d652fd5acf05048fa418ff739095fb8249bba05d4e1a05e4c97e2dd"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 30,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "05e1210b2e9ff6094bbdc5bb5018692c94047315ea417358873a9b735c387caa",
+    "source_bytes": 1366,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 32,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 30,
+        "set": "C1 core codon3 (panel 32)",
+        "candidate": "marker_sister",
+        "carries_actual_marker_placement": "True",
+        "deltaL": "37763.0",
+        "p_AU": "2.64e-90"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C1-ludwigii/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "integrated_sha256": "05e1210b2e9ff6094bbdc5bb5018692c94047315ea417358873a9b735c387caa"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/ml.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 31,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/ml.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/ml.treefile",
+    "source_exists": true,
+    "source_sha256": "7be93e086b866aa2270952c962afe71808c072bd935c0123799ac4dbe26c5b22",
+    "source_bytes": 1322,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/ml.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 31,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 31,
+        "set": "C2 core codon3 (panel 31)",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/ml.treefile",
+    "integrated_sha256": "7be93e086b866aa2270952c962afe71808c072bd935c0123799ac4dbe26c5b22"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-distance.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 32,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-distance.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-distance.treefile",
+    "source_exists": true,
+    "source_sha256": "0d5c6b53c7d60a06261e27f4e542986a1b76c9767db981ff58e866ee4f61c831",
+    "source_bytes": 1322,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-distance.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 31,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 32,
+        "set": "C2 core codon3 (panel 31)",
+        "candidate": "distance",
+        "carries_actual_marker_placement": "",
+        "deltaL": "0.022464",
+        "p_AU": "0.417"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-distance.treefile",
+    "integrated_sha256": "0d5c6b53c7d60a06261e27f4e542986a1b76c9767db981ff58e866ee4f61c831"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_chinensis.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 33,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_chinensis.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_chinensis.treefile",
+    "source_exists": true,
+    "source_sha256": "6f18845d18be4daf92e8bad0dac5e9b27a6a06794b30062bc9f72a0c14df79ef",
+    "source_bytes": 1322,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_chinensis.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 31,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 33,
+        "set": "C2 core codon3 (panel 31)",
+        "candidate": "marker_chinensis",
+        "carries_actual_marker_placement": "",
+        "deltaL": "43254.0",
+        "p_AU": "3.32e-07"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_chinensis.treefile",
+    "integrated_sha256": "6f18845d18be4daf92e8bad0dac5e9b27a6a06794b30062bc9f72a0c14df79ef"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 34,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "source_exists": true,
+    "source_sha256": "6414db5500bdb3d4b1368e65979430111bbc75db94dc615eb1b4e87cc957dd26",
+    "source_bytes": 1322,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 31,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 34,
+        "set": "C2 core codon3 (panel 31)",
+        "candidate": "marker_sister",
+        "carries_actual_marker_placement": "",
+        "deltaL": "36771.0",
+        "p_AU": "1.26e-96"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/core-genome/topology-panel-codon3/con-marker_sister.treefile",
+    "integrated_sha256": "6414db5500bdb3d4b1368e65979430111bbc75db94dc615eb1b4e87cc957dd26"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/ml.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 35,
+        "column": "source_tree"
+      },
+      {
+        "table": "TableS05.tsv",
+        "row": 43,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/ml.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/ml.treefile",
+    "source_exists": true,
+    "source_sha256": "46130024f346db21f91ecdb9ffe5aa03d3977dca3ed578787d323da93543179e",
+    "source_bytes": 2290,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/ml.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 53,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 35,
+        "set": "C3 core pos12, re-estimated",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      },
+      {
+        "table_row": 43,
+        "set": "C3 core pos12, fixed parameters",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "",
+        "deltaL": "304.15",
+        "p_AU": "0.2"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/ml.treefile",
+    "integrated_sha256": "46130024f346db21f91ecdb9ffe5aa03d3977dca3ed578787d323da93543179e"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 36,
+        "column": "source_tree"
+      },
+      {
+        "table": "TableS05.tsv",
+        "row": 44,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.treefile",
+    "source_exists": true,
+    "source_sha256": "0c8693bda247a6d484cba02a7ff9c42ad03b3ec933c2901a687498fad58553c0",
+    "source_bytes": 2290,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 53,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 36,
+        "set": "C3 core pos12, re-estimated",
+        "candidate": "marker",
+        "carries_actual_marker_placement": "",
+        "deltaL": "359.87",
+        "p_AU": "0.145"
+      },
+      {
+        "table_row": 44,
+        "set": "C3 core pos12, fixed parameters",
+        "candidate": "marker",
+        "carries_actual_marker_placement": "",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-marker.treefile",
+    "integrated_sha256": "0c8693bda247a6d484cba02a7ff9c42ad03b3ec933c2901a687498fad58553c0"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-third.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 37,
+        "column": "source_tree"
+      },
+      {
+        "table": "TableS05.tsv",
+        "row": 45,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-third.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-third.treefile",
+    "source_exists": true,
+    "source_sha256": "af647c8bb252fef0f53baef44f24993f2f255f7238846b300b7fa55395a33d83",
+    "source_bytes": 2290,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-third.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 53,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 37,
+        "set": "C3 core pos12, re-estimated",
+        "candidate": "third",
+        "carries_actual_marker_placement": "",
+        "deltaL": "436.54",
+        "p_AU": "0.0579"
+      },
+      {
+        "table_row": 45,
+        "set": "C3 core pos12, fixed parameters",
+        "candidate": "third",
+        "carries_actual_marker_placement": "",
+        "deltaL": "274.73",
+        "p_AU": "0.0119"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-third.treefile",
+    "integrated_sha256": "af647c8bb252fef0f53baef44f24993f2f255f7238846b300b7fa55395a33d83"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-verticall.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 38,
+        "column": "source_tree"
+      },
+      {
+        "table": "TableS05.tsv",
+        "row": 46,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-verticall.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-verticall.treefile",
+    "source_exists": true,
+    "source_sha256": "da2f080a9d9e5b5543c6cafa12197284a8047a5eb7d052d280712672ffc59d6e",
+    "source_bytes": 2290,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-verticall.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 53,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 38,
+        "set": "C3 core pos12, re-estimated",
+        "candidate": "verticall",
+        "carries_actual_marker_placement": "",
+        "deltaL": "46.618",
+        "p_AU": "0.491"
+      },
+      {
+        "table_row": 46,
+        "set": "C3 core pos12, fixed parameters",
+        "candidate": "verticall",
+        "carries_actual_marker_placement": "",
+        "deltaL": "303.45",
+        "p_AU": "0.199"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-pos12/con-verticall.treefile",
+    "integrated_sha256": "da2f080a9d9e5b5543c6cafa12197284a8047a5eb7d052d280712672ffc59d6e"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/ml.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 39,
+        "column": "source_tree"
+      },
+      {
+        "table": "TableS05.tsv",
+        "row": 47,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/ml.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/ml.treefile",
+    "source_exists": true,
+    "source_sha256": "6bf42b9bd889e44cb81424d319f2ddcfe737eba62ab2f07b8541d6d377aed702",
+    "source_bytes": 2290,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/ml.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 53,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 39,
+        "set": "C3 core codon3, re-estimated",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "",
+        "deltaL": "11.315",
+        "p_AU": "0.476"
+      },
+      {
+        "table_row": 47,
+        "set": "C3 core codon3, fixed parameters",
+        "candidate": "ml",
+        "carries_actual_marker_placement": "",
+        "deltaL": "2.4057",
+        "p_AU": "0.506"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/ml.treefile",
+    "integrated_sha256": "6bf42b9bd889e44cb81424d319f2ddcfe737eba62ab2f07b8541d6d377aed702"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-marker.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 40,
+        "column": "source_tree"
+      },
+      {
+        "table": "TableS05.tsv",
+        "row": 48,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-marker.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-marker.treefile",
+    "source_exists": true,
+    "source_sha256": "0c5658f015e41992e096d6345329dad27e6e9bfae72acb9d446f4ab294c380d4",
+    "source_bytes": 2290,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-marker.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 53,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 40,
+        "set": "C3 core codon3, re-estimated",
+        "candidate": "marker",
+        "carries_actual_marker_placement": "",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      },
+      {
+        "table_row": 48,
+        "set": "C3 core codon3, fixed parameters",
+        "candidate": "marker",
+        "carries_actual_marker_placement": "",
+        "deltaL": "0.0",
+        "p_AU": "1.0"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-marker.treefile",
+    "integrated_sha256": "0c5658f015e41992e096d6345329dad27e6e9bfae72acb9d446f4ab294c380d4"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 41,
+        "column": "source_tree"
+      },
+      {
+        "table": "TableS05.tsv",
+        "row": 49,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.treefile",
+    "source_exists": true,
+    "source_sha256": "2e3d74ebf574fba219f3f36a004eedc1b57f95d48155ed3cc2c5cc4c8feee5f2",
+    "source_bytes": 2290,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 53,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 41,
+        "set": "C3 core codon3, re-estimated",
+        "candidate": "third",
+        "carries_actual_marker_placement": "",
+        "deltaL": "873.48",
+        "p_AU": "2.08e-06"
+      },
+      {
+        "table_row": 49,
+        "set": "C3 core codon3, fixed parameters",
+        "candidate": "third",
+        "carries_actual_marker_placement": "",
+        "deltaL": "844.0",
+        "p_AU": "3.7e-06"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-third.treefile",
+    "integrated_sha256": "2e3d74ebf574fba219f3f36a004eedc1b57f95d48155ed3cc2c5cc4c8feee5f2"
+  },
+  {
+    "legacy_pointer": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-verticall.treefile",
+    "locations": [
+      {
+        "table": "TableS05.tsv",
+        "row": 42,
+        "column": "source_tree"
+      },
+      {
+        "table": "TableS05.tsv",
+        "row": 50,
+        "column": "source_tree"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-verticall.treefile",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-verticall.treefile",
+    "source_exists": true,
+    "source_sha256": "468e7945a9e1a48a24070331884b17479e231397e93392b84bfb7fb72368aa8a",
+    "source_bytes": 2290,
+    "proposed_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-verticall.treefile",
+    "archive_requirement": "small repository evidence; no large-file archive needed",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "tip_count": 53,
+    "manuscript_section": "Supplement S04: Focused investigation of conflicting tree relationships; Table S05",
+    "analysis_contexts": [
+      {
+        "table_row": 42,
+        "set": "C3 core codon3, re-estimated",
+        "candidate": "verticall",
+        "carries_actual_marker_placement": "",
+        "deltaL": "1112.1",
+        "p_AU": "3.44e-07"
+      },
+      {
+        "table_row": 50,
+        "set": "C3 core codon3, fixed parameters",
+        "candidate": "verticall",
+        "carries_actual_marker_placement": "",
+        "deltaL": "1088.1",
+        "p_AU": "3.32e-06"
+      }
+    ],
+    "integrated_repository_target": "evidence/results/conflict-resolution/2026-09-23/task17-opus55-resolve/C3-trio/core-genome/topology-panel-codon3/con-verticall.treefile",
+    "integrated_sha256": "468e7945a9e1a48a24070331884b17479e231397e93392b84bfb7fb72368aa8a"
+  },
+  {
+    "legacy_pointer": "docs/review-decisions-manuscript-map.md",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 39,
+        "column": "decision_source"
+      },
+      {
+        "table": "TableS20.tsv",
+        "row": 44,
+        "column": "decision_source"
+      },
+      {
+        "table": "TableS20.tsv",
+        "row": 45,
+        "column": "decision_source"
+      }
+    ],
+    "public_source": "https://github.com/mbhall88/Enterobacter-analysis/blob/main/docs/table-source-interpretation.md",
+    "status": "included in the analysis repository",
+    "resolved_source_id": "docs/review-decisions-manuscript-map.md",
+    "source_exists": true,
+    "source_sha256": "cdb7168319770fcc904bb6e3390975507f1c639593375ff33203cdf5f20523b5",
+    "source_bytes": 82157,
+    "proposed_repository_target": "docs/table-source-interpretation.md",
+    "archive_requirement": "Small public scientific summary; private review-map document excluded",
+    "live_url_checked": false,
+    "discovery_inventory_match": true,
+    "manuscript_section": "Supplement S06 (xiangfangensis and other boundaries), S07 (genomovars), Table S20 rows39/44/45",
+    "integrated_repository_target": "docs/table-source-interpretation.md",
+    "integrated_sha256": "566d8f3e8fedc8ba66ba07a886fc7f60c95b121bac57611bc654dbfb085f4d55"
+  },
+  {
+    "legacy_pointer": "sources/literature/hoffmann2005-jcm-PMC1169129.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 2,
+        "column": "original_description_and_emendations"
+      }
+    ],
+    "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1169129/",
+    "status": "source located; public PMC identifier route recorded; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/literature/hoffmann2005-jcm-PMC1169129.html",
+    "source_exists": true,
+    "source_sha256": "eee103c52af91d24fe0acdfc367866c3208122ae4931c88a7210a2dd420df3b1",
+    "source_bytes": 237613,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public PMC source and local snapshot hash only; no paper HTML in candidate",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "manuscript_section": "Supplement S11 and main bibliography; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/literature/sutton2018-f1000res-PMC6097438.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 4,
+        "column": "original_description_and_emendations"
+      },
+      {
+        "table": "TableS20.tsv",
+        "row": 8,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6097438/",
+    "status": "source located; public PMC identifier route recorded; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/literature/sutton2018-f1000res-PMC6097438.html",
+    "source_exists": true,
+    "source_sha256": "4cbc0a40224d0ed9e695b93507b5f73821a99e14ac299cf2c091e47f5d978f25",
+    "source_bytes": 328939,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public PMC source and local snapshot hash only; no paper HTML in candidate",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "manuscript_section": "Supplement S11 and main bibliography; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/literature/wu2020-msystems-PMC7406230.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 5,
+        "column": "original_description_and_emendations"
+      },
+      {
+        "table": "TableS20.tsv",
+        "row": 5,
+        "column": "evidence"
+      },
+      {
+        "table": "TableS20.tsv",
+        "row": 12,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7406230/",
+    "status": "source located; public PMC identifier route recorded; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/literature/wu2020-msystems-PMC7406230.html",
+    "source_exists": true,
+    "source_sha256": "502916edd64aa01c989ad3b2bbd6d305231e78e3a324552599411a3e4d7fadc6",
+    "source_bytes": 308323,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public PMC source and local snapshot hash only; no paper HTML in candidate",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "manuscript_section": "Supplement S11 and main bibliography; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/literature/he2024-spectrum-PMC11302248.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 6,
+        "column": "original_description_and_emendations"
+      },
+      {
+        "table": "TableS20.tsv",
+        "row": 6,
+        "column": "evidence"
+      },
+      {
+        "table": "TableS20.tsv",
+        "row": 13,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11302248/",
+    "status": "source located; public PMC identifier route recorded; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/literature/he2024-spectrum-PMC11302248.html",
+    "source_exists": true,
+    "source_sha256": "537a1b90ed772b2d3fa4b47f5e81ea2bb41e579e47b3c904a994145c5532eb55",
+    "source_bytes": 204923,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public PMC source and local snapshot hash only; no paper HTML in candidate",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "manuscript_section": "Supplement S11 and main bibliography; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/subspecies__enterobacter-hormaechei-oharae.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 2,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/subspecies/enterobacter-hormaechei-oharae",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/subspecies__enterobacter-hormaechei-oharae.html",
+    "source_exists": true,
+    "source_sha256": "3b31240b80f41c04e159b230cc9993f0e4b12237d5677f1464b1b8fcfbe5415d",
+    "source_bytes": 32292,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Subspecies: Enterobacter hormaechei oharae",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/subspecies__enterobacter-hormaechei-steigerwaltii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 3,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/subspecies/enterobacter-hormaechei-steigerwaltii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/subspecies__enterobacter-hormaechei-steigerwaltii.html",
+    "source_exists": true,
+    "source_sha256": "cbe1c000662604b4a12b00520d8f621e517157998b13294e6d10f8ea9bff09e9",
+    "source_bytes": 32278,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Subspecies: Enterobacter hormaechei steigerwaltii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/subspecies__enterobacter-hormaechei-hoffmannii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 4,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/subspecies/enterobacter-hormaechei-hoffmannii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/subspecies__enterobacter-hormaechei-hoffmannii.html",
+    "source_exists": true,
+    "source_sha256": "fbd710edae3e43a71e6b050803139115d4b10050e7a41dc480a96a43068067f8",
+    "source_bytes": 35181,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Subspecies: Enterobacter hormaechei hoffmannii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-hoffmannii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 4,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-hoffmannii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-hoffmannii.html",
+    "source_exists": true,
+    "source_sha256": "e0f08f9d06f29a417862db8d056046f080c8ae0d72dbf023d3ee22eaf1ccdf33",
+    "source_bytes": 54155,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter hoffmannii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/ijsem/validation-list-230-PMC13426511.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 4,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13426511/",
+    "status": "source located; public PMC identifier route recorded; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/ijsem/validation-list-230-PMC13426511.html",
+    "source_exists": true,
+    "source_sha256": "0540d024224972b039bc089a4049b290e336b730e0dd5d5f91bd1856a36ad897",
+    "source_bytes": 255571,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public PMC source and local snapshot hash only; no paper HTML in candidate",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "manuscript_section": "Supplement S11 and main bibliography; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/ijsem/validation-list-225-PMC12483762.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 4,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12483762/",
+    "status": "source located; public PMC identifier route recorded; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/ijsem/validation-list-225-PMC12483762.html",
+    "source_exists": true,
+    "source_sha256": "44dedd57413780c60aca36b7f9de4aaf79e2c5e3e18020e2fce95589627a606f",
+    "source_bytes": 453246,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public PMC source and local snapshot hash only; no paper HTML in candidate",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "manuscript_section": "Supplement S11 and main bibliography; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-quasiroggenkampii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 5,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-quasiroggenkampii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-quasiroggenkampii.html",
+    "source_exists": true,
+    "source_sha256": "b1a2ae98702e47ebfa257d95271618c1e31abba737a3ec209ff4eaadd51372c2",
+    "source_bytes": 46975,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter quasiroggenkampii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-rongchengensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 6,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-rongchengensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-rongchengensis.html",
+    "source_exists": true,
+    "source_sha256": "e08d56ea7df98f83c9293b5b92a71725102e9ec09ff170dce44ea243df9276d3",
+    "source_bytes": 44657,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter rongchengensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/ijsem/validation-list-221-PMC12281875.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 6,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12281875/",
+    "status": "source located; public PMC identifier route recorded; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/ijsem/validation-list-221-PMC12281875.html",
+    "source_exists": true,
+    "source_sha256": "e6b95212ce54c538d0338cde87a8fa1ca2d3b6fd7c7632b8f41b95a9c0aff509",
+    "source_bytes": 251837,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public PMC source and local snapshot hash only; no paper HTML in candidate",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "manuscript_section": "Supplement S11 and main bibliography; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-xiangfangensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 7,
+        "column": "evidence"
+      },
+      {
+        "table": "TableS20.tsv",
+        "row": 10,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-xiangfangensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-xiangfangensis.html",
+    "source_exists": true,
+    "source_sha256": "a7c616d67a5bb40f7dc849d4b7d06574474cb3b544dd114219bf528f68eca480",
+    "source_bytes": 48037,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter xiangfangensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/subspecies__enterobacter-hormaechei-xiangfangensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 7,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/subspecies/enterobacter-hormaechei-xiangfangensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/subspecies__enterobacter-hormaechei-xiangfangensis.html",
+    "source_exists": true,
+    "source_sha256": "8c2190649aec4331dc40bf039b390bbdd8db3a732676c97c5cf80de1720bf449",
+    "source_bytes": 33510,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Subspecies: Enterobacter hormaechei xiangfangensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-roggenkampii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 8,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-roggenkampii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-roggenkampii.html",
+    "source_exists": true,
+    "source_sha256": "476844282773faa2ab3e045b3538f1e33f93ac3b34a86b7a5e89e4864118f5c4",
+    "source_bytes": 45732,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter roggenkampii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-chengduensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 9,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-chengduensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-chengduensis.html",
+    "source_exists": true,
+    "source_sha256": "6672662aa40e7477b24e60b973a999c04ad124ca176787fdb3217fa791a04275",
+    "source_bytes": 46754,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter chengduensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-hormaechei.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 11,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-hormaechei",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-hormaechei.html",
+    "source_exists": true,
+    "source_sha256": "357cde93167a095acb457238856ea738d12c545b2eb64260f90afb0a1b793c5d",
+    "source_bytes": 57124,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter hormaechei",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/subspecies__enterobacter-hormaechei-hormaechei.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 11,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/subspecies/enterobacter-hormaechei-hormaechei",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/subspecies__enterobacter-hormaechei-hormaechei.html",
+    "source_exists": true,
+    "source_sha256": "177df4040a1b8388ffd4a3fa0fc037122629d091ad1ba029b8215cd164382297",
+    "source_bytes": 34601,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Subspecies: Enterobacter hormaechei hormaechei",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-mori.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 14,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-mori",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-mori.html",
+    "source_exists": true,
+    "source_sha256": "b264d4d10422eab8d3050ee53151b5f8c2a20261609aa6e714a47f36417e2e30",
+    "source_bytes": 53095,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter mori",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-quasimori.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 14,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-quasimori",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-quasimori.html",
+    "source_exists": true,
+    "source_sha256": "79e5187e5a3f5534047b1bd0e4da7eeb5954a01bcb63fe5bdad98c4e5c9fc9b5",
+    "source_bytes": 45883,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter quasimori",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-asburiae.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 15,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-asburiae",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-asburiae.html",
+    "source_exists": true,
+    "source_sha256": "13985a654582333c01c618717187c3f911346c6292679b2b88d84118061fa9ff",
+    "source_bytes": 56242,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter asburiae",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-dykesii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 15,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-dykesii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-dykesii.html",
+    "source_exists": true,
+    "source_sha256": "e886723194a874d1ffa1eb112db5abe8f8ec11cb0e3eb841504187961732bc8d",
+    "source_bytes": 44929,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter dykesii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-cloacae.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 16,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-cloacae",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-cloacae.html",
+    "source_exists": true,
+    "source_sha256": "4ec28da2651d228a7f5e17af16e48f72a4104518bdb84295b3472c65c7488183",
+    "source_bytes": 56801,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter cloacae",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/subspecies__enterobacter-cloacae-cloacae.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 17,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/subspecies/enterobacter-cloacae-cloacae",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/subspecies__enterobacter-cloacae-cloacae.html",
+    "source_exists": true,
+    "source_sha256": "770de6d7526711db846cf44d877a4567a51f4220f68145b35dac0f97b2954e2f",
+    "source_bytes": 33261,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Subspecies: Enterobacter cloacae cloacae",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/subspecies__enterobacter-cloacae-dissolvens.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 18,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/subspecies/enterobacter-cloacae-dissolvens",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/subspecies__enterobacter-cloacae-dissolvens.html",
+    "source_exists": true,
+    "source_sha256": "6bfaf1d4e854fe8a7fdb0d677ad80b38279a6a2e4ef16cd7cba95065725b7a0a",
+    "source_bytes": 33969,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Subspecies: Enterobacter cloacae dissolvens",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-bugandensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 19,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-bugandensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-bugandensis.html",
+    "source_exists": true,
+    "source_sha256": "ea5503fa864f1e65390e35f1d90dfcf186dfc5af0c795555409c2b3dd6774e1a",
+    "source_bytes": 47109,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter bugandensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-nematophilus.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 20,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-nematophilus",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-nematophilus.html",
+    "source_exists": true,
+    "source_sha256": "96aeb86e4b4816b8f090dae093f7df5fd5fc16c73a463a0d67bf4b759c0dfe04",
+    "source_bytes": 45539,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter nematophilus",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-pseudoroggenkampii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 21,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-pseudoroggenkampii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-pseudoroggenkampii.html",
+    "source_exists": true,
+    "source_sha256": "2cb4f2deb32942d8489d4f16815a4a1a1014fa1c958a4fc6158eccff76eadd9f",
+    "source_bytes": 44776,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter pseudoroggenkampii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-vonholyi.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 22,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-vonholyi",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-vonholyi.html",
+    "source_exists": true,
+    "source_sha256": "306fffb6c2abf739df83a86b634bbd020cc2558990023f6520beb3ec9c882ba4",
+    "source_bytes": 44859,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter vonholyi",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-sichuanensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 23,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-sichuanensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-sichuanensis.html",
+    "source_exists": true,
+    "source_sha256": "daa98a7a2ed84d4f43e435b999e4561b871871668ccec27916d4884d3656b5bd",
+    "source_bytes": 46695,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter sichuanensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-chinensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 24,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-chinensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-chinensis.html",
+    "source_exists": true,
+    "source_sha256": "bd6bfbe46e0d4424027bd357bbbfa85bce62f86d8058440b42b37c77d5e364a0",
+    "source_bytes": 44549,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter chinensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-kobei.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 25,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-kobei",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-kobei.html",
+    "source_exists": true,
+    "source_sha256": "4fb945d1cb548d886efe3695d6f71c40e4b8941f6961b12dbdd87214874ee95a",
+    "source_bytes": 52606,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter kobei",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-ludwigii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 26,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-ludwigii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-ludwigii.html",
+    "source_exists": true,
+    "source_sha256": "92e525eb0c06a8a8b01f5141df51905c786006d7b68775b75ee925649e90c8cd",
+    "source_bytes": 47354,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter ludwigii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-soli.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 27,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-soli",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-soli.html",
+    "source_exists": true,
+    "source_sha256": "0ee7f88e119d82e7deb3eadeb6b52be7afc2ad92f92377999c1fe6eab17b3af5",
+    "source_bytes": 45361,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter soli",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-quasihormaechei.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 28,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-quasihormaechei",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-quasihormaechei.html",
+    "source_exists": true,
+    "source_sha256": "86180e68c6d589e8fd1b5be60e488eb9ecca8cf60542eb3937242584bac23f58",
+    "source_bytes": 46870,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter quasihormaechei",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-cancerogenus.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 29,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-cancerogenus",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-cancerogenus.html",
+    "source_exists": true,
+    "source_sha256": "a5fc1b081e8468b3b47de310a126991de002776416acab0ffa855d5d47c5e0f5",
+    "source_bytes": 51620,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter cancerogenus",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-chuandaensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 30,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-chuandaensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-chuandaensis.html",
+    "source_exists": true,
+    "source_sha256": "be15749e593b42f9d1f1cb36d77bd4da9811b5c10b1ce22e968782b0edad9a76",
+    "source_bytes": 45478,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter chuandaensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-huaxiensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 31,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-huaxiensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-huaxiensis.html",
+    "source_exists": true,
+    "source_sha256": "4dd2c10a264f02f3b770955e5e149aeb26b15018f409ed9f8b0ce42063f1ff5e",
+    "source_bytes": 46817,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter huaxiensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-wuhouensis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 32,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-wuhouensis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-wuhouensis.html",
+    "source_exists": true,
+    "source_sha256": "569854c4e54dfde9271a879227aea7d1a37d654af29d57c27b37c2482f9953e6",
+    "source_bytes": 46690,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter wuhouensis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-oligotrophicus.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 33,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-oligotrophicus",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-oligotrophicus.html",
+    "source_exists": true,
+    "source_sha256": "1a9821996edcde3f49348c97f16cfec89d93da13682fc5178dcab62348e657c3",
+    "source_bytes": 48028,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter oligotrophicus",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-pasteurii.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 34,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-pasteurii",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-pasteurii.html",
+    "source_exists": true,
+    "source_sha256": "e4bb08c669f70671e43e9817bf42e269bc9590f4b5ba74039b4b4c0f3c4ff292",
+    "source_bytes": 44008,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter pasteurii",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__enterobacter-adelaidei.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 35,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/enterobacter-adelaidei",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__enterobacter-adelaidei.html",
+    "source_exists": true,
+    "source_sha256": "6e6047bfb0ad3086605683c8ba7e32d84a06751e0b09ce26b8e1500051ea7fd4",
+    "source_bytes": 42600,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Enterobacter adelaidei",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  },
+  {
+    "legacy_pointer": "sources/lpsn/raw/species__lelliottia-nimipressuralis.html",
+    "locations": [
+      {
+        "table": "TableS20.tsv",
+        "row": 36,
+        "column": "evidence"
+      }
+    ],
+    "public_source": "https://lpsn.dsmz.de/species/lelliottia-nimipressuralis",
+    "status": "source located; public canonical URL from saved snapshot; live reachability not rechecked",
+    "resolved_source_id": "results/project-review/2026-10-08/p6a-nomenclature-register-claude/sources/lpsn/raw/species__lelliottia-nimipressuralis.html",
+    "source_exists": true,
+    "source_sha256": "310183a23ec3e9435549770514784122f701179cb428e886426c94ed8e500484",
+    "source_bytes": 38967,
+    "proposed_repository_target": null,
+    "archive_requirement": "Public canonical source and local snapshot hash only; do not redistribute third-party HTML",
+    "live_url_checked": false,
+    "discovery_inventory_match": false,
+    "canonical_url_evidence": "saved HTML base+canonical link, not guessed from filename",
+    "snapshot_title": "Species: Lelliottia nimipressuralis",
+    "manuscript_section": "Supplement S11: Nomenclatural evidence and limitations; Table S20"
+  }
+]

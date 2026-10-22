@@ -1,0 +1,32 @@
+[
+  {
+    "hypothesis": "unconstrained",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/local/GCA_001521715.1/tree/primary.treefile",
+    "test_index": 1
+  },
+  {
+    "hypothesis": "middle_with_dykesii",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/local/GCA_001521715.1/tests/topology/middle_with_dykesii.treefile",
+    "test_index": 1
+  },
+  {
+    "hypothesis": "middle_with_asburiae",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/local/GCA_001521715.1/tests/topology/middle_with_asburiae.treefile",
+    "test_index": 2
+  },
+  {
+    "hypothesis": "P3_with_asburiae",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/local/GCA_001521715.1/tests/topology/P3_with_asburiae.treefile",
+    "test_index": 3
+  },
+  {
+    "hypothesis": "P6_with_asburiae_and_P3",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/local/GCA_001521715.1/tests/topology/P6_with_asburiae_and_P3.treefile",
+    "test_index": 4
+  },
+  {
+    "hypothesis": "P6_with_middle_and_dykesii",
+    "tree": "${PROJECT_ROOT}/results/ani-cases/2026-09-28/task12-astra-asburiae-local/local/GCA_001521715.1/tests/topology/P6_with_middle_and_dykesii.treefile",
+    "test_index": 5
+  }
+]

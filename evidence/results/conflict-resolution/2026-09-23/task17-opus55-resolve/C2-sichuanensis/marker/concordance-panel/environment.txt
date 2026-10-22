@@ -1,0 +1,15 @@
+iqtree: IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+host: bun136
+slurm_job_id: 28862382
+threads: 8
+alignment: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/marker/alignment-panel/alignment.faa 96e2e1f01c9f265796751a7baa8ac5a577c3bd75c4c17644977e359186074337
+loci: results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/marker/ledger-panel/loci.nex 3064e6ed1dee8be6a1f1ea61c765d50ea5c5bfdbd644628b3866a3bf404553df (109 loci)
+sCF model: Q.INSECT+F+R4
+sCF quartets: 1000
+sCF seeds: 20260923 20260924 20260925
+reference: ml=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/marker/topology-panel/ml.treefile f48d2b66bca08eaf202d0981bc6f083449d9c3f11ae047af38f546ac1f2d8a0b
+reference: distance=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/marker/topology-panel/con-distance.treefile 1d4a436cbf64d4a2b2abd4b8c516bd559fa8def882e7f6c051d0f3e01846f048
+reference: marker_chinensis=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/marker/topology-panel/con-marker_chinensis.treefile c59879749f85c85ba78ca1544e4d87755ffc0f68aa1f8cfcd0ca3db092d26cd8
+reference: marker_sister=results/conflict-resolution/2026-09-23/task17-opus55-resolve/C2-sichuanensis/marker/topology-panel/con-marker_sister.treefile 408472fd46750cd80b35ef96b32ea42057eaf4fcb916b15e9e64232fb70726fd
+started: 2026-09-23T15:06:09+10:00
+finished: 2026-09-23T15:22:55+10:00
