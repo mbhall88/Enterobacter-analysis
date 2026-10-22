@@ -4,6 +4,17 @@ Analysis materials for *Genomic reassessment of Enterobacter species and subspec
 
 This repository contains the saved measurements, trees, sequence manifests and analysis scripts behind the paper. To classify a new assembly, use [Pterobacter](https://github.com/mbhall88/pterobacter) and its [user guide](https://mbhall88.github.io/pterobacter/).
 
+## Find files
+
+| Looking for… | Go to |
+| --- | --- |
+| Main BAC120, Verticall and Mashtree trees | [Full-cohort Newick files](docs/output-index.md#main-full-cohort-trees) |
+| Trees shown in figures and targeted local trees | [Figure trees](docs/output-index.md#trees-shown-in-the-figures) · [Follow-up analyses](docs/output-index.md#targeted-trees-and-follow-up-evidence) |
+| Figures, supplementary tables and genome assignments | [Figures](expected/figures/) · [Tables and assignments](docs/output-index.md#tables-assignments-and-measurements) |
+| Alignments, analysed sequences and frozen reference packages | [Archive guide and contents](docs/output-index.md#alignments-sequences-and-frozen-reference-packages) |
+
+The **[output index](docs/output-index.md)** provides direct links, explains which files to use, and includes searchable catalogues of tree files and archive contents.
+
 ## Rebuild the figures
 
 The four main figures and fourteen supplementary figures can be regenerated from the included measurements. This does not require the original HPC workspace, a database download or a new phylogenetic analysis.
@@ -31,13 +42,13 @@ This standard-library workflow reconstructs all 23 numbered TSVs exactly from in
 
 | Location | Contents |
 | --- | --- |
-| `workflow/figures/` | Portable, tested figure reconstruction |
-| `data/figure-seeds/` | Saved display labels and summary inputs |
-| `evidence/` | Selected analysis scripts, commands, manifests, measurements and final trees, retaining their original relative organisation |
-| `metadata/assignments.tsv` | Accession-level reviewed assignment catalogue; its 1,098 entries are not the 1,070-genome reporting denominator |
-| `expected/` | Approved figure files and selected reference summaries for comparison |
-| `provenance/` | Original and exported hashes, documented adaptations and reproduction checks |
-| `docs/reproduction.md` | What can be reconstructed and the remaining historical limitations |
+| [workflow/figures/](workflow/figures/) | Portable, tested figure reconstruction |
+| [data/figure-seeds/](data/figure-seeds/) | Saved display labels and summary inputs |
+| [evidence/](evidence/) | Selected analysis scripts, commands, manifests, measurements and final trees, retaining their original relative organisation |
+| [metadata/assignments.tsv](metadata/assignments.tsv) | Accession-level reviewed assignment catalogue; its 1,098 entries are not the 1,070-genome reporting denominator |
+| [expected/](expected/) | Approved figure files and selected reference summaries for comparison |
+| [provenance/](provenance/) | Original and exported hashes, documented adaptations and reproduction checks |
+| [docs/reproduction.md](docs/reproduction.md) | What can be reconstructed and the remaining historical limitations |
 
 The numbered supplementary tables and indexed workbook form a separate dataset. Their exact scientific files are preserved; companion source mappings explain legacy private discussion links and locate the public analysis evidence. Table S20 is a dated nomenclatural working register, not the final authority for the paper's taxonomic descriptions.
 

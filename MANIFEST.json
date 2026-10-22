@@ -13,8 +13,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5282,
-      "sha256": "7c9182bed8d7867c91655b422055181420d0a0fed824af1076634f59a396182a"
+      "bytes": 6295,
+      "sha256": "137deaf5b56b3e7bd58bc8318c47a4be35cbcbfed3926e186d25d72abc7fea76"
     },
     {
       "path": "data/figure-seeds/source-data/figure2-strain-labels.tsv",
@@ -9315,6 +9315,21 @@
       "path": "workflow/tables/test_rebuild.py",
       "bytes": 1677,
       "sha256": "c0621a469016636ce7ef59658dd4ef74c41cf2d0b291319dd3a9709613c7952d"
+    },
+    {
+      "path": "docs/output-index.md",
+      "bytes": 6789,
+      "sha256": "61ca90ed437078b809d4acda244dfa507ded4e8a56c36fe6a2276613f5ab23a0"
+    },
+    {
+      "path": "docs/tree-files.tsv",
+      "bytes": 188143,
+      "sha256": "094ac19362640add6d4ed8f8dfe9740790b072e6f4230fd3862ecc90da44d7da"
+    },
+    {
+      "path": "docs/archive-files.tsv",
+      "bytes": 579381,
+      "sha256": "8028fb0da2fb26cbc66b04bf051f5d453a5648f2286063f464f0494e767c90c9"
     }
   ]
 }
